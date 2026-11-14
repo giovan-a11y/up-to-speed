@@ -421,66 +421,175 @@
       "explain": "Launched in 1997."
     }
   ],
-  "gallery": [
+  "deep": [
     {
-      "name": "Porsche 911",
-      "what": "The rear-engined sports car with the same frog-eyed silhouette since 1963.",
-      "wiki": "Porsche 911"
-    },
-    {
-      "name": "Ferrari F40",
-      "what": "Ferrari's raw 1987 supercar with a huge rear wing; a poster car for a generation.",
-      "wiki": "Ferrari F40"
-    },
-    {
-      "name": "Lamborghini Countach",
-      "what": "The wedge-shaped 1970s supercar with scissor doors that defined 'exotic car'.",
-      "wiki": "Lamborghini Countach"
-    },
-    {
-      "name": "Toyota Alphard",
-      "what": "The boxy luxury minivan that is Hong Kong's executive and celebrity shuttle.",
-      "wiki": "Toyota Alphard"
-    },
-    {
-      "name": "Tesla Model Y",
-      "what": "The world's best-selling EV for several years; common on Hong Kong roads.",
-      "wiki": "Tesla Model Y"
-    },
-    {
-      "name": "BYD Seal",
-      "what": "BYD's sleek electric saloon that put the Chinese brand on the global map.",
-      "wiki": "BYD Seal"
-    },
-    {
-      "name": "Xiaomi SU7",
-      "what": "Xiaomi's 2024 electric sedan, often compared to a Porsche Taycan, that sold out in minutes.",
-      "wiki": "Xiaomi SU7"
-    },
-    {
-      "name": "Mercedes-Benz G-Class",
-      "what": "The square-shaped off-roader ('G-Wagon') turned rich-person status symbol.",
-      "wiki": "Mercedes-Benz G-Class"
-    },
-    {
-      "name": "Rolls-Royce Phantom",
-      "what": "The flagship limousine with the Spirit of Ecstasy statue and suicide doors.",
-      "wiki": "Rolls-Royce Phantom"
-    },
-    {
-      "name": "Mazda MX-5 Miata",
-      "what": "The small, cheap, fun two-seat roadster: the best-selling sports car ever.",
-      "wiki": "Mazda MX-5"
-    },
-    {
-      "name": "Ford Mustang",
-      "what": "The original American 'pony car' from 1964.",
-      "wiki": "Ford Mustang"
-    },
-    {
-      "name": "Nissan Skyline GT-R R34",
-      "what": "Japanese performance icon made famous by Gran Turismo and Fast & Furious.",
-      "wiki": "Nissan Skyline GT-R"
+      "title": "Marque by marque",
+      "intro": "Each brand's legends and the cars that set auction records.",
+      "groups": [
+        {
+          "name": "Ferrari",
+          "intro": "Maranello, Italy. Red, the prancing horse, and limited production so demand always beats supply.",
+          "items": [
+            {
+              "name": "Ferrari 250 GTO",
+              "what": "36 built in 1962-64 for racing. The most valuable Ferrari and the blue-chip collector car.",
+              "value": "US$51.7m at auction (RM Sotheby's, 2023); private sales reportedly about US$70m",
+              "wiki": "Ferrari 250 GTO"
+            },
+            {
+              "name": "Ferrari F40",
+              "what": "1987, the last car Enzo Ferrari approved: twin-turbo, huge wing, no comfort at all.",
+              "wiki": "Ferrari F40"
+            },
+            {
+              "name": "Ferrari Enzo",
+              "what": "2002 hypercar named after the founder; 400 made.",
+              "wiki": "Enzo Ferrari (automobile)"
+            },
+            {
+              "name": "LaFerrari",
+              "what": "2013 hybrid hypercar, part of the 'holy trinity' with the McLaren P1 and Porsche 918.",
+              "wiki": "LaFerrari"
+            },
+            {
+              "name": "Ferrari Purosangue",
+              "what": "Ferrari's first four-door, four-seat car (2022). Don't call it an SUV in front of a Ferrari owner.",
+              "wiki": "Ferrari Purosangue"
+            }
+          ]
+        },
+        {
+          "name": "Porsche",
+          "intro": "Stuttgart. Precision engineering, and the 911 has kept its shape for 60 years.",
+          "items": [
+            {
+              "name": "Porsche 911",
+              "what": "The rear-engined icon since 1963. Fans name generations by code: 964, 993 (last air-cooled), 997, 992.",
+              "wiki": "Porsche 911"
+            },
+            {
+              "name": "911 GT3 / GT3 RS",
+              "what": "Track-focused 911s with high-revving engines and big wings; the enthusiast's choice.",
+              "wiki": "Porsche 911 GT3"
+            },
+            {
+              "name": "Porsche 959",
+              "what": "1986 technological marvel with four-wheel drive; Bill Gates famously owned one.",
+              "wiki": "Porsche 959"
+            },
+            {
+              "name": "Carrera GT",
+              "what": "V10 supercar from 2004 with a manual gearbox; feared and adored.",
+              "wiki": "Porsche Carrera GT"
+            },
+            {
+              "name": "Taycan",
+              "what": "Porsche's electric saloon, a familiar sight in Hong Kong.",
+              "wiki": "Porsche Taycan"
+            }
+          ]
+        },
+        {
+          "name": "Lamborghini",
+          "intro": "Sant'Agata, Italy, owned by VW Group via Audi. Wild shapes, V12s and scissor doors.",
+          "items": [
+            {
+              "name": "Miura",
+              "what": "1966, the first mid-engined supercar. Many say the most beautiful car ever.",
+              "wiki": "Lamborghini Miura"
+            },
+            {
+              "name": "Countach",
+              "what": "1974 wedge with scissor doors; the bedroom-poster car of the 80s.",
+              "wiki": "Lamborghini Countach"
+            },
+            {
+              "name": "Aventador",
+              "what": "The 2011-2022 V12 flagship.",
+              "wiki": "Lamborghini Aventador"
+            },
+            {
+              "name": "Revuelto",
+              "what": "2023 V12 plug-in hybrid flagship.",
+              "wiki": "Lamborghini Revuelto"
+            },
+            {
+              "name": "Urus",
+              "what": "The SUV that pays the bills: Lamborghini's best-seller.",
+              "wiki": "Lamborghini Urus"
+            }
+          ]
+        },
+        {
+          "name": "Hypercars and record breakers",
+          "intro": "",
+          "items": [
+            {
+              "name": "Mercedes-Benz 300 SLR Uhlenhaut Coupé",
+              "what": "One of two road-going versions of a 1955 racing car, named after its engineer.",
+              "value": "€135m (RM Sotheby's private auction, 2022): most expensive car ever sold",
+              "wiki": "Mercedes-Benz 300 SLR"
+            },
+            {
+              "name": "McLaren F1",
+              "what": "1992, three seats with the driver in the middle, gold foil in the engine bay; the fastest car of its era.",
+              "value": "US$20.5m (Gooding, 2021)",
+              "wiki": "McLaren F1"
+            },
+            {
+              "name": "Bugatti Chiron",
+              "what": "1,500 hp, over 400 km/h. Bugatti is now part of Bugatti Rimac.",
+              "wiki": "Bugatti Chiron"
+            },
+            {
+              "name": "Rolls-Royce Boat Tail",
+              "what": "Bespoke coachbuilt cars with a yacht-style rear deck; reportedly about US$28m each.",
+              "wiki": "Rolls-Royce Boat Tail"
+            },
+            {
+              "name": "Aston Martin DB5",
+              "what": "James Bond's car from Goldfinger (1964).",
+              "wiki": "Aston Martin DB5"
+            }
+          ]
+        },
+        {
+          "name": "Luxury and Hong Kong favourites",
+          "intro": "",
+          "items": [
+            {
+              "name": "Rolls-Royce Phantom",
+              "what": "The flagship limousine with the Spirit of Ecstasy and rear-hinged 'coach' doors.",
+              "wiki": "Rolls-Royce Phantom"
+            },
+            {
+              "name": "Rolls-Royce Cullinan",
+              "what": "The Rolls SUV, named after the largest diamond ever found.",
+              "wiki": "Rolls-Royce Cullinan"
+            },
+            {
+              "name": "Mercedes-Benz G-Class",
+              "what": "The square off-roader turned status symbol; an electric version arrived in 2024.",
+              "wiki": "Mercedes-Benz G-Class"
+            },
+            {
+              "name": "Toyota Alphard",
+              "what": "The boxy luxury MPV that shuttles Hong Kong's executives and celebrities.",
+              "wiki": "Toyota Alphard"
+            },
+            {
+              "name": "Tesla Model Y",
+              "what": "For years the world's best-selling car of any kind; everywhere in Hong Kong.",
+              "wiki": "Tesla Model Y"
+            },
+            {
+              "name": "BYD and Xiaomi SU7",
+              "what": "China's EV giants: BYD outsells Tesla globally; Xiaomi's SU7 saloon sold out in minutes.",
+              "wiki": "Xiaomi SU7"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

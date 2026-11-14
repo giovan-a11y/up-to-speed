@@ -441,5 +441,101 @@
       "what": "The annual New York fashion fundraiser run by Anna Wintour; the biggest red carpet in fashion.",
       "wiki": "Met Gala"
     }
+  ],
+  "deep": [
+    {
+      "title": "House by house",
+      "intro": "Who owns what, who designs it, and the signature pieces to recognise.",
+      "groups": [
+        {
+          "name": "LVMH houses",
+          "intro": "Bernard Arnault's group, the world's largest luxury company.",
+          "items": [
+            {
+              "name": "Louis Vuitton",
+              "what": "Monogram canvas, trunks and bags; Pharrell Williams designs menswear.",
+              "wiki": "Louis Vuitton"
+            },
+            {
+              "name": "Dior",
+              "what": "The 1947 'New Look' Bar jacket with a nipped waist and full skirt is its founding image.",
+              "wiki": "Bar Suit"
+            },
+            {
+              "name": "Celine",
+              "what": "Clean, Parisian minimalism.",
+              "wiki": "Celine (brand)"
+            },
+            {
+              "name": "Loewe",
+              "what": "Spanish leather house turned fashion's favourite under Jonathan Anderson (2013-2025).",
+              "wiki": "Loewe"
+            },
+            {
+              "name": "Fendi",
+              "what": "Roman fur and leather house; the FF 'Zucca' logo and the Baguette.",
+              "wiki": "Fendi"
+            }
+          ]
+        },
+        {
+          "name": "Kering houses",
+          "intro": "François-Henri Pinault's group, under pressure as Gucci's sales fell.",
+          "items": [
+            {
+              "name": "Gucci",
+              "what": "Horsebit loafers, GG canvas, the green-red-green web stripe, and the Jackie and Horsebit 1955 bags.",
+              "wiki": "Gucci"
+            },
+            {
+              "name": "Saint Laurent",
+              "what": "Le Smoking tuxedo for women (1966) and sharp black tailoring.",
+              "wiki": "Le Smoking"
+            },
+            {
+              "name": "Bottega Veneta",
+              "what": "Woven intrecciato leather, no logos: 'When your own initials are enough.'",
+              "wiki": "Bottega Veneta"
+            },
+            {
+              "name": "Balenciaga",
+              "what": "Cristóbal Balenciaga's sculptural couture; recently Triple S sneakers and provocative designs.",
+              "wiki": "Balenciaga"
+            }
+          ]
+        },
+        {
+          "name": "Independent icons",
+          "intro": "",
+          "items": [
+            {
+              "name": "Chanel tweed jacket",
+              "what": "Boxy bouclé jacket with braid trim; the little black dress and No. 5 perfume are the other icons.",
+              "wiki": "Chanel suit"
+            },
+            {
+              "name": "Hermès carré",
+              "what": "90 cm printed silk scarf; new designs every season, collectors frame them.",
+              "wiki": "Hermès"
+            },
+            {
+              "name": "Prada nylon backpack",
+              "what": "Miuccia Prada's 1984 black nylon bag with the triangle logo that made nylon luxury.",
+              "wiki": "Prada"
+            },
+            {
+              "name": "Burberry trench",
+              "what": "Gabardine trench coat with the check lining, from First World War trenches.",
+              "wiki": "Burberry"
+            },
+            {
+              "name": "Uniqlo",
+              "what": "Japanese basics giant; its collaborations (+J, Jil Sander, Lemaire) sell out in Hong Kong.",
+              "wiki": "Uniqlo"
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

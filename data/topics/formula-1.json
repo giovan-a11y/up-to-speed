@@ -499,46 +499,230 @@
       "value": "3 (Vegas 21 Nov)"
     }
   ],
-  "gallery": [
+  "deep": [
     {
-      "name": "Monaco Grand Prix",
-      "what": "The slow, glamorous street race between yachts and casinos.",
-      "wiki": "Monaco Grand Prix"
+      "title": "Team by team",
+      "intro": "What each team is about, its famous cars and its legends. Current drivers and standings are under 'What people are talking about'.",
+      "groups": [
+        {
+          "name": "Ferrari",
+          "intro": "Maranello, the oldest and most successful team (in F1 since 1950), followed by the 'tifosi'. Red cars, huge pressure.",
+          "items": [
+            {
+              "name": "Ferrari F2004",
+              "what": "Michael Schumacher's car for his seventh title; won 15 of 18 races.",
+              "wiki": "Ferrari F2004"
+            },
+            {
+              "name": "Michael Schumacher",
+              "what": "Five straight titles with Ferrari (2000-04); seven in total.",
+              "wiki": "Michael Schumacher"
+            },
+            {
+              "name": "Niki Lauda",
+              "what": "Champion in 1975 and 1977, returned weeks after a near-fatal 1976 fire (see the film Rush).",
+              "wiki": "Niki Lauda"
+            },
+            {
+              "name": "Charles Leclerc",
+              "what": "Monaco-born Ferrari star; won his home race in 2024.",
+              "wiki": "Charles Leclerc"
+            },
+            {
+              "name": "Lewis Hamilton at Ferrari",
+              "what": "The seven-time champion's shock move from Mercedes in 2025.",
+              "wiki": "Lewis Hamilton"
+            }
+          ]
+        },
+        {
+          "name": "McLaren",
+          "intro": "Woking, England, papaya orange. Founded by New Zealander Bruce McLaren; champions again in the 2020s.",
+          "items": [
+            {
+              "name": "McLaren MP4/4",
+              "what": "1988 car of Senna and Prost that won 15 of 16 races.",
+              "wiki": "McLaren MP4/4"
+            },
+            {
+              "name": "Ayrton Senna",
+              "what": "Three-time champion (1988, 1990, 1991), many fans' greatest ever; died at Imola in 1994.",
+              "wiki": "Ayrton Senna"
+            },
+            {
+              "name": "Lando Norris",
+              "what": "British star, 2025 world champion with McLaren.",
+              "wiki": "Lando Norris"
+            },
+            {
+              "name": "Oscar Piastri",
+              "what": "Australian teammate of Norris, a title contender in 2025.",
+              "wiki": "Oscar Piastri"
+            }
+          ]
+        },
+        {
+          "name": "Mercedes",
+          "intro": "Brackley and Brixworth, England, silver 'Silver Arrows'. Won eight straight constructors' titles (2014-21) under Toto Wolff.",
+          "items": [
+            {
+              "name": "Mercedes W11",
+              "what": "The 2020 black car, often called the fastest F1 car ever.",
+              "wiki": "Mercedes-AMG F1 W11 EQ Performance"
+            },
+            {
+              "name": "Toto Wolff",
+              "what": "Austrian team principal and co-owner.",
+              "wiki": "Toto Wolff"
+            },
+            {
+              "name": "George Russell",
+              "what": "British team leader after Hamilton left.",
+              "wiki": "George Russell (racing driver)"
+            },
+            {
+              "name": "Kimi Antonelli",
+              "what": "Italian prodigy promoted to Mercedes at 18 in 2025.",
+              "wiki": "Andrea Kimi Antonelli"
+            }
+          ]
+        },
+        {
+          "name": "Red Bull Racing",
+          "intro": "Milton Keynes, England, owned by the energy-drink company. Dominated 2010-13 with Vettel and 2021-24 with Verstappen.",
+          "items": [
+            {
+              "name": "Red Bull RB19",
+              "what": "2023 car that won 21 of 22 races, the most dominant season ever.",
+              "wiki": "Red Bull RB19"
+            },
+            {
+              "name": "Max Verstappen",
+              "what": "Dutch four-time champion (2021-24), famously aggressive and fast.",
+              "wiki": "Max Verstappen"
+            },
+            {
+              "name": "Sebastian Vettel",
+              "what": "Four straight titles with Red Bull (2010-13).",
+              "wiki": "Sebastian Vettel"
+            },
+            {
+              "name": "Adrian Newey",
+              "what": "Legendary car designer; left Red Bull for Aston Martin in 2025.",
+              "wiki": "Adrian Newey"
+            }
+          ]
+        },
+        {
+          "name": "The rest of the grid",
+          "intro": "",
+          "items": [
+            {
+              "name": "Aston Martin",
+              "what": "Green cars, billionaire Lawrence Stroll, and Fernando Alonso, a two-time champion still racing in his 40s.",
+              "wiki": "Aston Martin in Formula One"
+            },
+            {
+              "name": "Williams",
+              "what": "Historic British team, nine constructors' titles, now rebuilding.",
+              "wiki": "Williams Racing"
+            },
+            {
+              "name": "Alpine",
+              "what": "Renault's team, French blue and pink.",
+              "wiki": "Alpine F1 Team"
+            },
+            {
+              "name": "Haas",
+              "what": "American-owned, the smallest budget, works with Ferrari.",
+              "wiki": "Haas F1 Team"
+            },
+            {
+              "name": "Racing Bulls",
+              "what": "Red Bull's second team in Italy, a finishing school for young drivers.",
+              "wiki": "Racing Bulls"
+            },
+            {
+              "name": "Audi",
+              "what": "Took over Sauber from 2026 as a full works team.",
+              "wiki": "Audi in Formula One"
+            },
+            {
+              "name": "Cadillac",
+              "what": "The 11th team, new for 2026, backed by General Motors.",
+              "wiki": "Cadillac Formula 1 Team"
+            }
+          ]
+        }
+      ]
     },
     {
-      "name": "Marina Bay Street Circuit",
-      "what": "Singapore's night race, the closest F1 race to Hong Kong.",
-      "wiki": "Marina Bay Street Circuit"
-    },
-    {
-      "name": "Shanghai International Circuit",
-      "what": "Home of the Chinese Grand Prix, back on the calendar since 2024.",
-      "wiki": "Shanghai International Circuit"
-    },
-    {
-      "name": "Silverstone",
-      "what": "The British GP circuit, birthplace of the world championship in 1950.",
-      "wiki": "Silverstone Circuit"
-    },
-    {
-      "name": "Ferrari 'Rosso Corsa' livery",
-      "what": "The red Ferrari car, F1's oldest and most famous team colour.",
-      "wiki": "Scuderia Ferrari"
-    },
-    {
-      "name": "McLaren papaya livery",
-      "what": "Bright orange McLaren cars, champions again in 2024-25.",
-      "wiki": "McLaren"
-    },
-    {
-      "name": "Halo",
-      "what": "The titanium safety bar over the cockpit, introduced 2018; it has saved several drivers.",
-      "wiki": "Halo (safety device)"
-    },
-    {
-      "name": "Pit stop",
-      "what": "Tyre changes in about two seconds by a 20-person crew.",
-      "wiki": "Pit stop"
+      "title": "Legends and famous places",
+      "intro": "Names and circuits that come up in every F1 conversation.",
+      "groups": [
+        {
+          "name": "All-time greats",
+          "intro": "",
+          "items": [
+            {
+              "name": "Juan Manuel Fangio",
+              "what": "Argentine five-time champion in the 1950s.",
+              "wiki": "Juan Manuel Fangio"
+            },
+            {
+              "name": "Alain Prost",
+              "what": "'The Professor', four titles, Senna's great rival.",
+              "wiki": "Alain Prost"
+            },
+            {
+              "name": "Lewis Hamilton",
+              "what": "Record seven titles (shared with Schumacher), most wins and poles.",
+              "wiki": "Lewis Hamilton"
+            },
+            {
+              "name": "Fernando Alonso",
+              "what": "Champion in 2005 and 2006; the oldest driver on the grid.",
+              "wiki": "Fernando Alonso"
+            }
+          ]
+        },
+        {
+          "name": "Circuits",
+          "intro": "",
+          "items": [
+            {
+              "name": "Monaco",
+              "what": "Tight, slow streets between yachts; winning here is special even though overtaking is nearly impossible.",
+              "wiki": "Circuit de Monaco"
+            },
+            {
+              "name": "Spa-Francorchamps",
+              "what": "Belgian forest circuit with Eau Rouge, the drivers' favourite.",
+              "wiki": "Circuit de Spa-Francorchamps"
+            },
+            {
+              "name": "Suzuka",
+              "what": "Japan's figure-of-eight track; passionate fans in costume.",
+              "wiki": "Suzuka International Racing Course"
+            },
+            {
+              "name": "Marina Bay, Singapore",
+              "what": "The night race, closest to Hong Kong.",
+              "wiki": "Marina Bay Street Circuit"
+            },
+            {
+              "name": "Shanghai",
+              "what": "Chinese GP circuit shaped like the character 上.",
+              "wiki": "Shanghai International Circuit"
+            },
+            {
+              "name": "Las Vegas Strip",
+              "what": "Saturday-night race past the casinos, since 2023.",
+              "wiki": "Las Vegas Strip Circuit"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

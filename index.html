@@ -158,6 +158,15 @@ main { padding-block: 28px 64px; }
 .fc-face .pic { width: 150px; justify-self: center; }
 .fc-face .pic img { object-fit: contain; background: #fff; }
 .credit { font-size: 12px; color: var(--muted); }
+.dg { border: 1px solid var(--line); border-radius: 14px; margin-bottom: 12px; background: var(--surface); }
+.dg > summary { cursor: pointer; list-style: none; padding: 14px 16px; display: flex; justify-content: space-between; align-items: center; gap: 10px; font-family: var(--f-display); font-weight: 700; font-size: 18px; }
+.dg > summary::-webkit-details-marker { display: none; }
+.dg > summary::after { content: "+"; font-family: var(--f-mono); color: var(--muted); font-size: 18px; }
+.dg[open] > summary::after { content: "−"; }
+.dg > summary small { font-family: var(--f-body); font-weight: 500; font-size: 13px; color: var(--muted); margin-left: auto; }
+.dg-body { padding: 0 16px 16px; display: grid; gap: 12px; }
+.dg-body > p { color: var(--muted); margin: 0; }
+.val { font-size: 13px; background: color-mix(in srgb, var(--mark) 55%, transparent); color: var(--mark-ink); border-radius: 6px; padding: 3px 7px; justify-self: start; }
 .tl { display: grid; gap: 0; }
 .tl div { display: grid; grid-template-columns: 84px 1fr; gap: 14px; padding: 8px 0; border-left: 2px solid var(--line); margin-left: 6px; padding-left: 16px; position: relative; }
 .tl div::before { content: ""; position: absolute; left: -6px; top: 15px; width: 10px; height: 10px; border-radius: 50%; background: var(--surface); border: 2px solid var(--accent); }
@@ -286,7 +295,7 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "
 const slugify = (s) => String(s).toLowerCase().normalize("NFKD").replace(/[^\w\s-]/g, "").trim().replace(/[\s_]+/g, "-").replace(/-+/g, "-").slice(0, 48) || "topic";
 const RESERVED = new Set(["settings", "sidebar", "customize", "upgrade", "downloads"]);
 const BASE_SECTIONS = ["basics", "jargon", "names", "history", "now", "debates", "talk"];
-const sectionsFor = (c) => ["basics", "jargon", "names", ...(c.gallery && c.gallery.length ? ["gallery"] : []), "history", "now", ...(c.local && c.local.length ? ["local"] : []), "debates", "talk"];
+const sectionsFor = (c) => ["basics", "jargon", "names", ...(c.deep || []).map((_, i) => "deep" + i), ...(c.gallery && c.gallery.length ? ["gallery"] : []), "history", "now", ...(c.local && c.local.length ? ["local"] : []), "debates", "talk"];
 const CATEGORIES = ["Sports", "Luxury & style", "Money", "Food & drink", "Tech", "Culture", "Lifestyle"];
 const SUGGEST = ["Mahjong", "Badminton", "Anime", "Sake", "Skiing", "Poker", "Classical music", "Board games", "Startups & VC", "Yoga", "Cricket", "Tea"];
 
@@ -368,6 +377,7 @@ function normalize(c) {
   return {
     updated: String(c.updated || ""), refresh: String(c.refresh || ""), requested: String(c.requested || ""),
     numbers: arr(c.numbers).filter((x) => x && x.label && x.value), gallery: arr(c.gallery).filter((x) => x && x.name),
+    deep: arr(c.deep).filter((d) => d && d.title).map((d) => ({ title: String(d.title), intro: String(d.intro || ""), groups: arr(d.groups).filter((g) => g && g.name).map((g) => ({ name: String(g.name), intro: String(g.intro || ""), items: arr(g.items).filter((x) => x && x.name) })) })),
     topic: String(c.topic || "Untitled"), category: String(c.category || ""), local: arr(c.local).filter((x) => x && x.headline), tagline: String(c.tagline || ""), asOf: String(c.asOf || ""), why: String(c.why || ""),
     essentials: arr(c.essentials).filter((x) => x && x.title), jargon: arr(c.jargon).filter((x) => x && x.term),
     names: arr(c.names).filter((x) => x && x.name), timeline: arr(c.timeline).filter((x) => x && x.event),
@@ -379,7 +389,8 @@ function normalize(c) {
 function cards(c) {
   return [...c.jargon.map((j) => ({ id: "t:" + j.term, kind: "Term", front: j.term, back: j.meaning })),
           ...c.names.map((n) => ({ id: "n:" + n.name, kind: "Who / what", front: n.name, back: n.what, q: picQuery(n, c) })),
-          ...c.gallery.map((g) => ({ id: "g:" + g.name, kind: "Icon", front: g.name, back: g.what, q: picQuery(g, c) }))];
+          ...c.gallery.map((g) => ({ id: "g:" + g.name, kind: "Icon", front: g.name, back: g.what, q: picQuery(g, c) })),
+          ...c.deep.flatMap((d) => d.groups.flatMap((g) => g.items.map((x) => ({ id: "d:" + g.name + ":" + x.name, kind: g.name, front: x.name, back: x.what + (x.value ? " " + x.value + "." : ""), q: picQuery(x, c) }))))];
 }
 function readiness(e) {
   const c = e.course, p = e.progress;
@@ -604,6 +615,7 @@ function paneCourse(pane, e) {
     blk("basics", "The two-minute version", `<p class="why">${esc(c.why)}</p><div class="ess">${c.essentials.map((x) => `<div><b>${esc(x.title)}</b><span>${esc(x.body)}</span></div>`).join("")}</div>`) +
     blk("jargon", "Words you'll hear", `<dl class="terms">${c.jargon.map((j) => `<div><dt><mark>${esc(j.term)}</mark></dt><dd>${esc(j.meaning)}</dd></div>`).join("")}</dl>`) +
     blk("names", "Names to know", `${picBar(c)}<div class="names">${c.names.map((n) => `<div class="nm">${picSlot(n, c)}<b>${esc(n.name)}</b><div><span>${esc(n.what)}</span>${picLinks(n, c)}</div></div>`).join("")}</div>`) +
+    c.deep.map((d, i) => blk("deep" + i, esc(d.title), `${d.intro ? `<p class="note" style="margin-bottom:12px">${esc(d.intro)}</p>` : ""}${d.groups.map((g, gi) => `<details class="dg" ${gi === 0 ? "open" : ""}><summary>${esc(g.name)}<small>${g.items.length}</small></summary><div class="dg-body">${g.intro ? `<p>${esc(g.intro)}</p>` : ""}<div class="gal">${g.items.map((x) => `<div>${picSlot(x, c)}<div class="txt"><b>${esc(x.name)}</b><span>${esc(x.what)}</span>${x.value ? `<span class="val">${esc(x.value)}</span>` : ""}${picLinks(x, c)}</div></div>`).join("")}</div></div></details>`).join("")}`)).join("") +
     blk("gallery", "Icons to recognise", `<p class="note" style="margin-bottom:12px">The famous pieces enthusiasts mention by name. Tap "More pictures" to see every angle.</p><div class="gal">${c.gallery.map((g) => `<div>${picSlot(g, c)}<div class="txt"><b>${esc(g.name)}</b><span>${esc(g.what)}</span>${picLinks(g, c)}</div></div>`).join("")}</div>`) +
     blk("history", "How we got here", `<div class="tl">${c.timeline.map((t) => `<div><span class="yr">${esc(t.year)}</span><span>${esc(t.event)}</span></div>`).join("")}</div>`) +
     blk("now", "What people are talking about", `${c.asOf ? `<span class="asof">As of ${esc(c.asOf)}${c.refresh ? ` · refreshed ${c.refresh === "weekly" ? "every week" : "every month"}` : ""}. Things move fast, so ask what's new.</span>` : ""}${c.numbers.length ? `<div class="nums">${c.numbers.map((n) => `<div><span>${esc(n.label)}</span><b>${esc(n.value)}</b></div>`).join("")}</div>` : ""}<div class="news">${c.now.map((x) => `<div><b>${esc(x.headline)}</b><span>${esc(x.detail)}</span></div>`).join("")}</div>`) +
@@ -615,6 +627,7 @@ function paneCourse(pane, e) {
       <div class="sub">Rookie mistakes</div><ul class="list">${c.avoid.map((s) => `<li>${esc(s)}</li>`).join("")}</ul>`);
   hydratePics(pane);
   wirePicBar(pane, c);
+  pane.querySelectorAll("details.dg").forEach((d) => d.addEventListener("toggle", () => { if (d.open) hydratePics(d); }));
   pane.querySelectorAll("[data-read]").forEach((b) => b.onclick = () => {
     const k = b.dataset.read, i = p.read.indexOf(k);
     if (i >= 0) p.read.splice(i, 1); else p.read.push(k);
@@ -787,7 +800,8 @@ async function resolvePic(q) {
   inflight.set(q, p); return p;
 }
 async function hydratePics(root) {
-  const slots = [...root.querySelectorAll("[data-q]")], links = [...root.querySelectorAll("[data-wiki]")];
+  const shown = (el) => !el.closest("details:not([open])");
+  const slots = [...root.querySelectorAll("[data-q]")].filter(shown), links = [...root.querySelectorAll("[data-wiki]")].filter(shown);
   const queue = [...new Set([...slots.map((s) => s.dataset.q), ...links.map((a) => a.dataset.wiki)])];
   const worker = async () => { while (queue.length) await resolvePic(queue.shift()); };
   const apply = () => {
@@ -801,7 +815,7 @@ async function hydratePics(root) {
 }
 function wirePicBar(pane, c) {
   const btn = pane.querySelector("#pic-save"), st = pane.querySelector("#pic-status"); if (!btn) return;
-  const qs = [...c.names, ...c.gallery].map((n) => picQuery(n, c));
+  const qs = [...new Set([...c.names, ...c.gallery, ...c.deep.flatMap((d) => d.groups.flatMap((g) => g.items))].map((n) => picQuery(n, c)))];
   btn.onclick = async () => {
     if (!navigator.onLine) { st.textContent = "Connect to the internet first, then tap again."; return; }
     btn.disabled = true; let done = 0;

@@ -450,76 +450,274 @@
       "explain": "Founded by Rolex's founder Hans Wilsdorf."
     }
   ],
-  "gallery": [
+  "deep": [
     {
-      "name": "Rolex Submariner",
-      "what": "The dive watch everyone pictures when they say 'Rolex': black dial, rotating bezel. The most copied watch design ever.",
-      "wiki": "Rolex Submariner"
-    },
-    {
-      "name": "Rolex Cosmograph Daytona",
-      "what": "Rolex's racing chronograph with three small dials. Paul Newman's made it the most hyped vintage watch on earth; new ones have years-long waitlists.",
-      "wiki": "Rolex Daytona"
-    },
-    {
-      "name": "Rolex GMT-Master II 'Pepsi'",
-      "what": "Pilot's watch showing two time zones; the red-and-blue bezel gives it the nickname 'Pepsi'. 'Batman' is the blue-and-black version.",
-      "wiki": "Rolex GMT Master II"
-    },
-    {
-      "name": "Rolex Datejust",
-      "what": "The classic dress-everyday Rolex with the date magnified under a 'Cyclops' lens and a fluted bezel.",
-      "wiki": "Rolex Datejust"
-    },
-    {
-      "name": "Rolex Day-Date 'President'",
-      "what": "Only made in gold or platinum, shows the day spelled out. Worn by presidents, hence the nickname.",
-      "wiki": "Rolex Day-Date"
-    },
-    {
-      "name": "Omega Speedmaster 'Moonwatch'",
-      "what": "The first watch worn on the Moon (1969). Black chronograph, a favourite 'first serious watch'.",
-      "wiki": "Omega Speedmaster"
-    },
-    {
-      "name": "Omega Seamaster",
-      "what": "James Bond's watch since 1995; wave-pattern dial on the Diver 300M.",
-      "wiki": "Omega Seamaster"
-    },
-    {
-      "name": "Patek Philippe Nautilus",
-      "what": "Gérald Genta's porthole-shaped steel sports watch. The 5711 became the ultimate status grail and trades far above retail.",
-      "wiki": "Patek Philippe Nautilus"
-    },
-    {
-      "name": "Audemars Piguet Royal Oak",
-      "what": "The 1972 octagonal steel watch with exposed screws and 'tapisserie' grid dial that invented the luxury sports watch.",
-      "wiki": "Audemars Piguet Royal Oak"
-    },
-    {
-      "name": "Cartier Tank",
-      "what": "Rectangular dress watch from 1917, worn by Diana, Jackie Kennedy and Timothée Chalamet.",
-      "wiki": "Cartier Tank"
-    },
-    {
-      "name": "Cartier Santos",
-      "what": "One of the first wristwatches (1904), made for aviator Alberto Santos-Dumont; square case with screws on the bezel.",
-      "wiki": "Cartier Santos-Dumont watch"
-    },
-    {
-      "name": "Grand Seiko 'Snowflake'",
-      "what": "Japanese watch with a textured white dial like fresh snow and a gliding Spring Drive seconds hand.",
-      "wiki": "Grand Seiko"
-    },
-    {
-      "name": "Richard Mille RM 011",
-      "what": "Skeletonised, tonneau-shaped, ultra-light and very expensive; the watch of footballers, F1 drivers and Jackie Chan.",
-      "wiki": "Richard Mille"
-    },
-    {
-      "name": "Omega x Swatch MoonSwatch",
-      "what": "Plastic, colourful Speedmaster-shaped Swatch from 2022 that caused queues around the block, including in Hong Kong.",
-      "wiki": "MoonSwatch"
+      "title": "Brand by brand",
+      "intro": "The models people actually name-drop, and the records that make headlines. Auction prices are hammer prices including fees.",
+      "groups": [
+        {
+          "name": "Rolex",
+          "intro": "The world's best-known luxury watch: Swiss, independent (owned by a foundation), and so in demand that steel sports models have waitlists. Fans talk in reference numbers and nicknames.",
+          "items": [
+            {
+              "name": "Submariner",
+              "what": "The 1953 dive watch: black dial, rotating bezel, Mercedes hands. The no-date ref. 124060 is the purist's pick; the green-bezel 'Kermit' and 'Hulk' are fan favourites.",
+              "value": "The most copied watch in the world",
+              "wiki": "Rolex Submariner"
+            },
+            {
+              "name": "Cosmograph Daytona",
+              "what": "Racing chronograph with three sub-dials and a tachymeter bezel. Vintage ones with 'exotic' Paul Newman dials are the holy grail.",
+              "value": "Record: Paul Newman's own Daytona, US$17.8m (Phillips, 2017)",
+              "wiki": "Rolex Daytona"
+            },
+            {
+              "name": "GMT-Master II",
+              "what": "Pilot's watch with a second time zone. Nicknames by bezel: 'Pepsi' (red/blue), 'Batman' (blue/black), 'Root Beer' (brown), 'Sprite' (green/black, left-handed).",
+              "value": "Pepsi on Jubilee bracelet trades well above retail",
+              "wiki": "Rolex GMT Master II"
+            },
+            {
+              "name": "Datejust",
+              "what": "The classic everyday Rolex since 1945: date under a 'Cyclops' magnifier, fluted bezel, Jubilee bracelet. Huge choice of dials.",
+              "value": "The best-selling Rolex family",
+              "wiki": "Rolex Datejust"
+            },
+            {
+              "name": "Day-Date 'President'",
+              "what": "Only in gold or platinum, with the day spelled out at 12. The power watch of presidents and tycoons; the ice-blue dial is reserved for platinum.",
+              "value": "Platinum ice-blue: the ultimate 'I've made it' Rolex",
+              "wiki": "Rolex Day-Date"
+            },
+            {
+              "name": "Explorer and Explorer II",
+              "what": "Tool watches linked to the 1953 Everest climb. Explorer: simple 3-6-9 dial. Explorer II: orange 24-hour hand, the white 'Polar' dial is a cult pick.",
+              "wiki": "Rolex Explorer"
+            },
+            {
+              "name": "Sea-Dweller and Deepsea",
+              "what": "Heavier dive watches with a helium valve, rated to 1,220 m and 3,900 m. The 'D-Blue' Deepsea marks James Cameron's dive to the Mariana Trench.",
+              "wiki": "Rolex Sea Dweller"
+            },
+            {
+              "name": "Oyster Perpetual 'Tiffany'",
+              "what": "The simplest Rolex. The 2020 turquoise-dial OP 41 became so hyped that it traded at several times retail.",
+              "wiki": "Rolex Oyster Perpetual"
+            },
+            {
+              "name": "Bao Dai (ref. 6062)",
+              "what": "A unique gold moonphase with a black diamond dial, once owned by Vietnam's last emperor.",
+              "value": "Sold CHF 5.1m (Phillips, 2017)",
+              "wiki": "Rolex Bao Dai"
+            }
+          ]
+        },
+        {
+          "name": "Patek Philippe",
+          "intro": "Geneva, family-owned since 1932, widely seen as the top of the watch world. Slogan: 'You never actually own a Patek Philippe. You merely look after it for the next generation.'",
+          "items": [
+            {
+              "name": "Nautilus 5711",
+              "what": "Gérald Genta's 1976 porthole-shaped steel sports watch with a horizontally-embossed blue dial. Patek discontinued it in 2021 and prices exploded.",
+              "value": "Tiffany-blue 5711 (170 made): US$6.5m (Phillips, 2021)",
+              "wiki": "Patek Philippe Nautilus"
+            },
+            {
+              "name": "Aquanaut",
+              "what": "The Nautilus's younger, sportier sibling with a rubber 'tropical' strap. Popular in Hong Kong as a weekend watch.",
+              "wiki": "Patek Philippe Aquanaut"
+            },
+            {
+              "name": "Calatrava",
+              "what": "The definitive round, plain dress watch since 1932. The 'Clous de Paris' hobnail bezel is the classic look.",
+              "wiki": "Patek Philippe Calatrava"
+            },
+            {
+              "name": "Grandmaster Chime 6300A",
+              "what": "Patek's most complicated wristwatch, reversible with two dials and 20 complications. A one-off steel version was made for charity.",
+              "value": "World record: CHF 31m (Only Watch, Christie's 2019)",
+              "wiki": "Patek Philippe Grandmaster Chime"
+            },
+            {
+              "name": "Henry Graves Supercomplication",
+              "what": "A gold pocket watch from 1933 with 24 complications, made for a New York banker. The most famous watch in collecting.",
+              "value": "Sold CHF 23.2m (Sotheby's, 2014)",
+              "wiki": "Patek Philippe Henry Graves Supercomplication"
+            },
+            {
+              "name": "Perpetual calendar chronographs (ref. 2499, 5270)",
+              "what": "The 'grand complication' every serious collector wants: shows day, date, month, leap year and moon phase, plus a stopwatch.",
+              "wiki": "Patek Philippe"
+            }
+          ]
+        },
+        {
+          "name": "Audemars Piguet",
+          "intro": "Le Brassus, Switzerland, still family-controlled. Basically defined by one watch, the Royal Oak, and famous for celebrity and athlete fans.",
+          "items": [
+            {
+              "name": "Royal Oak 'Jumbo' (ref. 15202 / 16202)",
+              "what": "The 1972 original: octagonal bezel with eight hexagonal screws, integrated bracelet, 'Petite Tapisserie' grid dial. Designed by Gérald Genta in one night.",
+              "value": "The watch that invented luxury steel",
+              "wiki": "Audemars Piguet Royal Oak"
+            },
+            {
+              "name": "Royal Oak Offshore",
+              "what": "The chunky 1993 version nicknamed 'The Beast'. Arnold Schwarzenegger, LeBron James and Jay-Z wore them.",
+              "wiki": "Audemars Piguet Royal Oak Offshore"
+            },
+            {
+              "name": "Royal Oak Perpetual Calendar",
+              "what": "The RO with a full calendar and moonphase; often in black ceramic.",
+              "wiki": "Audemars Piguet Royal Oak"
+            },
+            {
+              "name": "Code 11.59",
+              "what": "AP's 2019 attempt at a round, modern watch. Mocked at launch, slowly winning fans.",
+              "wiki": "Audemars Piguet"
+            }
+          ]
+        },
+        {
+          "name": "Omega",
+          "intro": "Swatch Group's prestige brand. Big in sports timing (Olympic timekeeper) and space, with real history at friendlier prices than Rolex.",
+          "items": [
+            {
+              "name": "Speedmaster Professional 'Moonwatch'",
+              "what": "The chronograph NASA qualified in 1965 and the first watch on the Moon in 1969. Hand-wound, black dial, hesalite crystal for purists.",
+              "value": "Broad Arrow ref. 2915-1: CHF 3.1m (Phillips, 2021)",
+              "wiki": "Omega Speedmaster"
+            },
+            {
+              "name": "Seamaster Diver 300M",
+              "what": "James Bond's watch since GoldenEye (1995), with a wave-pattern dial.",
+              "wiki": "Omega Seamaster"
+            },
+            {
+              "name": "Seamaster Aqua Terra",
+              "what": "The everyday Omega with a teak-pattern dial; office-friendly.",
+              "wiki": "Omega Seamaster"
+            },
+            {
+              "name": "Constellation",
+              "what": "The 'claws' on the bezel are its signature; a 1980s icon now back in fashion.",
+              "wiki": "Omega Constellation"
+            },
+            {
+              "name": "MoonSwatch",
+              "what": "The 2022 bioceramic Speedmaster copies made with Swatch, about HK$2,000. People queued overnight, including in Hong Kong.",
+              "wiki": "MoonSwatch"
+            }
+          ]
+        },
+        {
+          "name": "Cartier",
+          "intro": "Paris jeweller turned watchmaker. Shape watches (square, rectangle, oval) that fashion people love; vintage Cartier is hot right now.",
+          "items": [
+            {
+              "name": "Tank",
+              "what": "Inspired by First World War tanks seen from above, launched 1917. Worn by Diana, Jackie Kennedy, Warhol and Timothée Chalamet. Tank Louis Cartier is the classic.",
+              "wiki": "Cartier Tank"
+            },
+            {
+              "name": "Santos",
+              "what": "One of the first men's wristwatches (1904), made so aviator Alberto Santos-Dumont could read the time while flying. Square, with screws on the bezel.",
+              "wiki": "Cartier Santos"
+            },
+            {
+              "name": "Crash",
+              "what": "A melted-looking watch inspired by a car-crash-damaged Tank (or Dalí, depending who tells it). Tiny production, huge auction prices.",
+              "value": "Vintage Crash London: well over US$1m at auction",
+              "wiki": "Cartier Crash"
+            },
+            {
+              "name": "Panthère",
+              "what": "Slim square watch with a bracelet like silk; the 1980s fashion icon, relaunched 2017.",
+              "wiki": "Panthère de Cartier"
+            },
+            {
+              "name": "Ballon Bleu",
+              "what": "Round watch with the crown guarded by a blue sapphire cabochon; very popular first luxury watch.",
+              "wiki": "Ballon Bleu de Cartier"
+            }
+          ]
+        },
+        {
+          "name": "Richard Mille",
+          "intro": "Founded 2001, made 'the racing machine on the wrist': skeletonised, tonneau-shaped, ultra-light, very expensive (often HK$1-20m). Worn by Nadal, Leclerc, Jackie Chan.",
+          "items": [
+            {
+              "name": "RM 011",
+              "what": "The skeleton chronograph that made the brand famous, often in carbon composite.",
+              "wiki": "Richard Mille"
+            },
+            {
+              "name": "RM 27 (Rafael Nadal)",
+              "what": "Nadal played Grand Slam finals wearing this; some weigh under 20 g.",
+              "wiki": "Richard Mille"
+            },
+            {
+              "name": "RM 56-02 Sapphire",
+              "what": "Case cut from solid sapphire crystal: fully see-through.",
+              "value": "Retail about US$2m",
+              "wiki": "Richard Mille"
+            }
+          ]
+        },
+        {
+          "name": "Vacheron Constantin",
+          "intro": "The oldest watchmaker in continuous production (1755). Part of the 'Holy Trinity' with Patek and AP.",
+          "items": [
+            {
+              "name": "Overseas",
+              "what": "Its luxury sports watch with a Maltese-cross bezel and swappable straps.",
+              "wiki": "Vacheron Constantin Overseas"
+            },
+            {
+              "name": "Patrimony",
+              "what": "Minimalist round dress watch.",
+              "wiki": "Vacheron Constantin"
+            },
+            {
+              "name": "Berkley Grand Complication",
+              "what": "Pocket watch with 63 complications unveiled in 2024, the most complicated watch ever made.",
+              "wiki": "Vacheron Constantin"
+            }
+          ]
+        },
+        {
+          "name": "A. Lange & Söhne and the independents",
+          "intro": "German high watchmaking from Glashütte, and the independent makers collectors chase.",
+          "items": [
+            {
+              "name": "Lange 1",
+              "what": "Off-centre dial with a big 'outsize' date; Lange's signature since 1994.",
+              "wiki": "A. Lange & Söhne Lange 1"
+            },
+            {
+              "name": "Datograph",
+              "what": "Lange's chronograph, regarded by many as the most beautiful movement made.",
+              "wiki": "A. Lange & Söhne Datograph"
+            },
+            {
+              "name": "F.P. Journe Chronomètre à Résonance",
+              "what": "François-Paul Journe's two-balance watch; independent watchmaking's star brand.",
+              "value": "Journe FFC (made with Francis Ford Coppola): US$10.8m (Phillips, 2024)",
+              "wiki": "F.P. Journe"
+            },
+            {
+              "name": "Grand Seiko 'Snowflake' (SBGA211)",
+              "what": "Japanese finishing at a fraction of Swiss prices; textured white dial and gliding Spring Drive hand.",
+              "wiki": "Grand Seiko"
+            },
+            {
+              "name": "Tudor Black Bay",
+              "what": "Rolex's sister brand; vintage-style diver and the most common 'smart money' first luxury watch.",
+              "wiki": "Tudor Black Bay"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

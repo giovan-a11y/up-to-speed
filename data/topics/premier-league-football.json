@@ -487,5 +487,257 @@
       "label": "Top scorer",
       "value": "Haaland (8 by mid-Oct)"
     }
+  ],
+  "deep": [
+    {
+      "title": "Club by club",
+      "intro": "Each big club's home, nickname, golden eras and legends. Current managers, form and the table are under 'What people are talking about'.",
+      "groups": [
+        {
+          "name": "Manchester United",
+          "intro": "Old Trafford, 'the Red Devils'. England's most successful club in the Premier League era under Sir Alex Ferguson (13 league titles, 1993-2013), struggling since he retired. Massive following in Hong Kong.",
+          "items": [
+            {
+              "name": "Old Trafford",
+              "what": "'The Theatre of Dreams', capacity about 74,000.",
+              "wiki": "Old Trafford"
+            },
+            {
+              "name": "Sir Alex Ferguson",
+              "what": "Manager 1986-2013; the 1999 treble (league, FA Cup, Champions League).",
+              "wiki": "Alex Ferguson"
+            },
+            {
+              "name": "Eric Cantona",
+              "what": "French talisman of the 1990s, collar up.",
+              "wiki": "Eric Cantona"
+            },
+            {
+              "name": "David Beckham",
+              "what": "Class of '92 graduate, famous crosses and free kicks.",
+              "wiki": "David Beckham"
+            },
+            {
+              "name": "Cristiano Ronaldo",
+              "what": "Became a superstar at United (2003-09), won the 2008 Ballon d'Or there.",
+              "wiki": "Cristiano Ronaldo"
+            },
+            {
+              "name": "Wayne Rooney",
+              "what": "United's all-time top scorer (253).",
+              "wiki": "Wayne Rooney"
+            }
+          ]
+        },
+        {
+          "name": "Liverpool",
+          "intro": "Anfield, 'the Reds', anthem 'You'll Never Walk Alone'. Six European Cups as of 2025; won the 2020 and 2025 league titles.",
+          "items": [
+            {
+              "name": "Anfield and the Kop",
+              "what": "The famous standing-end stand and its singing.",
+              "wiki": "Anfield"
+            },
+            {
+              "name": "Steven Gerrard",
+              "what": "Local-boy captain; the 2005 Istanbul comeback from 3-0 down.",
+              "wiki": "Steven Gerrard"
+            },
+            {
+              "name": "Kenny Dalglish",
+              "what": "'King Kenny', legend as player and manager.",
+              "wiki": "Kenny Dalglish"
+            },
+            {
+              "name": "Mohamed Salah",
+              "what": "Egyptian King: record-breaking winger since 2017.",
+              "wiki": "Mohamed Salah"
+            },
+            {
+              "name": "Jürgen Klopp",
+              "what": "Manager 2015-24, 'heavy metal football', won the 2019 Champions League and 2020 league.",
+              "wiki": "Jürgen Klopp"
+            }
+          ]
+        },
+        {
+          "name": "Arsenal",
+          "intro": "Emirates Stadium, 'the Gunners', north London. Arsène Wenger's 2003-04 'Invincibles' went a whole league season unbeaten.",
+          "items": [
+            {
+              "name": "Emirates Stadium",
+              "what": "Home since 2006, after Highbury.",
+              "wiki": "Emirates Stadium"
+            },
+            {
+              "name": "Thierry Henry",
+              "what": "Club record scorer (228), statue outside the ground.",
+              "wiki": "Thierry Henry"
+            },
+            {
+              "name": "Dennis Bergkamp",
+              "what": "Dutch 'Iceman', sublime touch.",
+              "wiki": "Dennis Bergkamp"
+            },
+            {
+              "name": "Arsène Wenger",
+              "what": "Manager 1996-2018, revolutionised English football's diet and style.",
+              "wiki": "Arsène Wenger"
+            },
+            {
+              "name": "Bukayo Saka",
+              "what": "Academy star on the right wing.",
+              "wiki": "Bukayo Saka"
+            }
+          ]
+        },
+        {
+          "name": "Manchester City",
+          "intro": "Etihad Stadium, 'the Citizens' or 'Cityzens'. Abu Dhabi-owned since 2008; won four straight titles (2021-24) and the 2023 treble under Pep Guardiola.",
+          "items": [
+            {
+              "name": "Sergio Agüero",
+              "what": "His 93:20 winner in 2012 won City's first title in 44 years.",
+              "wiki": "Sergio Agüero"
+            },
+            {
+              "name": "Kevin De Bruyne",
+              "what": "Belgian playmaker, City legend (2015-25).",
+              "wiki": "Kevin De Bruyne"
+            },
+            {
+              "name": "Erling Haaland",
+              "what": "Norwegian goal machine; 36 league goals in 2022-23, a record.",
+              "wiki": "Erling Haaland"
+            },
+            {
+              "name": "Pep Guardiola",
+              "what": "Manager 2016-2026, six league titles.",
+              "wiki": "Pep Guardiola"
+            }
+          ]
+        },
+        {
+          "name": "Chelsea",
+          "intro": "Stamford Bridge, 'the Blues', west London. Transformed by Roman Abramovich's money (2003-22): five league titles and two Champions Leagues.",
+          "items": [
+            {
+              "name": "Stamford Bridge",
+              "what": "Home since 1905.",
+              "wiki": "Stamford Bridge (stadium)"
+            },
+            {
+              "name": "Frank Lampard",
+              "what": "Club record scorer (211) from midfield.",
+              "wiki": "Frank Lampard"
+            },
+            {
+              "name": "Didier Drogba",
+              "what": "Scored the equaliser and winning penalty in the 2012 Champions League final.",
+              "wiki": "Didier Drogba"
+            },
+            {
+              "name": "José Mourinho",
+              "what": "'The Special One', titles in 2005 and 2006.",
+              "wiki": "José Mourinho"
+            }
+          ]
+        },
+        {
+          "name": "Tottenham, Newcastle and the rest",
+          "intro": "",
+          "items": [
+            {
+              "name": "Tottenham Hotspur",
+              "what": "'Spurs', north London rivals of Arsenal; new stadium in 2019; won the 2025 Europa League. Harry Kane and Son Heung-min were their stars.",
+              "wiki": "Tottenham Hotspur F.C."
+            },
+            {
+              "name": "Newcastle United",
+              "what": "St James' Park, 'the Magpies'; Saudi-owned since 2021; won the 2025 League Cup.",
+              "wiki": "Newcastle United F.C."
+            },
+            {
+              "name": "Aston Villa",
+              "what": "Villa Park, Birmingham; 1982 European Cup winners.",
+              "wiki": "Aston Villa F.C."
+            },
+            {
+              "name": "Alan Shearer",
+              "what": "Newcastle hero and Premier League record scorer (260).",
+              "wiki": "Alan Shearer"
+            },
+            {
+              "name": "Son Heung-min",
+              "what": "South Korean former Spurs captain (2015-25), beloved across Asia.",
+              "wiki": "Son Heung-min"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Trophies and legends",
+      "intro": "The silverware and the honours people argue about.",
+      "groups": [
+        {
+          "name": "Trophies",
+          "intro": "",
+          "items": [
+            {
+              "name": "Premier League trophy",
+              "what": "Golden crown on top, three lions as handles; English champions since 1992-93.",
+              "wiki": "Premier League Trophy"
+            },
+            {
+              "name": "FA Cup",
+              "what": "The oldest national football competition in the world (1871); final at Wembley in May.",
+              "wiki": "FA Cup"
+            },
+            {
+              "name": "Champions League trophy",
+              "what": "'Big Ears', for Europe's top club competition.",
+              "wiki": "European Champion Clubs' Cup"
+            },
+            {
+              "name": "Ballon d'Or",
+              "what": "Golden-ball award for the world's best player; Messi has a record eight.",
+              "wiki": "Ballon d'Or"
+            },
+            {
+              "name": "Wembley Stadium",
+              "what": "England's national stadium, with the arch; cup finals are played here.",
+              "wiki": "Wembley Stadium"
+            }
+          ]
+        },
+        {
+          "name": "World legends people compare everyone to",
+          "intro": "",
+          "items": [
+            {
+              "name": "Lionel Messi",
+              "what": "Argentine genius, 2022 World Cup winner.",
+              "wiki": "Lionel Messi"
+            },
+            {
+              "name": "Pelé",
+              "what": "Brazilian, three World Cups (1958, 1962, 1970).",
+              "wiki": "Pelé"
+            },
+            {
+              "name": "Diego Maradona",
+              "what": "'Hand of God' and the goal of the century, 1986.",
+              "wiki": "Diego Maradona"
+            },
+            {
+              "name": "Zinedine Zidane",
+              "what": "French playmaker, 1998 World Cup, that volley in 2002.",
+              "wiki": "Zinedine Zidane"
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

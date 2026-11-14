@@ -376,66 +376,154 @@
       "explain": "The Neverfull."
     }
   ],
-  "gallery": [
+  "deep": [
     {
-      "name": "Hermès Birkin",
-      "what": "The ultimate handbag: hand-made, almost impossible to buy without a purchase history, and resells above retail.",
-      "wiki": "Birkin bag"
-    },
-    {
-      "name": "Hermès Kelly",
-      "what": "Hermès' structured top-handle bag named after Grace Kelly.",
-      "wiki": "Kelly bag"
-    },
-    {
-      "name": "Chanel Classic Flap (2.55)",
-      "what": "Quilted leather with a chain strap and the CC turn-lock; prices rise every year.",
-      "wiki": "Chanel 2.55"
-    },
-    {
-      "name": "Louis Vuitton Speedy",
-      "what": "Barrel-shaped monogram canvas bag, an entry-level icon since 1930.",
-      "wiki": "Louis Vuitton Speedy"
-    },
-    {
-      "name": "Louis Vuitton Neverfull",
-      "what": "The big monogram tote you see on every MTR line.",
-      "wiki": "Louis Vuitton Neverfull"
-    },
-    {
-      "name": "Dior Saddle",
-      "what": "Curvy saddle-shaped bag from 2000, revived in 2018.",
-      "wiki": "Dior Saddle bag"
-    },
-    {
-      "name": "Dior Lady Dior",
-      "what": "Quilted 'cannage' top-handle bag made famous by Princess Diana.",
-      "wiki": "Lady Dior"
-    },
-    {
-      "name": "Bottega Veneta Jodie / Cassette",
-      "what": "Woven 'intrecciato' leather with no logo: the quiet-luxury signature.",
-      "wiki": "Bottega Veneta"
-    },
-    {
-      "name": "Goyard St. Louis tote",
-      "what": "Chevron-pattern tote with hand-painted dots; the insider's logo bag.",
-      "wiki": "Goyard"
-    },
-    {
-      "name": "Loewe Puzzle",
-      "what": "Geometric bag of interlocking leather panels.",
-      "wiki": "Loewe Puzzle bag"
-    },
-    {
-      "name": "Fendi Baguette",
-      "what": "Small shoulder bag made famous by Sex and the City.",
-      "wiki": "Fendi Baguette"
-    },
-    {
-      "name": "The Row Margaux",
-      "what": "Logo-less minimalist bag; the quiet-luxury favourite.",
-      "wiki": "The Row (fashion label)"
+      "title": "Bag by bag",
+      "intro": "The bags people recognise from across a room, and what makes each one special.",
+      "groups": [
+        {
+          "name": "Hermès",
+          "intro": "Paris, family-controlled, the top of the pyramid. The Birkin and Kelly are not on shelves: you build a purchase history with a sales associate and wait to be 'offered' one.",
+          "items": [
+            {
+              "name": "Birkin",
+              "what": "Born in 1984 after Jane Birkin complained on a flight that she couldn't find a practical bag. Sizes 25, 30, 35; leathers like Togo and Epsom; exotic crocodile versions cost far more.",
+              "value": "Jane Birkin's own original: €8.6m (Sotheby's Paris, 2025), the most expensive handbag ever sold",
+              "wiki": "Birkin bag"
+            },
+            {
+              "name": "Himalaya Birkin",
+              "what": "Niloticus crocodile dyed from smoky grey to white like a snowy mountain, often with diamond hardware. The ultimate trophy bag.",
+              "value": "Diamond Himalayas have sold for over US$300,000 at Christie's Hong Kong",
+              "wiki": "Birkin bag"
+            },
+            {
+              "name": "Kelly",
+              "what": "Structured top-handle bag from the 1930s, renamed after Grace Kelly used it to hide her pregnancy from photographers in 1956.",
+              "wiki": "Kelly bag"
+            },
+            {
+              "name": "Constance",
+              "what": "Compact shoulder bag closed with a big H buckle; another 'quota' bag.",
+              "wiki": "Hermès Constance"
+            },
+            {
+              "name": "Picotin and Evelyne",
+              "what": "Relaxed bucket bag and perforated-H messenger: the easier-to-get Hermès bags.",
+              "wiki": "Hermès"
+            }
+          ]
+        },
+        {
+          "name": "Chanel",
+          "intro": "Quilted leather, interlocking CC and chain straps. Chanel raises prices almost every year, which is why some people call the Flap an investment.",
+          "items": [
+            {
+              "name": "Classic Flap (11.12)",
+              "what": "Quilted leather, CC turn-lock, chain strap woven with leather. Medium size is the icon.",
+              "value": "Price has more than doubled since 2016",
+              "wiki": "Chanel 2.55"
+            },
+            {
+              "name": "2.55 Reissue",
+              "what": "Coco Chanel's original from February 1955, with a rectangular 'Mademoiselle' lock.",
+              "wiki": "Chanel 2.55"
+            },
+            {
+              "name": "Boy Bag",
+              "what": "Edgier, boxier flap from 2011, named after Coco's lover Boy Capel.",
+              "wiki": "Chanel"
+            },
+            {
+              "name": "Chanel 22",
+              "what": "The slouchy quilted tote from 2022, popular with younger buyers.",
+              "wiki": "Chanel"
+            },
+            {
+              "name": "Wallet on Chain (WOC)",
+              "what": "Mini flap wallet with a chain: the entry ticket to Chanel.",
+              "wiki": "Chanel"
+            }
+          ]
+        },
+        {
+          "name": "Louis Vuitton",
+          "intro": "The world's biggest luxury brand by sales. Monogram and Damier canvas, plus trunks.",
+          "items": [
+            {
+              "name": "Speedy",
+              "what": "Barrel-shaped Monogram bag from 1930; Audrey Hepburn's was a Speedy 25.",
+              "wiki": "Louis Vuitton Speedy"
+            },
+            {
+              "name": "Neverfull",
+              "what": "The big tote you'll see on every MTR line.",
+              "wiki": "Louis Vuitton Neverfull"
+            },
+            {
+              "name": "Keepall",
+              "what": "The original weekend duffel.",
+              "wiki": "Louis Vuitton Keepall"
+            },
+            {
+              "name": "Capucines",
+              "what": "LV's top-end leather bag, its answer to the Kelly.",
+              "wiki": "Louis Vuitton Capucines"
+            },
+            {
+              "name": "Malle (trunk)",
+              "what": "Hard-sided travel trunks, the brand's 1854 origins; custom trunks hold anything from watches to DJ decks.",
+              "wiki": "Louis Vuitton"
+            }
+          ]
+        },
+        {
+          "name": "Dior, Bottega, Goyard and the rest",
+          "intro": "",
+          "items": [
+            {
+              "name": "Lady Dior",
+              "what": "Quilted 'cannage' top-handle bag with D.I.O.R charms, made famous by Princess Diana in 1995.",
+              "wiki": "Lady Dior"
+            },
+            {
+              "name": "Dior Saddle",
+              "what": "Curvy saddle bag from 2000 by John Galliano, revived in 2018.",
+              "wiki": "Dior Saddle bag"
+            },
+            {
+              "name": "Dior Book Tote",
+              "what": "Embroidered canvas tote with DIOR across it, a 2018 bestseller.",
+              "wiki": "Dior"
+            },
+            {
+              "name": "Bottega Veneta Jodie / Cassette",
+              "what": "Woven 'intrecciato' leather with no logo; the quiet-luxury signature.",
+              "wiki": "Bottega Veneta"
+            },
+            {
+              "name": "Goyard St. Louis",
+              "what": "Hand-painted chevron tote; you can only buy it in store, which adds to the mystique.",
+              "wiki": "Goyard"
+            },
+            {
+              "name": "Loewe Puzzle",
+              "what": "Geometric bag of interlocking leather panels that folds flat.",
+              "wiki": "Loewe Puzzle bag"
+            },
+            {
+              "name": "Fendi Baguette",
+              "what": "Small shoulder bag tucked under the arm like a baguette; Sex and the City made it famous.",
+              "wiki": "Fendi Baguette"
+            },
+            {
+              "name": "Celine Triomphe",
+              "what": "Clean box bag with the Arc de Triomphe-inspired clasp.",
+              "wiki": "Celine (brand)"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
