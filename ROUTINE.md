@@ -54,5 +54,7 @@ Copy the shape of an existing file such as `data/topics/wine.json` and research 
 - `debates`: 4 `{ "question", "sides" }`; `starters`: 5 questions to ask an enthusiast
 - `sayThis`: 3 `{ "say", "why" }`; `avoid`: 3–4 rookie mistakes
 - `quiz`: 10 `{ "q", "options": [4], "answer", "explain" }`, answer positions varied
+- `gallery` (for anything visual: products, cars, watches, bags, dishes, places, artworks): 6–14 `{ "name", "what", "wiki" }` iconic things people mention by name, where `wiki` is the exact title of the English Wikipedia article that shows it (the app loads its picture from there). Leave it out for non-visual topics.
+- Any `names` entry whose plain name would find the wrong Wikipedia article can also get a `wiki` title.
 
 Also add a highlight for it to `data/weekly.json` (keep the existing entries) so it appears under "Fresh this week".

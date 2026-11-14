@@ -391,5 +391,67 @@
       "answer": 1,
       "explain": "The 'stock market of sneakers'."
     }
+  ],
+  "gallery": [
+    {
+      "name": "Air Jordan 1",
+      "what": "The 1985 high-top that started sneaker culture. 'Chicago' red/white/black is the most famous colourway.",
+      "wiki": "Air Jordan 1"
+    },
+    {
+      "name": "Nike Air Force 1",
+      "what": "The all-white classic low-top, everywhere since 1982.",
+      "wiki": "Nike Air Force 1"
+    },
+    {
+      "name": "Nike Dunk Low 'Panda'",
+      "what": "Black-and-white Dunk that became the most common hyped sneaker of the 2020s.",
+      "wiki": "Nike Dunk"
+    },
+    {
+      "name": "Nike Air Max 1",
+      "what": "The first shoe with a visible air bubble (1987), designed by Tinker Hatfield.",
+      "wiki": "Nike Air Max"
+    },
+    {
+      "name": "Adidas Samba",
+      "what": "Indoor football shoe with three stripes and gum sole; huge fashion revival since 2023.",
+      "wiki": "Adidas Samba"
+    },
+    {
+      "name": "Adidas Stan Smith",
+      "what": "Minimal white tennis shoe with a green heel tab.",
+      "wiki": "Stan Smith (shoe)"
+    },
+    {
+      "name": "Adidas Yeezy Boost 350",
+      "what": "Kanye West's knit runner that defined 2015-2020 hype.",
+      "wiki": "Adidas Yeezy"
+    },
+    {
+      "name": "New Balance 550",
+      "what": "Retro basketball shoe revived by Aimé Leon Dore; the 'dad shoe' of the 2020s.",
+      "wiki": "New Balance 550"
+    },
+    {
+      "name": "Converse Chuck Taylor All Star",
+      "what": "The canvas basketball shoe from 1917, still everywhere.",
+      "wiki": "Chuck Taylor All-Stars"
+    },
+    {
+      "name": "Onitsuka Tiger Mexico 66",
+      "what": "Slim Japanese runner with the crossed stripes; a must-buy for Hong Kong tourists in Japan.",
+      "wiki": "Onitsuka Tiger Mexico 66"
+    },
+    {
+      "name": "Off-White x Nike 'The Ten'",
+      "what": "Virgil Abloh's deconstructed Nikes with zip ties and quote marks.",
+      "wiki": "Off-White"
+    },
+    {
+      "name": "Travis Scott Air Jordan 1 (reverse Swoosh)",
+      "what": "The backwards-tick Jordan that resells for many times retail.",
+      "wiki": "Travis Scott Air Jordan 1"
+    }
   ]
 }

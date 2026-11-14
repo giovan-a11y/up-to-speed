@@ -449,5 +449,77 @@
       "answer": 1,
       "explain": "Founded by Rolex's founder Hans Wilsdorf."
     }
+  ],
+  "gallery": [
+    {
+      "name": "Rolex Submariner",
+      "what": "The dive watch everyone pictures when they say 'Rolex': black dial, rotating bezel. The most copied watch design ever.",
+      "wiki": "Rolex Submariner"
+    },
+    {
+      "name": "Rolex Cosmograph Daytona",
+      "what": "Rolex's racing chronograph with three small dials. Paul Newman's made it the most hyped vintage watch on earth; new ones have years-long waitlists.",
+      "wiki": "Rolex Daytona"
+    },
+    {
+      "name": "Rolex GMT-Master II 'Pepsi'",
+      "what": "Pilot's watch showing two time zones; the red-and-blue bezel gives it the nickname 'Pepsi'. 'Batman' is the blue-and-black version.",
+      "wiki": "Rolex GMT Master II"
+    },
+    {
+      "name": "Rolex Datejust",
+      "what": "The classic dress-everyday Rolex with the date magnified under a 'Cyclops' lens and a fluted bezel.",
+      "wiki": "Rolex Datejust"
+    },
+    {
+      "name": "Rolex Day-Date 'President'",
+      "what": "Only made in gold or platinum, shows the day spelled out. Worn by presidents, hence the nickname.",
+      "wiki": "Rolex Day-Date"
+    },
+    {
+      "name": "Omega Speedmaster 'Moonwatch'",
+      "what": "The first watch worn on the Moon (1969). Black chronograph, a favourite 'first serious watch'.",
+      "wiki": "Omega Speedmaster"
+    },
+    {
+      "name": "Omega Seamaster",
+      "what": "James Bond's watch since 1995; wave-pattern dial on the Diver 300M.",
+      "wiki": "Omega Seamaster"
+    },
+    {
+      "name": "Patek Philippe Nautilus",
+      "what": "Gérald Genta's porthole-shaped steel sports watch. The 5711 became the ultimate status grail and trades far above retail.",
+      "wiki": "Patek Philippe Nautilus"
+    },
+    {
+      "name": "Audemars Piguet Royal Oak",
+      "what": "The 1972 octagonal steel watch with exposed screws and 'tapisserie' grid dial that invented the luxury sports watch.",
+      "wiki": "Audemars Piguet Royal Oak"
+    },
+    {
+      "name": "Cartier Tank",
+      "what": "Rectangular dress watch from 1917, worn by Diana, Jackie Kennedy and Timothée Chalamet.",
+      "wiki": "Cartier Tank"
+    },
+    {
+      "name": "Cartier Santos",
+      "what": "One of the first wristwatches (1904), made for aviator Alberto Santos-Dumont; square case with screws on the bezel.",
+      "wiki": "Cartier Santos-Dumont watch"
+    },
+    {
+      "name": "Grand Seiko 'Snowflake'",
+      "what": "Japanese watch with a textured white dial like fresh snow and a gliding Spring Drive seconds hand.",
+      "wiki": "Grand Seiko"
+    },
+    {
+      "name": "Richard Mille RM 011",
+      "what": "Skeletonised, tonneau-shaped, ultra-light and very expensive; the watch of footballers, F1 drivers and Jackie Chan.",
+      "wiki": "Richard Mille"
+    },
+    {
+      "name": "Omega x Swatch MoonSwatch",
+      "what": "Plastic, colourful Speedmaster-shaped Swatch from 2022 that caused queues around the block, including in Hong Kong.",
+      "wiki": "MoonSwatch"
+    }
   ]
 }

@@ -138,10 +138,26 @@ main { padding-block: 28px 64px; }
 .terms dt { font-weight: 700; }
 .terms dd { margin: 0; color: var(--muted); font-size: 15px; }
 .names { display: grid; gap: 10px; }
-.names div { display: grid; grid-template-columns: minmax(120px, 190px) 1fr; gap: 12px; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
-.names div:last-child { border-bottom: 0; padding-bottom: 0; }
+.names .nm { display: grid; grid-template-columns: 76px minmax(110px, 170px) 1fr; gap: 12px; align-items: start; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+.names .nm:last-child { border-bottom: 0; padding-bottom: 0; }
 .names b { font-weight: 700; }
 .names span { color: var(--muted); font-size: 15px; }
+.pic { margin: 0; width: 76px; aspect-ratio: 1; border-radius: 10px; background: var(--bg); border: 1px solid var(--line); overflow: hidden; display: grid; place-items: center; }
+.pic img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pic.none::after { content: ""; width: 22px; height: 22px; border-radius: 50%; border: 2px dashed var(--line); }
+.links { display: flex; gap: 12px; flex-wrap: wrap; font-size: 13px; margin-top: 4px; }
+.links a { color: var(--accent); }
+.links a[hidden] { display: none; }
+.gal { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; }
+.gal > div { border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: var(--surface); display: grid; grid-template-rows: auto 1fr; }
+.gal .pic { width: 100%; aspect-ratio: 4 / 3; border: 0; border-radius: 0; }
+.gal .pic img { object-fit: contain; background: #fff; }
+.gal .txt { padding: 12px 14px; display: grid; gap: 4px; align-content: start; }
+.gal .txt span { color: var(--muted); font-size: 14px; }
+.picbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 14px; font-size: 13px; color: var(--muted); }
+.fc-face .pic { width: 150px; justify-self: center; }
+.fc-face .pic img { object-fit: contain; background: #fff; }
+.credit { font-size: 12px; color: var(--muted); }
 .tl { display: grid; gap: 0; }
 .tl div { display: grid; grid-template-columns: 84px 1fr; gap: 14px; padding: 8px 0; border-left: 2px solid var(--line); margin-left: 6px; padding-left: 16px; position: relative; }
 .tl div::before { content: ""; position: absolute; left: -6px; top: 15px; width: 10px; height: 10px; border-radius: 50%; background: var(--surface); border: 2px solid var(--accent); }
@@ -164,8 +180,8 @@ main { padding-block: 28px 64px; }
 /* Flashcards */
 .fc-wrap { display: grid; gap: 16px; justify-items: center; }
 .fc-meta { display: flex; justify-content: space-between; width: 100%; max-width: 520px; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; flex-wrap: wrap; gap: 8px; }
-.fc { width: 100%; max-width: 520px; min-height: 260px; perspective: 1200px; border: 0; background: none; padding: 0; }
-.fc-inner { position: relative; width: 100%; min-height: 260px; transition: transform .45s; transform-style: preserve-3d; }
+.fc { width: 100%; max-width: 520px; min-height: 340px; perspective: 1200px; border: 0; background: none; padding: 0; }
+.fc-inner { position: relative; width: 100%; min-height: 340px; transition: transform .45s; transform-style: preserve-3d; }
 .fc.flipped .fc-inner { transform: rotateY(180deg); }
 .fc-face { position: absolute; inset: 0; backface-visibility: hidden; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); display: grid; place-content: center; gap: 10px; padding: 28px; text-align: center; }
 .fc-face .kind { font-family: var(--f-mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
@@ -209,7 +225,7 @@ main { padding-block: 28px 64px; }
 .toolbar { display: flex; gap: 8px; flex-wrap: wrap; justify-content: space-between; align-items: center; margin-top: 18px; }
 
 @media (max-width: 520px) {
-  .names div { grid-template-columns: 1fr; gap: 2px; }
+  .names .nm { grid-template-columns: 64px 1fr; gap: 4px 12px; } .names .nm .pic { width: 64px; grid-row: span 2; }
   .tl div { grid-template-columns: 1fr; gap: 0; }
   .block { padding: 18px; }
   .ask { flex-direction: column; }
@@ -270,7 +286,7 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "
 const slugify = (s) => String(s).toLowerCase().normalize("NFKD").replace(/[^\w\s-]/g, "").trim().replace(/[\s_]+/g, "-").replace(/-+/g, "-").slice(0, 48) || "topic";
 const RESERVED = new Set(["settings", "sidebar", "customize", "upgrade", "downloads"]);
 const BASE_SECTIONS = ["basics", "jargon", "names", "history", "now", "debates", "talk"];
-const sectionsFor = (c) => c.local && c.local.length ? ["basics", "jargon", "names", "history", "now", "local", "debates", "talk"] : BASE_SECTIONS;
+const sectionsFor = (c) => ["basics", "jargon", "names", ...(c.gallery && c.gallery.length ? ["gallery"] : []), "history", "now", ...(c.local && c.local.length ? ["local"] : []), "debates", "talk"];
 const CATEGORIES = ["Sports", "Luxury & style", "Money", "Food & drink", "Tech", "Culture", "Lifestyle"];
 const SUGGEST = ["Mahjong", "Badminton", "Anime", "Sake", "Skiing", "Poker", "Classical music", "Board games", "Startups & VC", "Yoga", "Cricket", "Tea"];
 
@@ -351,7 +367,7 @@ function normalize(c) {
   c = c || {};
   return {
     updated: String(c.updated || ""), refresh: String(c.refresh || ""), requested: String(c.requested || ""),
-    numbers: arr(c.numbers).filter((x) => x && x.label && x.value),
+    numbers: arr(c.numbers).filter((x) => x && x.label && x.value), gallery: arr(c.gallery).filter((x) => x && x.name),
     topic: String(c.topic || "Untitled"), category: String(c.category || ""), local: arr(c.local).filter((x) => x && x.headline), tagline: String(c.tagline || ""), asOf: String(c.asOf || ""), why: String(c.why || ""),
     essentials: arr(c.essentials).filter((x) => x && x.title), jargon: arr(c.jargon).filter((x) => x && x.term),
     names: arr(c.names).filter((x) => x && x.name), timeline: arr(c.timeline).filter((x) => x && x.event),
@@ -362,7 +378,8 @@ function normalize(c) {
 }
 function cards(c) {
   return [...c.jargon.map((j) => ({ id: "t:" + j.term, kind: "Term", front: j.term, back: j.meaning })),
-          ...c.names.map((n) => ({ id: "n:" + n.name, kind: "Who / what", front: n.name, back: n.what }))];
+          ...c.names.map((n) => ({ id: "n:" + n.name, kind: "Who / what", front: n.name, back: n.what, q: picQuery(n, c) })),
+          ...c.gallery.map((g) => ({ id: "g:" + g.name, kind: "Icon", front: g.name, back: g.what, q: picQuery(g, c) }))];
 }
 function readiness(e) {
   const c = e.course, p = e.progress;
@@ -586,7 +603,8 @@ function paneCourse(pane, e) {
   pane.innerHTML =
     blk("basics", "The two-minute version", `<p class="why">${esc(c.why)}</p><div class="ess">${c.essentials.map((x) => `<div><b>${esc(x.title)}</b><span>${esc(x.body)}</span></div>`).join("")}</div>`) +
     blk("jargon", "Words you'll hear", `<dl class="terms">${c.jargon.map((j) => `<div><dt><mark>${esc(j.term)}</mark></dt><dd>${esc(j.meaning)}</dd></div>`).join("")}</dl>`) +
-    blk("names", "Names to know", `<div class="names">${c.names.map((n) => `<div><b>${esc(n.name)}</b><span>${esc(n.what)}</span></div>`).join("")}</div>`) +
+    blk("names", "Names to know", `${picBar(c)}<div class="names">${c.names.map((n) => `<div class="nm">${picSlot(n, c)}<b>${esc(n.name)}</b><div><span>${esc(n.what)}</span>${picLinks(n, c)}</div></div>`).join("")}</div>`) +
+    blk("gallery", "Icons to recognise", `<p class="note" style="margin-bottom:12px">The famous pieces enthusiasts mention by name. Tap "More pictures" to see every angle.</p><div class="gal">${c.gallery.map((g) => `<div>${picSlot(g, c)}<div class="txt"><b>${esc(g.name)}</b><span>${esc(g.what)}</span>${picLinks(g, c)}</div></div>`).join("")}</div>`) +
     blk("history", "How we got here", `<div class="tl">${c.timeline.map((t) => `<div><span class="yr">${esc(t.year)}</span><span>${esc(t.event)}</span></div>`).join("")}</div>`) +
     blk("now", "What people are talking about", `${c.asOf ? `<span class="asof">As of ${esc(c.asOf)}${c.refresh ? ` · refreshed ${c.refresh === "weekly" ? "every week" : "every month"}` : ""}. Things move fast, so ask what's new.</span>` : ""}${c.numbers.length ? `<div class="nums">${c.numbers.map((n) => `<div><span>${esc(n.label)}</span><b>${esc(n.value)}</b></div>`).join("")}</div>` : ""}<div class="news">${c.now.map((x) => `<div><b>${esc(x.headline)}</b><span>${esc(x.detail)}</span></div>`).join("")}</div>`) +
     blk("local", "The Hong Kong angle", `<div class="news">${c.local.map((x) => `<div><b>${esc(x.headline)}</b><span>${esc(x.detail)}</span></div>`).join("")}</div>`) +
@@ -595,6 +613,8 @@ function paneCourse(pane, e) {
       <div class="sub">Questions to ask</div><ul class="list">${c.starters.map((s) => `<li>${esc(s)}</li>`).join("")}</ul>
       <div class="sub">Lines that show you get it</div>${c.sayThis.map((s) => `<div class="say"><q>${esc(s.say)}</q><span>${esc(s.why)}</span></div>`).join("")}
       <div class="sub">Rookie mistakes</div><ul class="list">${c.avoid.map((s) => `<li>${esc(s)}</li>`).join("")}</ul>`);
+  hydratePics(pane);
+  wirePicBar(pane, c);
   pane.querySelectorAll("[data-read]").forEach((b) => b.onclick = () => {
     const k = b.dataset.read, i = p.read.indexOf(k);
     if (i >= 0) p.read.splice(i, 1); else p.read.push(k);
@@ -624,7 +644,7 @@ function paneCards(pane, e) {
     <button class="fc ${fc.flipped ? "flipped" : ""}" id="fc" type="button" aria-label="Flip card">
       <div class="fc-inner">
         <div class="fc-face"><span class="kind">${esc(card.kind)}</span><h3>${esc(card.front)}</h3><span class="note">Tap or press space to flip</span></div>
-        <div class="fc-face fc-back"><span class="kind">${esc(card.front)}</span><p>${esc(card.back)}</p></div>
+        <div class="fc-face fc-back"><span class="kind">${esc(card.front)}</span>${card.q ? `<figure class="pic" data-q="${esc(card.q)}"></figure>` : ""}<p>${esc(card.back)}</p></div>
       </div>
     </button>
     <div class="fc-actions">
@@ -633,6 +653,7 @@ function paneCards(pane, e) {
     </div>
     <div class="fc-dots">${deck.map((x, i) => `<i class="${p.known.includes(x.id) ? "k" : ""} ${i === fc.i ? "cur" : ""}"></i>`).join("")}</div>
   </div>`;
+  hydratePics(pane);
   const flip = () => { fc.flipped = !fc.flipped; document.getElementById("fc").classList.toggle("flipped", fc.flipped); };
   document.getElementById("fc").onclick = flip;
   const mark = (know) => {
@@ -729,6 +750,68 @@ function paneAsk(pane, e) {
       out.textContent = err?.code === "not_granted" ? "Asking needs your OK to use Claude. Reload and allow it when asked." : err?.code === "rate_limited" ? "Too many requests right now. Wait a minute and try again." : (err?.text || "That didn't go through. Try again.");
       btn.disabled = false; inp.disabled = false;
     }
+  };
+}
+
+// ---------- Pictures (Wikipedia / Wikimedia Commons) ----------
+// Each name's picture is looked up on Wikipedia the first time it's shown online,
+// remembered on the device, and the image itself is cached by the service worker.
+const PIC_KEY = "uts.pics.v1";
+let picMap = {}; try { picMap = JSON.parse(localStorage.getItem(PIC_KEY) || "{}"); } catch {}
+const picSave = () => { try { localStorage.setItem(PIC_KEY, JSON.stringify(picMap)); } catch {} };
+function picQuery(n, c) {
+  if (n.wiki) return n.wiki;
+  const base = String(n.name).split(" / ")[0].replace(/\s*\(.*?\)\s*/g, " ").trim();
+  return base + " " + c.topic;
+}
+const searchUrl = (n, c) => "https://www.google.com/search?tbm=isch&q=" + encodeURIComponent(String(n.name).replace(/[()]/g, "") + " " + (n.wiki ? "" : c.topic));
+const picSlot = (n, c) => `<figure class="pic" data-q="${esc(picQuery(n, c))}"></figure>`;
+const picLinks = (n, c) => `<span class="links"><a href="${esc(searchUrl(n, c))}" target="_blank" rel="noopener">More pictures</a><a data-wiki="${esc(picQuery(n, c))}" target="_blank" rel="noopener" hidden>Wikipedia</a></span>`;
+const picBar = (c) => `<div class="picbar"><span id="pic-status">Pictures load from Wikipedia when you're online.</span><button class="btn ghost sm" type="button" id="pic-save">Save pictures for offline</button></div>`;
+const inflight = new Map();
+async function resolvePic(q) {
+  const hit = picMap[q];
+  if (hit && (hit.img || (hit.at && Date.now() - hit.at < 7 * 864e5))) return hit;
+  if (!navigator.onLine) return hit || null;
+  if (inflight.has(q)) return inflight.get(q);
+  const p = (async () => {
+    try {
+      const url = "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&origin=*&redirects=1&generator=search&gsrlimit=1&gsrsearch=" + encodeURIComponent(q) + "&prop=pageimages%7Cinfo&piprop=thumbnail&pithumbsize=480&inprop=url";
+      const r = await fetch(url); const j = await r.json();
+      const pg = j?.query?.pages?.[0];
+      const out = pg ? { title: pg.title, url: pg.fullurl, img: pg.thumbnail?.source || "" } : { img: "" };
+      if (!out.img) out.at = Date.now();
+      picMap[q] = out; picSave(); return out;
+    } catch { return null; } finally { inflight.delete(q); }
+  })();
+  inflight.set(q, p); return p;
+}
+async function hydratePics(root) {
+  const slots = [...root.querySelectorAll("[data-q]")], links = [...root.querySelectorAll("[data-wiki]")];
+  const queue = [...new Set([...slots.map((s) => s.dataset.q), ...links.map((a) => a.dataset.wiki)])];
+  const worker = async () => { while (queue.length) await resolvePic(queue.shift()); };
+  const apply = () => {
+    slots.forEach((s) => { const r = picMap[s.dataset.q]; if (r && r.img && !s.firstChild) { const im = new Image(); im.loading = "lazy"; im.alt = r.title || ""; im.src = r.img; im.onerror = () => { im.remove(); s.classList.add("none"); }; s.appendChild(im); s.classList.remove("none"); } else if (r && !r.img) s.classList.add("none"); });
+    links.forEach((a) => { const r = picMap[a.dataset.wiki]; if (r && r.url) { a.href = r.url; a.hidden = false; } });
+  };
+  apply();
+  await Promise.all([worker(), worker(), worker(), worker()]);
+  apply();
+  slots.forEach((s) => { if (!s.firstChild) s.classList.add("none"); });
+}
+function wirePicBar(pane, c) {
+  const btn = pane.querySelector("#pic-save"), st = pane.querySelector("#pic-status"); if (!btn) return;
+  const qs = [...c.names, ...c.gallery].map((n) => picQuery(n, c));
+  btn.onclick = async () => {
+    if (!navigator.onLine) { st.textContent = "Connect to the internet first, then tap again."; return; }
+    btn.disabled = true; let done = 0;
+    for (const q of qs) {
+      const r = await resolvePic(q);
+      if (r && r.img) { try { await fetch(r.img, { mode: "no-cors" }); } catch {} }
+      st.textContent = `Saving pictures… ${++done} of ${qs.length}`;
+    }
+    st.textContent = "Pictures saved. They'll show even when you're offline.";
+    btn.disabled = false;
   };
 }
 

@@ -382,5 +382,42 @@
       "answer": 0,
       "explain": "Abstract painter."
     }
+  ],
+  "gallery": [
+    {
+      "name": "Yayoi Kusama pumpkins",
+      "what": "Kusama's polka-dot pumpkins and infinity rooms.",
+      "wiki": "Yayoi Kusama"
+    },
+    {
+      "name": "Basquiat crown",
+      "what": "Basquiat's three-pointed crown motif and raw, scrawled paintings.",
+      "wiki": "Jean-Michel Basquiat"
+    },
+    {
+      "name": "Warhol's Marilyn / soup cans",
+      "what": "Pop Art screenprints of celebrities and Campbell's soup.",
+      "wiki": "Campbell's Soup Cans"
+    },
+    {
+      "name": "Banksy 'Girl with Balloon'",
+      "what": "The stencil that shredded itself at Sotheby's in 2018.",
+      "wiki": "Girl with Balloon"
+    },
+    {
+      "name": "Mona Lisa",
+      "what": "Leonardo's portrait in the Louvre, the world's most famous painting.",
+      "wiki": "Mona Lisa"
+    },
+    {
+      "name": "King of Kowloon calligraphy",
+      "what": "Tsang Tsou-choi's ink graffiti on Hong Kong walls and lamp posts.",
+      "wiki": "Tsang Tsou-choi"
+    },
+    {
+      "name": "M+ building",
+      "what": "The museum in West Kowloon with the LED facade.",
+      "wiki": "M+"
+    }
   ]
 }

@@ -420,5 +420,67 @@
       "answer": 1,
       "explain": "Launched in 1997."
     }
+  ],
+  "gallery": [
+    {
+      "name": "Porsche 911",
+      "what": "The rear-engined sports car with the same frog-eyed silhouette since 1963.",
+      "wiki": "Porsche 911"
+    },
+    {
+      "name": "Ferrari F40",
+      "what": "Ferrari's raw 1987 supercar with a huge rear wing; a poster car for a generation.",
+      "wiki": "Ferrari F40"
+    },
+    {
+      "name": "Lamborghini Countach",
+      "what": "The wedge-shaped 1970s supercar with scissor doors that defined 'exotic car'.",
+      "wiki": "Lamborghini Countach"
+    },
+    {
+      "name": "Toyota Alphard",
+      "what": "The boxy luxury minivan that is Hong Kong's executive and celebrity shuttle.",
+      "wiki": "Toyota Alphard"
+    },
+    {
+      "name": "Tesla Model Y",
+      "what": "The world's best-selling EV for several years; common on Hong Kong roads.",
+      "wiki": "Tesla Model Y"
+    },
+    {
+      "name": "BYD Seal",
+      "what": "BYD's sleek electric saloon that put the Chinese brand on the global map.",
+      "wiki": "BYD Seal"
+    },
+    {
+      "name": "Xiaomi SU7",
+      "what": "Xiaomi's 2024 electric sedan, often compared to a Porsche Taycan, that sold out in minutes.",
+      "wiki": "Xiaomi SU7"
+    },
+    {
+      "name": "Mercedes-Benz G-Class",
+      "what": "The square-shaped off-roader ('G-Wagon') turned rich-person status symbol.",
+      "wiki": "Mercedes-Benz G-Class"
+    },
+    {
+      "name": "Rolls-Royce Phantom",
+      "what": "The flagship limousine with the Spirit of Ecstasy statue and suicide doors.",
+      "wiki": "Rolls-Royce Phantom"
+    },
+    {
+      "name": "Mazda MX-5 Miata",
+      "what": "The small, cheap, fun two-seat roadster: the best-selling sports car ever.",
+      "wiki": "Mazda MX-5"
+    },
+    {
+      "name": "Ford Mustang",
+      "what": "The original American 'pony car' from 1964.",
+      "wiki": "Ford Mustang"
+    },
+    {
+      "name": "Nissan Skyline GT-R R34",
+      "what": "Japanese performance icon made famous by Gran Turismo and Fast & Furious.",
+      "wiki": "Nissan Skyline GT-R"
+    }
   ]
 }

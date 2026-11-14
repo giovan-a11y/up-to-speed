@@ -1,7 +1,7 @@
 // Offline support: the app shell and all topic content are cached on install.
 // Pages and data are fetched fresh when online (so weekly updates arrive) and
 // served from the cache when offline.
-const VERSION = "056cacdf3938";
+const VERSION = "9380fef819e7";
 const CACHE = "uts-" + VERSION;
 const SHELL = ["./", "index.html", "data/bundle.json", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "icons/maskable-512.png"];
 
@@ -10,7 +10,7 @@ self.addEventListener("install", (e) => {
 });
 
 self.addEventListener("activate", (e) => {
-  e.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((k) => k.startsWith("uts-") && k !== CACHE && k !== "uts-fonts").map((k) => caches.delete(k)))).then(() => self.clients.claim()));
+  e.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((k) => k.startsWith("uts-") && k !== CACHE && k !== "uts-fonts" && k !== "uts-img").map((k) => caches.delete(k)))).then(() => self.clients.claim()));
 });
 
 self.addEventListener("fetch", (e) => {
@@ -24,6 +24,16 @@ self.addEventListener("fetch", (e) => {
       const hit = await c.match(req);
       if (hit) return hit;
       try { const res = await fetch(req); if (res.ok || res.type === "opaque") c.put(req, res.clone()); return res; }
+      catch { return new Response("", { status: 504 }); }
+    }));
+    return;
+  }
+  // Wikimedia pictures: cache-first so pictures you've seen also work offline.
+  if (url.hostname === "upload.wikimedia.org") {
+    e.respondWith(caches.open("uts-img").then(async (c) => {
+      const hit = await c.match(req, { ignoreVary: true }) || await c.match(req.url, { ignoreVary: true });
+      if (hit) return hit;
+      try { const res = await fetch(req); if (res.ok || res.type === "opaque") c.put(req.url, res.clone()); return res; }
       catch { return new Response("", { status: 504 }); }
     }));
     return;

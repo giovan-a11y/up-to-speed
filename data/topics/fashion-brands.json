@@ -394,5 +394,52 @@
       "answer": 1,
       "explain": "Along with Saint Laurent and Bottega Veneta."
     }
+  ],
+  "gallery": [
+    {
+      "name": "Chanel tweed jacket",
+      "what": "Boxy bouclé jacket with braid trim, the house's signature since the 1950s.",
+      "wiki": "Chanel suit"
+    },
+    {
+      "name": "Burberry trench coat",
+      "what": "Beige gabardine trench with the check lining.",
+      "wiki": "Burberry trench coat"
+    },
+    {
+      "name": "Louis Vuitton Monogram",
+      "what": "The LV and flower pattern on canvas, designed in 1896.",
+      "wiki": "Louis Vuitton monogram"
+    },
+    {
+      "name": "Gucci horsebit loafer",
+      "what": "Leather loafer with a metal snaffle, worn by bankers since 1953.",
+      "wiki": "Gucci loafer"
+    },
+    {
+      "name": "Hermès scarf (carré)",
+      "what": "Printed silk square, collectible designs released twice a year.",
+      "wiki": "Hermès scarf"
+    },
+    {
+      "name": "Balenciaga Triple S",
+      "what": "Chunky 'ugly' sneaker that started the dad-shoe trend in 2017.",
+      "wiki": "Balenciaga Triple S"
+    },
+    {
+      "name": "Miu Miu micro-mini skirt",
+      "what": "The 2022 low-rise mini skirt set that took over social media.",
+      "wiki": "Miu Miu"
+    },
+    {
+      "name": "Uniqlo Heattech / Ultra Light Down",
+      "what": "Uniqlo's thermal base layer and packable down jacket, staples in every HK wardrobe.",
+      "wiki": "Uniqlo"
+    },
+    {
+      "name": "Met Gala",
+      "what": "The annual New York fashion fundraiser run by Anna Wintour; the biggest red carpet in fashion.",
+      "wiki": "Met Gala"
+    }
   ]
 }

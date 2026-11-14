@@ -498,5 +498,47 @@
       "label": "Races left",
       "value": "3 (Vegas 21 Nov)"
     }
+  ],
+  "gallery": [
+    {
+      "name": "Monaco Grand Prix",
+      "what": "The slow, glamorous street race between yachts and casinos.",
+      "wiki": "Monaco Grand Prix"
+    },
+    {
+      "name": "Marina Bay Street Circuit",
+      "what": "Singapore's night race, the closest F1 race to Hong Kong.",
+      "wiki": "Marina Bay Street Circuit"
+    },
+    {
+      "name": "Shanghai International Circuit",
+      "what": "Home of the Chinese Grand Prix, back on the calendar since 2024.",
+      "wiki": "Shanghai International Circuit"
+    },
+    {
+      "name": "Silverstone",
+      "what": "The British GP circuit, birthplace of the world championship in 1950.",
+      "wiki": "Silverstone Circuit"
+    },
+    {
+      "name": "Ferrari 'Rosso Corsa' livery",
+      "what": "The red Ferrari car, F1's oldest and most famous team colour.",
+      "wiki": "Scuderia Ferrari"
+    },
+    {
+      "name": "McLaren papaya livery",
+      "what": "Bright orange McLaren cars, champions again in 2024-25.",
+      "wiki": "McLaren"
+    },
+    {
+      "name": "Halo",
+      "what": "The titanium safety bar over the cockpit, introduced 2018; it has saved several drivers.",
+      "wiki": "Halo (safety device)"
+    },
+    {
+      "name": "Pit stop",
+      "what": "Tyre changes in about two seconds by a 20-person crew.",
+      "wiki": "Pit stop"
+    }
   ]
 }

@@ -387,5 +387,37 @@
       "answer": 1,
       "explain": "Italy's 'king of wines'."
     }
+  ],
+  "gallery": [
+    {
+      "name": "Château Lafite Rothschild label",
+      "what": "The Bordeaux First Growth label that became a status symbol in Hong Kong and China around 2010.",
+      "wiki": "Château Lafite Rothschild"
+    },
+    {
+      "name": "Domaine de la Romanée-Conti",
+      "what": "The tiny Burgundy vineyard making the world's most expensive wine.",
+      "wiki": "Domaine de la Romanée-Conti"
+    },
+    {
+      "name": "Dom Pérignon",
+      "what": "Moët's prestige Champagne with the shield label.",
+      "wiki": "Dom Pérignon (wine)"
+    },
+    {
+      "name": "Penfolds Grange",
+      "what": "Australia's most famous red; a favourite in Chinese markets.",
+      "wiki": "Penfolds Grange"
+    },
+    {
+      "name": "Barolo",
+      "what": "Nebbiolo-based 'king of wines' from Piedmont, Italy.",
+      "wiki": "Barolo"
+    },
+    {
+      "name": "Decanter",
+      "what": "The glass vessel used to let wine breathe.",
+      "wiki": "Decanter"
+    }
   ]
 }

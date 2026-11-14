@@ -383,5 +383,42 @@
       "answer": 1,
       "explain": "Rich flavours."
     }
+  ],
+  "gallery": [
+    {
+      "name": "The Macallan 18 Sherry Oak",
+      "what": "The classic Macallan bottle, a staple of HK business dinners.",
+      "wiki": "The Macallan distillery"
+    },
+    {
+      "name": "Yamazaki 12",
+      "what": "Suntory's flagship Japanese single malt; hard to find at retail.",
+      "wiki": "Yamazaki distillery"
+    },
+    {
+      "name": "Hibiki 17 / Harmony",
+      "what": "Suntory's 24-faceted bottle, one face for each hour of the day.",
+      "wiki": "Hibiki (whisky)"
+    },
+    {
+      "name": "Johnnie Walker Blue Label",
+      "what": "Blue box, numbered bottle: the gift whisky of Asia.",
+      "wiki": "Johnnie Walker"
+    },
+    {
+      "name": "Lagavulin 16",
+      "what": "Smoky Islay classic, the gateway to peated whisky.",
+      "wiki": "Lagavulin distillery"
+    },
+    {
+      "name": "Glencairn glass",
+      "what": "The tulip-shaped tasting glass whisky people use.",
+      "wiki": "Glencairn whisky glass"
+    },
+    {
+      "name": "Kavalan",
+      "what": "Taiwan's award-winning whisky from Yilan.",
+      "wiki": "Kavalan distillery"
+    }
   ]
 }

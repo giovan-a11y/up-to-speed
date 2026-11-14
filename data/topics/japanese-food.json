@@ -391,5 +391,47 @@
       "answer": 1,
       "explain": "In 1958."
     }
+  ],
+  "gallery": [
+    {
+      "name": "Omakase sushi",
+      "what": "Chef's-choice sushi counter, piece by piece.",
+      "wiki": "Omakase"
+    },
+    {
+      "name": "Tonkotsu ramen",
+      "what": "Rich pork-bone broth ramen from Fukuoka (Ichiran, Ippudo).",
+      "wiki": "Tonkotsu ramen"
+    },
+    {
+      "name": "Wagyu / Kobe beef",
+      "what": "Intensely marbled Japanese beef.",
+      "wiki": "Kobe beef"
+    },
+    {
+      "name": "Kaiseki",
+      "what": "Multi-course seasonal Japanese haute cuisine.",
+      "wiki": "Kaiseki"
+    },
+    {
+      "name": "Izakaya",
+      "what": "Casual Japanese pub serving small plates and drinks.",
+      "wiki": "Izakaya"
+    },
+    {
+      "name": "Uni (sea urchin)",
+      "what": "Creamy orange sea urchin, prized from Hokkaido.",
+      "wiki": "Sea urchin as food"
+    },
+    {
+      "name": "Okonomiyaki",
+      "what": "Osaka's savoury pancake cooked on a griddle.",
+      "wiki": "Okonomiyaki"
+    },
+    {
+      "name": "Sake",
+      "what": "Japanese rice wine; Dassai is the best-known premium brand.",
+      "wiki": "Sake"
+    }
   ]
 }

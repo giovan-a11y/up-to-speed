@@ -375,5 +375,67 @@
       "answer": 0,
       "explain": "The Neverfull."
     }
+  ],
+  "gallery": [
+    {
+      "name": "Hermès Birkin",
+      "what": "The ultimate handbag: hand-made, almost impossible to buy without a purchase history, and resells above retail.",
+      "wiki": "Birkin bag"
+    },
+    {
+      "name": "Hermès Kelly",
+      "what": "Hermès' structured top-handle bag named after Grace Kelly.",
+      "wiki": "Kelly bag"
+    },
+    {
+      "name": "Chanel Classic Flap (2.55)",
+      "what": "Quilted leather with a chain strap and the CC turn-lock; prices rise every year.",
+      "wiki": "Chanel 2.55"
+    },
+    {
+      "name": "Louis Vuitton Speedy",
+      "what": "Barrel-shaped monogram canvas bag, an entry-level icon since 1930.",
+      "wiki": "Louis Vuitton Speedy"
+    },
+    {
+      "name": "Louis Vuitton Neverfull",
+      "what": "The big monogram tote you see on every MTR line.",
+      "wiki": "Louis Vuitton Neverfull"
+    },
+    {
+      "name": "Dior Saddle",
+      "what": "Curvy saddle-shaped bag from 2000, revived in 2018.",
+      "wiki": "Dior Saddle bag"
+    },
+    {
+      "name": "Dior Lady Dior",
+      "what": "Quilted 'cannage' top-handle bag made famous by Princess Diana.",
+      "wiki": "Lady Dior"
+    },
+    {
+      "name": "Bottega Veneta Jodie / Cassette",
+      "what": "Woven 'intrecciato' leather with no logo: the quiet-luxury signature.",
+      "wiki": "Bottega Veneta"
+    },
+    {
+      "name": "Goyard St. Louis tote",
+      "what": "Chevron-pattern tote with hand-painted dots; the insider's logo bag.",
+      "wiki": "Goyard"
+    },
+    {
+      "name": "Loewe Puzzle",
+      "what": "Geometric bag of interlocking leather panels.",
+      "wiki": "Loewe Puzzle bag"
+    },
+    {
+      "name": "Fendi Baguette",
+      "what": "Small shoulder bag made famous by Sex and the City.",
+      "wiki": "Fendi Baguette"
+    },
+    {
+      "name": "The Row Margaux",
+      "what": "Logo-less minimalist bag; the quiet-luxury favourite.",
+      "wiki": "The Row (fashion label)"
+    }
   ]
 }

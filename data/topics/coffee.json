@@ -383,5 +383,37 @@
       "answer": 1,
       "explain": "They keep origin flavours."
     }
+  ],
+  "gallery": [
+    {
+      "name": "Flat white",
+      "what": "Espresso with velvety steamed milk, Australian/NZ style.",
+      "wiki": "Flat white"
+    },
+    {
+      "name": "Pour-over (V60)",
+      "what": "Coffee made by pouring water over grounds in a cone dripper.",
+      "wiki": "Pour-over coffee"
+    },
+    {
+      "name": "Latte art",
+      "what": "Patterns like hearts and rosettas poured into milk.",
+      "wiki": "Latte art"
+    },
+    {
+      "name": "Hong Kong milk tea",
+      "what": "Strong black tea 'silk stocking' strained with evaporated milk.",
+      "wiki": "Hong Kong-style milk tea"
+    },
+    {
+      "name": "Yuenyeung",
+      "what": "Hong Kong's mix of coffee and milk tea.",
+      "wiki": "Yuenyeung"
+    },
+    {
+      "name": "Espresso machine",
+      "what": "The lever or pump machine every café is built around.",
+      "wiki": "Espresso machine"
+    }
   ]
 }
