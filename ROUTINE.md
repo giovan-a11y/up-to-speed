@@ -2,11 +2,13 @@
 
 A Claude cloud routine runs this every morning at 06:30 Hong Kong time with this repository checked out. Work on `main` and push to `main`: GitHub Pages republishes the app on every push.
 
-Today's date (Hong Kong time) decides what to do:
+Today's date in Hong Kong (`TZ=Asia/Hong_Kong date`) decides what to do:
 
 1. **Every day: topic requests.** List the open issues whose title starts with `Topic:`, opened by `giovan-a11y` (ignore anyone else's). For each, write a new topic (see "Writing a new topic"), then close the issue with a one-line comment saying it's added. If a request is not a real topic or is harmful, close it with a short explanation instead.
 2. **Mondays: weekly refresh.** Refresh every topic whose `refresh` is `"weekly"`, plus every `"monthly"` topic whose `updated` date is 27 or more days ago (see "Refreshing a topic").
 3. Any other day with no requests: do nothing and don't commit.
+
+If the scheduled run missed a Monday (for example `data/weekly.json` is more than 7 days old), do the weekly refresh today.
 
 When anything changed: run `python3 build.py` (it validates every topic and fails with a list of problems; fix them and run it again), then commit `data/` and `sw.js` with a message like `Weekly update 2026-11-16` or `Add topic: mahjong`, and push.
 
