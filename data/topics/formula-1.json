@@ -4,7 +4,7 @@
   "updated": "2026-11-14",
   "topic": "Formula 1",
   "category": "Sports",
-  "asOf": "mid-2026",
+  "asOf": "14 Nov 2026",
   "tagline": "Twenty-two drivers, 11 teams, 24 races, and more politics than a royal court.",
   "why": "Formula 1 is the top level of single-seater motor racing: the fastest circuit cars on earth, racing on a calendar that spans five continents from March to December. Netflix's Drive to Survive (2019 onward) and the 2025 Brad Pitt film F1 turned it into a mainstream obsession. Fans love the driver rivalries, the engineering arms race and the team drama as much as the racing itself.",
   "essentials": [
@@ -229,28 +229,28 @@
   ],
   "now": [
     {
-      "headline": "The 2026 rules shake-up",
-      "detail": "Everyone is asking who got the new engine and aero rules right. Ask someone who's looking strongest this year."
+      "headline": "Antonelli is world champion",
+      "detail": "Mercedes' Kimi Antonelli clinched the 2026 title in Mexico City on 1 November at 20 years and 68 days, the youngest champion ever."
     },
     {
-      "headline": "Cadillac's arrival",
-      "detail": "The first new team in a decade, with veterans Valtteri Bottas and Sergio Pérez. A big deal for American fans."
+      "headline": "Norris wins in Brazil",
+      "detail": "Lando Norris won the São Paulo GP from pole on 8 November; Antonelli set fastest lap."
     },
     {
-      "headline": "Hamilton at Ferrari",
-      "detail": "His first year in red was tough. Whether he can win an eighth title before he retires is a constant debate."
+      "headline": "Verstappen's late charge",
+      "detail": "Max Verstappen won Malaysia (the relocated Bahrain round), Singapore and Mexico City and is now second in the standings."
     },
     {
-      "headline": "Engine partner shuffle",
-      "detail": "Honda now powers Aston Martin, Ford works with Red Bull, and Audi has its own factory team."
+      "headline": "Fight for P2",
+      "detail": "Only 18 points cover Verstappen (279), Russell (262), Hamilton (261) and Leclerc (251) with three races left."
     },
     {
-      "headline": "Verstappen's future",
-      "detail": "Every year there are rumours he'll leave Red Bull, possibly for Mercedes or Aston Martin."
+      "headline": "Las Vegas next",
+      "detail": "Three rounds remain: Las Vegas (21 Nov), Qatar (29 Nov) and the Abu Dhabi finale (6 Dec)."
     },
     {
-      "headline": "F1 in America",
-      "detail": "Three US races (Miami, Austin, Las Vegas) and the F1 movie have made it genuinely mainstream in the US."
+      "headline": "Hamilton's first Ferrari year",
+      "detail": "He won in Barcelona, his first win since 2024, and took pole and P2 in Mexico City."
     }
   ],
   "local": [
@@ -439,6 +439,64 @@
       ],
       "answer": 1,
       "explain": "Macau's Guia circuit hosts F3, GT and motorbike races."
+    },
+    {
+      "q": "Where did Kimi Antonelli clinch the 2026 title?",
+      "options": [
+        "Austin",
+        "São Paulo",
+        "Mexico City",
+        "Las Vegas"
+      ],
+      "answer": 2,
+      "explain": "His podium in Mexico City on 1 November sealed it.",
+      "current": true
+    },
+    {
+      "q": "Who won the 2026 São Paulo Grand Prix?",
+      "options": [
+        "Lando Norris",
+        "Max Verstappen",
+        "George Russell",
+        "Charles Leclerc"
+      ],
+      "answer": 0,
+      "explain": "Norris won from pole on 8 November.",
+      "current": true
+    },
+    {
+      "q": "Which team has scored the most constructors' points in 2026?",
+      "options": [
+        "Ferrari",
+        "Red Bull",
+        "McLaren",
+        "Mercedes"
+      ],
+      "answer": 3,
+      "explain": "Mercedes lead with 630 points.",
+      "current": true
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Champion",
+      "value": "Kimi Antonelli, 390 pts"
+    },
+    {
+      "label": "2nd",
+      "value": "Verstappen 279"
+    },
+    {
+      "label": "3rd",
+      "value": "Russell 262"
+    },
+    {
+      "label": "Constructors",
+      "value": "Mercedes 630, Ferrari 504"
+    },
+    {
+      "label": "Races left",
+      "value": "3 (Vegas 21 Nov)"
     }
   ]
 }

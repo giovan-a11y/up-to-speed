@@ -1,7 +1,7 @@
 // Offline support: the app shell and all topic content are cached on install.
 // Pages and data are fetched fresh when online (so weekly updates arrive) and
 // served from the cache when offline.
-const VERSION = "ab4e6247dd79";
+const VERSION = "056cacdf3938";
 const CACHE = "uts-" + VERSION;
 const SHELL = ["./", "index.html", "data/bundle.json", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "icons/maskable-512.png"];
 

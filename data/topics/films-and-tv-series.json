@@ -4,7 +4,7 @@
   "updated": "2026-11-14",
   "topic": "Films and TV series",
   "category": "Culture",
-  "asOf": "mid-2026",
+  "asOf": "14 Nov 2026",
   "tagline": "What everyone's streaming, the films worth seeing, and Hong Kong cinema's comeback.",
   "why": "'Watched anything good lately?' is the safest question in small talk. Streaming has turned TV into a global water-cooler, with Korean, Japanese and Hong Kong shows competing with Hollywood. Knowing the big franchises, the prestige series, the directors people admire and what's trending lets you recommend, react and swap opinions easily.",
   "essentials": [
@@ -197,24 +197,24 @@
   ],
   "now": [
     {
-      "headline": "KPop Demon Hunters",
-      "detail": "Netflix's animated musical became a global phenomenon in 2025, with its song 'Golden' topping charts."
+      "headline": "Godzilla Minus Zero tops the box office",
+      "detail": "The Toho sequel opened at No. 1 in the US with US$30.6 million on 6-8 November, ahead of The Cat in the Hat."
     },
     {
-      "headline": "Cinemas struggle",
-      "detail": "Audiences come out for events, but many films go straight to streaming."
+      "headline": "Hunger Games next",
+      "detail": "The Hunger Games: Sunrise on the Reaping opens 20 November, tracking for a US$50-70 million start."
     },
     {
-      "headline": "Chinese box office",
-      "detail": "Local Chinese films now dominate China's box office over Hollywood."
+      "headline": "Big December showdown",
+      "detail": "Avengers: Doomsday and Dune: Part Three both open on 18 December."
     },
     {
-      "headline": "Anime everywhere",
-      "detail": "Demon Slayer: Infinity Castle broke records worldwide in 2025."
+      "headline": "Spider-Man rules 2026",
+      "detail": "Spider-Man: Brand New Day is the year's top film in the US with about US$958 million, ahead of The Odyssey."
     },
     {
-      "headline": "Streaming price rises",
-      "detail": "Subscriptions keep rising; people rotate services."
+      "headline": "On Netflix",
+      "detail": "The One About Matthew Perry leads the series chart, and Keira Knightley's Black Doves is back for season 2."
     }
   ],
   "local": [
@@ -394,6 +394,60 @@
       ],
       "answer": 0,
       "explain": "A record-breaking action film."
+    },
+    {
+      "q": "Which film opened at No. 1 in the US on 6-8 November 2026?",
+      "options": [
+        "The Cat in the Hat",
+        "Godzilla Minus Zero",
+        "Ramayana",
+        "Ebenezer"
+      ],
+      "answer": 1,
+      "explain": "It took US$30.6 million.",
+      "current": true
+    },
+    {
+      "q": "Which two blockbusters both open on 18 December 2026?",
+      "options": [
+        "Avengers: Doomsday and Dune: Part Three",
+        "Toy Story 5 and Shrek 5",
+        "The Batman II and Avatar 4",
+        "Frozen 3 and Moana 2"
+      ],
+      "answer": 0,
+      "explain": "A Marvel vs Dune clash.",
+      "current": true
+    },
+    {
+      "q": "What is 2026's top-grossing film in the US so far?",
+      "options": [
+        "The Odyssey",
+        "Toy Story 5",
+        "Michael",
+        "Spider-Man: Brand New Day"
+      ],
+      "answer": 3,
+      "explain": "About US$958 million domestically.",
+      "current": true
+    }
+  ],
+  "numbers": [
+    {
+      "label": "US No. 1 (6-8 Nov)",
+      "value": "Godzilla Minus Zero, $30.6m"
+    },
+    {
+      "label": "2026 top film (US)",
+      "value": "Spider-Man: Brand New Day, ~$958m"
+    },
+    {
+      "label": "Hunger Games opens",
+      "value": "20 Nov"
+    },
+    {
+      "label": "Doomsday & Dune 3",
+      "value": "18 Dec"
     }
   ]
 }

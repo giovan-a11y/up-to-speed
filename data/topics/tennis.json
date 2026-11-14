@@ -4,7 +4,7 @@
   "updated": "2026-11-14",
   "topic": "Tennis",
   "category": "Sports",
-  "asOf": "mid-2026",
+  "asOf": "14 Nov 2026",
   "tagline": "Four Grand Slams, one long season, and a new rivalry after the golden era.",
   "why": "Tennis is a global individual sport with a year-round tour, and its biggest events (the four Grand Slams) are cultural moments. After two decades of Federer, Nadal and Djokovic, a new generation led by Jannik Sinner and Carlos Alcaraz has taken over. It's an easy sport to talk about because the storylines are personal: rivalries, comebacks, ageing champions and rising stars.",
   "essentials": [
@@ -197,24 +197,28 @@
   ],
   "now": [
     {
-      "headline": "Sinner vs Alcaraz",
-      "detail": "The rivalry everyone talks about. People pick sides based on style: Sinner's precision or Alcaraz's flair."
+      "headline": "ATP Finals start Sunday",
+      "detail": "The Turin finale runs 15-22 November; Zverev and Alcaraz head the two groups."
     },
     {
-      "headline": "Djokovic chasing 25",
-      "detail": "Can he win one more Slam to set a record that may never be beaten?"
+      "headline": "Sinner misses Turin",
+      "detail": "Defending champion Jannik Sinner withdrew injured, so Italy's hopes rest on debutant Flavio Cobolli."
     },
     {
-      "headline": "Women's tennis is open",
-      "detail": "Sabalenka, Świątek, Gauff and others share the big titles, so every Slam is unpredictable."
+      "headline": "Alcaraz back in form",
+      "detail": "After returning from injury at the US Open, Alcaraz won Tokyo, Vienna and Paris and is chasing his first ATP Finals title."
     },
     {
-      "headline": "The schedule fight",
-      "detail": "Players complain the season is too long, and there's talk of a 'Premium Tour' reshaping the calendar."
+      "headline": "WTA Finals in Indian Wells",
+      "detail": "Semis today: Pegula vs Andreeva and Svitolina vs Nosková; the final is 15 November."
     },
     {
-      "headline": "Doping controversies",
-      "detail": "Sinner's and Świątek's short bans for contamination cases in 2024-25 split fans on whether they got off lightly."
+      "headline": "Rybakina is No. 1",
+      "detail": "Elena Rybakina won the Australian and US Opens in 2026 and is world No. 1, but pulled out of the WTA Finals ill."
+    },
+    {
+      "headline": "New faces",
+      "detail": "Spanish teen Rafael Jódar, Arthur Fils and Frances Tiafoe all make their ATP Finals debuts."
     }
   ],
   "local": [
@@ -394,6 +398,60 @@
       ],
       "answer": 1,
       "explain": "The only grass Slam."
+    },
+    {
+      "q": "Which defending champion is missing the 2026 ATP Finals through injury?",
+      "options": [
+        "Carlos Alcaraz",
+        "Novak Djokovic",
+        "Alexander Zverev",
+        "Jannik Sinner"
+      ],
+      "answer": 3,
+      "explain": "Sinner won in 2025 but withdrew this year.",
+      "current": true
+    },
+    {
+      "q": "Where are the 2026 WTA Finals being played?",
+      "options": [
+        "Riyadh",
+        "Indian Wells",
+        "Shenzhen",
+        "Turin"
+      ],
+      "answer": 1,
+      "explain": "They moved to Indian Wells, California.",
+      "current": true
+    },
+    {
+      "q": "Which two Slams did Elena Rybakina win in 2026?",
+      "options": [
+        "Australian and US Opens",
+        "French Open and Wimbledon",
+        "Wimbledon and US Open",
+        "Australian Open and Wimbledon"
+      ],
+      "answer": 0,
+      "explain": "She took Melbourne and New York and rose to No. 1.",
+      "current": true
+    }
+  ],
+  "numbers": [
+    {
+      "label": "ATP No. 1",
+      "value": "Alexander Zverev"
+    },
+    {
+      "label": "WTA No. 1",
+      "value": "Elena Rybakina"
+    },
+    {
+      "label": "ATP Finals",
+      "value": "Turin, 15-22 Nov"
+    },
+    {
+      "label": "WTA Finals final",
+      "value": "15 Nov, Indian Wells"
     }
   ]
 }

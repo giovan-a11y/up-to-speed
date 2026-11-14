@@ -4,7 +4,7 @@
   "updated": "2026-11-14",
   "topic": "Horse racing",
   "category": "Sports",
-  "asOf": "mid-2026",
+  "asOf": "14 Nov 2026",
   "tagline": "Wednesday nights at Happy Valley, Sundays at Sha Tin, and the world's richest betting pools.",
   "why": "Horse racing is Hong Kong's great shared pastime. The Hong Kong Jockey Club runs some of the best-attended, highest-quality and richest racing in the world, and its betting turnover is enormous. Even people who never bet know the big horses, and an evening at Happy Valley is a classic social night out. Knowing the basics lets you join in at work, at dim sum, and at the track.",
   "essentials": [
@@ -201,20 +201,24 @@
   ],
   "now": [
     {
-      "headline": "Ka Ying Rising mania",
-      "detail": "The sprinter's winning streak is the biggest story in local racing."
+      "headline": "Ka Ying Rising returns",
+      "detail": "Hong Kong's star sprinter trialled impressively at Sha Tin on 13 November and runs in the Jockey Club Sprint on 22 November."
     },
     {
-      "headline": "Romantic Warrior abroad",
-      "detail": "Its overseas trips to Australia, Dubai and Japan make it a national hero."
+      "headline": "The streak that ended",
+      "detail": "His 21-race winning run ended with second place in The Everest at Randwick in October."
     },
     {
-      "headline": "The Conghua centre",
-      "detail": "The Jockey Club's big training centre in Guangdong lets horses train in the mainland and enables racing in the Greater Bay Area."
+      "headline": "Romantic Warrior retires",
+      "detail": "The HKJC retired him in September with 24 wins, 15 Group 1s and a world-record HK$288.7 million in prize money."
     },
     {
-      "headline": "Young people and racing",
-      "detail": "The HKJC is trying to bring in younger fans with themed nights at Happy Valley."
+      "headline": "International Races on 13 December",
+      "detail": "Ka Ying Rising aims to be the first three-time winner of the HK$28 million Hong Kong Sprint."
+    },
+    {
+      "headline": "Jerry Chau's hot streak",
+      "detail": "Trainer David Hayes says there's 'no jockey hotter than Jerry' right now."
     }
   ],
   "local": [
@@ -390,6 +394,60 @@
       ],
       "answer": 0,
       "explain": "The 2000s sprinter."
+    },
+    {
+      "q": "What ended Ka Ying Rising's 21-race winning streak?",
+      "options": [
+        "A loss in the Hong Kong Sprint",
+        "Second place in The Everest",
+        "An injury",
+        "Defeat in Japan"
+      ],
+      "answer": 1,
+      "explain": "He was runner-up in Sydney's Everest in October.",
+      "current": true
+    },
+    {
+      "q": "How many Group 1 races did Romantic Warrior win?",
+      "options": [
+        "9",
+        "12",
+        "15",
+        "20"
+      ],
+      "answer": 2,
+      "explain": "15 Group 1s, a Hong Kong record.",
+      "current": true
+    },
+    {
+      "q": "When is the 2026 Hong Kong International Races day?",
+      "options": [
+        "13 December",
+        "1 January",
+        "22 November",
+        "6 December"
+      ],
+      "answer": 0,
+      "explain": "Sunday 13 December at Sha Tin.",
+      "current": true
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Ka Ying Rising streak",
+      "value": "21 wins (ended Oct)"
+    },
+    {
+      "label": "Romantic Warrior prize money",
+      "value": "HK$288.74m"
+    },
+    {
+      "label": "Jockey Club Sprint",
+      "value": "22 Nov"
+    },
+    {
+      "label": "HK International Races",
+      "value": "13 Dec"
     }
   ]
 }

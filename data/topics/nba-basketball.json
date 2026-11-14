@@ -4,7 +4,7 @@
   "updated": "2026-11-14",
   "topic": "NBA basketball",
   "category": "Sports",
-  "asOf": "mid-2026",
+  "asOf": "14 Nov 2026",
   "tagline": "Thirty teams, 82 games, and the most talked-about athletes on social media.",
   "why": "The NBA is the world's top basketball league and probably the most global American sport, hugely popular across Asia. Its stars are celebrities on and off the court, and fans argue endlessly about who's the greatest, which trades make sense, and whether the league is better than it used to be. You can follow it casually through highlights, which come out during Hong Kong mornings.",
   "essentials": [
@@ -205,24 +205,28 @@
   ],
   "now": [
     {
-      "headline": "LeBron's last chapter",
-      "detail": "Every season might be LeBron's last. People debate when he'll retire and whether he'll play with his son Bronny."
+      "headline": "Lakers lead the West",
+      "detail": "LA are 11-2, the league's best record, with Luka Dončić averaging about 38.6 points."
     },
     {
-      "headline": "Wemby's rise",
-      "detail": "Wembanyama is seen as the league's next face. Every highlight goes viral."
+      "headline": "Spurs right behind",
+      "detail": "San Antonio are 10-2 with the best net rating; Lakers vs Spurs on 27 November is a big date."
     },
     {
-      "headline": "The young Thunder",
-      "detail": "OKC won the 2025 title with a young core and loads of future draft picks. Can they build a dynasty?"
+      "headline": "Celtics and 76ers set the East pace",
+      "detail": "Boston (10-2) and Philadelphia (9-3) top the East; NBC's power rankings put the Sixers No. 1."
     },
     {
-      "headline": "Parity",
-      "detail": "There's been a different champion every year for a while, which some love and some say means no great teams."
+      "headline": "Knicks are champs",
+      "detail": "New York won the 2026 title over the Spurs in June, their first since 1973."
     },
     {
-      "headline": "Europe's influence",
-      "detail": "Many of the best players are now international: Jokić, Giannis, Luka, Wemby, SGA (Canadian)."
+      "headline": "Thunder hit by injuries",
+      "detail": "OKC are 8-4 and in the play-in spot after injuries slowed them down."
+    },
+    {
+      "headline": "Giannis in Miami",
+      "detail": "Antetokounmpo now plays for the Heat and is averaging 28.5 points."
     }
   ],
   "local": [
@@ -402,6 +406,64 @@
       ],
       "answer": 2,
       "explain": "First to four wins."
+    },
+    {
+      "q": "Who won the 2026 NBA title?",
+      "options": [
+        "Oklahoma City Thunder",
+        "San Antonio Spurs",
+        "New York Knicks",
+        "Boston Celtics"
+      ],
+      "answer": 2,
+      "explain": "The Knicks beat the Spurs for their first title since 1973.",
+      "current": true
+    },
+    {
+      "q": "Who leads the NBA in scoring early in 2026-27?",
+      "options": [
+        "Luka Dončić",
+        "Shai Gilgeous-Alexander",
+        "Victor Wembanyama",
+        "Stephen Curry"
+      ],
+      "answer": 0,
+      "explain": "Dončić is averaging around 38.6 points.",
+      "current": true
+    },
+    {
+      "q": "Which team does Giannis Antetokounmpo play for this season?",
+      "options": [
+        "Milwaukee Bucks",
+        "Miami Heat",
+        "New York Knicks",
+        "Golden State Warriors"
+      ],
+      "answer": 1,
+      "explain": "He's with the Heat now.",
+      "current": true
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Best record",
+      "value": "Lakers 11-2"
+    },
+    {
+      "label": "East leader",
+      "value": "Celtics 10-2"
+    },
+    {
+      "label": "Scoring leader",
+      "value": "Dončić 38.6 ppg"
+    },
+    {
+      "label": "Wembanyama",
+      "value": "30.3 ppg"
+    },
+    {
+      "label": "Reigning champs",
+      "value": "New York Knicks"
     }
   ]
 }

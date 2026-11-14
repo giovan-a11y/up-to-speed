@@ -4,7 +4,7 @@
   "updated": "2026-11-14",
   "topic": "Golf",
   "category": "Sports",
-  "asOf": "mid-2026",
+  "asOf": "14 Nov 2026",
   "tagline": "Four majors, one tiny ball, and a sport that's half networking.",
   "why": "Golf is both a pro sport with global superstars and a social and business ritual, especially in Hong Kong where club memberships are status symbols. Pro golf has been through a civil war since Saudi-backed LIV Golf launched in 2022. Even if you don't play, knowing the majors, the big names and a bit of vocabulary makes you fluent at the 19th hole.",
   "essentials": [
@@ -201,24 +201,28 @@
   ],
   "now": [
     {
-      "headline": "Scheffler's dominance",
-      "detail": "People compare his run of wins to peak Tiger."
+      "headline": "Race to Dubai finale",
+      "detail": "At the DP World Tour Championship, Rory McIlroy and Tyrrell Hatton share the lead at -5 after two rounds; the final round is Sunday."
     },
     {
-      "headline": "The LIV split",
-      "detail": "Fans want the best players together more than four times a year. Any merger news is big talk."
+      "headline": "Rory chases a record",
+      "detail": "A win would give McIlroy an eighth Race to Dubai title, equalling Colin Montgomerie's record."
     },
     {
-      "headline": "Rory after the Slam",
-      "detail": "After finally winning the Masters, can McIlroy keep adding majors?"
+      "headline": "Rory's 2026 Masters",
+      "detail": "McIlroy won the Masters again in April; the other majors went to Aaron Rai, Wyndham Clark and Ryan Fox."
     },
     {
-      "headline": "Golf is booming",
-      "detail": "Indoor simulators, Topgolf-style venues and YouTube golf have drawn in younger players."
+      "headline": "USA win the Presidents Cup",
+      "detail": "The US came back to win 17-13 at Medinah in September, an 11th straight win over the Internationals."
     },
     {
-      "headline": "Distance debate",
-      "detail": "Golf's rule makers are rolling back how far balls fly from 2028 for pros, which many players dislike."
+      "headline": "Scheffler's FedEx Cup",
+      "detail": "Scottie Scheffler won the Tour Championship and the FedEx Cup in August."
+    },
+    {
+      "headline": "Hero World Challenge next",
+      "detail": "Tiger Woods' Bahamas event on 6 December is the next big-name stop."
     }
   ],
   "local": [
@@ -398,6 +402,68 @@
       ],
       "answer": 0,
       "explain": "The 2021 Masters."
+    },
+    {
+      "q": "Who won the 2026 Open Championship?",
+      "options": [
+        "Tommy Fleetwood",
+        "Ryan Fox",
+        "Aaron Rai",
+        "Shane Lowry"
+      ],
+      "answer": 1,
+      "explain": "New Zealand's Ryan Fox lifted the Claret Jug in July.",
+      "current": true
+    },
+    {
+      "q": "What was the 2026 Presidents Cup score?",
+      "options": [
+        "Internationals 16-14",
+        "USA 18.5-11.5",
+        "Tied 15-15",
+        "USA 17-13"
+      ],
+      "answer": 3,
+      "explain": "The US rallied at Medinah for an 11th straight win.",
+      "current": true
+    },
+    {
+      "q": "Whose record could McIlroy equal with an eighth Race to Dubai title?",
+      "options": [
+        "Seve Ballesteros",
+        "Colin Montgomerie",
+        "Nick Faldo",
+        "Lee Westwood"
+      ],
+      "answer": 1,
+      "explain": "Monty won eight Order of Merit titles.",
+      "current": true
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Masters",
+      "value": "Rory McIlroy"
+    },
+    {
+      "label": "PGA Championship",
+      "value": "Aaron Rai"
+    },
+    {
+      "label": "US Open",
+      "value": "Wyndham Clark"
+    },
+    {
+      "label": "The Open",
+      "value": "Ryan Fox"
+    },
+    {
+      "label": "FedEx Cup",
+      "value": "Scottie Scheffler"
+    },
+    {
+      "label": "Presidents Cup",
+      "value": "USA 17-13"
     }
   ]
 }

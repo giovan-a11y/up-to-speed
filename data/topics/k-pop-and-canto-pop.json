@@ -4,7 +4,7 @@
   "updated": "2026-11-14",
   "topic": "K-pop and Canto-pop",
   "category": "Culture",
-  "asOf": "mid-2026",
+  "asOf": "14 Nov 2026",
   "tagline": "Idols, fandoms, comeback stages and Hong Kong's own pop legends.",
   "why": "K-pop is a global cultural force, and Canto-pop is the soundtrack of Hong Kong. Fans follow groups closely, buy albums, attend concerts and debate who's best. In Hong Kong, Canto-pop has had a revival led by boy band MIRROR, while legends like Leslie Cheung and Anita Mui still define the city's culture. Knowing the key names and fan language makes music small talk easy.",
   "essentials": [
@@ -201,20 +201,28 @@
   ],
   "now": [
     {
-      "headline": "BTS is back",
-      "detail": "All members have finished military service, and their return is the biggest K-pop story."
+      "headline": "BIGBANG at Kai Tak",
+      "detail": "BIGBANG's 20th-anniversary world tour plays Kai Tak Stadium this weekend, 13-15 November."
     },
     {
-      "headline": "KPop Demon Hunters",
-      "detail": "The Netflix film made fictional K-pop songs real chart hits."
+      "headline": "BTS head back to Asia",
+      "detail": "The ARIRANG tour's Asian leg starts 19 November in Kaohsiung, with 15 shows in five cities including Bangkok and Kuala Lumpur."
     },
     {
-      "headline": "Agency drama",
-      "detail": "Disputes like NewJeans vs ADOR show the industry's power struggles."
+      "headline": "ARIRANG album",
+      "detail": "BTS's fifth full album, released in March, was their first as a full group since military service."
+    },
+    {
+      "headline": "Busy November releases",
+      "detail": "TXT's PERFECT STORM (16 Nov), NAYEON and ENHYPEN (20 Nov) and TAEYEON's album Unspecial (30 Nov)."
+    },
+    {
+      "headline": "Jennie's Netflix song",
+      "detail": "BLACKPINK's Jennie released Someone to Hold for the Netflix film Steps on 6 November."
     },
     {
       "headline": "Kai Tak concerts",
-      "detail": "Hong Kong's new stadium brought world tours, from Coldplay onwards."
+      "detail": "Hong Kong's new stadium has made the city a stop for the biggest K-pop and Canto-pop shows."
     }
   ],
   "local": [
@@ -394,6 +402,43 @@
       ],
       "answer": 3,
       "explain": "YG Entertainment."
+    },
+    {
+      "q": "Which group plays Kai Tak Stadium on 13-15 November 2026?",
+      "options": [
+        "SEVENTEEN",
+        "BIGBANG",
+        "TWICE",
+        "Stray Kids"
+      ],
+      "answer": 1,
+      "explain": "Their 20th-anniversary world tour.",
+      "current": true
+    },
+    {
+      "q": "What is the name of BTS's 2026 album and tour?",
+      "options": [
+        "ARIRANG",
+        "PROOF",
+        "MAP OF THE SOUL",
+        "BE"
+      ],
+      "answer": 0,
+      "explain": "Released in March 2026.",
+      "current": true
+    },
+    {
+      "q": "Where does the Asian leg of BTS's tour begin?",
+      "options": [
+        "Hong Kong",
+        "Tokyo",
+        "Singapore",
+        "Kaohsiung"
+      ],
+      "answer": 3,
+      "explain": "On 19 November in Taiwan.",
+      "current": true
     }
-  ]
+  ],
+  "numbers": []
 }

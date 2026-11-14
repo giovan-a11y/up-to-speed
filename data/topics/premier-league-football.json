@@ -4,7 +4,7 @@
   "updated": "2026-11-14",
   "topic": "Premier League football",
   "category": "Sports",
-  "asOf": "mid-2026",
+  "asOf": "14 Nov 2026",
   "tagline": "Twenty clubs, 38 games each, and the most-watched league on the planet.",
   "why": "The Premier League is England's top football division and the most popular sports league in the world, watched in almost every country. In Hong Kong it's the default sports small talk: people stay up for 10pm, midnight and 3am kick-offs and support a club for life, often one they picked as a kid in the 1990s or 2000s. You don't need to know tactics. Knowing which club someone supports, how that club is doing, and a few big names gets you a long way.",
   "essentials": [
@@ -213,24 +213,28 @@
   ],
   "now": [
     {
-      "headline": "Big-money Liverpool",
-      "detail": "After winning the 2024-25 title they broke the British transfer record for Isak and signed Wirtz, then had a bumpy start to the 2025-26 season."
+      "headline": "Arsenal on top",
+      "detail": "After 10 games Arsenal lead on 27 points, five clear of surprise package Brighton."
     },
     {
-      "headline": "Arsenal's wait",
-      "detail": "Endless debate about whether Arteta's Arsenal can finally win the league or will keep finishing second."
+      "headline": "Brighton's flying start",
+      "detail": "Brighton sit second on 22, helped by 5-0 wins over Crystal Palace and at Coventry."
     },
     {
-      "headline": "Man City's 115 charges",
-      "detail": "City face a long-running case over alleged breaches of financial rules. A verdict could mean big penalties, and everyone has an opinion."
+      "headline": "Maresca's City",
+      "detail": "Enzo Maresca replaced Pep Guardiola in the summer; City are third on 21 and Haaland leads the scorers."
     },
     {
-      "headline": "Manchester United's rebuild",
-      "detail": "United finished 15th in 2024-25, their worst Premier League finish, and the debate over manager Rúben Amorim and the club's owners never stops."
+      "headline": "Man United in trouble",
+      "detail": "United are 18th with 8 points after 10 games, in the relegation zone."
     },
     {
-      "headline": "The 2026 World Cup",
-      "detail": "The first 48-team World Cup was hosted in the US, Canada and Mexico in summer 2026, and players' form and fitness after it shapes the season."
+      "headline": "A summer of new managers",
+      "detail": "Xabi Alonso took Chelsea, Andoni Iraola replaced the sacked Arne Slot at Liverpool, and Eddie Howe left Newcastle."
+    },
+    {
+      "headline": "City's 115 charges verdict",
+      "detail": "Manchester City were found guilty of breaching financial rules between 2009 and 2018 and are appealing."
     }
   ],
   "local": [
@@ -424,6 +428,64 @@
       ],
       "answer": 1,
       "explain": "One of the fiercest rivalries in England."
+    },
+    {
+      "q": "Who replaced Pep Guardiola at Manchester City?",
+      "options": [
+        "Xabi Alonso",
+        "Enzo Maresca",
+        "Andoni Iraola",
+        "Marco Rose"
+      ],
+      "answer": 1,
+      "explain": "Maresca took over in summer 2026.",
+      "current": true
+    },
+    {
+      "q": "Which team is second after 10 games of 2026-27?",
+      "options": [
+        "Brighton",
+        "Liverpool",
+        "Chelsea",
+        "Everton"
+      ],
+      "answer": 0,
+      "explain": "Brighton have 22 points.",
+      "current": true
+    },
+    {
+      "q": "Who is Liverpool's manager this season?",
+      "options": [
+        "Arne Slot",
+        "Eddie Howe",
+        "Oliver Glasner",
+        "Andoni Iraola"
+      ],
+      "answer": 3,
+      "explain": "Iraola replaced the sacked Slot in June.",
+      "current": true
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Leaders",
+      "value": "Arsenal 27 pts (10 games)"
+    },
+    {
+      "label": "2nd",
+      "value": "Brighton 22"
+    },
+    {
+      "label": "3rd",
+      "value": "Man City 21"
+    },
+    {
+      "label": "Bottom 3",
+      "value": "Man Utd 8, Sunderland 8, Palace 7"
+    },
+    {
+      "label": "Top scorer",
+      "value": "Haaland (8 by mid-Oct)"
     }
   ]
 }

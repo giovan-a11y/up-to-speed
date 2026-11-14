@@ -4,7 +4,7 @@
   "updated": "2026-11-14",
   "topic": "Hong Kong property",
   "category": "Money",
-  "asOf": "mid-2026",
+  "asOf": "14 Nov 2026",
   "tagline": "The world's most expensive homes, nano flats, and everyone's favourite topic.",
   "why": "Property is Hong Kong's national obsession. Homes are among the most expensive on earth relative to income, so buying, renting, mortgages and prices come up at every family dinner. After years of falling prices since 2021, the market has been trying to find a bottom. Knowing the vocabulary, the big developers and the policy changes makes you fluent in the city's favourite small talk.",
   "essentials": [
@@ -185,24 +185,24 @@
   ],
   "now": [
     {
-      "headline": "Has the bottom arrived?",
-      "detail": "Transactions picked up and prices steadied in 2025. Many debate whether to buy now."
+      "headline": "Prices up about 7% this year",
+      "detail": "Official data show private home prices rose 0.19% in September, up 7.1% for the first nine months and 9.3% on a year ago."
     },
     {
-      "headline": "Rents at records",
-      "detail": "New arrivals under talent schemes and mainland students pushed rents up, making buying look relatively better."
+      "headline": "Rents at a record",
+      "detail": "The official rent index hit a new high in September, up 6.2% year on year; small flats yield about 3.5%."
     },
     {
-      "headline": "Developer debt",
-      "detail": "Some developers, notably New World, struggled with debt, raising worries."
+      "headline": "Resale prices cooling",
+      "detail": "Centaline's CCL slipped to about 160 in mid-October as developers launched new projects at aggressive prices."
     },
     {
-      "headline": "Office glut",
-      "detail": "Office vacancies are high and rents low, especially in Central."
+      "headline": "New-home rush",
+      "detail": "Developers sold about 1,700 new flats in the first 27 days of October, the third straight month above 1,000."
     },
     {
-      "headline": "Buying across the border",
-      "detail": "Some Hong Kongers buy in Shenzhen or the Greater Bay Area, where prices are far lower."
+      "headline": "Rate-hike worry",
+      "detail": "With the US Fed expected to hike in December, buyers watch HIBOR; most banks cap effective mortgage rates at 3.25%."
     }
   ],
   "local": [
@@ -381,6 +381,60 @@
       ],
       "answer": 1,
       "explain": "Or the prime rate."
+    },
+    {
+      "q": "How much did official Hong Kong home prices rise in the first nine months of 2026?",
+      "options": [
+        "About 1%",
+        "About 7%",
+        "About 15%",
+        "They fell 5%"
+      ],
+      "answer": 1,
+      "explain": "+7.1% Jan-Sep per the Rating and Valuation Department.",
+      "current": true
+    },
+    {
+      "q": "What hit a record high in September 2026?",
+      "options": [
+        "Home rents",
+        "Land sale prices",
+        "Mortgage rates",
+        "Vacancy rates"
+      ],
+      "answer": 0,
+      "explain": "The official rental index set a new record.",
+      "current": true
+    },
+    {
+      "q": "What is the effective mortgage rate cap at most major HK banks?",
+      "options": [
+        "1.5%",
+        "5%",
+        "3.25%",
+        "4.75%"
+      ],
+      "answer": 2,
+      "explain": "Most cap it at 3.25%.",
+      "current": true
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Official prices YTD",
+      "value": "+7.1% (Jan-Sep)"
+    },
+    {
+      "label": "Rents y/y",
+      "value": "+6.2%, record high"
+    },
+    {
+      "label": "CCL",
+      "value": "~160 (mid-Oct)"
+    },
+    {
+      "label": "Mortgage rate cap",
+      "value": "3.25%"
     }
   ]
 }

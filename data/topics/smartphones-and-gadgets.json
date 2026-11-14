@@ -4,7 +4,7 @@
   "updated": "2026-11-14",
   "topic": "Smartphones and gadgets",
   "category": "Tech",
-  "asOf": "mid-2026",
+  "asOf": "14 Nov 2026",
   "tagline": "iPhone vs Android, folding phones, and the gadgets everyone's carrying.",
   "why": "Your phone is the device you use most, so phones and gadgets are an easy topic with almost anyone. People compare iPhones and Androids, cameras and batteries, and talk about new launches like foldables and AI features. In Hong Kong you'll see the latest iPhones alongside Chinese brands like Huawei and Xiaomi, so knowing the landscape helps.",
   "essentials": [
@@ -185,24 +185,28 @@
   ],
   "now": [
     {
-      "headline": "Thin is in",
-      "detail": "Ultra-thin phones like the iPhone Air and Galaxy Edge, at the cost of battery life."
+      "headline": "iPhone Duo folds in",
+      "detail": "Apple's first folding iPhone, the US$1,999 iPhone Duo, went on sale about a month ago; 100,000 apps are already optimised for it."
     },
     {
-      "headline": "AI features",
-      "detail": "People debate whether phone AI is useful or a gimmick. Apple's Siri upgrade was delayed."
+      "headline": "Fold torture test",
+      "detail": "CNET's live hinge test has passed 425,000 folds on the Duo and counting."
     },
     {
-      "headline": "Foldables mature",
-      "detail": "Lighter, tougher foldables are becoming mainstream."
+      "headline": "Gemini glasses pre-orders",
+      "detail": "Google's camera glasses with no display start at US$395 and ship 10 December in the US and Korea."
     },
     {
-      "headline": "Chinese brands rise",
-      "detail": "Huawei leads China's market again; Xiaomi grows globally."
+      "headline": "Prices are rising",
+      "detail": "Apple raised iPhone prices in September; the 256GB iPhone 17 went from US$799 to US$899."
     },
     {
-      "headline": "Prices up",
-      "detail": "Tariffs and memory chip costs push prices higher."
+      "headline": "Galaxy S27 leaks",
+      "detail": "Leaks point to a four-model Galaxy S27 line-up, including a new S27 Pro, for early 2027."
+    },
+    {
+      "headline": "M6 iMac",
+      "detail": "Reviewers call it a modest upgrade: roughly 20-30% faster multi-core than the M4 model."
     }
   ],
   "local": [
@@ -381,6 +385,56 @@
       ],
       "answer": 0,
       "explain": "Based in Shenzhen."
+    },
+    {
+      "q": "What is Apple's folding iPhone called?",
+      "options": [
+        "iPhone Fold",
+        "iPhone Flip",
+        "iPhone Air",
+        "iPhone Duo"
+      ],
+      "answer": 3,
+      "explain": "It launched at US$1,999.",
+      "current": true
+    },
+    {
+      "q": "What do Google's new Gemini glasses lack?",
+      "options": [
+        "A camera",
+        "A display",
+        "A battery",
+        "A microphone"
+      ],
+      "answer": 1,
+      "explain": "They have a 12MP camera but no screen.",
+      "current": true
+    },
+    {
+      "q": "What did the 256GB iPhone 17 rise to in September 2026?",
+      "options": [
+        "US$899",
+        "US$699",
+        "US$999",
+        "US$1,199"
+      ],
+      "answer": 0,
+      "explain": "Up US$100 from US$799.",
+      "current": true
+    }
+  ],
+  "numbers": [
+    {
+      "label": "iPhone Duo",
+      "value": "US$1,999"
+    },
+    {
+      "label": "iPhone 17 (256GB)",
+      "value": "US$899"
+    },
+    {
+      "label": "Gemini glasses",
+      "value": "from US$395"
     }
   ]
 }

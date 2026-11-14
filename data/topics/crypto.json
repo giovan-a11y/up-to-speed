@@ -4,7 +4,7 @@
   "updated": "2026-11-14",
   "topic": "Crypto",
   "category": "Money",
-  "asOf": "mid-2026",
+  "asOf": "14 Nov 2026",
   "tagline": "Bitcoin, wild price swings, and Hong Kong's push to be a crypto hub.",
   "why": "Crypto went from a niche internet experiment to something Wall Street, governments and your colleagues talk about. Bitcoin is now held by ETFs and companies, stablecoins are being regulated, and Hong Kong has positioned itself as a licensed crypto hub. It's polarising: some see the future of money, others a casino. Knowing the basics lets you join in without being lost or preachy.",
   "essentials": [
@@ -193,20 +193,24 @@
   ],
   "now": [
     {
-      "headline": "Bitcoin's big swings",
-      "detail": "After the October 2025 record, prices dropped hard. People debate whether the four-year cycle has peaked."
+      "headline": "Bitcoin below US$70k",
+      "detail": "Bitcoin closed at about US$69,556 on 13 November, its lowest close in three months and about 20% below September's high."
     },
     {
-      "headline": "Stablecoins go mainstream",
-      "detail": "New US and Hong Kong laws have banks and big companies planning their own stablecoins."
+      "headline": "Rate-hike fears",
+      "detail": "A 10-year US Treasury yield above 5% and a likely Fed hike in December are hitting crypto hardest."
     },
     {
-      "headline": "Crypto treasury companies",
-      "detail": "Dozens of listed firms copied Strategy by buying crypto. Critics worry about what happens in a crash."
+      "headline": "Ether under US$2,000",
+      "detail": "Ethereum fell to about US$1,970, down 29% from its September peak."
     },
     {
-      "headline": "Political crypto",
-      "detail": "The Trump family's crypto ventures and memecoin made crypto a political topic."
+      "headline": "Key levels",
+      "detail": "Traders watch US$70,000 as resistance and June's low of about US$58,559 as the floor."
+    },
+    {
+      "headline": "Altcoins hit harder",
+      "detail": "Solana is around US$82, a third below its September high; XRP sits near US$1.04."
     }
   ],
   "local": [
@@ -385,6 +389,60 @@
       ],
       "answer": 0,
       "explain": "Launched in 2015."
+    },
+    {
+      "q": "Roughly where did Bitcoin close on 13 November 2026?",
+      "options": [
+        "US$125,000",
+        "US$69,500",
+        "US$40,000",
+        "US$100,000"
+      ],
+      "answer": 1,
+      "explain": "About US$69,556, a three-month low.",
+      "current": true
+    },
+    {
+      "q": "What is the main reason given for crypto's November slide?",
+      "options": [
+        "A big exchange hack",
+        "Higher yields and Fed hike expectations",
+        "A Bitcoin halving",
+        "An ETF ban"
+      ],
+      "answer": 1,
+      "explain": "Rising rates make non-yielding assets less attractive.",
+      "current": true
+    },
+    {
+      "q": "Which major coin has fallen below US$2,000?",
+      "options": [
+        "Solana",
+        "XRP",
+        "Ethereum",
+        "Bitcoin"
+      ],
+      "answer": 2,
+      "explain": "Ether was near US$1,970.",
+      "current": true
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Bitcoin",
+      "value": "~US$69,600 (13 Nov)"
+    },
+    {
+      "label": "Ethereum",
+      "value": "~US$1,970"
+    },
+    {
+      "label": "Solana",
+      "value": "~US$82"
+    },
+    {
+      "label": "BTC 12-month high",
+      "value": "US$86,603 (21 Sep)"
     }
   ]
 }

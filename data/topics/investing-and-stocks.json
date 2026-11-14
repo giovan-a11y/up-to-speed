@@ -4,7 +4,7 @@
   "updated": "2026-11-14",
   "topic": "Investing and stocks",
   "category": "Money",
-  "asOf": "mid-2026",
+  "asOf": "14 Nov 2026",
   "tagline": "Indexes, AI stocks, interest rates, and the eternal question: what are you buying?",
   "why": "Everyone in Hong Kong has an opinion on the market, from the Hang Seng to US tech stocks. Investing talk is about what's going up, what the central banks will do, and whether something is a bubble. You don't need to give advice; you just need to understand the vocabulary, the big names and the main schools of thought so you can follow along and ask good questions.",
   "essentials": [
@@ -205,24 +205,28 @@
   ],
   "now": [
     {
-      "headline": "Is AI a bubble?",
-      "detail": "The biggest market debate. Bulls point to real profits at Nvidia and Microsoft; bears compare it to the dot-com era."
+      "headline": "Jensen Huang resigns",
+      "detail": "Nvidia's CEO quit on 12 November amid personal scandal; CFO Colette Kress is interim CEO and the shares fell as much as 14% intraday."
     },
     {
-      "headline": "Hong Kong's comeback",
-      "detail": "The Hang Seng had a strong 2025 after years of decline, helped by Chinese tech and a flood of big IPOs like CATL."
+      "headline": "Anthropic IPO next week",
+      "detail": "The Claude maker set a US$70-78 price range, valuing it at up to about US$1.4 trillion, with a debut expected on 19 November."
     },
     {
-      "headline": "Rates are coming down",
-      "detail": "The Fed cut rates through 2025, which affects mortgages and bank deposit rates in Hong Kong."
+      "headline": "Fed hike coming?",
+      "detail": "Hot October inflation has markets pricing a quarter-point hike at the 8-9 December meeting; the 10-year yield is about 5.15%."
     },
     {
-      "headline": "Gold's record run",
-      "detail": "Gold passed $4,000 an ounce in 2025 as central banks and investors sought safety."
+      "headline": "Hang Seng slips",
+      "detail": "The HSI fell 1.55% to 23,637.60 on 13 November, with tech names like Lenovo down 6%."
     },
     {
-      "headline": "Tariffs and trade",
-      "detail": "US tariffs on China and other countries keep markets jumpy."
+      "headline": "US indexes near highs",
+      "detail": "The S&P 500 closed at 7,561.67 on Friday; all three US benchmarks still rose for the week."
+    },
+    {
+      "headline": "OpenAI's mega round",
+      "detail": "OpenAI has reportedly raised US$11 billion at a US$1.25 trillion valuation, with an IPO expected next year."
     }
   ],
   "local": [
@@ -406,6 +410,64 @@
       ],
       "answer": 1,
       "explain": "The Hongkong and Shanghai Banking Corporation."
+    },
+    {
+      "q": "Who became Nvidia's interim CEO after Jensen Huang resigned?",
+      "options": [
+        "Tim Cook",
+        "Colette Kress",
+        "Harvey Jones",
+        "Lisa Su"
+      ],
+      "answer": 1,
+      "explain": "Kress, Nvidia's CFO since 2013, stepped in.",
+      "current": true
+    },
+    {
+      "q": "What price range did Anthropic set for its IPO?",
+      "options": [
+        "US$20-25",
+        "US$150-160",
+        "US$70-78",
+        "US$35-40"
+      ],
+      "answer": 2,
+      "explain": "Valuing it at up to about US$1.4 trillion.",
+      "current": true
+    },
+    {
+      "q": "Roughly where is the US 10-year Treasury yield?",
+      "options": [
+        "5.15%",
+        "2.5%",
+        "3.5%",
+        "7%"
+      ],
+      "answer": 0,
+      "explain": "It climbed above 5% in November.",
+      "current": true
+    }
+  ],
+  "numbers": [
+    {
+      "label": "S&P 500",
+      "value": "7,561.67"
+    },
+    {
+      "label": "Nasdaq",
+      "value": "25,136.27"
+    },
+    {
+      "label": "Dow",
+      "value": "52,347.55"
+    },
+    {
+      "label": "Hang Seng",
+      "value": "23,637.60"
+    },
+    {
+      "label": "US 10-year yield",
+      "value": "5.15%"
     }
   ]
 }

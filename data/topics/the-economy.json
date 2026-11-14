@@ -4,7 +4,7 @@
   "updated": "2026-11-14",
   "topic": "The economy",
   "category": "Money",
-  "asOf": "mid-2026",
+  "asOf": "14 Nov 2026",
   "tagline": "Interest rates, tariffs, China's slowdown, and why your coffee costs more.",
   "why": "The economy is the backdrop to everyone's job, rent and investments, and in Hong Kong it's shaped by both the US (through the dollar peg) and mainland China. Economic small talk is about whether things are getting better or worse, interest rates, trade wars, and local issues like retail, tourism and people spending weekends in Shenzhen. You don't need to be an economist, just able to follow the main forces.",
   "essentials": [
@@ -181,24 +181,24 @@
   ],
   "now": [
     {
-      "headline": "Tariff fallout",
-      "detail": "Companies reroute supply chains through Southeast Asia and Mexico; prices for some goods rose."
+      "headline": "Fed set to hike again",
+      "detail": "October CPI rose 0.4% on the month; markets price about a 90% chance of a 25bp hike on 8-9 December under Chair Kevin Warsh."
     },
     {
-      "headline": "Rates coming down",
-      "detail": "The Fed cut rates in 2025, easing mortgage costs in Hong Kong."
+      "headline": "Energy-driven inflation",
+      "detail": "Energy prices stay high after the Iran war pushed up oil; producer prices are up 6.5% on a year ago."
     },
     {
-      "headline": "China's deflation",
-      "detail": "Weak prices and spending; Beijing pushes stimulus and tech investment."
+      "headline": "Hong Kong grows 5.2%",
+      "detail": "HK's Q3 GDP grew 5.2% year on year, the fastest since 2023, and the government raised its 2026 forecast to 4.8%."
     },
     {
-      "headline": "AI investment boom",
-      "detail": "Massive spending on data centres is propping up growth in the US."
+      "headline": "AI exports boom",
+      "detail": "Hong Kong's real goods exports jumped 30% in Q3 on demand for AI-related electronics."
     },
     {
-      "headline": "Gold and the dollar",
-      "detail": "Central banks bought gold; debate over the US dollar's long-term dominance."
+      "headline": "Yields above 5%",
+      "detail": "The US 10-year yield is about 5.15%, pushing up borrowing costs, including HIBOR-linked mortgages here."
     }
   ],
   "local": [
@@ -381,6 +381,64 @@
       ],
       "answer": 1,
       "explain": "Paul Chan."
+    },
+    {
+      "q": "How fast did Hong Kong's economy grow in Q3 2026?",
+      "options": [
+        "1.8%",
+        "3.1%",
+        "5.2%",
+        "7.5%"
+      ],
+      "answer": 2,
+      "explain": "Year on year, its fastest pace since 2023.",
+      "current": true
+    },
+    {
+      "q": "What does the market expect from the Fed in December 2026?",
+      "options": [
+        "A rate hike",
+        "A big rate cut",
+        "Quantitative easing",
+        "No meeting"
+      ],
+      "answer": 0,
+      "explain": "Futures show about a 90% chance of a 25bp hike.",
+      "current": true
+    },
+    {
+      "q": "Who chairs the US Federal Reserve now?",
+      "options": [
+        "Jerome Powell",
+        "Christopher Waller",
+        "Janet Yellen",
+        "Kevin Warsh"
+      ],
+      "answer": 3,
+      "explain": "Warsh succeeded Powell.",
+      "current": true
+    }
+  ],
+  "numbers": [
+    {
+      "label": "Fed funds rate",
+      "value": "3.75-4.00%"
+    },
+    {
+      "label": "US 10-year yield",
+      "value": "~5.15%"
+    },
+    {
+      "label": "HK Q3 GDP",
+      "value": "+5.2% y/y"
+    },
+    {
+      "label": "HK 2026 GDP forecast",
+      "value": "4.8%"
+    },
+    {
+      "label": "HK unemployment",
+      "value": "3.9%"
     }
   ]
 }
