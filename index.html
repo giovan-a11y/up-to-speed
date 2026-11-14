@@ -1,0 +1,842 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Up to Speed</title>
+<meta name="description" content="Crash courses on 30+ small-talk topics, with weekly updates on what's happening now.">
+<meta name="theme-color" content="#1f5f8b">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Up to Speed">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: a single reading column (max 760px) with a sticky top bar; topic pages use tabs; highlighter-yellow marks the words you need to know. */
+:root {
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --ink: #142233;
+  --muted: #5b6878;
+  --line: #dde2e9;
+  --accent: #1f5f8b;
+  --accent-ink: #ffffff;
+  --mark: #ffe066;
+  --mark-ink: #142233;
+  --good: #1d7a4f;
+  --good-bg: #e2f4ea;
+  --bad: #b3372b;
+  --bad-bg: #fbe7e4;
+  --shadow: 0 1px 2px rgba(20,34,51,.06), 0 6px 20px rgba(20,34,51,.06);
+  --f-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --f-body: "Figtree", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f1620; --surface: #172230; --ink: #e6edf5; --muted: #95a3b4; --line: #26364a;
+  --accent: #6db3e3; --accent-ink: #0f1620; --mark: #e8c547; --mark-ink: #0f1620;
+  --good: #5ccf92; --good-bg: #173527; --bad: #f08a7e; --bad-bg: #3a1d1a;
+  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.25); color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0f1620; --surface: #172230; --ink: #e6edf5; --muted: #95a3b4; --line: #26364a;
+  --accent: #6db3e3; --accent-ink: #0f1620; --mark: #e8c547; --mark-ink: #0f1620;
+  --good: #5ccf92; --good-bg: #173527; --bad: #f08a7e; --bad-bg: #3a1d1a;
+  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.25); color-scheme: dark; }
+
+* { box-sizing: border-box; }
+html, body { background: var(--bg); }
+body { color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.55; }
+button, input { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+h1, h2, h3 { font-family: var(--f-display); text-wrap: balance; line-height: 1.15; margin: 0; }
+p { margin: 0; }
+mark { background: linear-gradient(transparent 55%, var(--mark) 55%); color: inherit; padding: 0 .1em; }
+
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.wrap { max-width: 760px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.topbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+.topbar .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 12px; }
+.brand { display: flex; align-items: baseline; gap: 8px; background: none; border: 0; padding: 0; font-family: var(--f-display); font-weight: 800; font-size: 20px; letter-spacing: -.01em; }
+.brand .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--mark); box-shadow: 0 0 0 3px color-mix(in srgb, var(--mark) 35%, transparent); align-self: center; }
+.brand small { font-family: var(--f-body); font-weight: 500; font-size: 13px; color: var(--muted); }
+main { padding-block: 28px 64px; }
+
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border: 1px solid var(--line); background: var(--surface); padding: 10px 16px; border-radius: 10px; font-weight: 600; }
+.btn:hover { border-color: var(--accent); }
+.btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.btn.primary:hover { filter: brightness(1.08); }
+.btn.ghost { background: transparent; border-color: transparent; color: var(--muted); }
+.btn.ghost:hover { color: var(--ink); }
+.btn:disabled { opacity: .55; cursor: default; }
+.btn.sm { padding: 6px 12px; font-size: 14px; }
+
+/* Home */
+.hero { display: grid; gap: 14px; padding-block: 8px 28px; }
+.hero h1 { font-size: clamp(30px, 6vw, 46px); font-weight: 800; letter-spacing: -.02em; }
+.hero p { color: var(--muted); max-width: 56ch; font-size: 17px; }
+.ask { display: flex; gap: 8px; background: var(--surface); border: 1.5px solid var(--line); border-radius: 14px; padding: 6px; box-shadow: var(--shadow); }
+.ask:focus-within { border-color: var(--accent); }
+.ask input { flex: 1; min-width: 0; border: 0; background: transparent; padding: 10px 12px; font-size: 17px; outline: none; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { border: 1px dashed var(--line); background: transparent; border-radius: 999px; padding: 5px 12px; font-size: 14px; color: var(--muted); }
+.chip:hover { border-style: solid; border-color: var(--accent); color: var(--ink); }
+.filters { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; margin-top: 8px; }
+.filters .chip { border-style: solid; white-space: nowrap; }
+.filters .chip.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.note { font-size: 14px; color: var(--muted); }
+.note.err { color: var(--bad); }
+.section-label { font-family: var(--f-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-block: 28px 12px; }
+.library { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+.card { position: relative; display: grid; gap: 10px; text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px; min-width: 0; }
+.card:hover { border-color: var(--accent); }
+.card h3 { font-size: 20px; }
+.card .tag { color: var(--muted); font-size: 14px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.meter { display: grid; gap: 6px; }
+.meter .bar { height: 6px; border-radius: 99px; background: var(--line); overflow: hidden; }
+.meter .bar span { display: block; height: 100%; background: var(--accent); border-radius: 99px; transition: width .4s; }
+.meter .lbl { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.meter .lbl b { color: var(--ink); font-weight: 600; }
+.sample-badge { position: absolute; top: 14px; right: 14px; font-family: var(--f-mono); font-size: 11px; color: var(--muted); }
+
+/* Generating */
+.gen { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 24px; display: grid; gap: 16px; box-shadow: var(--shadow); }
+.gen h2 { font-size: 24px; }
+.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.steps li { display: flex; align-items: center; gap: 10px; color: var(--muted); }
+.steps li::before { content: ""; width: 14px; height: 14px; border-radius: 50%; border: 2px solid var(--line); flex: none; }
+.steps li.done { color: var(--ink); }
+.steps li.done::before { background: var(--good); border-color: var(--good); }
+.steps li.active { color: var(--ink); }
+.steps li.active::before { border-color: var(--accent); border-top-color: transparent; animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Topic */
+.t-head { display: grid; gap: 10px; padding-bottom: 18px; }
+.t-head h1 { font-size: clamp(30px, 6vw, 44px); font-weight: 800; letter-spacing: -.02em; }
+.t-head .tagline { color: var(--muted); font-size: 17px; }
+.t-head .row { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; justify-content: space-between; }
+.t-head .meter { flex: 1; min-width: 200px; max-width: 360px; }
+.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); overflow-x: auto; scrollbar-width: none; margin-bottom: 22px; }
+.tabs button { border: 0; background: none; padding: 10px 14px; font-weight: 600; color: var(--muted); border-bottom: 2.5px solid transparent; white-space: nowrap; }
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+
+.block { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 22px; display: grid; gap: 14px; margin-bottom: 14px; min-width: 0; }
+.block-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.block-head h2 { font-size: 22px; }
+.block-head .num { font-family: var(--f-mono); font-size: 12px; color: var(--muted); }
+.block.read { border-color: color-mix(in srgb, var(--good) 45%, var(--line)); }
+.why { font-size: 17px; max-width: 65ch; }
+.ess { display: grid; gap: 12px; }
+.ess div { display: grid; gap: 2px; }
+.ess b { font-weight: 700; }
+.terms { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px 20px; }
+.terms div { display: grid; gap: 2px; min-width: 0; }
+.terms dt { font-weight: 700; }
+.terms dd { margin: 0; color: var(--muted); font-size: 15px; }
+.names { display: grid; gap: 10px; }
+.names div { display: grid; grid-template-columns: minmax(120px, 190px) 1fr; gap: 12px; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+.names div:last-child { border-bottom: 0; padding-bottom: 0; }
+.names b { font-weight: 700; }
+.names span { color: var(--muted); font-size: 15px; }
+.tl { display: grid; gap: 0; }
+.tl div { display: grid; grid-template-columns: 84px 1fr; gap: 14px; padding: 8px 0; border-left: 2px solid var(--line); margin-left: 6px; padding-left: 16px; position: relative; }
+.tl div::before { content: ""; position: absolute; left: -6px; top: 15px; width: 10px; height: 10px; border-radius: 50%; background: var(--surface); border: 2px solid var(--accent); }
+.tl .yr { font-family: var(--f-mono); font-size: 13px; color: var(--accent); padding-top: 2px; font-variant-numeric: tabular-nums; }
+.news { display: grid; gap: 12px; }
+.news b { display: block; }
+.news span { color: var(--muted); font-size: 15px; }
+.asof { font-family: var(--f-mono); font-size: 12px; color: var(--muted); }
+.debate { display: grid; gap: 2px; padding: 12px 14px; border-radius: 10px; background: var(--bg); }
+.debate b { font-weight: 700; }
+.debate span { color: var(--muted); font-size: 15px; }
+.list { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+.say { display: grid; gap: 2px; }
+.say q { font-weight: 600; quotes: "“" "”"; }
+.say span { color: var(--muted); font-size: 14px; }
+.sub { font-family: var(--f-display); font-size: 16px; font-weight: 700; margin-top: 4px; }
+.readbtn { justify-self: start; }
+.readbtn[aria-pressed="true"] { background: var(--good-bg); border-color: var(--good); color: var(--good); }
+
+/* Flashcards */
+.fc-wrap { display: grid; gap: 16px; justify-items: center; }
+.fc-meta { display: flex; justify-content: space-between; width: 100%; max-width: 520px; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; flex-wrap: wrap; gap: 8px; }
+.fc { width: 100%; max-width: 520px; min-height: 260px; perspective: 1200px; border: 0; background: none; padding: 0; }
+.fc-inner { position: relative; width: 100%; min-height: 260px; transition: transform .45s; transform-style: preserve-3d; }
+.fc.flipped .fc-inner { transform: rotateY(180deg); }
+.fc-face { position: absolute; inset: 0; backface-visibility: hidden; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); display: grid; place-content: center; gap: 10px; padding: 28px; text-align: center; }
+.fc-face .kind { font-family: var(--f-mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.fc-face h3 { font-size: clamp(24px, 5vw, 32px); }
+.fc-back { transform: rotateY(180deg); }
+.fc-back p { font-size: 18px; max-width: 40ch; }
+.fc-actions { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+.btn.know { border-color: var(--good); color: var(--good); }
+.btn.learn { border-color: var(--bad); color: var(--bad); }
+.fc-dots { display: flex; gap: 4px; flex-wrap: wrap; justify-content: center; max-width: 520px; }
+.fc-dots i { width: 8px; height: 8px; border-radius: 50%; background: var(--line); }
+.fc-dots i.k { background: var(--good); }
+.fc-dots i.cur { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+/* Quiz */
+.quiz { display: grid; gap: 14px; max-width: 600px; margin: 0 auto; }
+.quiz h2 { font-size: 22px; }
+.opts { display: grid; gap: 8px; }
+.opt { text-align: left; background: var(--surface); border: 1.5px solid var(--line); border-radius: 12px; padding: 12px 14px; font-weight: 500; }
+.opt:hover:not(:disabled) { border-color: var(--accent); }
+.opt:disabled { cursor: default; }
+.opt.right { border-color: var(--good); background: var(--good-bg); }
+.opt.wrong { border-color: var(--bad); background: var(--bad-bg); }
+.explain { padding: 12px 14px; border-radius: 10px; background: var(--bg); border: 1px solid var(--line); }
+.score { font-family: var(--f-display); font-size: 56px; font-weight: 800; letter-spacing: -.03em; font-variant-numeric: tabular-nums; }
+
+/* Cheat sheet */
+.cheat { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.cheat .block { margin: 0; }
+.cheat .lead { grid-column: 1 / -1; }
+.cheat ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; }
+.cheat h3 { font-size: 17px; }
+
+/* Ask */
+.qa { display: grid; gap: 12px; }
+.qa-item { display: grid; gap: 6px; padding: 14px; border-radius: 12px; background: var(--bg); border: 1px solid var(--line); }
+.qa-item .q { font-weight: 700; }
+.qa-item .a { white-space: pre-wrap; }
+
+.empty { text-align: center; padding: 40px 16px; color: var(--muted); display: grid; gap: 12px; justify-items: center; }
+.toolbar { display: flex; gap: 8px; flex-wrap: wrap; justify-content: space-between; align-items: center; margin-top: 18px; }
+
+@media (max-width: 520px) {
+  .names div { grid-template-columns: 1fr; gap: 2px; }
+  .tl div { grid-template-columns: 1fr; gap: 0; }
+  .block { padding: 18px; }
+  .ask { flex-direction: column; }
+}
+/* Offline app additions */
+body { padding-bottom: env(safe-area-inset-bottom); }
+.topbar .wrap { padding-top: env(safe-area-inset-top); }
+.fresh { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; display: grid; gap: 10px; box-shadow: var(--shadow); margin-bottom: 8px; }
+.fresh h2 { font-size: 19px; }
+.fresh ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.fresh li button { all: unset; cursor: pointer; display: block; }
+.fresh li button b { color: var(--accent); }
+.fresh li button:hover b, .fresh li button:focus-visible b { text-decoration: underline; }
+.fresh .meta { font-family: var(--f-mono); font-size: 12px; color: var(--muted); }
+.badge { display: inline-block; font-family: var(--f-mono); font-size: 11px; padding: 2px 7px; border-radius: 99px; background: var(--mark); color: var(--mark-ink); vertical-align: middle; margin-left: 6px; }
+.card .badge { position: absolute; top: 12px; right: 12px; margin: 0; }
+.card { position: relative; }
+.nums { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; margin-bottom: 14px; }
+.nums div { background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; display: grid; gap: 2px; }
+.nums span { font-size: 12px; color: var(--muted); }
+.nums b { font-size: 16px; }
+.req { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; display: grid; gap: 10px; }
+.req .acts { display: flex; gap: 8px; flex-wrap: wrap; }
+.req ul { margin: 0; padding-left: 18px; }
+.foot { color: var(--muted); font-size: 13px; text-align: center; padding: 36px 0 24px; display: grid; gap: 6px; }
+.foot button { all: unset; cursor: pointer; text-decoration: underline; }
+.toast { position: fixed; left: 50%; bottom: calc(18px + env(safe-area-inset-bottom)); transform: translateX(-50%); background: var(--ink); color: var(--surface); border-radius: 12px; padding: 10px 14px; display: flex; gap: 12px; align-items: center; box-shadow: var(--shadow); z-index: 20; max-width: calc(100% - 32px); font-size: 14px; }
+.toast button { all: unset; cursor: pointer; font-weight: 700; text-decoration: underline; }
+.offline-pill { font-family: var(--f-mono); font-size: 11px; color: var(--muted); border: 1px solid var(--line); border-radius: 99px; padding: 3px 8px; }
+.topbar .right { display: flex; gap: 8px; align-items: center; }
+a.btn { text-decoration: none; }
+@media (max-width: 520px) { .brand small { display: none; } }
+.brand { white-space: nowrap; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+</style>
+</head>
+<body>
+<header class="topbar"><div class="wrap">
+  <button class="brand" id="home-btn" type="button"><span class="dot"></span>Up to Speed <small>learn enough to talk</small></button>
+  <span class="right"><span class="offline-pill" id="offline" hidden>Offline</span><button class="btn sm" id="install-btn" type="button" hidden>Install app</button><button class="btn sm" id="new-btn" type="button" hidden>New topic</button></span>
+</div></header>
+<main class="wrap" id="app"></main>
+
+<script>
+(async () => {
+"use strict";
+// Topic content lives in data/bundle.json, refreshed weekly by a GitHub Action.
+let BUNDLE = { repo: "", weekly: {}, topics: [] };
+try { const r = await fetch("data/bundle.json", { cache: "no-cache" }); if (r.ok) BUNDLE = await r.json(); } catch (err) { console.warn("content unavailable", err); }
+const SAMPLES = BUNDLE.topics || [];
+const WEEKLY = BUNDLE.weekly || {};
+const REPO = BUNDLE.repo || "";
+const SEEN_KEY = "uts.seen";
+let lastSeen = ""; try { lastSeen = localStorage.getItem(SEEN_KEY) || ""; } catch {}
+const fmtDate = (iso) => { const d = new Date(iso + "T00:00:00"); return isNaN(d) ? iso : d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }); };
+const $app = document.getElementById("app");
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const slugify = (s) => String(s).toLowerCase().normalize("NFKD").replace(/[^\w\s-]/g, "").trim().replace(/[\s_]+/g, "-").replace(/-+/g, "-").slice(0, 48) || "topic";
+const RESERVED = new Set(["settings", "sidebar", "customize", "upgrade", "downloads"]);
+const BASE_SECTIONS = ["basics", "jargon", "names", "history", "now", "debates", "talk"];
+const sectionsFor = (c) => c.local && c.local.length ? ["basics", "jargon", "names", "history", "now", "local", "debates", "talk"] : BASE_SECTIONS;
+const CATEGORIES = ["Sports", "Luxury & style", "Money", "Food & drink", "Tech", "Culture", "Lifestyle"];
+const SUGGEST = ["Mahjong", "Badminton", "Anime", "Sake", "Skiing", "Poker", "Classical music", "Board games", "Startups & VC", "Yoga", "Cricket", "Tea"];
+
+// ---------- State ----------
+const store = {}; // slug -> { course, progress, builtin }
+const blankProgress = () => ({ read: [], known: [], best: null, qa: [], updated: Date.now() });
+for (const c of SAMPLES) { const s = c.slug || slugify(c.topic); store[s] = { course: normalize(c), progress: blankProgress(), builtin: true }; }
+
+let view = { name: "home", slug: null, tab: "course" };
+let homeCat = "All";
+let sampleFn = null, db = null, uid = null;
+let genState = null; // { topic, ctl, text }
+let homeMsg = "";
+
+// ---------- Persistence: localStorage always, Claude storage when available ----------
+const LS = "uts.v1";
+function lsLoad() { try { return JSON.parse(localStorage.getItem(LS) || "{}"); } catch { return {}; } }
+function lsSave() {
+  try {
+    const out = {};
+    for (const [s, v] of Object.entries(store)) out[s] = { progress: v.progress, course: v.builtin ? null : v.course };
+    localStorage.setItem(LS, JSON.stringify(out));
+  } catch {}
+}
+function absorb(saved) {
+  for (const [s, v] of Object.entries(saved || {})) {
+    if (!v) continue;
+    const cur = store[s];
+    const prog = { ...blankProgress(), ...(v.progress || {}) };
+    if (cur) { if (!cur.progress.updated || (prog.updated || 0) >= cur.progress.updated) cur.progress = prog; if (!cur.builtin && v.course) cur.course = v.course; }
+    else if (v.course) store[s] = { course: normalize(v.course), progress: prog, builtin: false };
+  }
+}
+absorb(lsLoad());
+
+const pending = new Map(); let writing = false;
+function persist(slug) {
+  const e = store[slug]; if (!e) return;
+  e.progress.updated = Date.now();
+  lsSave();
+  if (!db || !uid) return;
+  clearTimeout(pending.get(slug));
+  pending.set(slug, setTimeout(() => flush(slug), 700));
+}
+async function flush(slug) {
+  if (writing) { pending.set(slug, setTimeout(() => flush(slug), 400)); return; }
+  writing = true;
+  const e = store[slug];
+  try {
+    if (e) await db.collection("data/users/" + uid + "/topics").doc(slug).set({ progress: e.progress, course: e.builtin ? null : e.course, builtin: !!e.builtin });
+    else await db.collection("data/users/" + uid + "/topics").doc(slug).delete();
+  } catch (err) { console.warn("save failed", err); }
+  writing = false;
+}
+
+(async () => {
+  if (!window.claude?.use) return;
+  claude.use("sample").then((s) => { sampleFn = s; rerenderHome(); });
+  try {
+    const [d, u] = await Promise.all([claude.use("db"), claude.use("user")]);
+    if (d && u) {
+      const me = await u.id();
+      if (me) {
+        db = d; uid = me;
+        const snap = await db.collection("data/users/" + uid + "/topics").get();
+        const saved = {};
+        snap.docs.forEach((doc) => { saved[doc.id] = doc.data(); });
+        absorb(saved); lsSave(); render();
+      }
+    }
+  } catch (err) { console.warn("storage unavailable", err); }
+})();
+function rerenderHome() { if (view.name === "home") render(); }
+
+// ---------- Course helpers ----------
+function arr(x) { return Array.isArray(x) ? x : []; }
+function normalize(c) {
+  c = c || {};
+  return {
+    updated: String(c.updated || ""), refresh: String(c.refresh || ""), requested: String(c.requested || ""),
+    numbers: arr(c.numbers).filter((x) => x && x.label && x.value),
+    topic: String(c.topic || "Untitled"), category: String(c.category || ""), local: arr(c.local).filter((x) => x && x.headline), tagline: String(c.tagline || ""), asOf: String(c.asOf || ""), why: String(c.why || ""),
+    essentials: arr(c.essentials).filter((x) => x && x.title), jargon: arr(c.jargon).filter((x) => x && x.term),
+    names: arr(c.names).filter((x) => x && x.name), timeline: arr(c.timeline).filter((x) => x && x.event),
+    now: arr(c.now).filter((x) => x && x.headline), debates: arr(c.debates).filter((x) => x && x.question),
+    starters: arr(c.starters).map(String), sayThis: arr(c.sayThis).filter((x) => x && x.say), avoid: arr(c.avoid).map(String),
+    quiz: arr(c.quiz).filter((q) => q && q.q && Array.isArray(q.options) && q.options.length >= 2 && Number.isInteger(q.answer) && q.answer >= 0 && q.answer < q.options.length)
+  };
+}
+function cards(c) {
+  return [...c.jargon.map((j) => ({ id: "t:" + j.term, kind: "Term", front: j.term, back: j.meaning })),
+          ...c.names.map((n) => ({ id: "n:" + n.name, kind: "Who / what", front: n.name, back: n.what }))];
+}
+function readiness(e) {
+  const c = e.course, p = e.progress;
+  const secs = sectionsFor(c); const r = p.read.filter((s) => secs.includes(s)).length / secs.length;
+  const all = cards(c); const k = all.length ? all.filter((x) => p.known.includes(x.id)).length / all.length : 0;
+  const q = p.best == null || !c.quiz.length ? 0 : p.best / c.quiz.length;
+  return Math.round((r * 0.4 + k * 0.3 + q * 0.3) * 100);
+}
+function level(pct) {
+  if (pct >= 90) return "Can hold your own";
+  if (pct >= 65) return "Can hold a conversation";
+  if (pct >= 40) return "Can ask good questions";
+  if (pct >= 15) return "Can nod along";
+  return "Starting out";
+}
+function meter(e) {
+  const pct = readiness(e);
+  return `<div class="meter"><div class="lbl"><b>${esc(level(pct))}</b><span>${pct}%</span></div><div class="bar"><span style="width:${pct}%"></span></div></div>`;
+}
+
+// ---------- Routing ----------
+function go(name, slug, tab) {
+  view = { name, slug: slug || null, tab: tab || "course" };
+  const h = name === "topic" && slug ? "#" + slug : "";
+  if (location.hash !== h) { try { history.replaceState(null, "", h || location.pathname + location.search); } catch { location.hash = h; } }
+  render(); window.scrollTo({ top: 0 });
+}
+function fromHash() {
+  const s = decodeURIComponent(location.hash.slice(1));
+  if (s && store[s]) view = { name: "topic", slug: s, tab: "course" }; else if (view.name === "topic") view = { name: "home" };
+}
+window.addEventListener("hashchange", () => { fromHash(); render(); });
+fromHash();
+
+document.getElementById("home-btn").onclick = () => go("home");
+document.getElementById("new-btn").onclick = () => { go("home"); setTimeout(() => document.getElementById("topic-in")?.focus(), 0); };
+
+// ---------- Render ----------
+function render() {
+  document.getElementById("new-btn").hidden = view.name === "home";
+  if (genState) return renderGen();
+  if (view.name === "topic" && store[view.slug]) return renderTopic();
+  renderHome();
+}
+
+function renderHome() {
+  const entries = Object.entries(store);
+  const started = entries.filter(([, e]) => readiness(e) > 0).sort((a, b) => (b[1].progress.updated || 0) - (a[1].progress.updated || 0));
+  const mine = entries.filter(([, e]) => !e.builtin).sort((a, b) => (b[1].progress.updated || 0) - (a[1].progress.updated || 0));
+  let groups;
+  if (homeCat === "Mine") groups = [["Topics you created", mine]];
+  else if (homeCat !== "All") groups = [[homeCat, entries.filter(([, e]) => e.builtin && e.course.category === homeCat)]];
+  else groups = [["Keep going", started.slice(0, 6)], ...(mine.length ? [["Topics you created", mine]] : []), ...CATEGORIES.map((k) => [k, entries.filter(([, e]) => e.builtin && e.course.category === k)])];
+  if (homeCat !== "All" && !groups[0][1].length) groups = [[homeCat === "Mine" ? "Topics you created" : homeCat, []]];
+  const canGen = !!sampleFn;
+  const isNew = (e) => e.builtin && e.course.updated && (!lastSeen || e.course.updated > lastSeen);
+  const hl = (WEEKLY.highlights || []).filter((h) => store[h.slug]);
+  const added = entries.filter(([, e]) => e.course.requested && e.course.requested >= (WEEKLY.date || "")).map(([s]) => s);
+  $app.innerHTML = `
+    ${WEEKLY.date ? `<section class="fresh" aria-label="This week's updates">
+      <div class="meta">Updated ${esc(fmtDate(WEEKLY.date))} · ${(WEEKLY.refreshed || []).length} topic${(WEEKLY.refreshed || []).length === 1 ? "" : "s"} refreshed${navigator.onLine ? "" : " · you're offline, showing the last download"}</div>
+      <h2>Fresh this week</h2>
+      ${hl.length || added.length ? `<ul>${added.map((s) => `<li><button type="button" data-open="${esc(s)}"><b>New topic: ${esc(store[s].course.topic)}</b></button></li>`).join("")}${hl.slice(0, 8).map((h) => `<li><button type="button" data-open="${esc(h.slug)}"><b>${esc(store[h.slug].course.topic)}:</b> ${esc(h.headline)}</button></li>`).join("")}</ul>` : `<p class="note">No big changes this week. Tap any topic to see its latest talking points.</p>`}
+    </section>` : ""}
+    <section class="hero">
+      <h1>What do you want to be able to <mark>talk about</mark>?</h1>
+      <p>Pick one of the ${Object.values(store).filter((e) => e.builtin).length} ready-made topics below, or type your own. You get a 15-minute crash course: the basics, the words people use, the big names, what everyone's arguing about right now, and lines to get a conversation going. Then lock it in with flashcards and a quiz.</p>
+      <form class="ask" id="ask-form" autocomplete="off">
+        <input id="topic-in" type="text" maxlength="80" placeholder="e.g. wine, Formula 1, golf, sneakers…" aria-label="Topic" ${canGen ? "" : ""}>
+        <button class="btn primary" type="submit" id="gen-btn">Get me up to speed</button>
+      </form>
+      <div class="chips" aria-label="Ideas">${SUGGEST.map((s) => `<button class="chip" type="button" data-s="${esc(s)}">${esc(s)}</button>`).join("")}</div>
+      <div id="req-zone">${reqPanel()}</div>
+      <p class="note ${homeMsg ? "err" : ""}" id="home-note">${esc(homeMsg)}</p>
+    </section>
+    <div class="filters" role="tablist" aria-label="Categories">${["All", ...CATEGORIES, "Mine"].map((k) => `<button class="chip ${homeCat === k ? "on" : ""}" type="button" data-cat="${esc(k)}">${esc(k)}</button>`).join("")}</div>
+    ${homeCat === "Mine" && !mine.length ? `<p class="note" style="margin-top:20px">Topics you create appear here. Type one above to start.</p>` : ""}${groups.map(([name, list]) => list.length ? `<div class="section-label">${esc(name)}</div><div class="library">${list.map(([s, e]) => cardHtml(s, e)).join("")}</div>` : "").join("")}`;
+  const form = document.getElementById("ask-form"), inp = document.getElementById("topic-in");
+  form.onsubmit = (ev) => { ev.preventDefault(); start(inp.value); };
+  $app.querySelectorAll("[data-s]").forEach((b) => b.onclick = () => { inp.value = b.dataset.s; start(b.dataset.s); });
+  $app.querySelectorAll("[data-open]").forEach((b) => b.onclick = () => go("topic", b.dataset.open));
+  $app.querySelectorAll("[data-cat]").forEach((b) => b.onclick = () => { homeCat = b.dataset.cat; renderHome(); });
+  wireReq();
+  $app.insertAdjacentHTML("beforeend", footHtml());
+  wireFoot();
+}
+function cardBadge(e) {
+  if (!e.builtin || !e.course.updated) return "";
+  if (e.course.requested && (!lastSeen || e.course.requested > lastSeen)) return `<span class="badge">New</span>`;
+  if (lastSeen && e.course.updated > lastSeen) return `<span class="badge">Updated</span>`;
+  return "";
+}
+function cardHtml(s, e) {
+  return `<button class="card" type="button" data-open="${esc(s)}">
+        ${cardBadge(e)}<h3>${esc(e.course.topic)}</h3>
+        <p class="tag">${esc(e.course.tagline)}</p>
+        ${meter(e)}
+      </button>`;
+}
+
+// ---------- Generation ----------
+const GEN_STEPS = [["why", "Working out why people care"], ["essentials", "Picking the essentials"], ["jargon", "Collecting the jargon"], ["names", "Listing the big names"], ["timeline", "Tracing the history"], ["now", "Finding today's talking points"], ["debates", "Lining up the debates"], ["starters", "Writing conversation starters"], ["quiz", "Building your quiz"]];
+
+function prompt(topic) {
+  return `You are a friendly, well-informed insider who lives in Hong Kong helping someone get up to speed on a topic fast, so they can hold a casual conversation with enthusiasts (at work, at a bar, on a date). They know nothing yet. Be accurate, specific and current; use real names, real numbers and real events. Plain, warm English, no fluff. If the topic is ambiguous, pick the meaning most people would mean socially. If it is not a real topic, or is harmful, still return the JSON with "topic" set to the input and "why" explaining briefly that you can't make a course for it, and leave the other arrays empty.
+
+Topic: ${topic}
+
+Reply with ONLY a JSON object, no prose or code fences, in exactly this shape:
+{
+  "topic": "clean display name of the topic",
+  "tagline": "one punchy sentence that sums up the world of this topic",
+  "asOf": "the month and year your knowledge of current events runs to, e.g. 'mid-2026'",
+  "why": "2-4 sentences: what it is and why people are into it",
+  "essentials": [{"title": "short heading", "body": "1-2 sentences"}],         // exactly 5 core ideas that unlock everything else
+  "jargon": [{"term": "word", "meaning": "plain one-sentence meaning"}],        // 12 terms enthusiasts actually say
+  "names": [{"name": "person, brand, team or thing", "what": "1 sentence: who and why they matter"}], // 12
+  "timeline": [{"year": "year or range", "event": "1 sentence"}],              // 8-10 key moments, oldest first
+  "now": [{"headline": "short", "detail": "1-2 sentences"}],                    // 5 current talking points people are discussing lately
+  "local": [{"headline": "short", "detail": "1-2 sentences"}],                  // 4 Hong Kong angles: local scene, places, people, how Hong Kongers talk about it (the learner lives in Hong Kong)
+  "debates": [{"question": "the argument", "sides": "1-2 sentences on each side"}], // 4
+  "starters": ["question you can ask an enthusiast"],                           // 5
+  "sayThis": [{"say": "a line that shows you get it", "why": "when or why to use it"}], // 3
+  "avoid": ["rookie mistake or faux pas"],                                       // 3-4
+  "quiz": [{"q": "question", "options": ["a","b","c","d"], "answer": 0, "explain": "1 sentence"}] // 10 questions, answer is the 0-based index of the correct option; vary its position
+}`;
+}
+
+async function start(raw) {
+  const topic = String(raw || "").trim();
+  if (!topic) { document.getElementById("topic-in")?.focus(); return; }
+  const existing = Object.entries(store).find(([s, e]) => s === slugify(topic) || e.course.topic.toLowerCase() === topic.toLowerCase());
+  if (existing) return go("topic", existing[0]);
+  if (!sampleFn) { reqDraft = topic; homeMsg = ""; return renderHome(); }
+  const ctl = new AbortController();
+  genState = { topic, ctl, text: "" };
+  homeMsg = "";
+  render();
+  try {
+    const data = await sampleFn.json(prompt(topic), {
+      signal: ctl.signal, modelTier: "default",
+      onText: ({ text }) => { if (genState) { genState.text = text; updateGenSteps(); } }
+    });
+    const course = normalize(data);
+    if (!course.jargon.length && !course.essentials.length) throw { code: "empty", message: course.why };
+    let slug = slugify(course.topic); if (RESERVED.has(slug) || slug.startsWith("comment-")) slug += "-topic";
+    if (store[slug] && store[slug].builtin) slug += "-2";
+    store[slug] = { course, progress: blankProgress(), builtin: false };
+    genState = null;
+    persist(slug);
+    go("topic", slug);
+  } catch (e) {
+    genState = null;
+    const code = e && e.code;
+    homeMsg = code === "cancelled" ? "" :
+      code === "not_granted" ? "Creating a topic needs your OK to use Claude. Reload the page and allow it when asked." :
+      code === "rate_limited" ? "Too many requests right now. Wait a minute and try again." :
+      code === "empty" ? (e.message || "Couldn't make a course for that. Try wording the topic differently.") :
+      "Something went wrong while writing that course. Try again, or try a slightly different topic.";
+    go("home");
+    const inp = document.getElementById("topic-in"); if (inp) inp.value = topic;
+  }
+}
+function renderGen() {
+  $app.innerHTML = `<section class="gen" aria-live="polite">
+    <div class="section-label" style="margin:0">Writing your crash course</div>
+    <h2>${esc(genState.topic)}</h2>
+    <ul class="steps" id="steps">${GEN_STEPS.map(([k, l]) => `<li data-k="${k}">${esc(l)}</li>`).join("")}</ul>
+    <p class="note">This usually takes 30 to 90 seconds. You can keep it open in the background.</p>
+    <div><button class="btn sm" id="stop-gen" type="button">Cancel</button></div>
+  </section>`;
+  document.getElementById("stop-gen").onclick = () => genState?.ctl.abort();
+  updateGenSteps();
+}
+function updateGenSteps() {
+  const t = genState?.text || ""; let seenLast = -1;
+  GEN_STEPS.forEach(([k], i) => { if (t.includes(`"${k}"`)) seenLast = i; });
+  document.querySelectorAll("#steps li").forEach((li, i) => {
+    li.className = i < seenLast ? "done" : i === Math.max(seenLast, 0) ? "active" : "";
+  });
+}
+
+// ---------- Topic page ----------
+function renderTopic() {
+  const e = store[view.slug], c = e.course;
+  const tabs = [["course", "Course"], ["cards", "Flashcards"], ["quiz", "Quiz"], ["cheat", "Cheat sheet"], ["ask", "Ask"]];
+  $app.innerHTML = `
+    <section class="t-head">
+      <h1>${esc(c.topic)}</h1>
+      <p class="tagline">${esc(c.tagline)}</p>
+      <div class="row">${meter(e)}</div>
+    </section>
+    <nav class="tabs" role="tablist">${tabs.map(([k, l]) => `<button role="tab" type="button" data-tab="${k}" aria-selected="${view.tab === k}">${l}</button>`).join("")}</nav>
+    <div id="pane"></div>
+    <div class="toolbar">
+      <button class="btn ghost sm" type="button" id="back">← All topics</button>
+      ${e.builtin ? "" : `<span id="del-zone"><button class="btn ghost sm" type="button" id="del">Remove this topic</button></span>`}
+    </div>`;
+  $app.querySelectorAll("[data-tab]").forEach((b) => b.onclick = () => { view.tab = b.dataset.tab; renderTopic(); });
+  document.getElementById("back").onclick = () => go("home");
+  const del = document.getElementById("del");
+  if (del) del.onclick = () => {
+    document.getElementById("del-zone").innerHTML = `<span class="note">Remove ${esc(c.topic)} and its progress?</span> <button class="btn sm" id="del-yes" type="button">Remove</button> <button class="btn ghost sm" id="del-no" type="button">Keep</button>`;
+    document.getElementById("del-no").onclick = renderTopic;
+    document.getElementById("del-yes").onclick = () => { const s = view.slug; delete store[s]; lsSave(); if (db && uid) { clearTimeout(pending.get(s)); flush(s); } go("home"); };
+  };
+  const pane = document.getElementById("pane");
+  ({ course: paneCourse, cards: paneCards, quiz: paneQuiz, cheat: paneCheat, ask: paneAsk })[view.tab](pane, e);
+}
+function refreshMeter(e) { const m = $app.querySelector(".t-head .row"); if (m) m.innerHTML = meter(e); }
+
+function paneCourse(pane, e) {
+  const c = e.course, p = e.progress;
+  const secs = sectionsFor(c);
+  const blk = (key, title, body) => {
+    if (!secs.includes(key)) return "";
+    const done = p.read.includes(key), n = secs.indexOf(key) + 1;
+    return `<section class="block ${done ? "read" : ""}" id="sec-${key}"><div class="block-head"><h2>${title}</h2><span class="num">${n} / ${secs.length}</span></div>${body}
+      <button class="btn sm readbtn" type="button" data-read="${key}" aria-pressed="${done}">${done ? "✓ Read" : "Mark as read"}</button></section>`;
+  };
+  pane.innerHTML =
+    blk("basics", "The two-minute version", `<p class="why">${esc(c.why)}</p><div class="ess">${c.essentials.map((x) => `<div><b>${esc(x.title)}</b><span>${esc(x.body)}</span></div>`).join("")}</div>`) +
+    blk("jargon", "Words you'll hear", `<dl class="terms">${c.jargon.map((j) => `<div><dt><mark>${esc(j.term)}</mark></dt><dd>${esc(j.meaning)}</dd></div>`).join("")}</dl>`) +
+    blk("names", "Names to know", `<div class="names">${c.names.map((n) => `<div><b>${esc(n.name)}</b><span>${esc(n.what)}</span></div>`).join("")}</div>`) +
+    blk("history", "How we got here", `<div class="tl">${c.timeline.map((t) => `<div><span class="yr">${esc(t.year)}</span><span>${esc(t.event)}</span></div>`).join("")}</div>`) +
+    blk("now", "What people are talking about", `${c.asOf ? `<span class="asof">As of ${esc(c.asOf)}${c.refresh ? ` · refreshed ${c.refresh === "weekly" ? "every week" : "every month"}` : ""}. Things move fast, so ask what's new.</span>` : ""}${c.numbers.length ? `<div class="nums">${c.numbers.map((n) => `<div><span>${esc(n.label)}</span><b>${esc(n.value)}</b></div>`).join("")}</div>` : ""}<div class="news">${c.now.map((x) => `<div><b>${esc(x.headline)}</b><span>${esc(x.detail)}</span></div>`).join("")}</div>`) +
+    blk("local", "The Hong Kong angle", `<div class="news">${c.local.map((x) => `<div><b>${esc(x.headline)}</b><span>${esc(x.detail)}</span></div>`).join("")}</div>`) +
+    blk("debates", "Hot takes and debates", c.debates.map((d) => `<div class="debate"><b>${esc(d.question)}</b><span>${esc(d.sides)}</span></div>`).join("")) +
+    blk("talk", "Joining the conversation", `
+      <div class="sub">Questions to ask</div><ul class="list">${c.starters.map((s) => `<li>${esc(s)}</li>`).join("")}</ul>
+      <div class="sub">Lines that show you get it</div>${c.sayThis.map((s) => `<div class="say"><q>${esc(s.say)}</q><span>${esc(s.why)}</span></div>`).join("")}
+      <div class="sub">Rookie mistakes</div><ul class="list">${c.avoid.map((s) => `<li>${esc(s)}</li>`).join("")}</ul>`);
+  pane.querySelectorAll("[data-read]").forEach((b) => b.onclick = () => {
+    const k = b.dataset.read, i = p.read.indexOf(k);
+    if (i >= 0) p.read.splice(i, 1); else p.read.push(k);
+    const done = i < 0; b.setAttribute("aria-pressed", done); b.textContent = done ? "✓ Read" : "Mark as read";
+    b.closest(".block").classList.toggle("read", done);
+    persist(view.slug); refreshMeter(e);
+  });
+}
+
+let fc = null; // { slug, order, i, flipped, onlyUnknown }
+function paneCards(pane, e) {
+  const all = cards(e.course), p = e.progress;
+  if (!fc || fc.slug !== view.slug) fc = { slug: view.slug, order: shuffle(all.map((x) => x.id)), i: 0, flipped: false, onlyUnknown: false };
+  const deck = fc.order.map((id) => all.find((x) => x.id === id)).filter(Boolean).filter((x) => !fc.onlyUnknown || !p.known.includes(x.id));
+  const knownN = all.filter((x) => p.known.includes(x.id)).length;
+  if (!deck.length) {
+    pane.innerHTML = `<div class="empty"><h2>You know all ${all.length} cards.</h2><p>Nice. Try the quiz, or run through the whole deck again.</p><div class="fc-actions"><button class="btn primary" id="go-quiz" type="button">Take the quiz</button><button class="btn" id="fc-all" type="button">Review all cards</button></div></div>`;
+    document.getElementById("go-quiz").onclick = () => { view.tab = "quiz"; renderTopic(); };
+    document.getElementById("fc-all").onclick = () => { fc.onlyUnknown = false; fc.i = 0; paneCards(pane, e); };
+    return;
+  }
+  if (fc.i >= deck.length) fc.i = 0;
+  const card = deck[fc.i];
+  pane.innerHTML = `<div class="fc-wrap">
+    <div class="fc-meta"><span>Card ${fc.i + 1} of ${deck.length}</span><span>${knownN} of ${all.length} known</span>
+      <label><input type="checkbox" id="only-unknown" ${fc.onlyUnknown ? "checked" : ""}> Only ones I'm still learning</label></div>
+    <button class="fc ${fc.flipped ? "flipped" : ""}" id="fc" type="button" aria-label="Flip card">
+      <div class="fc-inner">
+        <div class="fc-face"><span class="kind">${esc(card.kind)}</span><h3>${esc(card.front)}</h3><span class="note">Tap or press space to flip</span></div>
+        <div class="fc-face fc-back"><span class="kind">${esc(card.front)}</span><p>${esc(card.back)}</p></div>
+      </div>
+    </button>
+    <div class="fc-actions">
+      <button class="btn learn" type="button" id="fc-no">Still learning</button>
+      <button class="btn know" type="button" id="fc-yes">Got it</button>
+    </div>
+    <div class="fc-dots">${deck.map((x, i) => `<i class="${p.known.includes(x.id) ? "k" : ""} ${i === fc.i ? "cur" : ""}"></i>`).join("")}</div>
+  </div>`;
+  const flip = () => { fc.flipped = !fc.flipped; document.getElementById("fc").classList.toggle("flipped", fc.flipped); };
+  document.getElementById("fc").onclick = flip;
+  const mark = (know) => {
+    const i = p.known.indexOf(card.id);
+    if (know && i < 0) p.known.push(card.id); if (!know && i >= 0) p.known.splice(i, 1);
+    persist(view.slug); refreshMeter(e);
+    fc.flipped = false; if (!(fc.onlyUnknown && know)) fc.i++;
+    paneCards(pane, e);
+  };
+  document.getElementById("fc-yes").onclick = () => mark(true);
+  document.getElementById("fc-no").onclick = () => mark(false);
+  document.getElementById("only-unknown").onchange = (ev) => { fc.onlyUnknown = ev.target.checked; fc.i = 0; fc.flipped = false; paneCards(pane, e); };
+}
+document.addEventListener("keydown", (ev) => {
+  if (view.name !== "topic" || view.tab !== "cards" || ev.target.closest("input, textarea")) return;
+  if (ev.key === " " && ev.target.id !== "fc") { ev.preventDefault(); document.getElementById("fc")?.click(); }
+  if (ev.key === "ArrowRight") document.getElementById("fc-yes")?.click();
+  if (ev.key === "ArrowLeft") document.getElementById("fc-no")?.click();
+});
+function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+
+let qz = null; // { slug, order, i, score, picked }
+function paneQuiz(pane, e) {
+  const qs = e.course.quiz, p = e.progress;
+  if (!qs.length) { pane.innerHTML = `<div class="empty">This topic has no quiz questions.</div>`; return; }
+  if (!qz || qz.slug !== view.slug) qz = { slug: view.slug, order: null, i: 0, score: 0, picked: null };
+  if (!qz.order) {
+    pane.innerHTML = `<div class="quiz empty"><h2>${qs.length} quick questions</h2><p>See how much stuck. Your best score counts toward your readiness.</p>${p.best != null ? `<p class="note">Best so far: ${p.best} / ${qs.length}</p>` : ""}<button class="btn primary" id="q-start" type="button">Start quiz</button></div>`;
+    document.getElementById("q-start").onclick = () => { qz.order = shuffle(qs.map((_, i) => i)); qz.perm = qs.map((q) => shuffle(q.options.map((_, i) => i))); qz.i = 0; qz.score = 0; qz.picked = null; paneQuiz(pane, e); };
+    return;
+  }
+  if (qz.i >= qz.order.length) {
+    const n = qs.length, s = qz.score;
+    const newBest = p.best == null || s > p.best;
+    if (newBest) { p.best = s; persist(view.slug); refreshMeter(e); }
+    pane.innerHTML = `<div class="quiz empty"><div class="score">${s} / ${n}</div><h2>${s === n ? "Perfect. You're ready." : s >= n * 0.75 ? "Solid. You can hold your own." : s >= n / 2 ? "Getting there." : "Worth another look at the crash course."}</h2>${newBest && s > 0 ? `<p class="note">New best score.</p>` : ""}<div class="fc-actions"><button class="btn primary" id="q-again" type="button">Try again</button><button class="btn" id="q-cards" type="button">Practise flashcards</button></div></div>`;
+    document.getElementById("q-again").onclick = () => { qz.order = null; paneQuiz(pane, e); document.getElementById("q-start")?.click(); };
+    document.getElementById("q-cards").onclick = () => { view.tab = "cards"; renderTopic(); };
+    return;
+  }
+  const q0 = qs[qz.order[qz.i]], perm = (qz.perm && qz.perm[qz.order[qz.i]]) || q0.options.map((_, i) => i);
+  const q = { ...q0, options: perm.map((i) => q0.options[i]), answer: perm.indexOf(q0.answer) }, picked = qz.picked;
+  pane.innerHTML = `<div class="quiz">
+    <div class="fc-meta" style="max-width:none"><span>Question ${qz.i + 1} of ${qs.length}</span><span>Score ${qz.score}</span></div>
+    <h2>${esc(q.q)}</h2>
+    <div class="opts">${q.options.map((o, i) => `<button class="opt ${picked == null ? "" : i === q.answer ? "right" : i === picked ? "wrong" : ""}" type="button" data-o="${i}" ${picked != null ? "disabled" : ""}>${esc(o)}</button>`).join("")}</div>
+    ${picked != null ? `<div class="explain"><b>${picked === q.answer ? "Right." : "Not quite."}</b> ${esc(q.explain || "")}</div><div><button class="btn primary" id="q-next" type="button">${qz.i + 1 < qs.length ? "Next question" : "See score"}</button></div>` : ""}
+  </div>`;
+  pane.querySelectorAll("[data-o]").forEach((b) => b.onclick = () => { qz.picked = +b.dataset.o; if (qz.picked === q.answer) qz.score++; paneQuiz(pane, e); document.getElementById("q-next")?.focus(); });
+  const nx = document.getElementById("q-next"); if (nx) nx.onclick = () => { qz.i++; qz.picked = null; paneQuiz(pane, e); };
+}
+
+function paneCheat(pane, e) {
+  const c = e.course;
+  const first = (s) => String(s).split(/(?<=[.!?])\s/)[0];
+  pane.innerHTML = `<p class="note" style="margin-bottom:14px">Skim this right before you walk in.</p><div class="cheat">
+    <section class="block lead"><h3>In one breath</h3><p class="why">${esc(first(c.why))}</p></section>
+    <section class="block"><h3>Drop these words</h3><ul>${c.jargon.slice(0, 5).map((j) => `<li><mark>${esc(j.term)}</mark>: ${esc(j.meaning)}</li>`).join("")}</ul></section>
+    <section class="block"><h3>Know these names</h3><ul>${c.names.slice(0, 5).map((n) => `<li><b>${esc(n.name)}</b>: ${esc(first(n.what))}</li>`).join("")}</ul></section>
+    <section class="block"><h3>Ask</h3><ul>${c.starters.slice(0, 3).map((s) => `<li>${esc(s)}</li>`).join("")}</ul></section>
+    ${c.local.length ? `<section class="block"><h3>Hong Kong angle</h3><ul>${c.local.slice(0, 3).map((x) => `<li>${esc(x.headline)}</li>`).join("")}</ul></section>` : ""}
+    <section class="block"><h3>Hot right now${c.asOf ? ` <span class="asof">${esc(c.asOf)}</span>` : ""}</h3><ul>${c.now.slice(0, 3).map((x) => `<li>${esc(x.headline)}</li>`).join("")}</ul></section>
+    ${c.debates[0] ? `<section class="block"><h3>The big debate</h3><p><b>${esc(c.debates[0].question)}</b> ${esc(c.debates[0].sides)}</p></section>` : ""}
+    <section class="block"><h3>Don't</h3><ul>${c.avoid.slice(0, 3).map((s) => `<li>${esc(s)}</li>`).join("")}</ul></section>
+  </div>`;
+}
+
+let askCtl = null;
+function paneAsk(pane, e) {
+  const c = e.course, p = e.progress;
+  const canAsk = !!sampleFn;
+  if (!canAsk) return paneAskOffline(pane, e);
+  pane.innerHTML = `<div class="qa">
+    <p class="note">Ask a follow-up about ${esc(c.topic)}: "explain it like I'm five", "what should I watch first?", "what would a fan think of…?"</p>
+    <form class="ask" id="qa-form" autocomplete="off"><input id="qa-in" type="text" maxlength="300" placeholder="${canAsk ? "Ask anything…" : "Asking works when this page is open in Claude"}" aria-label="Your question" ${canAsk ? "" : "disabled"}><button class="btn primary" type="submit" id="qa-btn" ${canAsk ? "" : "disabled"}>Ask</button></form>
+    <div id="qa-live"></div>
+    ${p.qa.slice().reverse().map((x) => `<div class="qa-item"><div class="q">${esc(x.q)}</div><div class="a">${esc(x.a)}</div></div>`).join("")}
+  </div>`;
+  document.getElementById("qa-form").onsubmit = async (ev) => {
+    ev.preventDefault();
+    const inp = document.getElementById("qa-in"), q = inp.value.trim(); if (!q || !sampleFn) return;
+    const btn = document.getElementById("qa-btn"), live = document.getElementById("qa-live");
+    btn.disabled = true; inp.disabled = true;
+    live.innerHTML = `<div class="qa-item"><div class="q">${esc(q)}</div><div class="a" id="qa-a">Thinking…</div></div>`;
+    const out = document.getElementById("qa-a");
+    askCtl = new AbortController();
+    const ctx = `You are helping someone who is getting up to speed on "${c.topic}" so they can talk with enthusiasts. Here is what they've studied so far: ${c.why} Key terms: ${c.jargon.map((j) => j.term).join(", ")}. Key names: ${c.names.map((n) => n.name).join(", ")}.\n\nAnswer their question in a friendly, conversational way, in plain text (no markdown headings, no bullet symbols unless a short list really helps). Keep it under 180 words.\n\nQuestion: ${q}`;
+    try {
+      const { text } = await sampleFn(ctx, { signal: askCtl.signal, cache: false, onText: ({ text }) => { out.textContent = text; } });
+      p.qa.push({ q, a: text.trim() }); if (p.qa.length > 12) p.qa.shift();
+      persist(view.slug);
+      paneAsk(pane, e);
+    } catch (err) {
+      out.textContent = err?.code === "not_granted" ? "Asking needs your OK to use Claude. Reload and allow it when asked." : err?.code === "rate_limited" ? "Too many requests right now. Wait a minute and try again." : (err?.text || "That didn't go through. Try again.");
+      btn.disabled = false; inp.disabled = false;
+    }
+  };
+}
+
+// ---------- Offline replacements for the in-Claude features ----------
+let reqDraft = "";
+const REQ_KEY = "uts.requests";
+function reqLoad() { try { return JSON.parse(localStorage.getItem(REQ_KEY) || "[]"); } catch { return []; } }
+function reqSave(list) { try { localStorage.setItem(REQ_KEY, JSON.stringify(list.slice(-20))); } catch {} }
+const issueUrl = (t) => REPO ? `https://github.com/${REPO}/issues/new?title=${encodeURIComponent("Topic: " + t)}&labels=topic-request&body=${encodeURIComponent("Submit this to add the topic. Claude writes it in the next morning run (06:30 Hong Kong time) and it appears in the app after that.")}` : "";
+const claudeUrl = (q) => "https://claude.ai/new?q=" + encodeURIComponent(q);
+function reqPanel() {
+  const queued = reqLoad().filter((r) => !Object.values(store).some((e) => e.course.topic.toLowerCase() === r.toLowerCase() || slugify(e.course.topic) === slugify(r)));
+  if (queued.length !== reqLoad().length) reqSave(queued);
+  if (!reqDraft && !queued.length) return "";
+  return `<div class="req">
+    ${reqDraft ? `<b>"${esc(reqDraft)}" isn't in the app yet.</b>
+    <p class="note">${REPO ? "Request it and a full crash course is written for you by tomorrow morning; it downloads the next time you open the app online." : "Topic requests turn on once the app is published on GitHub."} Or get a quick answer from Claude right now.</p>
+    <div class="acts">
+      ${REPO ? `<button class="btn primary sm" type="button" id="req-send">${navigator.onLine ? "Request this topic" : "Save request for later"}</button>` : ""}
+      <a class="btn sm" href="${esc(claudeUrl(`Get me up to speed on ${reqDraft} so I can hold a casual conversation with enthusiasts in Hong Kong: the basics, key jargon, big names, what's happening now, and good questions to ask.`))}" target="_blank" rel="noopener">Ask Claude now</a>
+      <button class="btn ghost sm" type="button" id="req-x">Cancel</button>
+    </div>` : ""}
+    ${queued.length ? `<div class="sub">Waiting to send${navigator.onLine ? "" : " (you're offline)"}</div><ul>${queued.map((q) => `<li>${esc(q)} ${navigator.onLine && REPO ? `<a href="${esc(issueUrl(q))}" target="_blank" rel="noopener" data-sent="${esc(q)}">send</a>` : ""} <button class="btn ghost sm" type="button" data-drop="${esc(q)}">remove</button></li>`).join("")}</ul>` : ""}
+  </div>`;
+}
+function wireReq() {
+  const send = document.getElementById("req-send");
+  if (send) send.onclick = () => {
+    const t = reqDraft; reqDraft = "";
+    if (navigator.onLine) { window.open(issueUrl(t), "_blank", "noopener"); homeMsg = ""; }
+    else { const l = reqLoad(); if (!l.includes(t)) l.push(t); reqSave(l); }
+    renderHome();
+  };
+  const x = document.getElementById("req-x"); if (x) x.onclick = () => { reqDraft = ""; renderHome(); };
+  $app.querySelectorAll("[data-sent]").forEach((a) => a.addEventListener("click", () => { reqSave(reqLoad().filter((q) => q !== a.dataset.sent)); setTimeout(renderHome, 50); }));
+  $app.querySelectorAll("[data-drop]").forEach((b) => b.onclick = () => { reqSave(reqLoad().filter((q) => q !== b.dataset.drop)); renderHome(); });
+}
+function paneAskOffline(pane, e) {
+  const c = e.course, p = e.progress;
+  pane.innerHTML = `<div class="qa">
+    <p class="note">Ask a follow-up about ${esc(c.topic)}: "explain it like I'm five", "what should I watch first?", "what would a fan think of…?" It opens in Claude${navigator.onLine ? "" : ", so you'll need to be online"}.</p>
+    <form class="ask" id="qa-form" autocomplete="off"><input id="qa-in" type="text" maxlength="300" placeholder="Ask anything…" aria-label="Your question"><button class="btn primary" type="submit">Ask Claude</button></form>
+    ${p.qa.slice().reverse().map((x) => `<div class="qa-item"><div class="q">${esc(x.q)}</div><div class="a">${esc(x.a)}</div></div>`).join("")}
+  </div>`;
+  document.getElementById("qa-form").onsubmit = (ev) => {
+    ev.preventDefault();
+    const q = document.getElementById("qa-in").value.trim(); if (!q) return;
+    const ctx = `I'm getting up to speed on "${c.topic}" so I can chat with enthusiasts in Hong Kong. I've learned the basics (${c.jargon.slice(0, 8).map((j) => j.term).join(", ")}; ${c.names.slice(0, 6).map((n) => n.name).join(", ")}). Answer conversationally in under 180 words.\n\nMy question: ${q}`;
+    window.open(claudeUrl(ctx), "_blank", "noopener");
+  };
+}
+
+// ---------- Footer, install, updates, offline state ----------
+let installEvt = null;
+function footHtml() {
+  const ios = /iphone|ipad|ipod/i.test(navigator.userAgent) && !window.matchMedia("(display-mode: standalone)").matches;
+  return `<footer class="foot">
+    <span>Works offline once opened. Sports, markets, tech and culture talking points refresh every Monday${WEEKLY.date ? `; last refresh ${esc(fmtDate(WEEKLY.date))}` : ""}.</span>
+    ${ios ? `<span>On iPhone: tap Share, then "Add to Home Screen" to install.</span>` : ""}
+    <span><button type="button" id="export-btn">Back up my progress</button> · <button type="button" id="import-btn">Restore a backup</button>${REPO ? ` · <a href="https://github.com/${esc(REPO)}" target="_blank" rel="noopener">GitHub</a>` : ""}</span>
+    <input type="file" id="import-file" accept="application/json" hidden>
+  </footer>`;
+}
+function wireFoot() {
+  document.getElementById("export-btn").onclick = () => {
+    const blob = new Blob([localStorage.getItem(LS) || "{}"], { type: "application/json" });
+    const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "up-to-speed-progress.json"; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  };
+  const file = document.getElementById("import-file");
+  document.getElementById("import-btn").onclick = () => file.click();
+  file.onchange = async () => {
+    try { absorb(JSON.parse(await file.files[0].text())); lsSave(); homeMsg = "Progress restored."; }
+    catch { homeMsg = "That file isn't an Up to Speed backup."; }
+    renderHome();
+  };
+}
+const installBtn = document.getElementById("install-btn");
+window.addEventListener("beforeinstallprompt", (ev) => { ev.preventDefault(); installEvt = ev; installBtn.hidden = false; });
+installBtn.onclick = async () => { if (!installEvt) return; installEvt.prompt(); await installEvt.userChoice.catch(() => {}); installEvt = null; installBtn.hidden = true; };
+window.addEventListener("appinstalled", () => { installBtn.hidden = true; });
+const offlinePill = document.getElementById("offline");
+const syncOnline = () => { offlinePill.hidden = navigator.onLine; if (view.name === "home") renderHome(); };
+window.addEventListener("online", syncOnline); window.addEventListener("offline", syncOnline);
+offlinePill.hidden = navigator.onLine;
+
+function toast(msg, action, fn) {
+  const t = document.createElement("div"); t.className = "toast"; t.setAttribute("role", "status");
+  t.innerHTML = `<span>${esc(msg)}</span>${action ? `<button type="button">${esc(action)}</button>` : ""}`;
+  if (action) t.querySelector("button").onclick = fn;
+  document.body.appendChild(t);
+}
+if ("serviceWorker" in navigator && location.protocol !== "file:") {
+  const hadController = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.register("sw.js").then((reg) => {
+    reg.addEventListener("updatefound", () => {
+      const nw = reg.installing;
+      nw?.addEventListener("statechange", () => {
+        if (nw.state === "activated" && hadController) toast("This week's update is ready.", "Reload", () => location.reload());
+      });
+    });
+    setInterval(() => reg.update().catch(() => {}), 6 * 3600 * 1000);
+  }).catch((err) => console.warn("offline mode unavailable", err));
+}
+// Remember what's been seen so "New" / "Updated" badges clear next visit.
+window.addEventListener("pagehide", () => { try { if (WEEKLY.date) localStorage.setItem(SEEN_KEY, new Date().toISOString().slice(0, 10)); } catch {} });
+
+render();
+})();
+</script>
+</body>
+</html>

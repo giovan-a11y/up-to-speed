@@ -1,0 +1,399 @@
+{
+  "slug": "tennis",
+  "refresh": "weekly",
+  "updated": "2026-11-14",
+  "topic": "Tennis",
+  "category": "Sports",
+  "asOf": "mid-2026",
+  "tagline": "Four Grand Slams, one long season, and a new rivalry after the golden era.",
+  "why": "Tennis is a global individual sport with a year-round tour, and its biggest events (the four Grand Slams) are cultural moments. After two decades of Federer, Nadal and Djokovic, a new generation led by Jannik Sinner and Carlos Alcaraz has taken over. It's an easy sport to talk about because the storylines are personal: rivalries, comebacks, ageing champions and rising stars.",
+  "essentials": [
+    {
+      "title": "The four Grand Slams",
+      "body": "Australian Open (January, hard court), French Open or Roland Garros (May-June, clay), Wimbledon (July, grass) and the US Open (August-September, hard court). Slam titles are how careers are measured."
+    },
+    {
+      "title": "Surfaces change everything",
+      "body": "Clay is slow with high bounces, rewarding grinders like Nadal. Grass is fast and low, rewarding big serves. Hard courts sit in between. Players often have a favourite surface."
+    },
+    {
+      "title": "Scoring is weird",
+      "body": "Points go 15, 30, 40, game. 'Love' means zero, 'deuce' is 40-40. Six games win a set (by two), with a tiebreak at 6-6. Men play best-of-five sets at Slams; women best-of-three."
+    },
+    {
+      "title": "Two tours",
+      "body": "The ATP runs men's tennis and the WTA runs women's. Players earn ranking points; the world number one is a big deal."
+    },
+    {
+      "title": "The Big Three era is over",
+      "body": "Federer (20 Slams), Nadal (22) and Djokovic (24, the record) dominated from 2003 onward. Federer retired in 2022, Nadal in 2024, and Djokovic is in his late thirties."
+    },
+    {
+      "title": "Sinner vs Alcaraz",
+      "body": "The two young stars split all eight Slams in 2024 and 2025 between them. Their matches, including the epic 2025 French Open final, are the new must-watch rivalry."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Love",
+      "meaning": "Zero. '30-love' means 30-0."
+    },
+    {
+      "term": "Deuce",
+      "meaning": "40-40. You need two points in a row to win the game from there."
+    },
+    {
+      "term": "Break of serve",
+      "meaning": "Winning a game when your opponent is serving. Usually decides sets."
+    },
+    {
+      "term": "Ace",
+      "meaning": "A serve the opponent can't touch."
+    },
+    {
+      "term": "Double fault",
+      "meaning": "Missing both serves and losing the point."
+    },
+    {
+      "term": "Tiebreak",
+      "meaning": "A first-to-seven-points game played at 6-6 in a set."
+    },
+    {
+      "term": "Grand Slam",
+      "meaning": "One of the four majors. A 'calendar Slam' means winning all four in one year."
+    },
+    {
+      "term": "Golden Slam",
+      "meaning": "All four majors plus Olympic gold in the same year. Only Steffi Graf has done it, in 1988."
+    },
+    {
+      "term": "Seed",
+      "meaning": "A ranked player placed in the draw so top players don't meet early."
+    },
+    {
+      "term": "Drop shot",
+      "meaning": "A soft shot that barely clears the net."
+    },
+    {
+      "term": "Baseline",
+      "meaning": "The back line of the court. 'Baseliners' play from there."
+    },
+    {
+      "term": "Serve and volley",
+      "meaning": "Serving and rushing to the net. Rare now, classic on grass."
+    },
+    {
+      "term": "Unforced error",
+      "meaning": "A missed shot that wasn't caused by the opponent's pressure."
+    },
+    {
+      "term": "Hawk-Eye",
+      "meaning": "The camera system that calls whether balls are in or out."
+    },
+    {
+      "term": "Masters 1000",
+      "meaning": "The biggest men's tournaments below the Slams, like Indian Wells and Shanghai."
+    }
+  ],
+  "names": [
+    {
+      "name": "Novak Djokovic",
+      "what": "Serbian with a record 24 men's Slam titles and the most weeks at number one. Won Olympic gold in 2024."
+    },
+    {
+      "name": "Rafael Nadal",
+      "what": "Spanish legend with 22 Slams, 14 of them at the French Open. Retired in 2024."
+    },
+    {
+      "name": "Roger Federer",
+      "what": "Swiss maestro with 20 Slams, beloved for his graceful style. Retired in 2022."
+    },
+    {
+      "name": "Jannik Sinner",
+      "what": "Italian world number one with multiple Slams, including Wimbledon 2025. Served a three-month doping ban in 2025 that divided opinion."
+    },
+    {
+      "name": "Carlos Alcaraz",
+      "what": "Spanish superstar with a flashy all-court game, multiple Slams on all three surfaces by age 22."
+    },
+    {
+      "name": "Aryna Sabalenka",
+      "what": "Belarusian powerhouse and women's number one, a multiple Slam champion."
+    },
+    {
+      "name": "Iga Świątek",
+      "what": "Polish star with four French Open titles who won Wimbledon in 2025."
+    },
+    {
+      "name": "Coco Gauff",
+      "what": "American who won the 2023 US Open and 2025 French Open."
+    },
+    {
+      "name": "Serena Williams",
+      "what": "23 Slam singles titles; one of the greatest athletes ever. Retired in 2022."
+    },
+    {
+      "name": "Zheng Qinwen",
+      "what": "China's top player, who won Olympic gold in Paris in 2024."
+    },
+    {
+      "name": "Li Na",
+      "what": "The first Asian player to win a singles Slam (French Open 2011, Australian Open 2014)."
+    },
+    {
+      "name": "Coleman Wong",
+      "what": "Hong Kong's best men's player in a generation, breaking into the top 200 and beyond."
+    },
+    {
+      "name": "Andy Murray",
+      "what": "British two-time Wimbledon champion, later Djokovic's coach for a spell."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1877",
+      "event": "The first Wimbledon is played."
+    },
+    {
+      "year": "1968",
+      "event": "The Open Era begins, letting professionals play the Slams."
+    },
+    {
+      "year": "1980",
+      "event": "Borg vs McEnroe Wimbledon final, one of the greatest matches ever."
+    },
+    {
+      "year": "1988",
+      "event": "Steffi Graf wins the Golden Slam."
+    },
+    {
+      "year": "2003",
+      "event": "Federer wins his first Wimbledon, starting the Big Three era."
+    },
+    {
+      "year": "2008",
+      "event": "Nadal beats Federer in the Wimbledon final in near-darkness."
+    },
+    {
+      "year": "2011",
+      "event": "Li Na becomes the first Asian Slam singles champion."
+    },
+    {
+      "year": "2019",
+      "event": "Djokovic beats Federer in an epic Wimbledon final after Federer had two match points."
+    },
+    {
+      "year": "2022",
+      "event": "Federer and Serena retire."
+    },
+    {
+      "year": "2024",
+      "event": "Nadal retires; Zheng Qinwen wins Olympic gold; Sinner and Alcaraz take two Slams each."
+    },
+    {
+      "year": "2025",
+      "event": "Alcaraz saves three match points to beat Sinner in a five-and-a-half-hour French Open final."
+    }
+  ],
+  "now": [
+    {
+      "headline": "Sinner vs Alcaraz",
+      "detail": "The rivalry everyone talks about. People pick sides based on style: Sinner's precision or Alcaraz's flair."
+    },
+    {
+      "headline": "Djokovic chasing 25",
+      "detail": "Can he win one more Slam to set a record that may never be beaten?"
+    },
+    {
+      "headline": "Women's tennis is open",
+      "detail": "Sabalenka, Świątek, Gauff and others share the big titles, so every Slam is unpredictable."
+    },
+    {
+      "headline": "The schedule fight",
+      "detail": "Players complain the season is too long, and there's talk of a 'Premium Tour' reshaping the calendar."
+    },
+    {
+      "headline": "Doping controversies",
+      "detail": "Sinner's and Świątek's short bans for contamination cases in 2024-25 split fans on whether they got off lightly."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Hong Kong Tennis Open",
+      "detail": "A WTA tournament at Victoria Park each autumn, plus an ATP event that returned in January 2024."
+    },
+    {
+      "headline": "Coleman Wong",
+      "detail": "Hong Kong's rising star, the city's first man in decades to compete regularly at Slams."
+    },
+    {
+      "headline": "Asian swing",
+      "detail": "Big events in Beijing, Shanghai, Tokyo and Wuhan each autumn are an easy trip from Hong Kong."
+    },
+    {
+      "headline": "Pickleball and padel",
+      "detail": "Faster-to-learn racket sports have exploded in Hong Kong too, a natural tangent from tennis chat."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Who's the greatest: Federer, Nadal or Djokovic?",
+      "sides": "Djokovic has the numbers, Nadal the clay record, Federer the style and popularity."
+    },
+    {
+      "question": "Is Alcaraz or Sinner better?",
+      "sides": "Sinner is more consistent; Alcaraz has the higher peak and more variety."
+    },
+    {
+      "question": "Should women play best-of-five at Slams?",
+      "sides": "Some say equal prize money should mean equal sets; others say it would hurt quality and scheduling."
+    },
+    {
+      "question": "Is the grass season too short?",
+      "sides": "Only a few weeks of grass makes Wimbledon a lottery for some players."
+    }
+  ],
+  "starters": [
+    "Are you Team Sinner or Team Alcaraz?",
+    "Did you watch the French Open final in 2025?",
+    "Do you play? Where do you play in Hong Kong?",
+    "Federer, Nadal or Djokovic?",
+    "Which Slam would you most want to attend?",
+    "Have you tried pickleball?"
+  ],
+  "sayThis": [
+    {
+      "say": "Clay is a completely different sport.",
+      "why": "Shows you understand surfaces."
+    },
+    {
+      "say": "Federer made it look effortless.",
+      "why": "Almost everyone agrees."
+    },
+    {
+      "say": "Djokovic's return of serve is unreal.",
+      "why": "His best shot, widely admired."
+    },
+    {
+      "say": "Wimbledon in person must be something.",
+      "why": "Invites people to share their trips."
+    }
+  ],
+  "avoid": [
+    "Saying 'love' means a tie.",
+    "Talking during a point if you're watching live.",
+    "Assuming all players are either Federer fans or Nadal fans."
+  ],
+  "quiz": [
+    {
+      "q": "What does 'love' mean in tennis?",
+      "options": [
+        "A tie",
+        "Zero",
+        "Match point",
+        "A winning serve"
+      ],
+      "answer": 1,
+      "explain": "30-love is 30-0."
+    },
+    {
+      "q": "Which Slam is played on clay?",
+      "options": [
+        "Wimbledon",
+        "US Open",
+        "French Open",
+        "Australian Open"
+      ],
+      "answer": 2,
+      "explain": "Roland Garros in Paris."
+    },
+    {
+      "q": "Who holds the men's record of 24 Slam titles?",
+      "options": [
+        "Federer",
+        "Nadal",
+        "Djokovic",
+        "Sampras"
+      ],
+      "answer": 2,
+      "explain": "Novak Djokovic."
+    },
+    {
+      "q": "How many French Opens did Nadal win?",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "answer": 2,
+      "explain": "An astonishing 14."
+    },
+    {
+      "q": "What is a 'break of serve'?",
+      "options": [
+        "A rest break",
+        "Winning a game on your opponent's serve",
+        "A broken racket",
+        "A double fault"
+      ],
+      "answer": 1,
+      "explain": "Breaks usually decide sets."
+    },
+    {
+      "q": "Who won Olympic gold for China in Paris 2024?",
+      "options": [
+        "Li Na",
+        "Zheng Qinwen",
+        "Wang Qiang",
+        "Zhang Shuai"
+      ],
+      "answer": 1,
+      "explain": "Women's singles gold."
+    },
+    {
+      "q": "Who was the first Asian player to win a singles Slam?",
+      "options": [
+        "Kei Nishikori",
+        "Naomi Osaka",
+        "Li Na",
+        "Paradorn Srichaphan"
+      ],
+      "answer": 2,
+      "explain": "French Open 2011."
+    },
+    {
+      "q": "What's 40-40 called?",
+      "options": [
+        "Advantage",
+        "Deuce",
+        "Set point",
+        "Love all"
+      ],
+      "answer": 1,
+      "explain": "Deuce."
+    },
+    {
+      "q": "Who won Wimbledon in 2025 (men's)?",
+      "options": [
+        "Alcaraz",
+        "Sinner",
+        "Djokovic",
+        "Zverev"
+      ],
+      "answer": 1,
+      "explain": "Sinner beat Alcaraz in the final."
+    },
+    {
+      "q": "What surface is Wimbledon played on?",
+      "options": [
+        "Clay",
+        "Grass",
+        "Hard court",
+        "Carpet"
+      ],
+      "answer": 1,
+      "explain": "The only grass Slam."
+    }
+  ]
+}

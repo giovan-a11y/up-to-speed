@@ -1,0 +1,366 @@
+{
+  "slug": "cycling",
+  "refresh": "monthly",
+  "updated": "2026-11-14",
+  "topic": "Cycling",
+  "category": "Lifestyle",
+  "asOf": "mid-2026",
+  "tagline": "The Tour de France, carbon bikes and the long cycle tracks of the New Territories.",
+  "why": "Cycling is both a huge pro sport, with the Tour de France as one of the world's biggest events, and a popular hobby for fitness, social rides and weekend adventures. In Hong Kong, people ride the long cycle tracks of the New Territories, tackle hill climbs, or go mountain biking. Knowing the pro stars, a bit of gear talk and local routes makes cycling chat easy.",
+  "essentials": [
+    {
+      "title": "The Grand Tours",
+      "body": "Three three-week races: the Giro d'Italia (May), Tour de France (July) and Vuelta a España (August-September). The Tour is the biggest."
+    },
+    {
+      "title": "Jerseys tell the story",
+      "body": "At the Tour, yellow is the overall leader, green the best sprinter, polka dot the best climber and white the best young rider."
+    },
+    {
+      "title": "It's a team sport",
+      "body": "Teams of eight protect a leader. 'Domestiques' fetch water and shield their leader from wind."
+    },
+    {
+      "title": "Types of bikes",
+      "body": "Road bikes (fast, drop bars), mountain bikes (off-road), gravel bikes (mixed), e-bikes and city bikes."
+    },
+    {
+      "title": "Drafting",
+      "body": "Riding behind someone saves a lot of energy, which shapes all race tactics."
+    },
+    {
+      "title": "Gear talk",
+      "body": "Cyclists love talking about bike weight, carbon frames, groupsets (Shimano, SRAM), power meters and wheels."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Peloton",
+      "meaning": "The main group of riders."
+    },
+    {
+      "term": "Breakaway",
+      "meaning": "Riders who escape ahead of the peloton."
+    },
+    {
+      "term": "Domestique",
+      "meaning": "A rider who works for the team leader."
+    },
+    {
+      "term": "Yellow jersey",
+      "meaning": "The Tour de France leader's jersey (maillot jaune)."
+    },
+    {
+      "term": "Stage",
+      "meaning": "One day's race in a multi-day tour."
+    },
+    {
+      "term": "Time trial",
+      "meaning": "Racing alone against the clock."
+    },
+    {
+      "term": "Drafting",
+      "meaning": "Riding in someone's slipstream."
+    },
+    {
+      "term": "Watts / FTP",
+      "meaning": "Power output / the power you can sustain for an hour."
+    },
+    {
+      "term": "Cadence",
+      "meaning": "Pedal revolutions per minute."
+    },
+    {
+      "term": "Groupset",
+      "meaning": "Gears, brakes and drivetrain components."
+    },
+    {
+      "term": "Bonk",
+      "meaning": "Running out of energy."
+    },
+    {
+      "term": "KOM",
+      "meaning": "King of the Mountains, or a Strava segment record."
+    },
+    {
+      "term": "Lycra",
+      "meaning": "Cycling clothing; 'MAMIL' jokes refer to middle-aged men in Lycra."
+    },
+    {
+      "term": "Clipless pedals",
+      "meaning": "Pedals your shoes clip into (confusingly named)."
+    },
+    {
+      "term": "Zwift",
+      "meaning": "Indoor cycling app on a smart trainer."
+    }
+  ],
+  "names": [
+    {
+      "name": "Tadej Pogačar",
+      "what": "Slovenian superstar; multiple Tour de France winner including 2024 and 2025, and world champion."
+    },
+    {
+      "name": "Jonas Vingegaard",
+      "what": "Danish rider, Tour winner 2022 and 2023, Pogačar's great rival."
+    },
+    {
+      "name": "Remco Evenepoel",
+      "what": "Belgian Olympic champion and time trial specialist."
+    },
+    {
+      "name": "Mathieu van der Poel",
+      "what": "Dutch star of one-day classics."
+    },
+    {
+      "name": "Eddy Merckx",
+      "what": "Belgian 'Cannibal', the greatest cyclist ever."
+    },
+    {
+      "name": "Lance Armstrong",
+      "what": "Stripped of seven Tour titles for doping."
+    },
+    {
+      "name": "Sarah Lee Wai-sze",
+      "what": "Hong Kong track cycling legend, Olympic bronze medallist in 2012 and 2020."
+    },
+    {
+      "name": "Shimano",
+      "what": "Japanese company that makes most bike components."
+    },
+    {
+      "name": "Giant",
+      "what": "Taiwanese company, the world's largest bike maker."
+    },
+    {
+      "name": "UAE Team Emirates",
+      "what": "Pogačar's team, the strongest in the world."
+    },
+    {
+      "name": "Strava",
+      "what": "Where cyclists log rides and chase segment records."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1903",
+      "event": "First Tour de France."
+    },
+    {
+      "year": "1969–74",
+      "event": "Eddy Merckx wins five Tours."
+    },
+    {
+      "year": "1999–2005",
+      "event": "Armstrong's later-stripped Tour wins."
+    },
+    {
+      "year": "2012",
+      "event": "Bradley Wiggins first British Tour winner; Sarah Lee wins Olympic bronze for Hong Kong."
+    },
+    {
+      "year": "2020",
+      "event": "Pogačar wins his first Tour at 21."
+    },
+    {
+      "year": "2024",
+      "event": "Pogačar wins the Giro-Tour double and the World Championship."
+    },
+    {
+      "year": "2025",
+      "event": "Pogačar wins his fourth Tour."
+    }
+  ],
+  "now": [
+    {
+      "headline": "Pogačar era",
+      "detail": "His dominance prompts comparisons to Merckx."
+    },
+    {
+      "headline": "Safety debates",
+      "detail": "Crashes and speeds raise concerns in the pro peloton."
+    },
+    {
+      "headline": "Gravel boom",
+      "detail": "Gravel bikes and events are hugely popular."
+    },
+    {
+      "headline": "E-bikes",
+      "detail": "E-bikes are booming for commuting and recreation."
+    }
+  ],
+  "local": [
+    {
+      "headline": "New Territories cycle tracks",
+      "detail": "A 60 km network from Tuen Mun to Ma On Shan, with Tolo Harbour and Tai Po routes the most popular."
+    },
+    {
+      "headline": "Road cycling",
+      "detail": "Early morning rides up Tai Mo Shan and around Sai Kung's Plover Cove."
+    },
+    {
+      "headline": "Mountain biking",
+      "detail": "Trails at Mount Butler, Lantau and Tai Lam."
+    },
+    {
+      "headline": "Bike rental",
+      "detail": "Rentals in Tai Wai and Tai Po make weekend rides easy."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Is Pogačar the greatest ever?",
+      "sides": "Merckx's record vs Pogačar's all-round dominance."
+    },
+    {
+      "question": "Bikes on roads in Hong Kong?",
+      "sides": "Cyclists want more space; drivers worry about safety."
+    },
+    {
+      "question": "E-bikes: cheating?",
+      "sides": "Accessibility vs 'real' cycling."
+    }
+  ],
+  "starters": [
+    "Do you ride? Road or mountain?",
+    "Have you done the Tolo Harbour ride?",
+    "Did you watch the Tour this year?",
+    "What's your bike?",
+    "Ever tried indoor cycling or Zwift?"
+  ],
+  "sayThis": [
+    {
+      "say": "Pogačar makes it look easy.",
+      "why": "Widely agreed."
+    },
+    {
+      "say": "Tai Mo Shan is a proper climb.",
+      "why": "Local respect."
+    },
+    {
+      "say": "Drafting is everything.",
+      "why": "Shows tactical understanding."
+    },
+    {
+      "say": "The cycle track to Tai Mei Tuk is perfect for a lazy Sunday.",
+      "why": "A local favourite."
+    }
+  ],
+  "avoid": [
+    "Riding on pavements.",
+    "Mocking cyclists' Lycra.",
+    "Getting into bike price talk unless invited."
+  ],
+  "quiz": [
+    {
+      "q": "What colour jersey does the Tour de France leader wear?",
+      "options": [
+        "Green",
+        "Yellow",
+        "Polka dot",
+        "White"
+      ],
+      "answer": 1,
+      "explain": "Maillot jaune."
+    },
+    {
+      "q": "What's the peloton?",
+      "options": [
+        "A bike part",
+        "The main group of riders",
+        "A race",
+        "A team"
+      ],
+      "answer": 1,
+      "explain": "The pack."
+    },
+    {
+      "q": "Who won the Tour de France in 2024 and 2025?",
+      "options": [
+        "Vingegaard",
+        "Pogačar",
+        "Evenepoel",
+        "Froome"
+      ],
+      "answer": 1,
+      "explain": "Tadej Pogačar."
+    },
+    {
+      "q": "What's a domestique?",
+      "options": [
+        "A team leader",
+        "A rider who works for the leader",
+        "A mechanic",
+        "A sprinter"
+      ],
+      "answer": 1,
+      "explain": "Team helper."
+    },
+    {
+      "q": "Who's called 'the Cannibal'?",
+      "options": [
+        "Eddy Merckx",
+        "Lance Armstrong",
+        "Chris Froome",
+        "Bernard Hinault"
+      ],
+      "answer": 0,
+      "explain": "Greatest ever."
+    },
+    {
+      "q": "Which Hong Kong cyclist won Olympic medals?",
+      "options": [
+        "Sarah Lee Wai-sze",
+        "Cheung King-lok",
+        "Siobhan Haughey",
+        "Vivian Kong"
+      ],
+      "answer": 0,
+      "explain": "Track cycling."
+    },
+    {
+      "q": "What's drafting?",
+      "options": [
+        "Planning a route",
+        "Riding in someone's slipstream",
+        "Bike design",
+        "A sprint"
+      ],
+      "answer": 1,
+      "explain": "Saves energy."
+    },
+    {
+      "q": "Which company is the world's largest bike maker?",
+      "options": [
+        "Trek",
+        "Giant",
+        "Specialized",
+        "Shimano"
+      ],
+      "answer": 1,
+      "explain": "Taiwanese."
+    },
+    {
+      "q": "When was the first Tour de France?",
+      "options": [
+        "1903",
+        "1920",
+        "1950",
+        "1969"
+      ],
+      "answer": 0,
+      "explain": "1903."
+    },
+    {
+      "q": "What does 'bonk' mean?",
+      "options": [
+        "Crash",
+        "Run out of energy",
+        "Win",
+        "Puncture"
+      ],
+      "answer": 1,
+      "explain": "Hitting the wall."
+    }
+  ]
+}

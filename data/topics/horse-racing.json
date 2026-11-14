@@ -1,0 +1,395 @@
+{
+  "slug": "horse-racing",
+  "refresh": "weekly",
+  "updated": "2026-11-14",
+  "topic": "Horse racing",
+  "category": "Sports",
+  "asOf": "mid-2026",
+  "tagline": "Wednesday nights at Happy Valley, Sundays at Sha Tin, and the world's richest betting pools.",
+  "why": "Horse racing is Hong Kong's great shared pastime. The Hong Kong Jockey Club runs some of the best-attended, highest-quality and richest racing in the world, and its betting turnover is enormous. Even people who never bet know the big horses, and an evening at Happy Valley is a classic social night out. Knowing the basics lets you join in at work, at dim sum, and at the track.",
+  "essentials": [
+    {
+      "title": "The Jockey Club runs everything",
+      "body": "The HKJC is a non-profit that holds the legal monopoly on racing, football and lottery betting. It's one of the city's biggest taxpayers and charity donors."
+    },
+    {
+      "title": "Two racecourses",
+      "body": "Happy Valley is the floodlit city-centre track, raced on Wednesday nights. Sha Tin is the big modern course in the New Territories, used mainly on weekends and for international races."
+    },
+    {
+      "title": "The season",
+      "body": "Racing runs from September to July, with a summer break. There are about 88 race meetings a year."
+    },
+    {
+      "title": "Ratings and handicaps",
+      "body": "Horses get a rating, and better horses carry more weight to even out races. Horses move between classes (Class 1 is the best, Class 5 the lowest)."
+    },
+    {
+      "title": "Trainers and jockeys are stars",
+      "body": "Only about two dozen licensed trainers and a small group of world-class jockeys compete, so the same names come up every week."
+    },
+    {
+      "title": "Hong Kong horses are world class",
+      "body": "Hong Kong-trained horses regularly win abroad, and the December international races at Sha Tin attract the world's best."
+    },
+    {
+      "title": "Betting types",
+      "body": "Win, Place and Quinella (first two in any order) are the basics. Exotic bets like the Triple Trio can pay millions."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Win",
+      "meaning": "A bet that the horse finishes first."
+    },
+    {
+      "term": "Place",
+      "meaning": "A bet that the horse finishes in the top three."
+    },
+    {
+      "term": "Quinella",
+      "meaning": "Picking the first two horses in any order."
+    },
+    {
+      "term": "Quinella Place",
+      "meaning": "Picking two horses that both finish in the top three."
+    },
+    {
+      "term": "Tierce / Trio",
+      "meaning": "Picking the first three, in exact order (Tierce) or any order (Trio)."
+    },
+    {
+      "term": "Triple Trio",
+      "meaning": "Picking the top three in three races. Huge jackpots."
+    },
+    {
+      "term": "Banker",
+      "meaning": "The horse you're most confident in, used as a fixed pick in combination bets."
+    },
+    {
+      "term": "Favourite",
+      "meaning": "The horse with the lowest odds."
+    },
+    {
+      "term": "Odds",
+      "meaning": "In Hong Kong, shown as the dividend for a $10 bet."
+    },
+    {
+      "term": "Barrier draw",
+      "meaning": "Which starting gate a horse gets. An inside draw is a big advantage at Happy Valley."
+    },
+    {
+      "term": "Griffin",
+      "meaning": "A horse in its first Hong Kong race, unraced locally."
+    },
+    {
+      "term": "Handicap weight",
+      "meaning": "Extra weight carried by better-rated horses to level the field."
+    },
+    {
+      "term": "Group 1",
+      "meaning": "The highest grade of race, like the Hong Kong Cup or Derby."
+    },
+    {
+      "term": "Track work",
+      "meaning": "Morning training gallops. Serious punters watch them."
+    },
+    {
+      "term": "Punter",
+      "meaning": "Someone who bets."
+    },
+    {
+      "term": "Form guide",
+      "meaning": "The racing newspaper or app with each horse's past results."
+    }
+  ],
+  "names": [
+    {
+      "name": "Hong Kong Jockey Club",
+      "what": "The club that runs racing and betting, founded in 1884."
+    },
+    {
+      "name": "Golden Sixty",
+      "what": "Hong Kong's most beloved horse, a superstar miler who won multiple Hong Kong Horse of the Year titles. Retired in 2024."
+    },
+    {
+      "name": "Romantic Warrior",
+      "what": "Champion middle-distance horse who won three Hong Kong Cups and the Cox Plate in Australia."
+    },
+    {
+      "name": "Ka Ying Rising",
+      "what": "A world-beating sprinter on a long unbeaten run who won Sydney's The Everest in 2025."
+    },
+    {
+      "name": "Zac Purton",
+      "what": "Australian jockey who holds the record for most wins in Hong Kong history."
+    },
+    {
+      "name": "Joao Moreira",
+      "what": "Brazilian 'Magic Man', a fan-favourite jockey who set records here."
+    },
+    {
+      "name": "James McDonald",
+      "what": "Australia's top jockey and Romantic Warrior's regular rider."
+    },
+    {
+      "name": "John Size",
+      "what": "Legendary trainer with many trainer championships."
+    },
+    {
+      "name": "Danny Shum",
+      "what": "Trainer of Romantic Warrior."
+    },
+    {
+      "name": "David Hayes",
+      "what": "Australian trainer of Ka Ying Rising, back in Hong Kong after an earlier stint."
+    },
+    {
+      "name": "Silent Witness",
+      "what": "The 2000s sprinter who won 17 races in a row, a Hong Kong legend."
+    },
+    {
+      "name": "Beauty Generation",
+      "what": "Champion miler of the late 2010s, Golden Sixty's predecessor."
+    },
+    {
+      "name": "Happy Valley",
+      "what": "The racecourse surrounded by skyscrapers. Its Wednesday night meetings are a tourist favourite."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1845",
+      "event": "Happy Valley racecourse opens."
+    },
+    {
+      "year": "1884",
+      "event": "The Hong Kong Jockey Club is founded."
+    },
+    {
+      "year": "1971",
+      "event": "Racing turns professional."
+    },
+    {
+      "year": "1978",
+      "event": "Sha Tin racecourse opens on reclaimed land."
+    },
+    {
+      "year": "1990s",
+      "event": "Hong Kong International Races begin, putting the city on the world map."
+    },
+    {
+      "year": "2003",
+      "event": "Football betting through the HKJC is legalised."
+    },
+    {
+      "year": "2005",
+      "event": "Silent Witness's 17-race winning streak ends."
+    },
+    {
+      "year": "2020–23",
+      "event": "Golden Sixty's golden era."
+    },
+    {
+      "year": "2023",
+      "event": "Romantic Warrior wins the Cox Plate in Melbourne."
+    },
+    {
+      "year": "2025",
+      "event": "Ka Ying Rising wins The Everest in Sydney, the world's richest turf sprint."
+    }
+  ],
+  "now": [
+    {
+      "headline": "Ka Ying Rising mania",
+      "detail": "The sprinter's winning streak is the biggest story in local racing."
+    },
+    {
+      "headline": "Romantic Warrior abroad",
+      "detail": "Its overseas trips to Australia, Dubai and Japan make it a national hero."
+    },
+    {
+      "headline": "The Conghua centre",
+      "detail": "The Jockey Club's big training centre in Guangdong lets horses train in the mainland and enables racing in the Greater Bay Area."
+    },
+    {
+      "headline": "Young people and racing",
+      "detail": "The HKJC is trying to bring in younger fans with themed nights at Happy Valley."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Happy Valley Wednesdays",
+      "detail": "Entry is cheap, the beer garden is busy, and it's a classic after-work night out with colleagues or visitors."
+    },
+    {
+      "headline": "Office tips",
+      "detail": "Colleagues share tips and form guides; ask who someone fancies this Sunday."
+    },
+    {
+      "headline": "Jockey Club charity",
+      "detail": "Its Charities Trust funds hospitals, parks and the arts, which is why the logo is everywhere."
+    },
+    {
+      "headline": "Off-course betting",
+      "detail": "HKJC branches across the city and its app handle most betting."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Golden Sixty or Romantic Warrior?",
+      "sides": "Golden Sixty's dominance at a mile versus Romantic Warrior's international wins."
+    },
+    {
+      "question": "Does the betting culture cause harm?",
+      "sides": "Racing brings jobs and charity money, but problem gambling is a real concern."
+    },
+    {
+      "question": "Should Hong Kong horses travel more?",
+      "sides": "Overseas wins boost prestige but risk the horses' local campaigns."
+    }
+  ],
+  "starters": [
+    "Do you go racing much? Happy Valley or Sha Tin?",
+    "Who do you fancy this weekend?",
+    "Did you watch Ka Ying Rising's last run?",
+    "Have you ever had a big win?",
+    "Who's your favourite jockey?",
+    "Want to do a Wednesday night at the Valley?"
+  ],
+  "sayThis": [
+    {
+      "say": "The draw is everything at Happy Valley.",
+      "why": "The tight track makes inside barriers valuable."
+    },
+    {
+      "say": "I'll bank on Purton.",
+      "why": "Shows you know the leading jockey."
+    },
+    {
+      "say": "I'm just doing a few quinellas for fun.",
+      "why": "Sounds casual and knowledgeable."
+    },
+    {
+      "say": "Golden Sixty was something special.",
+      "why": "A sure way to get nods."
+    }
+  ],
+  "avoid": [
+    "Betting more than you're comfortable losing to fit in.",
+    "Claiming to have a sure thing.",
+    "Bragging about wins at work. It's bad luck."
+  ],
+  "quiz": [
+    {
+      "q": "Which night is Happy Valley racing usually held?",
+      "options": [
+        "Monday",
+        "Wednesday",
+        "Friday",
+        "Sunday"
+      ],
+      "answer": 1,
+      "explain": "Wednesday night racing."
+    },
+    {
+      "q": "What is a Quinella bet?",
+      "options": [
+        "Winner only",
+        "First two in any order",
+        "Top three",
+        "Last place"
+      ],
+      "answer": 1,
+      "explain": "Pick the first two."
+    },
+    {
+      "q": "Which horse won The Everest in 2025?",
+      "options": [
+        "Golden Sixty",
+        "Ka Ying Rising",
+        "Romantic Warrior",
+        "Silent Witness"
+      ],
+      "answer": 1,
+      "explain": "The world's richest turf sprint."
+    },
+    {
+      "q": "Who holds the record for most wins as a jockey in Hong Kong?",
+      "options": [
+        "Joao Moreira",
+        "Zac Purton",
+        "Douglas Whyte",
+        "Tony Cruz"
+      ],
+      "answer": 1,
+      "explain": "Zac Purton."
+    },
+    {
+      "q": "When was the Hong Kong Jockey Club founded?",
+      "options": [
+        "1884",
+        "1945",
+        "1971",
+        "1997"
+      ],
+      "answer": 0,
+      "explain": "1884."
+    },
+    {
+      "q": "Which racecourse opened in 1978?",
+      "options": [
+        "Happy Valley",
+        "Sha Tin",
+        "Conghua",
+        "Fanling"
+      ],
+      "answer": 1,
+      "explain": "On reclaimed land."
+    },
+    {
+      "q": "What does 'Place' mean?",
+      "options": [
+        "Finishing first",
+        "Finishing in the top three",
+        "Finishing last",
+        "Starting position"
+      ],
+      "answer": 1,
+      "explain": "Top three."
+    },
+    {
+      "q": "Which horse won the Cox Plate in 2023?",
+      "options": [
+        "Romantic Warrior",
+        "Beauty Generation",
+        "Ka Ying Rising",
+        "Able Friend"
+      ],
+      "answer": 0,
+      "explain": "In Melbourne."
+    },
+    {
+      "q": "What's a 'banker'?",
+      "options": [
+        "The cashier",
+        "Your most confident pick",
+        "A favourite",
+        "A trainer"
+      ],
+      "answer": 1,
+      "explain": "Fixed in combination bets."
+    },
+    {
+      "q": "Which legend won 17 races in a row?",
+      "options": [
+        "Silent Witness",
+        "Golden Sixty",
+        "Fairy King Prawn",
+        "Viva Pataca"
+      ],
+      "answer": 0,
+      "explain": "The 2000s sprinter."
+    }
+  ]
+}

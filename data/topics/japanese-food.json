@@ -1,0 +1,395 @@
+{
+  "slug": "japanese-food",
+  "refresh": "monthly",
+  "updated": "2026-11-14",
+  "topic": "Japanese food",
+  "category": "Food & drink",
+  "asOf": "mid-2026",
+  "tagline": "Omakase, ramen, izakayas and why Hong Kong can't stop flying to Japan to eat.",
+  "why": "Japanese food is Hong Kong's favourite foreign cuisine, and Japan is the city's favourite holiday destination. People talk about omakase counters, ramen queues, the best wagyu, and where they ate on their last trip to Osaka or Hokkaido. Knowing the main styles, a little etiquette and some vocabulary lets you join these conversations and order with confidence.",
+  "essentials": [
+    {
+      "title": "Sushi vs sashimi",
+      "body": "Sashimi is sliced raw fish on its own. Sushi is anything with vinegared rice: nigiri (fish on rice), maki (rolls) and temaki (hand rolls)."
+    },
+    {
+      "title": "Omakase",
+      "body": "'I leave it to you': the chef serves a set sequence of seasonal dishes at the counter. It's the prestige way to eat sushi, and prices can run to thousands of dollars."
+    },
+    {
+      "title": "Ramen styles",
+      "body": "Tonkotsu (rich pork bone), shoyu (soy), shio (salt) and miso are the main broths. Tsukemen is dipping noodles."
+    },
+    {
+      "title": "Izakaya culture",
+      "body": "Japanese pubs serving small plates, yakitori (grilled skewers) and drinks. Casual and social."
+    },
+    {
+      "title": "Wagyu and grading",
+      "body": "Wagyu is Japanese beef known for marbling. A5 is the top grade; Kobe, Matsusaka and Omi are famous brands."
+    },
+    {
+      "title": "Kaiseki",
+      "body": "A multi-course traditional meal celebrating the season, the haute cuisine of Japan."
+    },
+    {
+      "title": "Seasonality matters",
+      "body": "Japanese cuisine revolves around the seasons: sakura in spring, eel in summer, matsutake mushrooms in autumn, crab and fugu in winter."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Omakase",
+      "meaning": "Chef's choice tasting menu."
+    },
+    {
+      "term": "Nigiri",
+      "meaning": "A slice of fish on a small block of rice."
+    },
+    {
+      "term": "Toro / otoro",
+      "meaning": "Fatty tuna belly; otoro is the fattiest and most prized."
+    },
+    {
+      "term": "Uni",
+      "meaning": "Sea urchin; creamy and briny."
+    },
+    {
+      "term": "Ikura",
+      "meaning": "Salmon roe."
+    },
+    {
+      "term": "Itamae",
+      "meaning": "Sushi chef."
+    },
+    {
+      "term": "Kaiseki",
+      "meaning": "Traditional multi-course seasonal cuisine."
+    },
+    {
+      "term": "Izakaya",
+      "meaning": "A Japanese pub with small dishes."
+    },
+    {
+      "term": "Yakitori",
+      "meaning": "Grilled chicken skewers."
+    },
+    {
+      "term": "Tonkotsu",
+      "meaning": "Rich pork-bone ramen broth."
+    },
+    {
+      "term": "Umami",
+      "meaning": "The savoury 'fifth taste'."
+    },
+    {
+      "term": "Wagyu A5",
+      "meaning": "The top grade of Japanese beef."
+    },
+    {
+      "term": "Sake",
+      "meaning": "Japanese rice wine. Junmai and daiginjo are common styles."
+    },
+    {
+      "term": "Itadakimasu",
+      "meaning": "Said before eating, like 'let's eat'."
+    },
+    {
+      "term": "Gochisousama",
+      "meaning": "Said after eating to thank the host or chef."
+    },
+    {
+      "term": "Kakigori",
+      "meaning": "Shaved ice dessert."
+    }
+  ],
+  "names": [
+    {
+      "name": "Jiro Ono",
+      "what": "The sushi master from the documentary Jiro Dreams of Sushi."
+    },
+    {
+      "name": "Sukiyabashi Jiro",
+      "what": "Jiro's famous Tokyo counter."
+    },
+    {
+      "name": "Ichiran",
+      "what": "Tonkotsu ramen chain with solo booths, very popular with Hong Kong tourists."
+    },
+    {
+      "name": "Ippudo",
+      "what": "Hakata ramen chain with branches in Hong Kong."
+    },
+    {
+      "name": "Toyosu Market",
+      "what": "Tokyo's fish market that replaced Tsukiji in 2018."
+    },
+    {
+      "name": "Tsukiji",
+      "what": "The old Tokyo fish market; its outer market is still a food destination."
+    },
+    {
+      "name": "Kobe beef",
+      "what": "Japan's most famous wagyu brand."
+    },
+    {
+      "name": "Dassai",
+      "what": "Popular premium sake brand."
+    },
+    {
+      "name": "Sushiro",
+      "what": "Conveyor-belt sushi chain with long queues in Hong Kong."
+    },
+    {
+      "name": "Genki Sushi",
+      "what": "Long-running Hong Kong conveyor sushi chain."
+    },
+    {
+      "name": "Nobu Matsuhisa",
+      "what": "Chef behind the global Nobu restaurants, famous for black cod miso."
+    },
+    {
+      "name": "Osaka",
+      "what": "Japan's 'kitchen', known for street food like takoyaki and okonomiyaki."
+    },
+    {
+      "name": "Hokkaido",
+      "what": "Northern island famous for seafood, crab, dairy and melons."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1800s",
+      "event": "Nigiri sushi becomes Edo's street fast food."
+    },
+    {
+      "year": "1958",
+      "event": "Instant ramen invented by Momofuku Ando."
+    },
+    {
+      "year": "1980s–90s",
+      "event": "Japanese food spreads worldwide; conveyor sushi booms."
+    },
+    {
+      "year": "2007",
+      "event": "Tokyo gets more Michelin stars than any city."
+    },
+    {
+      "year": "2011",
+      "event": "Jiro Dreams of Sushi documentary."
+    },
+    {
+      "year": "2013",
+      "event": "Washoku added to UNESCO's cultural heritage list."
+    },
+    {
+      "year": "2018",
+      "event": "Tsukiji market moves to Toyosu."
+    },
+    {
+      "year": "2023",
+      "event": "Hong Kong bans seafood from 10 Japanese prefectures after Fukushima's wastewater release."
+    },
+    {
+      "year": "2023–25",
+      "event": "Record numbers of Hong Kong tourists visit Japan, helped by a weak yen."
+    }
+  ],
+  "now": [
+    {
+      "headline": "Omakase boom",
+      "detail": "Omakase counters opened all over Hong Kong; some say the market is saturated."
+    },
+    {
+      "headline": "Weak yen",
+      "detail": "The cheap yen made Japan trips and food cheaper, fuelling eating holidays."
+    },
+    {
+      "headline": "Seafood import ban",
+      "detail": "Hong Kong's ban on seafood from 10 prefectures continues to affect restaurants' sourcing."
+    },
+    {
+      "headline": "Overtourism",
+      "detail": "Popular spots in Kyoto and Tokyo face crowding; some restaurants charge tourist prices."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Japan is Hong Kong's favourite trip",
+      "detail": "Hong Kongers visit Japan more per person than almost any other place. 'When are you going to Japan next?' is a classic question."
+    },
+    {
+      "headline": "Supermarkets",
+      "detail": "Japanese supermarkets and Don Don Donki stores are everywhere in Hong Kong."
+    },
+    {
+      "headline": "Ramen queues",
+      "detail": "Popular ramen shops in Causeway Bay and Mong Kok have long lines."
+    },
+    {
+      "headline": "Omakase prices",
+      "detail": "From lunch sets around HK$500 to dinners over HK$3,000."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Is omakase worth the price?",
+      "sides": "Unique craft and fish quality vs a pricey trend."
+    },
+    {
+      "question": "Best ramen style?",
+      "sides": "Tonkotsu richness vs lighter shoyu and shio."
+    },
+    {
+      "question": "Conveyor sushi or counter?",
+      "sides": "Fun and cheap vs refined and personal."
+    },
+    {
+      "question": "Tokyo or Osaka for food?",
+      "sides": "Tokyo for fine dining; Osaka for street food and fun."
+    }
+  ],
+  "starters": [
+    "When's your next Japan trip?",
+    "Any omakase you'd recommend?",
+    "What's your favourite ramen place in Hong Kong?",
+    "Tokyo, Osaka or Hokkaido?",
+    "Do you like sake?",
+    "Best thing you ate in Japan?"
+  ],
+  "sayThis": [
+    {
+      "say": "Otoro just melts.",
+      "why": "Universally loved."
+    },
+    {
+      "say": "Osaka is the best food city in Japan.",
+      "why": "A popular take that sparks debate."
+    },
+    {
+      "say": "Seasonal menus are the best part of omakase.",
+      "why": "Shows appreciation for craft."
+    },
+    {
+      "say": "I'll go with the chef's recommendation.",
+      "why": "Polite and respectful."
+    }
+  ],
+  "avoid": [
+    "Rubbing chopsticks together or sticking them upright in rice.",
+    "Drowning nigiri in soy sauce. Dip the fish lightly, not the rice.",
+    "Wearing strong perfume at a sushi counter."
+  ],
+  "quiz": [
+    {
+      "q": "What is omakase?",
+      "options": [
+        "A ramen style",
+        "Chef's choice menu",
+        "A sake",
+        "A dessert"
+      ],
+      "answer": 1,
+      "explain": "'I leave it to you'."
+    },
+    {
+      "q": "What is otoro?",
+      "options": [
+        "Sea urchin",
+        "Fatty tuna belly",
+        "Eel",
+        "Salmon roe"
+      ],
+      "answer": 1,
+      "explain": "The most prized tuna cut."
+    },
+    {
+      "q": "Tonkotsu broth is made from…",
+      "options": [
+        "Chicken",
+        "Pork bones",
+        "Fish",
+        "Miso"
+      ],
+      "answer": 1,
+      "explain": "Rich pork bone."
+    },
+    {
+      "q": "What does A5 mean for wagyu?",
+      "options": [
+        "The cheapest grade",
+        "The top grade",
+        "Five years old",
+        "A cut"
+      ],
+      "answer": 1,
+      "explain": "Highest marbling and quality."
+    },
+    {
+      "q": "What replaced Tsukiji market?",
+      "options": [
+        "Toyosu",
+        "Nishiki",
+        "Kuromon",
+        "Omicho"
+      ],
+      "answer": 0,
+      "explain": "In 2018."
+    },
+    {
+      "q": "What's an izakaya?",
+      "options": [
+        "A temple",
+        "A Japanese pub with small dishes",
+        "A sushi counter",
+        "A tea house"
+      ],
+      "answer": 1,
+      "explain": "Casual and social."
+    },
+    {
+      "q": "What do you say before eating?",
+      "options": [
+        "Kanpai",
+        "Itadakimasu",
+        "Sumimasen",
+        "Arigato"
+      ],
+      "answer": 1,
+      "explain": "Kanpai is cheers."
+    },
+    {
+      "q": "Which city is called 'Japan's kitchen'?",
+      "options": [
+        "Tokyo",
+        "Osaka",
+        "Kyoto",
+        "Sapporo"
+      ],
+      "answer": 1,
+      "explain": "Osaka."
+    },
+    {
+      "q": "Uni is…",
+      "options": [
+        "Sea urchin",
+        "Squid",
+        "Eel",
+        "Octopus"
+      ],
+      "answer": 0,
+      "explain": "Creamy and briny."
+    },
+    {
+      "q": "Who invented instant ramen?",
+      "options": [
+        "Jiro Ono",
+        "Momofuku Ando",
+        "Nobu Matsuhisa",
+        "Masataka Taketsuru"
+      ],
+      "answer": 1,
+      "explain": "In 1958."
+    }
+  ]
+}

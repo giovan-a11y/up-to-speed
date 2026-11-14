@@ -1,0 +1,403 @@
+{
+  "slug": "golf",
+  "refresh": "weekly",
+  "updated": "2026-11-14",
+  "topic": "Golf",
+  "category": "Sports",
+  "asOf": "mid-2026",
+  "tagline": "Four majors, one tiny ball, and a sport that's half networking.",
+  "why": "Golf is both a pro sport with global superstars and a social and business ritual, especially in Hong Kong where club memberships are status symbols. Pro golf has been through a civil war since Saudi-backed LIV Golf launched in 2022. Even if you don't play, knowing the majors, the big names and a bit of vocabulary makes you fluent at the 19th hole.",
+  "essentials": [
+    {
+      "title": "How scoring works",
+      "body": "Each hole has a 'par', the number of shots a good player should take (3, 4 or 5). A course is usually par 70-72. Fewer shots is better; '-10' means ten under par."
+    },
+    {
+      "title": "The four majors",
+      "body": "The Masters (April, Augusta), the PGA Championship (May), the US Open (June) and The Open Championship (July, in the UK). Majors define careers."
+    },
+    {
+      "title": "Tournaments last four days",
+      "body": "Pro events are 72 holes over Thursday to Sunday, with a 'cut' after day two that sends half the field home."
+    },
+    {
+      "title": "The PGA Tour vs LIV",
+      "body": "In 2022 Saudi-funded LIV Golf lured stars with huge contracts. It split the sport; talks about a merger dragged on and the majors are where both sides meet."
+    },
+    {
+      "title": "The Ryder Cup",
+      "body": "Europe vs the USA every two years, team match play with wild crowds. The most emotional event in golf. Europe won in 2023 and again away in New York in 2025."
+    },
+    {
+      "title": "Handicaps let everyone play together",
+      "body": "Amateurs have a handicap showing roughly how many shots over par they shoot, so players of different abilities can compete."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Par",
+      "meaning": "The expected number of shots for a hole or course."
+    },
+    {
+      "term": "Birdie",
+      "meaning": "One under par on a hole."
+    },
+    {
+      "term": "Eagle",
+      "meaning": "Two under par on a hole."
+    },
+    {
+      "term": "Bogey",
+      "meaning": "One over par. Double bogey is two over."
+    },
+    {
+      "term": "Hole in one",
+      "meaning": "Getting the ball in with your first shot. Tradition says you buy drinks for the clubhouse."
+    },
+    {
+      "term": "Handicap",
+      "meaning": "A rating of an amateur's skill. Lower is better; single figures is very good."
+    },
+    {
+      "term": "Fairway",
+      "meaning": "The short-cut grass between tee and green, where you want to be."
+    },
+    {
+      "term": "Rough",
+      "meaning": "The longer grass beside the fairway."
+    },
+    {
+      "term": "Bunker",
+      "meaning": "A sand trap."
+    },
+    {
+      "term": "Green",
+      "meaning": "The short grass around the hole where you putt."
+    },
+    {
+      "term": "Driver",
+      "meaning": "The longest club, used off the tee."
+    },
+    {
+      "term": "Mulligan",
+      "meaning": "An unofficial do-over in casual golf."
+    },
+    {
+      "term": "Fore!",
+      "meaning": "What you shout to warn people a ball is coming at them."
+    },
+    {
+      "term": "The cut",
+      "meaning": "After two rounds, players outside the top scores are eliminated."
+    },
+    {
+      "term": "Green jacket",
+      "meaning": "The prize for winning the Masters."
+    },
+    {
+      "term": "19th hole",
+      "meaning": "The clubhouse bar after a round."
+    }
+  ],
+  "names": [
+    {
+      "name": "Tiger Woods",
+      "what": "15 majors, the most famous golfer ever, who transformed the sport's popularity and money from 1997."
+    },
+    {
+      "name": "Jack Nicklaus",
+      "what": "Record 18 majors. 'The Golden Bear'."
+    },
+    {
+      "name": "Scottie Scheffler",
+      "what": "American world number one who dominated 2024 and won the PGA and The Open in 2025."
+    },
+    {
+      "name": "Rory McIlroy",
+      "what": "Northern Irish star who completed the career Grand Slam by winning the 2025 Masters after an 11-year major drought."
+    },
+    {
+      "name": "Jon Rahm",
+      "what": "Spanish Masters champion whose 2023 move to LIV shocked the sport."
+    },
+    {
+      "name": "Bryson DeChambeau",
+      "what": "Big-hitting American LIV star and YouTube personality; won the 2024 US Open."
+    },
+    {
+      "name": "Xander Schauffele",
+      "what": "Won two majors in 2024."
+    },
+    {
+      "name": "Phil Mickelson",
+      "what": "Six-time major winner and one of LIV's first big signings."
+    },
+    {
+      "name": "Augusta National",
+      "what": "The private Georgia club that hosts the Masters, famous for azaleas and secrecy."
+    },
+    {
+      "name": "St Andrews",
+      "what": "Scotland's 'home of golf', where the game has been played for 600 years."
+    },
+    {
+      "name": "Nelly Korda",
+      "what": "American star of the women's LPGA Tour."
+    },
+    {
+      "name": "Hideki Matsuyama",
+      "what": "Japan's first men's major champion, winning the 2021 Masters."
+    },
+    {
+      "name": "LIV Golf",
+      "what": "Saudi-backed tour with team events and 54-hole tournaments. It held events in Hong Kong in 2024 and 2025."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1400s",
+      "event": "Golf develops in Scotland."
+    },
+    {
+      "year": "1860",
+      "event": "The first Open Championship."
+    },
+    {
+      "year": "1934",
+      "event": "The first Masters at Augusta."
+    },
+    {
+      "year": "1986",
+      "event": "Jack Nicklaus wins the Masters at 46."
+    },
+    {
+      "year": "1997",
+      "event": "Tiger Woods wins the Masters by 12 shots at 21."
+    },
+    {
+      "year": "2000–01",
+      "event": "The 'Tiger Slam': Woods holds all four majors at once."
+    },
+    {
+      "year": "2019",
+      "event": "Tiger wins the Masters again after back surgeries and scandal."
+    },
+    {
+      "year": "2021",
+      "event": "Tiger badly injures his leg in a car crash."
+    },
+    {
+      "year": "2022",
+      "event": "LIV Golf launches and splits the sport."
+    },
+    {
+      "year": "2023",
+      "event": "The PGA Tour and LIV's backer announce a surprise merger plan."
+    },
+    {
+      "year": "2025",
+      "event": "McIlroy completes the career Grand Slam; Europe win the Ryder Cup in New York."
+    }
+  ],
+  "now": [
+    {
+      "headline": "Scheffler's dominance",
+      "detail": "People compare his run of wins to peak Tiger."
+    },
+    {
+      "headline": "The LIV split",
+      "detail": "Fans want the best players together more than four times a year. Any merger news is big talk."
+    },
+    {
+      "headline": "Rory after the Slam",
+      "detail": "After finally winning the Masters, can McIlroy keep adding majors?"
+    },
+    {
+      "headline": "Golf is booming",
+      "detail": "Indoor simulators, Topgolf-style venues and YouTube golf have drawn in younger players."
+    },
+    {
+      "headline": "Distance debate",
+      "detail": "Golf's rule makers are rolling back how far balls fly from 2028 for pros, which many players dislike."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Fanling",
+      "detail": "The Hong Kong Golf Club at Fanling hosts the Hong Kong Open, Asia's oldest national open (since 1959). Part of the course has been taken back by the government for housing, which is controversial."
+    },
+    {
+      "headline": "Memberships are huge money",
+      "detail": "Debentures at top Hong Kong clubs cost millions of dollars, making membership a status symbol."
+    },
+    {
+      "headline": "Where people actually play",
+      "detail": "The public Jockey Club Kau Sai Chau course in Sai Kung, driving ranges, simulator bars, and weekend trips to Shenzhen, Dongguan and Mission Hills."
+    },
+    {
+      "headline": "Business golf",
+      "detail": "Golf weekends in Thailand, Japan or Mission Hills are a classic way to entertain clients."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Is LIV good or bad for golf?",
+      "sides": "Supporters say players deserved more money; critics call it Saudi 'sportswashing' that broke the tour."
+    },
+    {
+      "question": "Tiger or Jack: the greatest?",
+      "sides": "Jack has 18 majors; Tiger had the highest peak and more total wins."
+    },
+    {
+      "question": "Is golf too slow and exclusive?",
+      "sides": "Shorter formats and simulators are trying to fix it."
+    },
+    {
+      "question": "Should the ball be rolled back?",
+      "sides": "Courses are being made obsolete by long drives, but rollbacks frustrate players."
+    }
+  ],
+  "starters": [
+    "Do you play? What's your handicap these days?",
+    "Where do you usually play around here?",
+    "Did you watch Rory win the Masters?",
+    "Who's your favourite player on tour?",
+    "Have you ever tried a golf simulator?",
+    "If you could play one course in the world, which one?"
+  ],
+  "sayThis": [
+    {
+      "say": "Drive for show, putt for dough.",
+      "why": "The classic golf saying."
+    },
+    {
+      "say": "Augusta looks unreal on TV.",
+      "why": "Universal agreement among fans."
+    },
+    {
+      "say": "I'm more of a driving range golfer for now.",
+      "why": "An honest, friendly way in if you don't play."
+    },
+    {
+      "say": "The Ryder Cup is the best atmosphere in sport.",
+      "why": "Most golf fans agree."
+    }
+  ],
+  "avoid": [
+    "Talking or moving while someone is about to hit.",
+    "Asking a beginner their score.",
+    "Dismissing golf as 'not a real sport'."
+  ],
+  "quiz": [
+    {
+      "q": "What is a birdie?",
+      "options": [
+        "One over par",
+        "One under par",
+        "Two under par",
+        "Par"
+      ],
+      "answer": 1,
+      "explain": "Two under is an eagle."
+    },
+    {
+      "q": "Which major awards a green jacket?",
+      "options": [
+        "The Open",
+        "US Open",
+        "The Masters",
+        "PGA Championship"
+      ],
+      "answer": 2,
+      "explain": "Played at Augusta National."
+    },
+    {
+      "q": "Who has the record 18 majors?",
+      "options": [
+        "Tiger Woods",
+        "Jack Nicklaus",
+        "Arnold Palmer",
+        "Gary Player"
+      ],
+      "answer": 1,
+      "explain": "Tiger has 15."
+    },
+    {
+      "q": "Who completed the career Grand Slam in 2025?",
+      "options": [
+        "Scottie Scheffler",
+        "Jon Rahm",
+        "Rory McIlroy",
+        "Jordan Spieth"
+      ],
+      "answer": 2,
+      "explain": "By winning the Masters."
+    },
+    {
+      "q": "What does LIV Golf's money come from?",
+      "options": [
+        "US TV networks",
+        "Saudi Arabia's sovereign wealth fund",
+        "Nike",
+        "The PGA Tour"
+      ],
+      "answer": 1,
+      "explain": "The Public Investment Fund."
+    },
+    {
+      "q": "What do you shout to warn people of a flying ball?",
+      "options": [
+        "Duck!",
+        "Fore!",
+        "Ball!",
+        "Heads!"
+      ],
+      "answer": 1,
+      "explain": "Fore!"
+    },
+    {
+      "q": "The Ryder Cup is played between…",
+      "options": [
+        "USA and Asia",
+        "Europe and the USA",
+        "UK and Australia",
+        "LIV and PGA"
+      ],
+      "answer": 1,
+      "explain": "Every two years."
+    },
+    {
+      "q": "Where is the Hong Kong Open played?",
+      "options": [
+        "Kau Sai Chau",
+        "Fanling",
+        "Clearwater Bay",
+        "Discovery Bay"
+      ],
+      "answer": 1,
+      "explain": "At the Hong Kong Golf Club."
+    },
+    {
+      "q": "A bogey is…",
+      "options": [
+        "One over par",
+        "A lost ball",
+        "A hole in one",
+        "Two under par"
+      ],
+      "answer": 0,
+      "explain": "Double bogey is two over."
+    },
+    {
+      "q": "Who was Japan's first men's major champion?",
+      "options": [
+        "Hideki Matsuyama",
+        "Isao Aoki",
+        "Ryo Ishikawa",
+        "Jumbo Ozaki"
+      ],
+      "answer": 0,
+      "explain": "The 2021 Masters."
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+{
+  "slug": "whisky",
+  "refresh": "monthly",
+  "updated": "2026-11-14",
+  "topic": "Whisky",
+  "category": "Food & drink",
+  "asOf": "mid-2026",
+  "tagline": "Peat, casks and age statements: the language of the world's most collected spirit.",
+  "why": "Whisky is a favourite of business dinners, bars and gift-giving in Hong Kong, where Macallan and Japanese whisky are status symbols. Whisky lovers talk about regions, cask types, age and smoky 'peat', and many collect rare bottles. Learn the main styles and a few distilleries and you can order well, appreciate a gift, and enjoy a conversation at the bar.",
+  "essentials": [
+    {
+      "title": "Whisky vs whiskey",
+      "body": "Scotland, Japan and Canada spell it 'whisky'; Ireland and the US usually use 'whiskey'."
+    },
+    {
+      "title": "Single malt vs blended",
+      "body": "Single malt is made from malted barley at one distillery. Blended whisky mixes malts and grain whisky, like Johnnie Walker. Single malts are the connoisseur's focus."
+    },
+    {
+      "title": "Scotland's regions",
+      "body": "Speyside (fruity, elegant: Macallan, Glenfiddich), Islay (smoky, peaty: Laphroaig, Lagavulin, Ardbeg), Highlands (varied), Lowlands (light) and Campbeltown (briny)."
+    },
+    {
+      "title": "Casks shape flavour",
+      "body": "Most flavour comes from the oak barrel. Ex-bourbon casks give vanilla; sherry casks give dried fruit and spice."
+    },
+    {
+      "title": "Age statements",
+      "body": "A 12-year-old whisky spent at least 12 years in the cask. Older isn't always better, but it's rarer and pricier."
+    },
+    {
+      "title": "American whiskey",
+      "body": "Bourbon must be mostly corn and aged in new charred oak, giving sweet caramel notes. Rye is spicier."
+    },
+    {
+      "title": "Japanese whisky",
+      "body": "Modelled on Scotch but famously refined; Yamazaki and Hibiki became so popular that age-statement bottles ran short."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Peat / peaty",
+      "meaning": "Smoky flavour from drying barley over peat fires."
+    },
+    {
+      "term": "Single malt",
+      "meaning": "Malted barley whisky from one distillery."
+    },
+    {
+      "term": "Blended",
+      "meaning": "A mix of malt and grain whiskies."
+    },
+    {
+      "term": "Cask strength",
+      "meaning": "Bottled undiluted, often 55-60% alcohol."
+    },
+    {
+      "term": "Sherry cask",
+      "meaning": "Aged in barrels that held sherry: rich, fruity, spicy."
+    },
+    {
+      "term": "Neat",
+      "meaning": "Served on its own, no ice or water."
+    },
+    {
+      "term": "On the rocks",
+      "meaning": "With ice."
+    },
+    {
+      "term": "A splash of water",
+      "meaning": "Opens up aromas; many enthusiasts add a few drops."
+    },
+    {
+      "term": "Highball",
+      "meaning": "Whisky with soda over ice; huge in Japan."
+    },
+    {
+      "term": "Dram",
+      "meaning": "A serving of whisky."
+    },
+    {
+      "term": "Finish",
+      "meaning": "The taste that lingers after swallowing."
+    },
+    {
+      "term": "Angel's share",
+      "meaning": "Whisky lost to evaporation during ageing."
+    },
+    {
+      "term": "NAS",
+      "meaning": "No age statement: a whisky without an age on the label."
+    },
+    {
+      "term": "Independent bottler",
+      "meaning": "A company that buys casks and bottles them under its own label."
+    },
+    {
+      "term": "Old Fashioned",
+      "meaning": "Classic cocktail of whisky, sugar and bitters."
+    }
+  ],
+  "names": [
+    {
+      "name": "The Macallan",
+      "what": "Speyside's luxury giant; its rare bottles set auction records and dominate Hong Kong gifting."
+    },
+    {
+      "name": "Glenfiddich",
+      "what": "The world's best-selling single malt."
+    },
+    {
+      "name": "Lagavulin, Laphroaig, Ardbeg",
+      "what": "Islay's smoky icons."
+    },
+    {
+      "name": "Johnnie Walker",
+      "what": "The world's best-selling Scotch, a blend; Blue Label is a classic gift."
+    },
+    {
+      "name": "Yamazaki",
+      "what": "Japan's first malt distillery, owned by Suntory."
+    },
+    {
+      "name": "Hibiki",
+      "what": "Suntory's elegant blended whisky."
+    },
+    {
+      "name": "Nikka",
+      "what": "Japan's other big whisky house; Yoichi and Miyagikyo distilleries."
+    },
+    {
+      "name": "Karuizawa",
+      "what": "Closed Japanese distillery whose bottles are prized collectibles."
+    },
+    {
+      "name": "Buffalo Trace / Pappy Van Winkle",
+      "what": "Bourbon distillery; Pappy is the hardest-to-find bourbon."
+    },
+    {
+      "name": "Jameson",
+      "what": "The best-selling Irish whiskey."
+    },
+    {
+      "name": "Masataka Taketsuru",
+      "what": "Father of Japanese whisky, who learned in Scotland."
+    },
+    {
+      "name": "Kavalan",
+      "what": "Taiwanese whisky that shocked the world by winning top awards."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1494",
+      "event": "Earliest written record of Scotch whisky."
+    },
+    {
+      "year": "1823",
+      "event": "Scotland's Excise Act legalises distilling."
+    },
+    {
+      "year": "1923",
+      "event": "Yamazaki distillery founded in Japan."
+    },
+    {
+      "year": "1963",
+      "event": "Glenfiddich markets single malt globally."
+    },
+    {
+      "year": "2001",
+      "event": "Nikka's Yoichi wins 'Best of the Best' at a global tasting."
+    },
+    {
+      "year": "2015",
+      "event": "Yamazaki Sherry Cask named world's best whisky, sparking a Japanese whisky frenzy."
+    },
+    {
+      "year": "2019",
+      "event": "Macallan 1926 sells for £1.5 million."
+    },
+    {
+      "year": "2023",
+      "event": "Another Macallan 1926 sells for £2.1 million, a record."
+    },
+    {
+      "year": "2024",
+      "event": "Hong Kong cuts duty on spirits priced above HK$200."
+    }
+  ],
+  "now": [
+    {
+      "headline": "Whisky boom cools",
+      "detail": "After a decade of rising prices, collector demand and secondary prices for many bottles have softened."
+    },
+    {
+      "headline": "Japanese whisky rules",
+      "detail": "Japan introduced rules in 2024 defining 'Japanese whisky' after some brands sold imported blends."
+    },
+    {
+      "headline": "New world whisky",
+      "detail": "Taiwan, India, Australia and England produce award winners."
+    },
+    {
+      "headline": "Highballs everywhere",
+      "detail": "Lighter whisky drinks are popular with younger drinkers."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Duty cut",
+      "detail": "Since 2024 the duty on spirits over HK$200 is only 10% on the portion above HK$200, aimed at making Hong Kong a spirits trading hub."
+    },
+    {
+      "headline": "Gift culture",
+      "detail": "Macallan, Johnnie Walker Blue and Hibiki are classic Chinese New Year and business gifts."
+    },
+    {
+      "headline": "Whisky bars",
+      "detail": "Speakeasies in Central and Sheung Wan rank among Asia's best bars."
+    },
+    {
+      "headline": "Auctions",
+      "detail": "Hong Kong hosts major whisky auctions by Sotheby's and Bonhams."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Water or no water?",
+      "sides": "Purists say neat; many experts add a few drops to open aromas."
+    },
+    {
+      "question": "Is ice a crime?",
+      "sides": "Ice dulls flavour, but it's your drink. Japanese culture embraces it."
+    },
+    {
+      "question": "Is older better?",
+      "sides": "Older is rarer; younger can be more vibrant."
+    },
+    {
+      "question": "Should you drink or collect?",
+      "sides": "Collectors invest; purists say whisky is meant to be opened."
+    }
+  ],
+  "starters": [
+    "Are you a peaty person or more Speyside?",
+    "Do you have a favourite dram?",
+    "Have you tried any Taiwanese or Indian whisky?",
+    "How do you take it: neat, water, rocks?",
+    "Ever visited a distillery?",
+    "Do you collect at all?"
+  ],
+  "sayThis": [
+    {
+      "say": "I'll try it neat first, then with a drop of water.",
+      "why": "What enthusiasts do."
+    },
+    {
+      "say": "That's a sherry bomb.",
+      "why": "A nice compliment for rich, sherried whiskies."
+    },
+    {
+      "say": "Islay isn't for everyone, but I love the smoke.",
+      "why": "Shows you know the styles."
+    },
+    {
+      "say": "Kavalan really surprised people.",
+      "why": "A respected insider fact."
+    }
+  ],
+  "avoid": [
+    "Mixing an expensive single malt with cola.",
+    "Saying all whisky tastes the same.",
+    "Drinking someone's gift bottle without asking if they want to save it."
+  ],
+  "quiz": [
+    {
+      "q": "Which region is known for smoky, peaty whisky?",
+      "options": [
+        "Speyside",
+        "Islay",
+        "Lowlands",
+        "Kentucky"
+      ],
+      "answer": 1,
+      "explain": "Laphroaig, Lagavulin, Ardbeg."
+    },
+    {
+      "q": "Bourbon must be made mostly from…",
+      "options": [
+        "Barley",
+        "Rye",
+        "Corn",
+        "Wheat"
+      ],
+      "answer": 2,
+      "explain": "At least 51% corn."
+    },
+    {
+      "q": "Which country spells it 'whiskey'?",
+      "options": [
+        "Scotland",
+        "Japan",
+        "Ireland",
+        "Canada"
+      ],
+      "answer": 2,
+      "explain": "Ireland and the US."
+    },
+    {
+      "q": "What's 'cask strength'?",
+      "options": [
+        "Watered down",
+        "Undiluted from the barrel",
+        "Aged 25 years",
+        "Blended"
+      ],
+      "answer": 1,
+      "explain": "Often 55-60%."
+    },
+    {
+      "q": "Which is Japan's first malt distillery?",
+      "options": [
+        "Hakushu",
+        "Yamazaki",
+        "Yoichi",
+        "Chichibu"
+      ],
+      "answer": 1,
+      "explain": "Founded 1923."
+    },
+    {
+      "q": "What's the 'angel's share'?",
+      "options": [
+        "A tax",
+        "Whisky lost to evaporation",
+        "The first pour",
+        "A rare bottle"
+      ],
+      "answer": 1,
+      "explain": "Evaporation during ageing."
+    },
+    {
+      "q": "Which Taiwanese whisky won global acclaim?",
+      "options": [
+        "Kavalan",
+        "Amrut",
+        "Starward",
+        "Kilchoman"
+      ],
+      "answer": 0,
+      "explain": "Taiwan's star."
+    },
+    {
+      "q": "Johnnie Walker is a…",
+      "options": [
+        "Single malt",
+        "Blended Scotch",
+        "Bourbon",
+        "Irish whiskey"
+      ],
+      "answer": 1,
+      "explain": "The world's top-selling Scotch."
+    },
+    {
+      "q": "A highball is…",
+      "options": [
+        "Whisky and soda over ice",
+        "Neat whisky",
+        "Whisky and cola",
+        "A large glass"
+      ],
+      "answer": 0,
+      "explain": "Popular in Japan."
+    },
+    {
+      "q": "Sherry casks give whisky…",
+      "options": [
+        "Smoke",
+        "Dried fruit and spice notes",
+        "Vanilla only",
+        "Saltiness"
+      ],
+      "answer": 1,
+      "explain": "Rich flavours."
+    }
+  ]
+}

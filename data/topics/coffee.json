@@ -1,0 +1,387 @@
+{
+  "slug": "coffee",
+  "refresh": "monthly",
+  "updated": "2026-11-14",
+  "topic": "Coffee",
+  "category": "Food & drink",
+  "asOf": "mid-2026",
+  "tagline": "From yuenyeung to pour-over: how coffee became Hong Kong's social glue.",
+  "why": "Coffee is the easiest small talk there is: almost everyone drinks it and has a favourite spot. Hong Kong has gone from instant coffee and cha chaan teng milk coffee to one of Asia's best specialty coffee scenes. Knowing the drinks, the brewing methods and a few local names lets you talk cafés, origins and trends with anyone.",
+  "essentials": [
+    {
+      "title": "Arabica vs robusta",
+      "body": "Arabica beans are smoother and more aromatic, used in specialty coffee. Robusta is stronger, more bitter and has more caffeine."
+    },
+    {
+      "title": "Origins taste different",
+      "body": "Ethiopian beans are often fruity and floral, Colombian balanced, Brazilian nutty and chocolatey, Indonesian earthy."
+    },
+    {
+      "title": "Roast level",
+      "body": "Light roasts keep fruity origin flavours; dark roasts taste roasty and bitter. Specialty cafés favour light to medium."
+    },
+    {
+      "title": "Espresso drinks",
+      "body": "Espresso is the base. Add hot water for an Americano, steamed milk for a latte or flat white, foam for a cappuccino."
+    },
+    {
+      "title": "Filter coffee",
+      "body": "Pour-over (like V60), French press, AeroPress and cold brew bring out different flavours. Pour-over is the specialty café ritual."
+    },
+    {
+      "title": "Third wave",
+      "body": "The 'third wave' treats coffee like wine: single origins, light roasts, careful brewing. First wave was instant; second was Starbucks."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Espresso",
+      "meaning": "A short, concentrated coffee brewed under pressure."
+    },
+    {
+      "term": "Flat white",
+      "meaning": "Espresso with silky steamed milk, stronger than a latte. From Australia and New Zealand."
+    },
+    {
+      "term": "Cappuccino",
+      "meaning": "Espresso with steamed milk and lots of foam."
+    },
+    {
+      "term": "Cortado",
+      "meaning": "Espresso cut with a small amount of warm milk."
+    },
+    {
+      "term": "Long black",
+      "meaning": "Hot water topped with espresso; the Aussie Americano."
+    },
+    {
+      "term": "Pour-over",
+      "meaning": "Hand-poured filter coffee, like the Hario V60."
+    },
+    {
+      "term": "Cold brew",
+      "meaning": "Coffee steeped in cold water for hours; smooth and low acid."
+    },
+    {
+      "term": "Single origin",
+      "meaning": "Beans from one country or farm."
+    },
+    {
+      "term": "Blend",
+      "meaning": "Beans from several origins mixed."
+    },
+    {
+      "term": "Latte art",
+      "meaning": "Patterns poured into milk foam."
+    },
+    {
+      "term": "Barista",
+      "meaning": "A skilled coffee maker."
+    },
+    {
+      "term": "Crema",
+      "meaning": "The golden foam on top of espresso."
+    },
+    {
+      "term": "Oat milk",
+      "meaning": "The most popular plant milk in cafés."
+    },
+    {
+      "term": "Dirty",
+      "meaning": "An espresso poured over cold milk."
+    },
+    {
+      "term": "Yuenyeung",
+      "meaning": "Hong Kong's mix of coffee and milk tea."
+    },
+    {
+      "term": "Washed / natural process",
+      "meaning": "How beans are processed; naturals taste fruitier."
+    }
+  ],
+  "names": [
+    {
+      "name": "Starbucks",
+      "what": "The chain that made coffee shops global; struggling against cheaper rivals in China."
+    },
+    {
+      "name": "Luckin Coffee",
+      "what": "Chinese app-based chain that overtook Starbucks in China and opened in Hong Kong in 2025."
+    },
+    {
+      "name": "% Arabica",
+      "what": "Kyoto-born café with a minimalist style, very popular in Hong Kong."
+    },
+    {
+      "name": "Blue Bottle",
+      "what": "American specialty pioneer, owned by Nestlé, with shops in Asia."
+    },
+    {
+      "name": "Nespresso",
+      "what": "The pod coffee machine brand."
+    },
+    {
+      "name": "Ethiopia",
+      "what": "The birthplace of coffee."
+    },
+    {
+      "name": "Geisha (Gesha)",
+      "what": "A prized variety, famously from Panama, with floral flavours and high prices."
+    },
+    {
+      "name": "James Hoffmann",
+      "what": "British coffee YouTuber and World Barista Champion, hugely influential."
+    },
+    {
+      "name": "World Barista Championship",
+      "what": "The sport's top competition."
+    },
+    {
+      "name": "Cupping Room",
+      "what": "Hong Kong specialty café founded by a champion barista."
+    },
+    {
+      "name": "NOC Coffee",
+      "what": "Local specialty chain with a clean modern style."
+    },
+    {
+      "name": "Lan Fong Yuen",
+      "what": "Classic Central dai pai dong famed for 'silk stocking' milk tea."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "850s",
+      "event": "Legend says an Ethiopian goat herder discovers coffee."
+    },
+    {
+      "year": "1600s",
+      "event": "Coffee houses spread across Europe."
+    },
+    {
+      "year": "1884",
+      "event": "Italian espresso machine patented."
+    },
+    {
+      "year": "1971",
+      "event": "Starbucks opens in Seattle."
+    },
+    {
+      "year": "2000",
+      "event": "Starbucks opens in Hong Kong."
+    },
+    {
+      "year": "2000s",
+      "event": "Third wave coffee emerges."
+    },
+    {
+      "year": "2017",
+      "event": "Luckin Coffee founded in China."
+    },
+    {
+      "year": "2023–24",
+      "event": "Arabica prices soar on bad harvests."
+    },
+    {
+      "year": "2025",
+      "event": "Coffee prices hit records; Luckin opens in Hong Kong."
+    }
+  ],
+  "now": [
+    {
+      "headline": "Coffee is expensive",
+      "detail": "Bad harvests in Brazil and Vietnam pushed bean prices to record highs, raising café prices."
+    },
+    {
+      "headline": "Chinese chains go global",
+      "detail": "Luckin and other Chinese chains sell cheap, app-ordered coffee and are expanding abroad."
+    },
+    {
+      "headline": "Specialty everywhere",
+      "detail": "Light roasts, pour-overs and fancy origins are mainstream in Asian cities."
+    },
+    {
+      "headline": "Climate risk",
+      "detail": "Coffee farms face drought and heat; some scientists worry arabica land will shrink."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Cha chaan teng coffee",
+      "detail": "Hong Kong-style coffee is strong and served with evaporated milk. Ask for 'yuenyeung' if you want both coffee and tea."
+    },
+    {
+      "headline": "Specialty hotspots",
+      "detail": "Sheung Wan, Sai Ying Pun, Tai Hang and Sham Shui Po are full of independent cafés."
+    },
+    {
+      "headline": "Cheap vs specialty",
+      "detail": "Luckin's low prices vs HK$50+ specialty lattes is a current debate."
+    },
+    {
+      "headline": "Barista champions",
+      "detail": "Hong Kong baristas regularly place well at international competitions."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Starbucks or independent?",
+      "sides": "Convenience and consistency vs quality and character."
+    },
+    {
+      "question": "Light or dark roast?",
+      "sides": "Bright fruity flavours vs classic bold coffee."
+    },
+    {
+      "question": "Is HK$50 for a latte reasonable?",
+      "sides": "Rent and wages vs daily affordability."
+    },
+    {
+      "question": "Milk or black?",
+      "sides": "Purists say black shows the bean; most people prefer milk."
+    }
+  ],
+  "starters": [
+    "What's your go-to coffee order?",
+    "Any cafés you'd recommend near here?",
+    "Do you brew at home?",
+    "Light roast or dark?",
+    "Have you tried Luckin yet?",
+    "Coffee or milk tea person?"
+  ],
+  "sayThis": [
+    {
+      "say": "This tastes really fruity. Is it Ethiopian?",
+      "why": "A great guess with light roasts."
+    },
+    {
+      "say": "Flat whites are my default.",
+      "why": "A very common order in Hong Kong cafés."
+    },
+    {
+      "say": "Nothing beats a yuenyeung with a pineapple bun.",
+      "why": "Local pride."
+    },
+    {
+      "say": "Bean prices went crazy this year.",
+      "why": "Topical."
+    }
+  ],
+  "avoid": [
+    "Mocking someone's sweet coffee order.",
+    "Lingering for hours at tiny cafés during busy times.",
+    "Saying instant coffee is the same."
+  ],
+  "quiz": [
+    {
+      "q": "Which bean is smoother and used for specialty coffee?",
+      "options": [
+        "Robusta",
+        "Arabica",
+        "Liberica",
+        "Excelsa"
+      ],
+      "answer": 1,
+      "explain": "Arabica."
+    },
+    {
+      "q": "Where did coffee originate?",
+      "options": [
+        "Brazil",
+        "Ethiopia",
+        "Yemen",
+        "Colombia"
+      ],
+      "answer": 1,
+      "explain": "Ethiopia."
+    },
+    {
+      "q": "What is a flat white?",
+      "options": [
+        "Black coffee",
+        "Espresso with silky steamed milk",
+        "Cold brew",
+        "Instant"
+      ],
+      "answer": 1,
+      "explain": "From Australia/NZ."
+    },
+    {
+      "q": "What's yuenyeung?",
+      "options": [
+        "Coffee and milk tea mixed",
+        "Iced lemon tea",
+        "Bubble tea",
+        "Egg coffee"
+      ],
+      "answer": 0,
+      "explain": "A Hong Kong classic."
+    },
+    {
+      "q": "Which Chinese chain overtook Starbucks in China?",
+      "options": [
+        "Luckin Coffee",
+        "Mixue",
+        "Heytea",
+        "Manner"
+      ],
+      "answer": 0,
+      "explain": "App-based and cheap."
+    },
+    {
+      "q": "Which prized coffee variety is famous from Panama?",
+      "options": [
+        "Geisha",
+        "Bourbon",
+        "Typica",
+        "Caturra"
+      ],
+      "answer": 0,
+      "explain": "Floral and expensive."
+    },
+    {
+      "q": "What's crema?",
+      "options": [
+        "Milk foam",
+        "The foam on espresso",
+        "Cream",
+        "Sugar syrup"
+      ],
+      "answer": 1,
+      "explain": "Golden espresso foam."
+    },
+    {
+      "q": "A V60 is used for…",
+      "options": [
+        "Espresso",
+        "Pour-over",
+        "Cold brew",
+        "Instant"
+      ],
+      "answer": 1,
+      "explain": "Hario's dripper."
+    },
+    {
+      "q": "Which coffee YouTuber is a World Barista Champion?",
+      "options": [
+        "James Hoffmann",
+        "Gordon Ramsay",
+        "Jamie Oliver",
+        "Lance Hedrick"
+      ],
+      "answer": 0,
+      "explain": "2007 champion."
+    },
+    {
+      "q": "Light roasts taste more…",
+      "options": [
+        "Bitter",
+        "Fruity",
+        "Smoky",
+        "Burnt"
+      ],
+      "answer": 1,
+      "explain": "They keep origin flavours."
+    }
+  ]
+}

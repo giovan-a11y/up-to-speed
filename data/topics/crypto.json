@@ -1,0 +1,390 @@
+{
+  "slug": "crypto",
+  "refresh": "weekly",
+  "updated": "2026-11-14",
+  "topic": "Crypto",
+  "category": "Money",
+  "asOf": "mid-2026",
+  "tagline": "Bitcoin, wild price swings, and Hong Kong's push to be a crypto hub.",
+  "why": "Crypto went from a niche internet experiment to something Wall Street, governments and your colleagues talk about. Bitcoin is now held by ETFs and companies, stablecoins are being regulated, and Hong Kong has positioned itself as a licensed crypto hub. It's polarising: some see the future of money, others a casino. Knowing the basics lets you join in without being lost or preachy.",
+  "essentials": [
+    {
+      "title": "Bitcoin is digital gold",
+      "body": "Created in 2009 by the pseudonymous Satoshi Nakamoto. Only 21 million will ever exist. Fans see it as a hedge against inflation and money printing."
+    },
+    {
+      "title": "Ethereum is a platform",
+      "body": "Ethereum runs programs called smart contracts, which power stablecoins, DeFi and NFTs. Its coin is ether (ETH)."
+    },
+    {
+      "title": "Stablecoins are crypto dollars",
+      "body": "Coins like USDT (Tether) and USDC are pegged to the US dollar and used for trading and payments. They're now being regulated in the US and Hong Kong."
+    },
+    {
+      "title": "Prices are extremely volatile",
+      "body": "Bitcoin has crashed more than 70% several times and recovered to new highs. Altcoins swing even more."
+    },
+    {
+      "title": "The cycle and the halving",
+      "body": "Every four years Bitcoin's new supply is halved. Many believe prices move in four-year boom-and-bust cycles around it."
+    },
+    {
+      "title": "Wall Street adoption",
+      "body": "US spot Bitcoin ETFs launched in January 2024 and drew huge inflows. Companies like Strategy hold Bitcoin on their balance sheets."
+    },
+    {
+      "title": "Self-custody vs exchanges",
+      "body": "You can hold coins on an exchange or in your own wallet. 'Not your keys, not your coins' warns that exchanges can fail, as FTX did."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Blockchain",
+      "meaning": "A shared public ledger of transactions that no single party controls."
+    },
+    {
+      "term": "Altcoin",
+      "meaning": "Any coin other than Bitcoin."
+    },
+    {
+      "term": "Stablecoin",
+      "meaning": "A coin pegged to a currency like the US dollar."
+    },
+    {
+      "term": "Wallet",
+      "meaning": "Software or a device that holds your crypto keys."
+    },
+    {
+      "term": "Private key / seed phrase",
+      "meaning": "The secret that controls your coins. Lose it, lose everything."
+    },
+    {
+      "term": "HODL",
+      "meaning": "Hold on for dear life: holding through crashes."
+    },
+    {
+      "term": "Halving",
+      "meaning": "The four-yearly cut in Bitcoin's new supply. The last was April 2024."
+    },
+    {
+      "term": "DeFi",
+      "meaning": "Decentralised finance: lending and trading without banks."
+    },
+    {
+      "term": "NFT",
+      "meaning": "Non-fungible token: a unique digital item, famous for the 2021 art craze."
+    },
+    {
+      "term": "Memecoin",
+      "meaning": "A coin based on a joke or meme, like Dogecoin. Extremely speculative."
+    },
+    {
+      "term": "Gas fees",
+      "meaning": "Transaction fees on a blockchain."
+    },
+    {
+      "term": "Whale",
+      "meaning": "Someone holding huge amounts of a coin."
+    },
+    {
+      "term": "Rug pull",
+      "meaning": "A scam where creators run off with investors' money."
+    },
+    {
+      "term": "FOMO / FUD",
+      "meaning": "Fear of missing out / fear, uncertainty and doubt."
+    },
+    {
+      "term": "Sats",
+      "meaning": "Satoshis: the smallest unit of Bitcoin."
+    },
+    {
+      "term": "Cold wallet",
+      "meaning": "An offline wallet, safest for long-term holding."
+    }
+  ],
+  "names": [
+    {
+      "name": "Satoshi Nakamoto",
+      "what": "Bitcoin's anonymous creator, never identified."
+    },
+    {
+      "name": "Vitalik Buterin",
+      "what": "Co-founder of Ethereum."
+    },
+    {
+      "name": "Changpeng Zhao (CZ)",
+      "what": "Founder of Binance, the biggest exchange. Served a short US prison sentence in 2024; pardoned by Trump in 2025."
+    },
+    {
+      "name": "Sam Bankman-Fried",
+      "what": "FTX founder, convicted of fraud after the exchange collapsed in 2022."
+    },
+    {
+      "name": "Michael Saylor",
+      "what": "Chairman of Strategy (formerly MicroStrategy), which holds hundreds of thousands of Bitcoin."
+    },
+    {
+      "name": "Coinbase",
+      "what": "The largest US exchange, listed on Nasdaq."
+    },
+    {
+      "name": "Binance",
+      "what": "The world's largest crypto exchange by volume."
+    },
+    {
+      "name": "BlackRock",
+      "what": "Its iShares Bitcoin ETF became one of the fastest-growing ETFs ever."
+    },
+    {
+      "name": "Tether",
+      "what": "Issuer of USDT, the biggest stablecoin."
+    },
+    {
+      "name": "Solana",
+      "what": "A fast blockchain popular for memecoins and apps."
+    },
+    {
+      "name": "HashKey and OSL",
+      "what": "Licensed Hong Kong crypto exchanges."
+    },
+    {
+      "name": "Dogecoin",
+      "what": "The original memecoin, boosted by Elon Musk."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2008",
+      "event": "The Bitcoin white paper is published."
+    },
+    {
+      "year": "2010",
+      "event": "Someone buys two pizzas for 10,000 BTC: 'Bitcoin Pizza Day'."
+    },
+    {
+      "year": "2014",
+      "event": "Mt. Gox, the biggest exchange, collapses."
+    },
+    {
+      "year": "2015",
+      "event": "Ethereum launches."
+    },
+    {
+      "year": "2017",
+      "event": "First big boom: Bitcoin nears $20,000; ICO mania."
+    },
+    {
+      "year": "2021",
+      "event": "Bitcoin hits about $69,000; NFT mania; El Salvador makes it legal tender."
+    },
+    {
+      "year": "2022",
+      "event": "Crypto winter: Terra/Luna and FTX collapse."
+    },
+    {
+      "year": "2024",
+      "event": "US spot Bitcoin ETFs approved; Hong Kong launches spot Bitcoin and Ether ETFs; Bitcoin passes $100,000."
+    },
+    {
+      "year": "2025",
+      "event": "US passes the GENIUS Act for stablecoins; Hong Kong's stablecoin law takes effect; Bitcoin hits a record above $120,000 in October, then falls sharply."
+    }
+  ],
+  "now": [
+    {
+      "headline": "Bitcoin's big swings",
+      "detail": "After the October 2025 record, prices dropped hard. People debate whether the four-year cycle has peaked."
+    },
+    {
+      "headline": "Stablecoins go mainstream",
+      "detail": "New US and Hong Kong laws have banks and big companies planning their own stablecoins."
+    },
+    {
+      "headline": "Crypto treasury companies",
+      "detail": "Dozens of listed firms copied Strategy by buying crypto. Critics worry about what happens in a crash."
+    },
+    {
+      "headline": "Political crypto",
+      "detail": "The Trump family's crypto ventures and memecoin made crypto a political topic."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Licensed hub",
+      "detail": "Hong Kong's SFC licenses crypto exchanges, and only licensed platforms can serve retail investors."
+    },
+    {
+      "headline": "Stablecoin ordinance",
+      "detail": "Since August 2025, issuing a stablecoin in Hong Kong needs an HKMA licence. Big local firms applied."
+    },
+    {
+      "headline": "The JPEX scandal",
+      "detail": "In 2023 an unlicensed exchange, JPEX, collapsed with big losses for local investors, leading to arrests."
+    },
+    {
+      "headline": "Crypto ETFs",
+      "detail": "Hong Kong has spot Bitcoin and Ether ETFs you can buy through a normal brokerage."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Is Bitcoin real money or speculation?",
+      "sides": "Fans call it digital gold; critics say it has no intrinsic value."
+    },
+    {
+      "question": "Should crypto be regulated?",
+      "sides": "Regulation brings safety and legitimacy, but purists say it undermines the point."
+    },
+    {
+      "question": "Will stablecoins replace banks?",
+      "sides": "They could make payments faster and cheaper, but raise stability concerns."
+    },
+    {
+      "question": "Is it too late to buy?",
+      "sides": "Believers say it's early; sceptics say late buyers fund early holders."
+    }
+  ],
+  "starters": [
+    "Are you into crypto at all?",
+    "Do you think Bitcoin will keep going up long term?",
+    "Did you ever get into NFTs?",
+    "Would you use a stablecoin for payments?",
+    "Do you keep coins on an exchange or your own wallet?"
+  ],
+  "sayThis": [
+    {
+      "say": "Not your keys, not your coins.",
+      "why": "Crypto's classic safety motto."
+    },
+    {
+      "say": "Only invest what you can afford to lose.",
+      "why": "Sensible and rarely argued with."
+    },
+    {
+      "say": "The ETFs changed the game.",
+      "why": "Shows awareness of institutional adoption."
+    },
+    {
+      "say": "Stablecoins are the boring part that might actually matter most.",
+      "why": "A thoughtful take."
+    }
+  ],
+  "avoid": [
+    "Mocking someone who lost money.",
+    "Shilling a coin.",
+    "Claiming certainty on price predictions."
+  ],
+  "quiz": [
+    {
+      "q": "How many Bitcoin will ever exist?",
+      "options": [
+        "1 million",
+        "21 million",
+        "100 million",
+        "Unlimited"
+      ],
+      "answer": 1,
+      "explain": "Capped at 21 million."
+    },
+    {
+      "q": "Who created Bitcoin?",
+      "options": [
+        "Vitalik Buterin",
+        "Satoshi Nakamoto",
+        "Elon Musk",
+        "CZ"
+      ],
+      "answer": 1,
+      "explain": "An anonymous creator."
+    },
+    {
+      "q": "What is a stablecoin?",
+      "options": [
+        "A slow coin",
+        "A coin pegged to a currency like USD",
+        "A Bitcoin ETF",
+        "An NFT"
+      ],
+      "answer": 1,
+      "explain": "USDT and USDC are examples."
+    },
+    {
+      "q": "Which exchange collapsed in 2022?",
+      "options": [
+        "Coinbase",
+        "FTX",
+        "Binance",
+        "Kraken"
+      ],
+      "answer": 1,
+      "explain": "Founder SBF was convicted of fraud."
+    },
+    {
+      "q": "What does HODL mean?",
+      "options": [
+        "Hold",
+        "Sell everything",
+        "A wallet",
+        "A fee"
+      ],
+      "answer": 0,
+      "explain": "Holding through volatility."
+    },
+    {
+      "q": "What is the halving?",
+      "options": [
+        "A price crash",
+        "Bitcoin's four-yearly supply cut",
+        "A fork",
+        "A tax"
+      ],
+      "answer": 1,
+      "explain": "Last in April 2024."
+    },
+    {
+      "q": "Which Hong Kong scandal hit crypto investors in 2023?",
+      "options": [
+        "JPEX",
+        "FTX HK",
+        "Mt. Gox",
+        "Terra"
+      ],
+      "answer": 0,
+      "explain": "An unlicensed exchange."
+    },
+    {
+      "q": "Which company holds the most Bitcoin?",
+      "options": [
+        "Tesla",
+        "Strategy",
+        "Apple",
+        "Coinbase"
+      ],
+      "answer": 1,
+      "explain": "Michael Saylor's firm."
+    },
+    {
+      "q": "What does 'DeFi' stand for?",
+      "options": [
+        "Default finance",
+        "Decentralised finance",
+        "Digital fiat",
+        "Deferred finance"
+      ],
+      "answer": 1,
+      "explain": "Finance without banks."
+    },
+    {
+      "q": "Who co-founded Ethereum?",
+      "options": [
+        "Vitalik Buterin",
+        "Sam Bankman-Fried",
+        "Michael Saylor",
+        "Brian Armstrong"
+      ],
+      "answer": 0,
+      "explain": "Launched in 2015."
+    }
+  ]
+}

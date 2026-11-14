@@ -1,0 +1,379 @@
+{
+  "slug": "travel",
+  "refresh": "monthly",
+  "updated": "2026-11-14",
+  "topic": "Travel",
+  "category": "Culture",
+  "asOf": "mid-2026",
+  "tagline": "Japan again, miles and lounges, and where everyone's going next.",
+  "why": "Hong Kongers are some of the world's most frequent travellers, and 'where are you going next?' is a reliable conversation starter. Travel talk covers favourite destinations, airlines, points and miles, hotels and hidden gems. Knowing the popular spots, the travel-hacking vocabulary and the current trends lets you trade tips and stories with anyone.",
+  "essentials": [
+    {
+      "title": "Hong Kong's favourite destinations",
+      "body": "Japan by far, then Korea, Taiwan, Thailand, mainland China (Shenzhen, Guangzhou, Shanghai), Singapore and Europe for longer trips."
+    },
+    {
+      "title": "Short trips are normal",
+      "body": "Long weekends in Japan or Taiwan, and day trips to Shenzhen or Macau, are a big part of local travel culture."
+    },
+    {
+      "title": "Miles and points",
+      "body": "Frequent flyers collect airline miles (Cathay's Asia Miles), hotel points and credit card points to get free flights and upgrades."
+    },
+    {
+      "title": "Airline alliances",
+      "body": "Oneworld (Cathay Pacific, British Airways, Qantas, JAL), Star Alliance (Singapore Airlines, ANA, Lufthansa) and SkyTeam (Korean Air, Air France)."
+    },
+    {
+      "title": "Travel styles",
+      "body": "Luxury, budget backpacking, food trips, hiking and ski trips, city breaks and cruises. People identify with a style."
+    },
+    {
+      "title": "Seasons matter",
+      "body": "Cherry blossoms in Japan (late March-April), autumn leaves (November), ski season (December-March), and avoiding typhoon season."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Layover / stopover",
+      "meaning": "A stop between flights; a stopover is longer than 24 hours."
+    },
+    {
+      "term": "Asia Miles",
+      "meaning": "Cathay Pacific's loyalty programme."
+    },
+    {
+      "term": "Status",
+      "meaning": "Elite level in a loyalty programme, like Cathay Gold."
+    },
+    {
+      "term": "Lounge access",
+      "meaning": "Airport lounges for premium passengers or status holders."
+    },
+    {
+      "term": "Upgrade",
+      "meaning": "Moving to a better cabin or room."
+    },
+    {
+      "term": "Business class",
+      "meaning": "Premium cabin with lie-flat seats on long flights."
+    },
+    {
+      "term": "Premium economy",
+      "meaning": "A step up from economy with more space."
+    },
+    {
+      "term": "Budget airline",
+      "meaning": "Low-cost carriers like HK Express."
+    },
+    {
+      "term": "Jet lag",
+      "meaning": "Tiredness from crossing time zones."
+    },
+    {
+      "term": "Itinerary",
+      "meaning": "Your travel plan."
+    },
+    {
+      "term": "Ryokan",
+      "meaning": "A traditional Japanese inn, often with onsen hot springs."
+    },
+    {
+      "term": "Onsen",
+      "meaning": "Japanese hot spring bath."
+    },
+    {
+      "term": "Overtourism",
+      "meaning": "Too many tourists overwhelming a place."
+    },
+    {
+      "term": "Digital nomad",
+      "meaning": "Someone who works remotely while travelling."
+    },
+    {
+      "term": "Travel insurance",
+      "meaning": "Cover for delays, illness and lost bags."
+    }
+  ],
+  "names": [
+    {
+      "name": "Cathay Pacific",
+      "what": "Hong Kong's flagship airline, recovering strongly after Covid."
+    },
+    {
+      "name": "HK Express",
+      "what": "Hong Kong's budget airline, owned by Cathay."
+    },
+    {
+      "name": "Hong Kong International Airport",
+      "what": "Consistently one of the world's best airports; its third runway opened in 2024."
+    },
+    {
+      "name": "Japan",
+      "what": "Hong Kong's number one destination, from Tokyo and Osaka to Hokkaido and Kyushu."
+    },
+    {
+      "name": "Taiwan",
+      "what": "A favourite for food, night markets and short trips."
+    },
+    {
+      "name": "Korea",
+      "what": "Seoul for shopping, food and K-culture."
+    },
+    {
+      "name": "Thailand",
+      "what": "Bangkok, Phuket and Chiang Mai for beaches, food and value."
+    },
+    {
+      "name": "Shenzhen",
+      "what": "Just across the border, now a weekend destination for shopping, food and massages."
+    },
+    {
+      "name": "Macau",
+      "what": "An hour away by ferry or bridge: casinos, Portuguese food and egg tarts."
+    },
+    {
+      "name": "Singapore Airlines",
+      "what": "Often ranked the world's best airline."
+    },
+    {
+      "name": "Booking.com / Trip.com / Klook",
+      "what": "Popular booking platforms; Klook is Hong Kong-founded."
+    },
+    {
+      "name": "Skytrax",
+      "what": "Organisation that ranks airlines and airports."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1946",
+      "event": "Cathay Pacific is founded."
+    },
+    {
+      "year": "1998",
+      "event": "Kai Tak airport closes; Chek Lap Kok opens."
+    },
+    {
+      "year": "2018",
+      "event": "High-speed rail to the mainland and the Hong Kong-Zhuhai-Macao Bridge open."
+    },
+    {
+      "year": "2020–22",
+      "event": "Covid stops travel; Hong Kong's quarantine rules last until late 2022."
+    },
+    {
+      "year": "2023",
+      "event": "'Revenge travel' boom as borders reopen."
+    },
+    {
+      "year": "2024",
+      "event": "The airport's three-runway system opens; Japan sees record visitors."
+    },
+    {
+      "year": "2025",
+      "event": "Japan and Korea break tourism records; China expands visa-free entry."
+    }
+  ],
+  "now": [
+    {
+      "headline": "Japan overload",
+      "detail": "Japan is hugely popular thanks to the weak yen; some places now charge tourist taxes or limit crowds."
+    },
+    {
+      "headline": "Shenzhen weekends",
+      "detail": "Cheap, trendy and close: Hong Kongers go north for food, shopping and Sam's Club runs."
+    },
+    {
+      "headline": "Visa-free China",
+      "detail": "Mainland China opened visa-free entry to many countries, boosting tourism."
+    },
+    {
+      "headline": "Points game",
+      "detail": "Credit card and airline points are a hobby for many people."
+    },
+    {
+      "headline": "Hot destinations",
+      "detail": "Kyushu, Hokkaido, Chiang Mai, Vietnam's Da Nang and Central Asia are trending."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Holiday planning",
+      "detail": "Hong Kongers plan trips around public holidays and long weekends; flights to Japan sell out fast."
+    },
+    {
+      "headline": "Cathay vs budget",
+      "detail": "People debate Cathay's comfort vs HK Express's price."
+    },
+    {
+      "headline": "Airport Express",
+      "detail": "In-town check-in at Hong Kong and Kowloon stations is a beloved convenience."
+    },
+    {
+      "headline": "Greater Bay Area",
+      "detail": "Trains and the bridge make Guangzhou, Zhuhai and Macau easy weekend trips."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Is Japan too crowded now?",
+      "sides": "Still amazing vs too many tourists in popular spots."
+    },
+    {
+      "question": "Business class: worth it?",
+      "sides": "Comfort on long flights vs huge price."
+    },
+    {
+      "question": "Plan everything or wing it?",
+      "sides": "Organised itineraries vs spontaneous travel."
+    },
+    {
+      "question": "Points: worth the effort?",
+      "sides": "Free flights vs the time spent optimising."
+    }
+  ],
+  "starters": [
+    "Where are you going next?",
+    "What's the best trip you've ever taken?",
+    "How many times have you been to Japan?",
+    "Do you collect miles?",
+    "Any underrated places you'd recommend?",
+    "Do you go up to Shenzhen much?"
+  ],
+  "sayThis": [
+    {
+      "say": "Kyushu is underrated.",
+      "why": "Shows you know beyond Tokyo and Osaka."
+    },
+    {
+      "say": "I always book the Airport Express in-town check-in.",
+      "why": "A local travel hack."
+    },
+    {
+      "say": "Shoulder season is the sweet spot.",
+      "why": "Smart travel advice."
+    },
+    {
+      "say": "I'm saving up Asia Miles for an upgrade.",
+      "why": "Relatable."
+    }
+  ],
+  "avoid": [
+    "Bragging about luxury trips.",
+    "Criticising someone's dream destination.",
+    "Assuming everyone travels often."
+  ],
+  "quiz": [
+    {
+      "q": "What is Asia Miles?",
+      "options": [
+        "A budget airline",
+        "Cathay Pacific's loyalty programme",
+        "A travel agency",
+        "A train pass"
+      ],
+      "answer": 1,
+      "explain": "Cathay's programme."
+    },
+    {
+      "q": "Which is Hong Kong's budget airline?",
+      "options": [
+        "HK Express",
+        "Dragonair",
+        "Air Asia HK",
+        "Greater Bay Airlines only"
+      ],
+      "answer": 0,
+      "explain": "Owned by Cathay."
+    },
+    {
+      "q": "When did Kai Tak airport close?",
+      "options": [
+        "1990",
+        "1998",
+        "2005",
+        "2010"
+      ],
+      "answer": 1,
+      "explain": "Chek Lap Kok opened in 1998."
+    },
+    {
+      "q": "Which alliance is Cathay Pacific in?",
+      "options": [
+        "Star Alliance",
+        "Oneworld",
+        "SkyTeam",
+        "None"
+      ],
+      "answer": 1,
+      "explain": "Oneworld."
+    },
+    {
+      "q": "What's an onsen?",
+      "options": [
+        "A Japanese hot spring",
+        "A ramen shop",
+        "A temple",
+        "A train"
+      ],
+      "answer": 0,
+      "explain": "Japanese hot springs."
+    },
+    {
+      "q": "When is cherry blossom season in Japan?",
+      "options": [
+        "January",
+        "Late March to April",
+        "July",
+        "October"
+      ],
+      "answer": 1,
+      "explain": "Spring."
+    },
+    {
+      "q": "Klook was founded in…",
+      "options": [
+        "Singapore",
+        "Hong Kong",
+        "Japan",
+        "Taiwan"
+      ],
+      "answer": 1,
+      "explain": "Hong Kong."
+    },
+    {
+      "q": "When did the Hong Kong-Zhuhai-Macao Bridge open?",
+      "options": [
+        "2015",
+        "2018",
+        "2020",
+        "2023"
+      ],
+      "answer": 1,
+      "explain": "2018."
+    },
+    {
+      "q": "What's a stopover?",
+      "options": [
+        "A short layover",
+        "A stop longer than 24 hours",
+        "A flight delay",
+        "A cancelled flight"
+      ],
+      "answer": 1,
+      "explain": "Over 24 hours."
+    },
+    {
+      "q": "Which airline is often ranked the world's best?",
+      "options": [
+        "Singapore Airlines",
+        "Ryanair",
+        "United",
+        "HK Express"
+      ],
+      "answer": 0,
+      "explain": "Often tops Skytrax lists."
+    }
+  ]
+}

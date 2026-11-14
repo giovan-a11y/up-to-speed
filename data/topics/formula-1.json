@@ -1,0 +1,444 @@
+{
+  "slug": "formula-1",
+  "refresh": "weekly",
+  "updated": "2026-11-14",
+  "topic": "Formula 1",
+  "category": "Sports",
+  "asOf": "mid-2026",
+  "tagline": "Twenty-two drivers, 11 teams, 24 races, and more politics than a royal court.",
+  "why": "Formula 1 is the top level of single-seater motor racing: the fastest circuit cars on earth, racing on a calendar that spans five continents from March to December. Netflix's Drive to Survive (2019 onward) and the 2025 Brad Pitt film F1 turned it into a mainstream obsession. Fans love the driver rivalries, the engineering arms race and the team drama as much as the racing itself.",
+  "essentials": [
+    {
+      "title": "Two championships at once",
+      "body": "There's a Drivers' Championship and a Constructors' (teams') Championship. Each team runs two cars, so your teammate is your first rival: same car, no excuses."
+    },
+    {
+      "title": "The car matters enormously",
+      "body": "Every team designs its own car. A great driver in a slow car rarely wins, which is why it's huge news when a star switches teams. People estimate the car is most of the performance."
+    },
+    {
+      "title": "How a race weekend works",
+      "body": "Practice on Friday, Qualifying on Saturday to set the starting order, the Grand Prix on Sunday. Six weekends a year add a short Saturday Sprint race. Points go to the top 10: 25, 18, 15, 12, 10, 8, 6, 4, 2, 1."
+    },
+    {
+      "title": "Qualifying is a knockout",
+      "body": "Q1 drops the slowest cars, Q2 drops more, and the fastest ten fight for pole position in Q3. On tracks like Monaco, qualifying decides the race."
+    },
+    {
+      "title": "Strategy is tyres and pit stops",
+      "body": "Pirelli supplies soft, medium and hard tyres. In a dry race each car must use two different compounds, so everyone pits at least once. Stops take 2 to 3 seconds, and timing them well wins races."
+    },
+    {
+      "title": "Money and rules",
+      "body": "The FIA writes the rules and Liberty Media owns the commercial side. A budget cap since 2021 limits spending so the rich teams can't simply outspend everyone."
+    },
+    {
+      "title": "2026 reset the rules",
+      "body": "Brand-new regulations arrived in 2026: smaller, lighter cars, movable wings, engines that get about half their power from electricity, and fully sustainable fuel. New rules usually reshuffle who's fast."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Pole position",
+      "meaning": "First place on the starting grid, earned by being fastest in qualifying."
+    },
+    {
+      "term": "Undercut",
+      "meaning": "Pitting before the rival ahead so your fresh tyres let you jump them when they pit later."
+    },
+    {
+      "term": "Overcut",
+      "meaning": "The opposite: staying out longer on old tyres and gaining time while the rival is in the pits."
+    },
+    {
+      "term": "Box, box",
+      "meaning": "Radio call telling the driver to come into the pits this lap."
+    },
+    {
+      "term": "Dirty air",
+      "meaning": "Turbulent air behind a car that makes it hard for the car following to stay close in corners."
+    },
+    {
+      "term": "DRS / overtake mode",
+      "meaning": "DRS was the flap that opened on straights to help overtaking until 2025. From 2026 it's replaced by active aero and an electric 'overtake' boost."
+    },
+    {
+      "term": "Safety Car / VSC",
+      "meaning": "After a crash, a Safety Car bunches the field up; a Virtual Safety Car makes everyone slow down without bunching. Both shake up strategy."
+    },
+    {
+      "term": "Tyre deg",
+      "meaning": "Degradation: how fast tyres lose grip. High deg means more pit stops."
+    },
+    {
+      "term": "Purple sector",
+      "meaning": "The fastest time anyone has set through that part of the lap. Green means a driver's personal best."
+    },
+    {
+      "term": "Parc fermé",
+      "meaning": "Rules that freeze the car's setup after qualifying, so teams can't rebuild it for the race."
+    },
+    {
+      "term": "Backmarker",
+      "meaning": "A slow car being lapped by the leaders."
+    },
+    {
+      "term": "Constructor",
+      "meaning": "F1's word for a team that builds its own car, like McLaren or Ferrari."
+    },
+    {
+      "term": "Downforce",
+      "meaning": "Air pressing the car onto the track for grip in corners. The heart of F1 engineering."
+    },
+    {
+      "term": "Porpoising",
+      "meaning": "Cars bouncing violently on straights, a big problem with the 2022-25 cars."
+    },
+    {
+      "term": "Team orders",
+      "meaning": "When a team tells one driver to let the other past. Always controversial."
+    },
+    {
+      "term": "Chequered flag",
+      "meaning": "The black-and-white flag that ends the race."
+    },
+    {
+      "term": "Grand Slam",
+      "meaning": "Pole, win, fastest lap and leading every lap in one race."
+    }
+  ],
+  "names": [
+    {
+      "name": "Max Verstappen",
+      "what": "Red Bull's Dutch driver, champion four years running (2021 to 2024). Ruthless, brilliant, divisive."
+    },
+    {
+      "name": "Lewis Hamilton",
+      "what": "Seven-time champion, tied with Schumacher for the record, and the winningest driver ever with 105 wins. Left Mercedes for Ferrari in 2025."
+    },
+    {
+      "name": "Lando Norris",
+      "what": "McLaren's British driver and 2025 World Champion, beating Verstappen by two points in the final race."
+    },
+    {
+      "name": "Oscar Piastri",
+      "what": "Norris's Australian teammate at McLaren. Cool-headed and led much of the 2025 season."
+    },
+    {
+      "name": "Charles Leclerc",
+      "what": "Ferrari's Monaco-born driver. Lightning in qualifying; Ferrari fans' great hope."
+    },
+    {
+      "name": "George Russell",
+      "what": "Mercedes team leader after Hamilton left. Sharp, articulate and quick."
+    },
+    {
+      "name": "Kimi Antonelli",
+      "what": "Mercedes' Italian teenage prodigy who replaced Hamilton in 2025."
+    },
+    {
+      "name": "Fernando Alonso",
+      "what": "Two-time champion, still racing in his forties at Aston Martin."
+    },
+    {
+      "name": "Ferrari",
+      "what": "The oldest and most famous team, in F1 since 1950. Its fans are called the Tifosi."
+    },
+    {
+      "name": "McLaren",
+      "what": "British team that roared back to win the constructors' titles in 2024 and 2025."
+    },
+    {
+      "name": "Red Bull Racing",
+      "what": "The energy-drink team that dominated with Vettel (2010-13) and Verstappen."
+    },
+    {
+      "name": "Toto Wolff",
+      "what": "Mercedes team boss who ran their dominant era (eight straight constructors' titles, 2014 to 2021)."
+    },
+    {
+      "name": "Adrian Newey",
+      "what": "The sport's most celebrated car designer. Built title winners at Williams, McLaren and Red Bull; now at Aston Martin."
+    },
+    {
+      "name": "Ayrton Senna",
+      "what": "Brazilian three-time champion (1988, 1990, 1991), often called the greatest ever. Died at Imola in 1994."
+    },
+    {
+      "name": "Michael Schumacher",
+      "what": "Seven titles, five in a row with Ferrari from 2000 to 2004. Badly injured in a 2013 skiing accident."
+    },
+    {
+      "name": "Zhou Guanyu",
+      "what": "China's first full-time F1 driver, who raced for Alfa Romeo and Sauber from 2022 to 2024."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1950",
+      "event": "First World Championship race at Silverstone, England."
+    },
+    {
+      "year": "1976",
+      "event": "James Hunt vs Niki Lauda, the rivalry behind the film Rush."
+    },
+    {
+      "year": "1988–89",
+      "event": "Senna vs Prost, teammates at McLaren and bitter rivals."
+    },
+    {
+      "year": "1994",
+      "event": "Senna dies at Imola, sparking a safety revolution."
+    },
+    {
+      "year": "2000–04",
+      "event": "Schumacher and Ferrari win five straight titles."
+    },
+    {
+      "year": "2010–13",
+      "event": "Sebastian Vettel wins four titles in a row for Red Bull."
+    },
+    {
+      "year": "2014",
+      "event": "Hybrid engines arrive and Mercedes starts an eight-year reign."
+    },
+    {
+      "year": "2018",
+      "event": "The halo cockpit protection arrives. It later saved several lives."
+    },
+    {
+      "year": "2019",
+      "event": "Drive to Survive launches and brings in a new generation of fans."
+    },
+    {
+      "year": "2021",
+      "event": "Verstappen beats Hamilton in a hugely controversial last-lap finale at Abu Dhabi."
+    },
+    {
+      "year": "2023",
+      "event": "Verstappen wins 19 of 22 races, the most dominant season ever."
+    },
+    {
+      "year": "2025",
+      "event": "Hamilton joins Ferrari, the Brad Pitt film F1 is a hit, and Norris wins the title."
+    },
+    {
+      "year": "2026",
+      "event": "New rules, Audi takes over Sauber, and Cadillac joins as the 11th team."
+    }
+  ],
+  "now": [
+    {
+      "headline": "The 2026 rules shake-up",
+      "detail": "Everyone is asking who got the new engine and aero rules right. Ask someone who's looking strongest this year."
+    },
+    {
+      "headline": "Cadillac's arrival",
+      "detail": "The first new team in a decade, with veterans Valtteri Bottas and Sergio Pérez. A big deal for American fans."
+    },
+    {
+      "headline": "Hamilton at Ferrari",
+      "detail": "His first year in red was tough. Whether he can win an eighth title before he retires is a constant debate."
+    },
+    {
+      "headline": "Engine partner shuffle",
+      "detail": "Honda now powers Aston Martin, Ford works with Red Bull, and Audi has its own factory team."
+    },
+    {
+      "headline": "Verstappen's future",
+      "detail": "Every year there are rumours he'll leave Red Bull, possibly for Mercedes or Aston Martin."
+    },
+    {
+      "headline": "F1 in America",
+      "detail": "Three US races (Miami, Austin, Las Vegas) and the F1 movie have made it genuinely mainstream in the US."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Macau Grand Prix",
+      "detail": "Hong Kong's nearest big race is the Macau Grand Prix every November: a legendary street circuit for F3, GT cars and motorbikes. Senna and Schumacher both won the F3 race there."
+    },
+    {
+      "headline": "The Chinese GP",
+      "detail": "F1 races in Shanghai each spring, a short flight away. It returned in 2024 after a Covid break."
+    },
+    {
+      "headline": "Viewing times",
+      "detail": "Asian races (Singapore, Japan, China) are at friendly hours. European races start around 9pm Hong Kong time, American ones in the early morning."
+    },
+    {
+      "headline": "Singapore and Suzuka trips",
+      "detail": "The Singapore night race and Japan's Suzuka are popular trips for Hong Kong fans."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Who's the greatest of all time?",
+      "sides": "Hamilton has the numbers, Schumacher the dominance, Senna the legend. Verstappen fans now add his name."
+    },
+    {
+      "question": "Was Abu Dhabi 2021 fair?",
+      "sides": "Hamilton fans say the race director broke the rules to set up a last-lap shootout. Verstappen fans say he still won it on track."
+    },
+    {
+      "question": "Did Drive to Survive help or hurt F1?",
+      "sides": "It brought millions of new fans, but critics say it invents drama and changed the sport's character."
+    },
+    {
+      "question": "Street circuits vs classic tracks",
+      "sides": "Vegas and Jeddah are spectacular; purists want more Spa, Suzuka and Silverstone."
+    },
+    {
+      "question": "Should teammates be allowed to race freely?",
+      "sides": "McLaren's 'papaya rules' in 2025 made everyone argue about whether teams should favour one driver."
+    }
+  ],
+  "starters": [
+    "Who do you support, and how did you get into it?",
+    "Did you get in through Drive to Survive or before?",
+    "What do you make of the new 2026 cars?",
+    "Has the Hamilton-to-Ferrari move worked out?",
+    "If you could go to one race, which one? Monaco, Silverstone, Suzuka?",
+    "Have you ever been to the Macau Grand Prix?",
+    "Did you see the F1 movie?"
+  ],
+  "sayThis": [
+    {
+      "say": "Qualifying matters so much at Monaco because you basically can't overtake there.",
+      "why": "Shows you understand track character, not just results."
+    },
+    {
+      "say": "Spa is the drivers' favourite. Eau Rouge is the corner everyone talks about.",
+      "why": "Name-dropping a classic corner signals you've watched."
+    },
+    {
+      "say": "That undercut was decisive.",
+      "why": "Use it when someone gains a place by pitting first."
+    },
+    {
+      "say": "The car's probably 80 percent of it, honestly.",
+      "why": "A common and respected take."
+    },
+    {
+      "say": "Suzuka's figure-eight layout is incredible.",
+      "why": "Japan's track is a fan favourite and a common Hong Kong trip."
+    }
+  ],
+  "avoid": [
+    "Calling it NASCAR or asking when they turn left.",
+    "Assuming the fastest driver always wins. Car and strategy matter hugely.",
+    "Starting an Abu Dhabi 2021 argument with a Hamilton fan unless you mean it."
+  ],
+  "quiz": [
+    {
+      "q": "How many points does a race win earn?",
+      "options": [
+        "10",
+        "20",
+        "25",
+        "30"
+      ],
+      "answer": 2,
+      "explain": "Wins earn 25; the top 10 score points."
+    },
+    {
+      "q": "What is an 'undercut'?",
+      "options": [
+        "Cutting a corner illegally",
+        "Pitting before a rival to jump them on fresh tyres",
+        "A low-downforce setup",
+        "Overtaking on the inside"
+      ],
+      "answer": 1,
+      "explain": "Fresh tyres are faster, so stopping first can gain the place."
+    },
+    {
+      "q": "Who won the 2025 Drivers' Championship?",
+      "options": [
+        "Max Verstappen",
+        "Lewis Hamilton",
+        "Lando Norris",
+        "Charles Leclerc"
+      ],
+      "answer": 2,
+      "explain": "Norris beat Verstappen by two points at the final race in Abu Dhabi."
+    },
+    {
+      "q": "Which team did Lewis Hamilton join in 2025?",
+      "options": [
+        "Red Bull",
+        "Ferrari",
+        "McLaren",
+        "Aston Martin"
+      ],
+      "answer": 1,
+      "explain": "He left Mercedes after 12 seasons to join Ferrari."
+    },
+    {
+      "q": "What does pole position mean?",
+      "options": [
+        "Leading the championship",
+        "Fastest lap of the race",
+        "Starting first on the grid",
+        "Pitting first"
+      ],
+      "answer": 2,
+      "explain": "The fastest qualifier starts from pole."
+    },
+    {
+      "q": "Which team joined F1 as the 11th team in 2026?",
+      "options": [
+        "Cadillac",
+        "Porsche",
+        "Toyota",
+        "Andretti BMW"
+      ],
+      "answer": 0,
+      "explain": "Cadillac, backed by General Motors."
+    },
+    {
+      "q": "Ferrari's fans are known as the…",
+      "options": [
+        "Scuderia",
+        "Tifosi",
+        "Prancers",
+        "Rossi"
+      ],
+      "answer": 1,
+      "explain": "Tifosi is Italian for passionate fans."
+    },
+    {
+      "q": "Who holds the record of seven titles alongside Hamilton?",
+      "options": [
+        "Ayrton Senna",
+        "Alain Prost",
+        "Michael Schumacher",
+        "Sebastian Vettel"
+      ],
+      "answer": 2,
+      "explain": "Schumacher and Hamilton both have seven."
+    },
+    {
+      "q": "Who was China's first full-time F1 driver?",
+      "options": [
+        "Zhou Guanyu",
+        "Ma Qinghua",
+        "Yifei Ye",
+        "Ho-Pin Tung"
+      ],
+      "answer": 0,
+      "explain": "He raced from 2022 to 2024."
+    },
+    {
+      "q": "Which famous street race happens near Hong Kong every November?",
+      "options": [
+        "Singapore GP",
+        "Macau Grand Prix",
+        "Shanghai GP",
+        "Zhuhai 500"
+      ],
+      "answer": 1,
+      "explain": "Macau's Guia circuit hosts F3, GT and motorbike races."
+    }
+  ]
+}

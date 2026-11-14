@@ -1,0 +1,403 @@
+{
+  "slug": "gaming",
+  "refresh": "weekly",
+  "updated": "2026-11-14",
+  "topic": "Gaming",
+  "category": "Tech",
+  "asOf": "mid-2026",
+  "tagline": "Consoles, mobile hits, esports and the biggest entertainment industry on earth.",
+  "why": "Gaming is bigger than film and music combined, and it's no longer just teenagers: most adults play something, from mobile games on the MTR to big console releases. Gamers talk about new launches, favourite franchises, platforms and the industry's drama. Knowing the key consoles, games and terms lets you connect with the many people who play.",
+  "essentials": [
+    {
+      "title": "Platforms",
+      "body": "PlayStation 5 (Sony), Xbox Series X|S (Microsoft), Nintendo Switch 2 (launched June 2025), PC (mostly through Steam), and mobile, the biggest by revenue."
+    },
+    {
+      "title": "Genres",
+      "body": "Shooters (Call of Duty), RPGs (Final Fantasy, Elden Ring), sports (EA FC), battle royale (Fortnite), open world (Zelda, GTA), strategy, puzzle and more."
+    },
+    {
+      "title": "Free-to-play and gacha",
+      "body": "Many games are free but make money from in-game purchases. Gacha games like Genshin Impact sell randomised characters."
+    },
+    {
+      "title": "Live service",
+      "body": "Games updated for years with new content, like Fortnite or Destiny, rather than one-off releases."
+    },
+    {
+      "title": "Esports and streaming",
+      "body": "Competitive gaming (League of Legends, Valorant, Dota 2) fills arenas, and streamers on Twitch and YouTube are celebrities."
+    },
+    {
+      "title": "China and Asia matter",
+      "body": "Chinese companies like Tencent and miHoYo are giants, and Black Myth: Wukong (2024) showed China can make AAA console games."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "AAA",
+      "meaning": "Big-budget games from major studios."
+    },
+    {
+      "term": "Indie",
+      "meaning": "Games from small independent studios."
+    },
+    {
+      "term": "RPG",
+      "meaning": "Role-playing game."
+    },
+    {
+      "term": "FPS",
+      "meaning": "First-person shooter, or frames per second."
+    },
+    {
+      "term": "Open world",
+      "meaning": "A large map you can explore freely."
+    },
+    {
+      "term": "Soulslike",
+      "meaning": "Tough action games like Dark Souls and Elden Ring."
+    },
+    {
+      "term": "Gacha",
+      "meaning": "Games where you pay for random draws of characters or items."
+    },
+    {
+      "term": "Battle royale",
+      "meaning": "Last-player-standing games like Fortnite or PUBG."
+    },
+    {
+      "term": "DLC",
+      "meaning": "Downloadable content: paid expansions."
+    },
+    {
+      "term": "Patch",
+      "meaning": "An update that fixes bugs or changes balance."
+    },
+    {
+      "term": "Nerf / buff",
+      "meaning": "Making something weaker / stronger in an update."
+    },
+    {
+      "term": "GG",
+      "meaning": "Good game."
+    },
+    {
+      "term": "Speedrun",
+      "meaning": "Finishing a game as fast as possible."
+    },
+    {
+      "term": "Backlog",
+      "meaning": "Games you own but haven't played."
+    },
+    {
+      "term": "Crossplay",
+      "meaning": "Playing with friends on different platforms."
+    },
+    {
+      "term": "Game Pass",
+      "meaning": "Xbox's subscription library of games."
+    }
+  ],
+  "names": [
+    {
+      "name": "Nintendo",
+      "what": "Mario, Zelda, Pokémon; the Switch 2 sold record numbers at launch."
+    },
+    {
+      "name": "Sony PlayStation",
+      "what": "The PS5 and exclusives like God of War and Spider-Man."
+    },
+    {
+      "name": "Microsoft Xbox",
+      "what": "Bought Activision Blizzard for $69 billion and now releases games on rival platforms."
+    },
+    {
+      "name": "Valve / Steam",
+      "what": "The dominant PC game store; Half-Life and Counter-Strike."
+    },
+    {
+      "name": "Tencent",
+      "what": "The world's largest gaming company; owns Riot Games and stakes in many others."
+    },
+    {
+      "name": "miHoYo / HoYoverse",
+      "what": "Shanghai maker of Genshin Impact and Honkai: Star Rail."
+    },
+    {
+      "name": "Rockstar Games",
+      "what": "Maker of Grand Theft Auto; GTA VI is the most anticipated game ever, delayed to November 2026."
+    },
+    {
+      "name": "FromSoftware",
+      "what": "Japanese studio behind Dark Souls and Elden Ring."
+    },
+    {
+      "name": "Game Science",
+      "what": "Chinese studio behind Black Myth: Wukong."
+    },
+    {
+      "name": "Epic Games",
+      "what": "Fortnite and the Unreal Engine."
+    },
+    {
+      "name": "Hideo Kojima",
+      "what": "Legendary designer of Metal Gear Solid and Death Stranding."
+    },
+    {
+      "name": "Pokémon",
+      "what": "The highest-grossing media franchise in history."
+    },
+    {
+      "name": "Faker",
+      "what": "South Korean League of Legends player, the greatest esports player ever."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1972",
+      "event": "Pong launches the arcade era."
+    },
+    {
+      "year": "1985",
+      "event": "Super Mario Bros. on the NES."
+    },
+    {
+      "year": "1994",
+      "event": "Sony's PlayStation launches."
+    },
+    {
+      "year": "2004",
+      "event": "World of Warcraft makes online gaming mainstream."
+    },
+    {
+      "year": "2009",
+      "event": "League of Legends launches."
+    },
+    {
+      "year": "2016",
+      "event": "Pokémon Go sends people into the streets."
+    },
+    {
+      "year": "2017",
+      "event": "Nintendo Switch and Fortnite Battle Royale."
+    },
+    {
+      "year": "2020",
+      "event": "PS5, Xbox Series X and Genshin Impact launch; pandemic gaming boom."
+    },
+    {
+      "year": "2022",
+      "event": "Elden Ring becomes a global hit."
+    },
+    {
+      "year": "2024",
+      "event": "Black Myth: Wukong sells tens of millions of copies."
+    },
+    {
+      "year": "2025",
+      "event": "Switch 2 launches; Hollow Knight: Silksong finally releases; GTA VI delayed again."
+    }
+  ],
+  "now": [
+    {
+      "headline": "GTA VI countdown",
+      "detail": "The most hyped game in history, scheduled for November 2026 after delays."
+    },
+    {
+      "headline": "Switch 2 success",
+      "detail": "Nintendo's new console sold fast; Mario Kart World is its flagship."
+    },
+    {
+      "headline": "Industry layoffs",
+      "detail": "Big studios cut thousands of jobs, and game prices rose to US$70-80."
+    },
+    {
+      "headline": "Chinese games go global",
+      "detail": "After Wukong, more Chinese AAA games are coming."
+    },
+    {
+      "headline": "Smaller studios shine",
+      "detail": "Games from smaller teams like Clair Obscur: Expedition 33 and Silksong became 2025's big talking points."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Mobile on the MTR",
+      "detail": "Mobile gaming is everywhere on commutes; gacha games are hugely popular."
+    },
+    {
+      "headline": "Sham Shui Po and Mong Kok",
+      "detail": "Game shops sell consoles and Japanese imports."
+    },
+    {
+      "headline": "Arcades",
+      "detail": "Hong Kong's game centres have shrunk, but some nostalgic arcades survive."
+    },
+    {
+      "headline": "Esports venues",
+      "detail": "Esports cafés and events have grown, with support from Cyberport."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Console or PC?",
+      "sides": "Simplicity and exclusives vs power and flexibility."
+    },
+    {
+      "question": "Are microtransactions ruining games?",
+      "sides": "They fund free games but can feel exploitative."
+    },
+    {
+      "question": "Is $70-80 too much for a game?",
+      "sides": "Development costs vs consumer pushback."
+    },
+    {
+      "question": "Are esports real sports?",
+      "sides": "Skill and competition vs no physical exertion."
+    }
+  ],
+  "starters": [
+    "Do you play anything at the moment?",
+    "Console, PC or mobile?",
+    "Are you waiting for GTA VI?",
+    "What's the best game you've ever played?",
+    "Did you get a Switch 2?",
+    "Have you tried Black Myth: Wukong?"
+  ],
+  "sayThis": [
+    {
+      "say": "My backlog is out of control.",
+      "why": "Every gamer relates."
+    },
+    {
+      "say": "Elden Ring is brutal but brilliant.",
+      "why": "A respected take."
+    },
+    {
+      "say": "Wukong was a big moment for Chinese games.",
+      "why": "Topical and true."
+    },
+    {
+      "say": "Mario Kart ruins friendships.",
+      "why": "A fun universal joke."
+    }
+  ],
+  "avoid": [
+    "Calling gaming a waste of time.",
+    "Spoiling story games.",
+    "Assuming only kids play."
+  ],
+  "quiz": [
+    {
+      "q": "When did the Nintendo Switch 2 launch?",
+      "options": [
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "answer": 2,
+      "explain": "June 2025."
+    },
+    {
+      "q": "What does 'AAA' mean?",
+      "options": [
+        "Free games",
+        "Big-budget games",
+        "Arcade games",
+        "Retro games"
+      ],
+      "answer": 1,
+      "explain": "Major studio productions."
+    },
+    {
+      "q": "Which company makes Genshin Impact?",
+      "options": [
+        "Tencent",
+        "miHoYo",
+        "NetEase",
+        "Nintendo"
+      ],
+      "answer": 1,
+      "explain": "Shanghai-based."
+    },
+    {
+      "q": "Who makes Grand Theft Auto?",
+      "options": [
+        "EA",
+        "Rockstar Games",
+        "Ubisoft",
+        "Activision"
+      ],
+      "answer": 1,
+      "explain": "Rockstar."
+    },
+    {
+      "q": "What is a gacha game?",
+      "options": [
+        "A racing game",
+        "A game with paid random draws",
+        "A puzzle game",
+        "A sports game"
+      ],
+      "answer": 1,
+      "explain": "Like loot boxes."
+    },
+    {
+      "q": "Which Chinese game was a 2024 global hit?",
+      "options": [
+        "Black Myth: Wukong",
+        "Honor of Kings",
+        "PUBG",
+        "Arknights"
+      ],
+      "answer": 0,
+      "explain": "By Game Science."
+    },
+    {
+      "q": "Who is Faker?",
+      "options": [
+        "A streamer",
+        "A League of Legends legend",
+        "A game designer",
+        "A Nintendo exec"
+      ],
+      "answer": 1,
+      "explain": "South Korea's esports star."
+    },
+    {
+      "q": "What's the world's largest gaming company?",
+      "options": [
+        "Sony",
+        "Tencent",
+        "Microsoft",
+        "Nintendo"
+      ],
+      "answer": 1,
+      "explain": "Tencent."
+    },
+    {
+      "q": "What does 'nerf' mean?",
+      "options": [
+        "Make stronger",
+        "Make weaker",
+        "Delete",
+        "Add a level"
+      ],
+      "answer": 1,
+      "explain": "Buff is the opposite."
+    },
+    {
+      "q": "Which studio made Elden Ring?",
+      "options": [
+        "FromSoftware",
+        "Capcom",
+        "Square Enix",
+        "Bandai"
+      ],
+      "answer": 0,
+      "explain": "Also Dark Souls."
+    }
+  ]
+}

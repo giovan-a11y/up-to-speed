@@ -1,0 +1,395 @@
+{
+  "slug": "sneakers",
+  "refresh": "monthly",
+  "updated": "2026-11-14",
+  "topic": "Sneakers",
+  "category": "Luxury & style",
+  "asOf": "mid-2026",
+  "tagline": "Rubber, hype and limited drops: why people queue overnight for shoes.",
+  "why": "Sneaker culture turned sports shoes into collectibles, fashion statements and an investment market. It's tied to basketball, hip-hop, skateboarding and streetwear, and a few brands release limited models that sell out in seconds and resell for many times their price. Hong Kong has a famous sneaker street and a strong streetwear scene, so shoes are an easy, fun topic.",
+  "essentials": [
+    {
+      "title": "Drops and hype",
+      "body": "Brands release limited 'drops' through apps and raffles. Demand far exceeds supply, so shoes resell above retail on platforms like StockX and GOAT."
+    },
+    {
+      "title": "Nike rules, but it's shifting",
+      "body": "Nike (with Jordan Brand) dominates. But in the 2020s, running brands like On and Hoka and retro styles from Adidas and New Balance have stolen attention."
+    },
+    {
+      "title": "Collaborations drive heat",
+      "body": "Collabs with designers and celebrities, like Travis Scott, Off-White's Virgil Abloh, or Sacai, create the most wanted shoes."
+    },
+    {
+      "title": "Silhouettes are the models",
+      "body": "Collectors talk in silhouettes: Air Jordan 1, Air Force 1, Dunk, Air Max, Yeezy Boost, Samba, 550. Each has many colourways."
+    },
+    {
+      "title": "Condition is everything",
+      "body": "'Deadstock' (unworn) shoes in the original box hold value. Worn ones drop sharply."
+    },
+    {
+      "title": "Trends cycle fast",
+      "body": "Chunky 'dad shoes', then slim terrace shoes like the Adidas Samba, then running shoes as fashion. What's hot changes every year or two."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Drop",
+      "meaning": "A release of a new shoe, usually at a set time."
+    },
+    {
+      "term": "Colourway",
+      "meaning": "A particular colour version of a model."
+    },
+    {
+      "term": "Silhouette",
+      "meaning": "The shoe model or shape, like Jordan 1 or Dunk."
+    },
+    {
+      "term": "Deadstock (DS)",
+      "meaning": "Brand new, never worn, in the box."
+    },
+    {
+      "term": "Resell / resale",
+      "meaning": "Selling shoes above retail price after a drop."
+    },
+    {
+      "term": "Hypebeast",
+      "meaning": "Someone who chases hyped streetwear, sometimes said mockingly."
+    },
+    {
+      "term": "W / L",
+      "meaning": "Win or loss in a release raffle."
+    },
+    {
+      "term": "Grail",
+      "meaning": "Your dream pair."
+    },
+    {
+      "term": "OG",
+      "meaning": "The original colourway or release of a model."
+    },
+    {
+      "term": "Retro",
+      "meaning": "A re-release of a classic shoe."
+    },
+    {
+      "term": "Collab",
+      "meaning": "A shoe made with an outside designer, artist or brand."
+    },
+    {
+      "term": "Bred / Chicago",
+      "meaning": "Famous Air Jordan 1 colourways: black-red and red-white-black."
+    },
+    {
+      "term": "SNKRS",
+      "meaning": "Nike's release app, infamous for losing raffles."
+    },
+    {
+      "term": "Beaters",
+      "meaning": "Shoes you wear without caring if they get dirty."
+    },
+    {
+      "term": "Midsole",
+      "meaning": "The cushioning layer between sole and upper. Running shoes are judged by it."
+    }
+  ],
+  "names": [
+    {
+      "name": "Michael Jordan / Air Jordan",
+      "what": "The 1985 Air Jordan 1 launched modern sneaker culture."
+    },
+    {
+      "name": "Nike",
+      "what": "The giant behind Air Max, Air Force 1, Dunk and more."
+    },
+    {
+      "name": "Adidas",
+      "what": "German rival; Stan Smith, Superstar, Samba and Gazelle are classics."
+    },
+    {
+      "name": "New Balance",
+      "what": "Once 'dad shoes', now fashionable thanks to the 550, 990 and collaborations."
+    },
+    {
+      "name": "Virgil Abloh",
+      "what": "Off-White founder and Louis Vuitton designer whose 2017 'The Ten' Nike collab is legendary. Died in 2021."
+    },
+    {
+      "name": "Travis Scott",
+      "what": "Rapper whose reversed-swoosh Jordans are some of the most wanted shoes."
+    },
+    {
+      "name": "Kanye West / Yeezy",
+      "what": "The Yeezy line with Adidas was huge until Adidas ended the deal in 2022 over his antisemitic comments."
+    },
+    {
+      "name": "On",
+      "what": "Swiss running brand with 'cloud' soles, now worn everywhere."
+    },
+    {
+      "name": "Hoka",
+      "what": "Maximal-cushion running shoes that became fashionable."
+    },
+    {
+      "name": "Asics",
+      "what": "Japanese brand whose retro Gel models are popular with fashion crowds."
+    },
+    {
+      "name": "Onitsuka Tiger",
+      "what": "Asics' heritage line, hugely popular with tourists in Asia."
+    },
+    {
+      "name": "StockX",
+      "what": "The 'stock market of sneakers', a resale platform."
+    },
+    {
+      "name": "Edison Chen / CLOT",
+      "what": "Hong Kong star whose streetwear brand CLOT has done famous Nike collabs."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1917",
+      "event": "Converse All Star launches; Chuck Taylor later becomes its face."
+    },
+    {
+      "year": "1982",
+      "event": "Nike Air Force 1 is released."
+    },
+    {
+      "year": "1985",
+      "event": "Air Jordan 1 is released and banned (so the story goes) by the NBA."
+    },
+    {
+      "year": "1986",
+      "event": "Run-DMC's 'My Adidas' links sneakers and hip-hop."
+    },
+    {
+      "year": "1987",
+      "event": "Nike Air Max 1 shows visible air cushioning."
+    },
+    {
+      "year": "2005",
+      "event": "Pigeon Dunk release causes a near-riot in New York."
+    },
+    {
+      "year": "2015",
+      "event": "Yeezy Boost 350 launches; resale culture explodes."
+    },
+    {
+      "year": "2017",
+      "event": "Off-White x Nike 'The Ten'."
+    },
+    {
+      "year": "2020",
+      "event": "Dunk mania and pandemic resale peak."
+    },
+    {
+      "year": "2023",
+      "event": "Adidas Samba becomes the shoe of the year."
+    },
+    {
+      "year": "2024–25",
+      "event": "Running brands On and Hoka grow fast as Nike struggles and resets."
+    }
+  ],
+  "now": [
+    {
+      "headline": "Nike's comeback attempt",
+      "detail": "After sales slowed, a new CEO is refocusing on running and sport rather than endless retro drops."
+    },
+    {
+      "headline": "Resale has cooled",
+      "detail": "Many hyped shoes now sell near retail. Only the rarest collabs still command big premiums."
+    },
+    {
+      "headline": "Running shoes as fashion",
+      "detail": "On, Hoka, Asics and Salomon are worn as everyday shoes."
+    },
+    {
+      "headline": "Slim shoes are back",
+      "detail": "Low-profile shoes like the Samba, Puma Speedcat and Onitsuka Tiger Mexico 66 are in fashion."
+    },
+    {
+      "headline": "Tariffs",
+      "detail": "Most sneakers are made in Vietnam, China and Indonesia, so trade tariffs push prices up."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Sneakers Street",
+      "detail": "Fa Yuen Street in Mong Kok is lined with sneaker shops and is famous across Asia."
+    },
+    {
+      "headline": "Hong Kong hype",
+      "detail": "Queues for drops at shops like Juice and Nike's Causeway Bay store are a local ritual."
+    },
+    {
+      "headline": "CLOT and Edison Chen",
+      "detail": "CLOT's Nike collabs, such as the 'Silk' Air Force 1, are local legends."
+    },
+    {
+      "headline": "Onitsuka Tiger queues",
+      "detail": "Tourists queue for Onitsuka Tiger shoes in Hong Kong and Japan."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Is resale culture ruining sneakers?",
+      "sides": "Bots and resellers make it hard for real fans to buy; others say it's a fair market."
+    },
+    {
+      "question": "Should you wear expensive sneakers?",
+      "sides": "Some keep them deadstock; others say shoes are meant to be worn."
+    },
+    {
+      "question": "Is Nike losing its cool?",
+      "sides": "Smaller brands are hot, but Nike still dominates and has a deep archive."
+    }
+  ],
+  "starters": [
+    "Those are clean. What are they?",
+    "Have you ever won a raffle?",
+    "What's your grail pair?",
+    "Do you wear your rare pairs or keep them in the box?",
+    "Have you been to Sneakers Street?",
+    "What do you think of On and Hoka becoming fashion?"
+  ],
+  "sayThis": [
+    {
+      "say": "The Chicago 1s are the GOAT colourway.",
+      "why": "A respected classic opinion."
+    },
+    {
+      "say": "I always take an L on SNKRS.",
+      "why": "A universal sneakerhead complaint."
+    },
+    {
+      "say": "Sambas are everywhere now.",
+      "why": "A current observation everyone has noticed."
+    },
+    {
+      "say": "Comfort wins these days.",
+      "why": "A nod to the running shoe trend."
+    }
+  ],
+  "avoid": [
+    "Stepping on someone's shoes.",
+    "Asking if they're fake.",
+    "Saying it's 'just shoes'."
+  ],
+  "quiz": [
+    {
+      "q": "What year was the Air Jordan 1 released?",
+      "options": [
+        "1979",
+        "1985",
+        "1991",
+        "1996"
+      ],
+      "answer": 1,
+      "explain": "1985."
+    },
+    {
+      "q": "What does 'deadstock' mean?",
+      "options": [
+        "Discontinued",
+        "Brand new and unworn",
+        "Damaged",
+        "Counterfeit"
+      ],
+      "answer": 1,
+      "explain": "Unworn, usually in the original box."
+    },
+    {
+      "q": "What is a colourway?",
+      "options": [
+        "A shoe model",
+        "A colour version of a model",
+        "A store",
+        "A sole type"
+      ],
+      "answer": 1,
+      "explain": "A model comes in many colourways."
+    },
+    {
+      "q": "Who designed 'The Ten' collab with Nike?",
+      "options": [
+        "Kanye West",
+        "Virgil Abloh",
+        "Travis Scott",
+        "Pharrell"
+      ],
+      "answer": 1,
+      "explain": "Off-White's founder."
+    },
+    {
+      "q": "Where is Hong Kong's famous Sneakers Street?",
+      "options": [
+        "Central",
+        "Mong Kok",
+        "Causeway Bay",
+        "Sham Shui Po"
+      ],
+      "answer": 1,
+      "explain": "Fa Yuen Street."
+    },
+    {
+      "q": "Which brand ended its Yeezy deal in 2022?",
+      "options": [
+        "Nike",
+        "Adidas",
+        "Puma",
+        "New Balance"
+      ],
+      "answer": 1,
+      "explain": "After Kanye West's comments."
+    },
+    {
+      "q": "Which Swiss running brand has 'cloud' soles?",
+      "options": [
+        "Hoka",
+        "On",
+        "Salomon",
+        "Saucony"
+      ],
+      "answer": 1,
+      "explain": "On Running."
+    },
+    {
+      "q": "What's a 'drop'?",
+      "options": [
+        "A price cut",
+        "A new release",
+        "A lost raffle",
+        "A sole"
+      ],
+      "answer": 1,
+      "explain": "A scheduled release."
+    },
+    {
+      "q": "Which hip-hop group recorded 'My Adidas'?",
+      "options": [
+        "Run-DMC",
+        "Wu-Tang Clan",
+        "Public Enemy",
+        "N.W.A"
+      ],
+      "answer": 0,
+      "explain": "1986."
+    },
+    {
+      "q": "StockX is…",
+      "options": [
+        "A sneaker brand",
+        "A resale marketplace",
+        "A sneaker museum",
+        "A Nike app"
+      ],
+      "answer": 1,
+      "explain": "The 'stock market of sneakers'."
+    }
+  ]
+}

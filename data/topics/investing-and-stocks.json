@@ -1,0 +1,411 @@
+{
+  "slug": "investing-and-stocks",
+  "refresh": "weekly",
+  "updated": "2026-11-14",
+  "topic": "Investing and stocks",
+  "category": "Money",
+  "asOf": "mid-2026",
+  "tagline": "Indexes, AI stocks, interest rates, and the eternal question: what are you buying?",
+  "why": "Everyone in Hong Kong has an opinion on the market, from the Hang Seng to US tech stocks. Investing talk is about what's going up, what the central banks will do, and whether something is a bubble. You don't need to give advice; you just need to understand the vocabulary, the big names and the main schools of thought so you can follow along and ask good questions.",
+  "essentials": [
+    {
+      "title": "Stocks, bonds and funds",
+      "body": "A stock is a slice of a company. A bond is a loan to a government or company that pays interest. Funds and ETFs bundle many of them together."
+    },
+    {
+      "title": "Indexes measure the market",
+      "body": "The S&P 500 (500 big US companies), Nasdaq (tech-heavy), Dow Jones, and in Hong Kong the Hang Seng Index (HSI). 'The market is up' usually means one of these."
+    },
+    {
+      "title": "Interest rates move everything",
+      "body": "When central banks like the US Federal Reserve raise rates, borrowing costs rise and stocks often fall. Cuts usually help stocks and property. Hong Kong's rates follow the US because of the currency peg."
+    },
+    {
+      "title": "Passive vs active",
+      "body": "Passive investors buy cheap index funds and hold. Active investors pick stocks or pay managers to try to beat the market, which most fail to do after fees."
+    },
+    {
+      "title": "The AI trade",
+      "body": "Since 2023, a few giant US tech companies, especially Nvidia, have driven much of the market's gains on AI enthusiasm. Whether it's a bubble is the debate of the moment."
+    },
+    {
+      "title": "Risk and diversification",
+      "body": "Don't put all your eggs in one basket. Spreading money across assets and regions reduces the chance of a big loss."
+    },
+    {
+      "title": "Valuation",
+      "body": "The price-to-earnings (P/E) ratio compares a share price to profits. High P/E means investors expect strong growth, or the stock is expensive."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Bull / bear market",
+      "meaning": "A rising market (bull) or one that has fallen 20% or more (bear)."
+    },
+    {
+      "term": "ETF",
+      "meaning": "Exchange-traded fund: a basket of investments traded like a stock. The Tracker Fund (2800) follows the Hang Seng."
+    },
+    {
+      "term": "Index fund",
+      "meaning": "A fund that simply copies an index. Cheap and popular."
+    },
+    {
+      "term": "Dividend",
+      "meaning": "Cash a company pays shareholders from its profits. HK banks and utilities are known for them."
+    },
+    {
+      "term": "P/E ratio",
+      "meaning": "Price divided by earnings per share; a quick gauge of how expensive a stock is."
+    },
+    {
+      "term": "Market cap",
+      "meaning": "A company's total value on the stock market."
+    },
+    {
+      "term": "Blue chip",
+      "meaning": "A large, established, reliable company."
+    },
+    {
+      "term": "Magnificent Seven",
+      "meaning": "Apple, Microsoft, Nvidia, Amazon, Alphabet (Google), Meta and Tesla, which dominate US indexes."
+    },
+    {
+      "term": "IPO",
+      "meaning": "Initial public offering: when a company first lists on a stock exchange."
+    },
+    {
+      "term": "Correction",
+      "meaning": "A fall of 10% or more from a recent high."
+    },
+    {
+      "term": "Buy the dip",
+      "meaning": "Buying after a fall, expecting a rebound."
+    },
+    {
+      "term": "DCA",
+      "meaning": "Dollar-cost averaging: investing a fixed amount regularly regardless of price."
+    },
+    {
+      "term": "Short selling",
+      "meaning": "Betting a stock will fall by borrowing and selling it."
+    },
+    {
+      "term": "Yield",
+      "meaning": "The income an investment pays as a percentage of its price."
+    },
+    {
+      "term": "Fed",
+      "meaning": "The US Federal Reserve, whose rate decisions move global markets."
+    },
+    {
+      "term": "H-shares / Southbound",
+      "meaning": "Mainland Chinese companies listed in Hong Kong / mainland money flowing into HK stocks via Stock Connect."
+    }
+  ],
+  "names": [
+    {
+      "name": "Warren Buffett",
+      "what": "The most famous investor ever, who built Berkshire Hathaway. Handed the CEO role to Greg Abel at the end of 2025."
+    },
+    {
+      "name": "Nvidia",
+      "what": "AI chip maker that became the world's most valuable company, passing $4 trillion and then $5 trillion in 2025."
+    },
+    {
+      "name": "Apple and Microsoft",
+      "what": "Two of the largest companies on earth and fixtures in every portfolio."
+    },
+    {
+      "name": "Tencent",
+      "what": "Hong Kong's biggest listed company by value: WeChat, gaming and investments."
+    },
+    {
+      "name": "Alibaba",
+      "what": "Chinese e-commerce and cloud giant, listed in Hong Kong and New York; rebounded on its AI push."
+    },
+    {
+      "name": "HSBC",
+      "what": "The bank founded in Hong Kong in 1865, a dividend favourite for local investors."
+    },
+    {
+      "name": "Xiaomi",
+      "what": "Phone and EV maker whose shares soared in 2024-25."
+    },
+    {
+      "name": "HKEX",
+      "what": "Hong Kong Exchanges and Clearing, which runs the stock market."
+    },
+    {
+      "name": "Jerome Powell",
+      "what": "Chair of the US Federal Reserve through May 2026."
+    },
+    {
+      "name": "Vanguard",
+      "what": "The firm that popularised low-cost index funds; founder Jack Bogle."
+    },
+    {
+      "name": "BlackRock",
+      "what": "The world's largest asset manager, behind iShares ETFs."
+    },
+    {
+      "name": "Cathie Wood",
+      "what": "ARK Invest founder known for big bets on disruptive tech."
+    },
+    {
+      "name": "Ray Dalio",
+      "what": "Founder of Bridgewater, the biggest hedge fund, known for 'All Weather' investing."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1929",
+      "event": "Wall Street crash starts the Great Depression."
+    },
+    {
+      "year": "1969",
+      "event": "The Hang Seng Index is launched."
+    },
+    {
+      "year": "1987",
+      "event": "Black Monday: global markets crash; Hong Kong's exchange closes for four days."
+    },
+    {
+      "year": "1997–98",
+      "event": "Asian Financial Crisis; Hong Kong defends its currency peg."
+    },
+    {
+      "year": "2000",
+      "event": "The dot-com bubble bursts."
+    },
+    {
+      "year": "2008",
+      "event": "The global financial crisis after Lehman Brothers collapses."
+    },
+    {
+      "year": "2018",
+      "event": "HSI peaks above 33,000."
+    },
+    {
+      "year": "2020",
+      "event": "Covid crash and rapid recovery; retail trading booms."
+    },
+    {
+      "year": "2022",
+      "event": "Rates rise fast to fight inflation; stocks and bonds both fall."
+    },
+    {
+      "year": "2023",
+      "event": "ChatGPT sparks the AI stock boom."
+    },
+    {
+      "year": "2025",
+      "event": "US 'Liberation Day' tariffs crash markets in April, then a strong rebound; Hong Kong becomes the top IPO venue."
+    }
+  ],
+  "now": [
+    {
+      "headline": "Is AI a bubble?",
+      "detail": "The biggest market debate. Bulls point to real profits at Nvidia and Microsoft; bears compare it to the dot-com era."
+    },
+    {
+      "headline": "Hong Kong's comeback",
+      "detail": "The Hang Seng had a strong 2025 after years of decline, helped by Chinese tech and a flood of big IPOs like CATL."
+    },
+    {
+      "headline": "Rates are coming down",
+      "detail": "The Fed cut rates through 2025, which affects mortgages and bank deposit rates in Hong Kong."
+    },
+    {
+      "headline": "Gold's record run",
+      "detail": "Gold passed $4,000 an ounce in 2025 as central banks and investors sought safety."
+    },
+    {
+      "headline": "Tariffs and trade",
+      "detail": "US tariffs on China and other countries keep markets jumpy."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Everyone trades",
+      "detail": "Hong Kong has a strong retail trading culture. Apps like Futu (Moomoo) are hugely popular."
+    },
+    {
+      "headline": "The peg",
+      "detail": "The Hong Kong dollar is pegged to the US dollar between 7.75 and 7.85 since 1983, so local rates follow US rates."
+    },
+    {
+      "headline": "MPF",
+      "detail": "The Mandatory Provident Fund is everyone's retirement account. Complaining about MPF fees and returns is a classic topic."
+    },
+    {
+      "headline": "Deposit rates",
+      "detail": "When rates were high, many people parked cash in time deposits at 4% or more. Lower rates sent them back to stocks."
+    },
+    {
+      "headline": "Dividend stocks",
+      "detail": "HSBC, CLP, HK Electric, Link REIT and the Tracker Fund are traditional local favourites."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Index funds or stock picking?",
+      "sides": "Data says most stock pickers lose to the index; pickers say research and conviction pay."
+    },
+    {
+      "question": "US or China/Hong Kong stocks?",
+      "sides": "The US has the tech giants; HK and China are cheaper with more upside, but more political risk."
+    },
+    {
+      "question": "Is now a good time to invest?",
+      "sides": "Long-term investors say time in the market beats timing the market."
+    },
+    {
+      "question": "Gold, property or stocks?",
+      "sides": "Each has had its moment. Diversifiers say own a bit of everything."
+    }
+  ],
+  "starters": [
+    "Are you following the markets much these days?",
+    "Do you think AI stocks are in a bubble?",
+    "Are you more into US or Hong Kong stocks?",
+    "Index funds or picking your own?",
+    "What do you think of the IPO boom in Hong Kong?",
+    "How do you feel about your MPF?"
+  ],
+  "sayThis": [
+    {
+      "say": "Time in the market beats timing the market.",
+      "why": "A classic, sensible investing maxim."
+    },
+    {
+      "say": "Everything comes back to interest rates.",
+      "why": "True and usually welcomed."
+    },
+    {
+      "say": "I'm mostly in index funds, honestly.",
+      "why": "A modest, credible stance."
+    },
+    {
+      "say": "Hong Kong had a surprisingly good run in 2025.",
+      "why": "A factual conversation starter."
+    }
+  ],
+  "avoid": [
+    "Giving or asking for specific stock tips at work.",
+    "Asking how much someone has invested or lost.",
+    "Acting like you predicted what happened."
+  ],
+  "quiz": [
+    {
+      "q": "What does the Hang Seng Index track?",
+      "options": [
+        "US tech",
+        "Major Hong Kong-listed companies",
+        "Gold",
+        "Property prices"
+      ],
+      "answer": 1,
+      "explain": "Hong Kong's benchmark index."
+    },
+    {
+      "q": "A bear market is a fall of at least…",
+      "options": [
+        "5%",
+        "10%",
+        "20%",
+        "50%"
+      ],
+      "answer": 2,
+      "explain": "10% is a correction."
+    },
+    {
+      "q": "What is an ETF?",
+      "options": [
+        "A type of bond",
+        "A basket of investments traded like a stock",
+        "A savings account",
+        "A bank fee"
+      ],
+      "answer": 1,
+      "explain": "Exchange-traded fund."
+    },
+    {
+      "q": "Which company passed $5 trillion in value in 2025?",
+      "options": [
+        "Apple",
+        "Microsoft",
+        "Nvidia",
+        "Tencent"
+      ],
+      "answer": 2,
+      "explain": "Driven by AI chip demand."
+    },
+    {
+      "q": "What range is the HKD pegged to the USD?",
+      "options": [
+        "6.5 to 7.0",
+        "7.75 to 7.85",
+        "8.0 to 8.5",
+        "Not pegged"
+      ],
+      "answer": 1,
+      "explain": "Since 1983."
+    },
+    {
+      "q": "What does P/E stand for?",
+      "options": [
+        "Profit and equity",
+        "Price to earnings",
+        "Public equity",
+        "Price estimate"
+      ],
+      "answer": 1,
+      "explain": "A valuation measure."
+    },
+    {
+      "q": "Who led Berkshire Hathaway for decades?",
+      "options": [
+        "Ray Dalio",
+        "Warren Buffett",
+        "Charlie Munger",
+        "Peter Lynch"
+      ],
+      "answer": 1,
+      "explain": "The 'Oracle of Omaha'."
+    },
+    {
+      "q": "What is the MPF?",
+      "options": [
+        "A tax",
+        "Hong Kong's mandatory retirement savings scheme",
+        "A stock index",
+        "A bank"
+      ],
+      "answer": 1,
+      "explain": "Mandatory Provident Fund."
+    },
+    {
+      "q": "What does 'IPO' mean?",
+      "options": [
+        "Initial public offering",
+        "International portfolio option",
+        "Interest payment order",
+        "Index price output"
+      ],
+      "answer": 0,
+      "explain": "A company's stock market debut."
+    },
+    {
+      "q": "Which bank was founded in Hong Kong in 1865?",
+      "options": [
+        "Standard Chartered",
+        "HSBC",
+        "Bank of China",
+        "Hang Seng Bank"
+      ],
+      "answer": 1,
+      "explain": "The Hongkong and Shanghai Banking Corporation."
+    }
+  ]
+}

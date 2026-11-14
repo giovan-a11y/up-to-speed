@@ -1,0 +1,386 @@
+{
+  "slug": "the-economy",
+  "refresh": "weekly",
+  "updated": "2026-11-14",
+  "topic": "The economy",
+  "category": "Money",
+  "asOf": "mid-2026",
+  "tagline": "Interest rates, tariffs, China's slowdown, and why your coffee costs more.",
+  "why": "The economy is the backdrop to everyone's job, rent and investments, and in Hong Kong it's shaped by both the US (through the dollar peg) and mainland China. Economic small talk is about whether things are getting better or worse, interest rates, trade wars, and local issues like retail, tourism and people spending weekends in Shenzhen. You don't need to be an economist, just able to follow the main forces.",
+  "essentials": [
+    {
+      "title": "Inflation and interest rates",
+      "body": "When prices rise fast (inflation), central banks raise rates to cool demand. When the economy slows, they cut. The US Fed's moves ripple worldwide."
+    },
+    {
+      "title": "GDP and recession",
+      "body": "GDP measures the size of an economy. Two quarters of shrinking GDP is a common definition of recession."
+    },
+    {
+      "title": "Trade and tariffs",
+      "body": "Tariffs are taxes on imports. The US raised tariffs dramatically in 2025, especially on China, disrupting supply chains and markets."
+    },
+    {
+      "title": "China's slowdown",
+      "body": "China's economy grew fast for decades but now faces a property crisis, falling prices (deflation), weak consumer spending and youth unemployment."
+    },
+    {
+      "title": "Hong Kong is a hub",
+      "body": "Hong Kong's economy runs on finance, trade, logistics, tourism and property. Its currency is pegged to the US dollar."
+    },
+    {
+      "title": "Jobs and wages",
+      "body": "Employment, wage growth and the cost of living are what people feel. AI's effect on jobs is a new worry."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Inflation",
+      "meaning": "Rising prices across the economy."
+    },
+    {
+      "term": "Deflation",
+      "meaning": "Falling prices; sounds good but can trap an economy, as in Japan and now China."
+    },
+    {
+      "term": "Recession",
+      "meaning": "A significant decline in economic activity."
+    },
+    {
+      "term": "Soft landing",
+      "meaning": "Cooling inflation without causing a recession."
+    },
+    {
+      "term": "Stagflation",
+      "meaning": "High inflation plus weak growth: the worst combo."
+    },
+    {
+      "term": "Rate cut / hike",
+      "meaning": "A central bank lowering or raising interest rates."
+    },
+    {
+      "term": "Tariff",
+      "meaning": "A tax on imported goods."
+    },
+    {
+      "term": "Supply chain",
+      "meaning": "The network of suppliers that makes and moves goods."
+    },
+    {
+      "term": "Fiscal vs monetary policy",
+      "meaning": "Government spending and taxes vs central bank rates and money."
+    },
+    {
+      "term": "Stimulus",
+      "meaning": "Government spending or easing to boost the economy."
+    },
+    {
+      "term": "Currency peg",
+      "meaning": "Fixing a currency to another; HKD to USD."
+    },
+    {
+      "term": "Budget deficit",
+      "meaning": "When a government spends more than it collects."
+    },
+    {
+      "term": "Consumer confidence",
+      "meaning": "How optimistic people feel about spending."
+    },
+    {
+      "term": "Northbound consumption",
+      "meaning": "Hong Kongers spending in Shenzhen instead of locally."
+    },
+    {
+      "term": "Decoupling / de-risking",
+      "meaning": "The US and allies reducing reliance on China."
+    }
+  ],
+  "names": [
+    {
+      "name": "The Federal Reserve",
+      "what": "The US central bank; its rate decisions move global markets and HK rates."
+    },
+    {
+      "name": "Jerome Powell",
+      "what": "Fed chair through May 2026, often criticised by President Trump for not cutting faster."
+    },
+    {
+      "name": "People's Bank of China",
+      "what": "China's central bank."
+    },
+    {
+      "name": "HKMA",
+      "what": "Hong Kong Monetary Authority, which defends the peg."
+    },
+    {
+      "name": "Paul Chan",
+      "what": "Hong Kong's Financial Secretary, who delivers the annual budget."
+    },
+    {
+      "name": "Donald Trump",
+      "what": "US president whose 2025 tariffs reshaped global trade."
+    },
+    {
+      "name": "Xi Jinping",
+      "what": "China's leader, steering policy toward tech and self-reliance."
+    },
+    {
+      "name": "IMF",
+      "what": "International Monetary Fund; publishes global growth forecasts."
+    },
+    {
+      "name": "Evergrande",
+      "what": "The Chinese developer whose collapse symbolised China's property crisis; ordered liquidated by a Hong Kong court in 2024."
+    },
+    {
+      "name": "John Maynard Keynes",
+      "what": "Economist behind the idea that governments should spend in downturns."
+    },
+    {
+      "name": "Milton Friedman",
+      "what": "Economist behind free-market and monetarist ideas."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1983",
+      "event": "Hong Kong dollar pegged to the US dollar."
+    },
+    {
+      "year": "1997–98",
+      "event": "Asian Financial Crisis."
+    },
+    {
+      "year": "2001",
+      "event": "China joins the WTO and becomes the world's factory."
+    },
+    {
+      "year": "2008",
+      "event": "Global financial crisis."
+    },
+    {
+      "year": "2018",
+      "event": "First US-China trade war."
+    },
+    {
+      "year": "2020",
+      "event": "Covid recession; huge stimulus."
+    },
+    {
+      "year": "2022",
+      "event": "Inflation hits 40-year highs in the US; rates rise fast."
+    },
+    {
+      "year": "2023",
+      "event": "Hong Kong reopens; China's property crisis deepens."
+    },
+    {
+      "year": "2025",
+      "event": "Sweeping US tariffs; China exports record trade surpluses elsewhere; Fed cuts rates."
+    }
+  ],
+  "now": [
+    {
+      "headline": "Tariff fallout",
+      "detail": "Companies reroute supply chains through Southeast Asia and Mexico; prices for some goods rose."
+    },
+    {
+      "headline": "Rates coming down",
+      "detail": "The Fed cut rates in 2025, easing mortgage costs in Hong Kong."
+    },
+    {
+      "headline": "China's deflation",
+      "detail": "Weak prices and spending; Beijing pushes stimulus and tech investment."
+    },
+    {
+      "headline": "AI investment boom",
+      "detail": "Massive spending on data centres is propping up growth in the US."
+    },
+    {
+      "headline": "Gold and the dollar",
+      "detail": "Central banks bought gold; debate over the US dollar's long-term dominance."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Northbound spending",
+      "detail": "Hong Kongers go to Shenzhen on weekends for cheaper food, shopping and massages, hurting local restaurants and retail."
+    },
+    {
+      "headline": "Tourism has changed",
+      "detail": "Mainland tourists returned but spend less on luxury and more on experiences."
+    },
+    {
+      "headline": "Budget deficit",
+      "detail": "Hong Kong ran large deficits as land sales fell, leading to spending cuts."
+    },
+    {
+      "headline": "Talent schemes",
+      "detail": "The Top Talent Pass Scheme brought in many new residents, mostly from the mainland."
+    },
+    {
+      "headline": "Finance rebound",
+      "detail": "A strong IPO market and stock rally in 2025 boosted the finance sector."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Do tariffs work?",
+      "sides": "Supporters say they protect jobs; critics say consumers pay more and trade partners retaliate."
+    },
+    {
+      "question": "Is Hong Kong's best time behind it?",
+      "sides": "Optimists cite finance and the Greater Bay Area; pessimists cite emigration and retail decline."
+    },
+    {
+      "question": "Will AI take jobs?",
+      "sides": "Some see productivity gains; others see displacement of white-collar work."
+    },
+    {
+      "question": "Should HK keep the peg?",
+      "sides": "It brings stability but imports US rates that may not suit Hong Kong."
+    }
+  ],
+  "starters": [
+    "How's business been for you this year?",
+    "Do you go up to Shenzhen much?",
+    "Do you think things are getting better here?",
+    "How are tariffs affecting your industry?",
+    "Are you worried about AI and jobs?"
+  ],
+  "sayThis": [
+    {
+      "say": "Everything comes back to rates.",
+      "why": "Usually true."
+    },
+    {
+      "say": "Weekends in Shenzhen are a real shift.",
+      "why": "A hot local topic."
+    },
+    {
+      "say": "It feels like a two-speed economy: finance is up, retail is down.",
+      "why": "A nuanced observation."
+    },
+    {
+      "say": "Tariffs are basically a tax on consumers.",
+      "why": "The mainstream economist view."
+    }
+  ],
+  "avoid": [
+    "Getting political about Beijing or Washington with people you don't know well.",
+    "Asking about salaries.",
+    "Being doom-and-gloom about someone's industry."
+  ],
+  "quiz": [
+    {
+      "q": "What is stagflation?",
+      "options": [
+        "High growth and low inflation",
+        "High inflation and weak growth",
+        "Falling prices",
+        "A stock crash"
+      ],
+      "answer": 1,
+      "explain": "The worst of both."
+    },
+    {
+      "q": "Who sets US interest rates?",
+      "options": [
+        "The Treasury",
+        "The Federal Reserve",
+        "Congress",
+        "The IMF"
+      ],
+      "answer": 1,
+      "explain": "The Fed."
+    },
+    {
+      "q": "What's a tariff?",
+      "options": [
+        "A tax on imports",
+        "A subsidy",
+        "A loan",
+        "A fee for exports"
+      ],
+      "answer": 0,
+      "explain": "Paid on imported goods."
+    },
+    {
+      "q": "What is deflation?",
+      "options": [
+        "Rising prices",
+        "Falling prices",
+        "Currency peg",
+        "Budget surplus"
+      ],
+      "answer": 1,
+      "explain": "A problem in China now."
+    },
+    {
+      "q": "Which body defends the HKD peg?",
+      "options": [
+        "HKEX",
+        "HKMA",
+        "SFC",
+        "Treasury"
+      ],
+      "answer": 1,
+      "explain": "Hong Kong Monetary Authority."
+    },
+    {
+      "q": "When did China join the WTO?",
+      "options": [
+        "1997",
+        "2001",
+        "2008",
+        "2012"
+      ],
+      "answer": 1,
+      "explain": "December 2001."
+    },
+    {
+      "q": "What is 'northbound consumption'?",
+      "options": [
+        "Exports to China",
+        "Hong Kongers spending in Shenzhen",
+        "Mainland tourists in HK",
+        "Investing in China"
+      ],
+      "answer": 1,
+      "explain": "A big local trend."
+    },
+    {
+      "q": "Which court ordered Evergrande liquidated?",
+      "options": [
+        "Beijing",
+        "Hong Kong",
+        "London",
+        "Singapore"
+      ],
+      "answer": 1,
+      "explain": "January 2024."
+    },
+    {
+      "q": "A 'soft landing' means…",
+      "options": [
+        "A recession",
+        "Cooling inflation without a recession",
+        "A crash",
+        "A bailout"
+      ],
+      "answer": 1,
+      "explain": "The ideal outcome."
+    },
+    {
+      "q": "Who delivers Hong Kong's budget?",
+      "options": [
+        "Chief Executive",
+        "Financial Secretary",
+        "HKMA chief",
+        "Legislative Council"
+      ],
+      "answer": 1,
+      "explain": "Paul Chan."
+    }
+  ]
+}

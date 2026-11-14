@@ -1,0 +1,379 @@
+{
+  "slug": "luxury-handbags",
+  "refresh": "monthly",
+  "updated": "2026-11-14",
+  "topic": "Luxury handbags",
+  "category": "Luxury & style",
+  "asOf": "mid-2026",
+  "tagline": "The Birkin waitlist, the Chanel price hikes, and bags as a currency.",
+  "why": "Luxury handbags are the core of the fashion business and, for some models, an asset class. A Hermès Birkin can cost more on the resale market than in the store, and Chanel's classic flap has risen in price many times over. In Hong Kong, bags are a highly visible status signal and a big resale industry, so bag talk is everywhere: at work, among friends and on social media.",
+  "essentials": [
+    {
+      "title": "The hierarchy",
+      "body": "Hermès sits at the top, then Chanel. Louis Vuitton, Dior, Celine, Loewe, Bottega Veneta, Prada and Goyard follow. Quiet brands like The Row are the connoisseur's choice."
+    },
+    {
+      "title": "Hermès plays hard to get",
+      "body": "You can't simply buy a Birkin or Kelly. Sales associates offer them to clients with a strong purchase history, a practice people call 'the game'."
+    },
+    {
+      "title": "Classics hold value",
+      "body": "Iconic models like the Birkin, Kelly, Chanel Classic Flap and LV Speedy hold value better than seasonal 'it-bags'."
+    },
+    {
+      "title": "Leathers and hardware matter",
+      "body": "Collectors talk about leathers (Togo, Epsom, caviar, lambskin), sizes (Birkin 25, 30, 35) and hardware (gold or palladium)."
+    },
+    {
+      "title": "Resale is a big market",
+      "body": "Pre-owned shops and platforms authenticate and resell bags. Condition, box and receipt affect price."
+    },
+    {
+      "title": "Fakes are a huge issue",
+      "body": "'Superfakes' are hard to spot, which is why authentication services and trusted dealers matter."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Birkin",
+      "meaning": "Hermès's most famous bag, named after actress Jane Birkin."
+    },
+    {
+      "term": "Kelly",
+      "meaning": "Hermès's other icon, named after Grace Kelly."
+    },
+    {
+      "term": "Classic Flap",
+      "meaning": "Chanel's quilted icon with the CC turn-lock."
+    },
+    {
+      "term": "2.55",
+      "meaning": "Chanel's original flap bag, launched February 1955."
+    },
+    {
+      "term": "Quota bag",
+      "meaning": "A Hermès bag you're 'offered' after building a history with the store."
+    },
+    {
+      "term": "Pre-spend",
+      "meaning": "What you buy at Hermès before you're offered a quota bag."
+    },
+    {
+      "term": "Hardware",
+      "meaning": "The metal parts: clasps, locks, chains."
+    },
+    {
+      "term": "Caviar leather",
+      "meaning": "Chanel's textured, durable grained leather."
+    },
+    {
+      "term": "Togo",
+      "meaning": "Hermès's popular textured calfskin."
+    },
+    {
+      "term": "Monogram",
+      "meaning": "LV's famous logo-print canvas."
+    },
+    {
+      "term": "Canvas",
+      "meaning": "Coated fabric used by LV and Goyard; light and durable."
+    },
+    {
+      "term": "It-bag",
+      "meaning": "The bag of the season everyone wants."
+    },
+    {
+      "term": "Superfake",
+      "meaning": "A near-perfect counterfeit."
+    },
+    {
+      "term": "Full set",
+      "meaning": "Bag with box, dust bag and receipt."
+    },
+    {
+      "term": "Micro bag",
+      "meaning": "A tiny, mostly decorative bag."
+    }
+  ],
+  "names": [
+    {
+      "name": "Hermès",
+      "what": "The most exclusive maker, every bag hand-made by a single artisan."
+    },
+    {
+      "name": "Chanel",
+      "what": "The Classic Flap and Boy bag; prices have risen dramatically since 2019."
+    },
+    {
+      "name": "Louis Vuitton",
+      "what": "The Speedy, Neverfull and Keepall; the monogram is the most recognised pattern in luxury."
+    },
+    {
+      "name": "Dior",
+      "what": "The Lady Dior (named after Princess Diana) and the Saddle bag."
+    },
+    {
+      "name": "Goyard",
+      "what": "Discreet French trunk-maker; its chevron tote is loved by Hong Kong professionals."
+    },
+    {
+      "name": "Bottega Veneta",
+      "what": "Woven leather and no logos; the Jodie and Cassette bags."
+    },
+    {
+      "name": "Loewe",
+      "what": "The Puzzle bag made the Spanish house a favourite."
+    },
+    {
+      "name": "Celine",
+      "what": "The Triomphe and the old Luggage tote; the 'quiet' choice."
+    },
+    {
+      "name": "The Row",
+      "what": "Mary-Kate and Ashley Olsen's brand; its Margaux bag is the quiet luxury status bag."
+    },
+    {
+      "name": "Miu Miu",
+      "what": "Prada's sister brand; its bags are a hot item with younger buyers."
+    },
+    {
+      "name": "Jane Birkin",
+      "what": "The actress who inspired the Birkin in 1984 after a chance meeting with Hermès's boss on a plane."
+    },
+    {
+      "name": "Milan Station",
+      "what": "Hong Kong's well-known pre-owned luxury bag retailer."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1892",
+      "event": "Hermès makes its first bags."
+    },
+    {
+      "year": "1955",
+      "event": "Chanel launches the 2.55."
+    },
+    {
+      "year": "1956",
+      "event": "Grace Kelly is photographed with the Hermès bag later named after her."
+    },
+    {
+      "year": "1984",
+      "event": "The Birkin is born."
+    },
+    {
+      "year": "1995",
+      "event": "The Lady Dior is named after Princess Diana."
+    },
+    {
+      "year": "2000s",
+      "event": "The era of it-bags, from Fendi Baguette to Balenciaga City."
+    },
+    {
+      "year": "2019–24",
+      "event": "Chanel raises Classic Flap prices repeatedly."
+    },
+    {
+      "year": "2023",
+      "event": "Jane Birkin dies; her original Birkin later sells for about €8.6 million at auction in 2025."
+    }
+  ],
+  "now": [
+    {
+      "headline": "The Birkin lawsuit",
+      "detail": "A 2024 US lawsuit accused Hermès of tying Birkin sales to other purchases, putting 'the game' in the headlines."
+    },
+    {
+      "headline": "Price fatigue",
+      "detail": "Some buyers balk at Chanel and LV prices, boosting interest in quieter brands and pre-owned bags."
+    },
+    {
+      "headline": "Pre-owned boom",
+      "detail": "Second-hand luxury keeps growing, and brands themselves are entering resale."
+    },
+    {
+      "headline": "Bag charms",
+      "detail": "Decorating bags with charms and plush toys, like Labubu, became a big trend in 2025."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Resale capital",
+      "detail": "Hong Kong has a large pre-owned bag market, from Milan Station to boutique dealers and auction houses."
+    },
+    {
+      "headline": "Auctions",
+      "detail": "Christie's Hong Kong handbag auctions regularly set records for rare Hermès pieces."
+    },
+    {
+      "headline": "Where people shop",
+      "detail": "Hermès at Pacific Place, Landmark and Harbour City; Chanel and LV flagships in Central and TST."
+    },
+    {
+      "headline": "Labubu craze",
+      "detail": "Pop Mart's Labubu, created by Hong Kong-born artist Kasing Lung, became a global bag-charm phenomenon."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Are bags an investment?",
+      "sides": "Hermès classics have held value; most other bags don't. Buy to use, not to flip."
+    },
+    {
+      "question": "Is 'the game' fair?",
+      "sides": "Hermès says it rewards loyal clients; critics say it's manipulative."
+    },
+    {
+      "question": "Pre-owned or new?",
+      "sides": "Pre-owned is cheaper and more sustainable; new comes with the store experience."
+    },
+    {
+      "question": "Logo or no logo?",
+      "sides": "Monograms are classic; quiet luxury fans prefer no branding."
+    }
+  ],
+  "starters": [
+    "That bag is gorgeous. Is it new?",
+    "What's your all-time favourite bag?",
+    "Would you ever buy pre-owned?",
+    "Have you ever played the Hermès game?",
+    "Do you think Chanel is still worth the price?",
+    "Did you get caught up in the Labubu craze?"
+  ],
+  "sayThis": [
+    {
+      "say": "A Kelly is more elegant than a Birkin, I think.",
+      "why": "A classic debate among bag lovers."
+    },
+    {
+      "say": "Goyard is the quiet flex.",
+      "why": "Recognised by those in the know."
+    },
+    {
+      "say": "Pre-owned is smart these days.",
+      "why": "A practical, current view."
+    },
+    {
+      "say": "The Lady Dior is timeless.",
+      "why": "A safe compliment with history behind it."
+    }
+  ],
+  "avoid": [
+    "Asking if someone's bag is real.",
+    "Asking the price.",
+    "Putting someone's bag on the floor at a restaurant. Many people use bag hooks or chairs."
+  ],
+  "quiz": [
+    {
+      "q": "Which actress is the Birkin named after?",
+      "options": [
+        "Grace Kelly",
+        "Jane Birkin",
+        "Audrey Hepburn",
+        "Brigitte Bardot"
+      ],
+      "answer": 1,
+      "explain": "Jane Birkin."
+    },
+    {
+      "q": "Who is the Kelly bag named after?",
+      "options": [
+        "Grace Kelly",
+        "Kelly Rowland",
+        "Gene Kelly",
+        "Kelly Chen"
+      ],
+      "answer": 0,
+      "explain": "Princess Grace of Monaco."
+    },
+    {
+      "q": "What does '2.55' refer to?",
+      "options": [
+        "A price",
+        "February 1955, when Chanel's bag launched",
+        "A size",
+        "A leather"
+      ],
+      "answer": 1,
+      "explain": "Chanel's original flap."
+    },
+    {
+      "q": "Which bag is named after Princess Diana?",
+      "options": [
+        "Lady Dior",
+        "Kelly",
+        "Speedy",
+        "Jackie"
+      ],
+      "answer": 0,
+      "explain": "Lady Dior, from 1995."
+    },
+    {
+      "q": "What's a 'quota bag'?",
+      "options": [
+        "A cheap bag",
+        "A Hermès bag offered after purchase history",
+        "A fake",
+        "A limited edition"
+      ],
+      "answer": 1,
+      "explain": "Birkins and Kellys."
+    },
+    {
+      "q": "Which brand is known for woven leather?",
+      "options": [
+        "Bottega Veneta",
+        "Goyard",
+        "Celine",
+        "Chanel"
+      ],
+      "answer": 0,
+      "explain": "The intrecciato weave."
+    },
+    {
+      "q": "Who created Labubu?",
+      "options": [
+        "Kasing Lung",
+        "Takashi Murakami",
+        "KAWS",
+        "Yayoi Kusama"
+      ],
+      "answer": 0,
+      "explain": "A Hong Kong-born artist."
+    },
+    {
+      "q": "Who founded The Row?",
+      "options": [
+        "Victoria Beckham",
+        "The Olsen twins",
+        "Phoebe Philo",
+        "Rihanna"
+      ],
+      "answer": 1,
+      "explain": "Mary-Kate and Ashley Olsen."
+    },
+    {
+      "q": "Which brand makes the Puzzle bag?",
+      "options": [
+        "Loewe",
+        "Prada",
+        "Fendi",
+        "Dior"
+      ],
+      "answer": 0,
+      "explain": "Loewe."
+    },
+    {
+      "q": "Which LV bag is a classic everyday tote?",
+      "options": [
+        "Neverfull",
+        "Kelly",
+        "Jodie",
+        "Margaux"
+      ],
+      "answer": 0,
+      "explain": "The Neverfull."
+    }
+  ]
+}

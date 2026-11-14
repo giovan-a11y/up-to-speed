@@ -1,0 +1,398 @@
+{
+  "slug": "fashion-brands",
+  "refresh": "monthly",
+  "updated": "2026-11-14",
+  "topic": "Fashion brands",
+  "category": "Luxury & style",
+  "asOf": "mid-2026",
+  "tagline": "Who owns whom, who's designing where, and why 'quiet luxury' took over.",
+  "why": "Luxury fashion is a giant business run by a few conglomerates, and its gossip is about creative directors swapping houses, prices rising, and what's 'in'. In Hong Kong luxury shopping is part of the city's identity, from Central's flagships to Harbour City. Knowing the big houses, their designers and the current trends makes it easy to talk style without being a fashionista.",
+  "essentials": [
+    {
+      "title": "A few groups own most brands",
+      "body": "LVMH (Louis Vuitton, Dior, Celine, Loewe, Fendi, Tiffany), Kering (Gucci, Saint Laurent, Bottega Veneta, Balenciaga), Richemont (Cartier, Van Cleef & Arpels, mostly jewellery and watches). Hermès and Chanel are independent and family-controlled."
+    },
+    {
+      "title": "Creative directors are the stars",
+      "body": "Each house has a creative director who sets its look. When one moves, it's front-page news. 2025 saw a historic reshuffle at almost every major house."
+    },
+    {
+      "title": "The fashion calendar",
+      "body": "Fashion weeks in New York, London, Milan and Paris twice a year show collections months ahead. Paris is the most important; haute couture is the hand-made top tier."
+    },
+    {
+      "title": "Logos vs quiet luxury",
+      "body": "Fashion swings between loud logos (Gucci in the late 2010s) and 'quiet luxury', understated pieces without visible branding (Loro Piana, The Row, Brunello Cucinelli)."
+    },
+    {
+      "title": "Prices keep rising",
+      "body": "Luxury brands raised prices sharply after 2020. Some customers pushed back, and sales slowed in 2024-25, especially in China."
+    },
+    {
+      "title": "Streetwear and luxury merged",
+      "body": "Supreme x Louis Vuitton (2017) and Virgil Abloh at Louis Vuitton made sneakers and hoodies part of luxury."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Maison / house",
+      "meaning": "A fashion brand, especially an old French one."
+    },
+    {
+      "term": "Creative director",
+      "meaning": "The designer who sets a brand's look."
+    },
+    {
+      "term": "Haute couture",
+      "meaning": "Hand-made, made-to-measure fashion; legally protected term in France."
+    },
+    {
+      "term": "Ready-to-wear (prêt-à-porter)",
+      "meaning": "Clothes made in standard sizes, sold in stores."
+    },
+    {
+      "term": "Quiet luxury",
+      "meaning": "Expensive, high-quality pieces with no visible logos."
+    },
+    {
+      "term": "Old money aesthetic",
+      "meaning": "A look of understated, inherited wealth."
+    },
+    {
+      "term": "Capsule collection",
+      "meaning": "A small, limited collection, often a collab."
+    },
+    {
+      "term": "Collab",
+      "meaning": "Two brands designing together."
+    },
+    {
+      "term": "Front row",
+      "meaning": "The VIP seats at a fashion show."
+    },
+    {
+      "term": "Diffusion line",
+      "meaning": "A cheaper line from a luxury brand, like Miu Miu from Prada."
+    },
+    {
+      "term": "It-bag",
+      "meaning": "The must-have bag of the moment."
+    },
+    {
+      "term": "Drop",
+      "meaning": "A limited release."
+    },
+    {
+      "term": "Ambassador",
+      "meaning": "A celebrity, often a K-pop star, who represents a brand."
+    },
+    {
+      "term": "Gorpcore",
+      "meaning": "Wearing outdoor gear like Arc'teryx and Salomon as fashion."
+    },
+    {
+      "term": "Fast fashion",
+      "meaning": "Cheap, quick trend copies from Zara, H&M, Shein."
+    }
+  ],
+  "names": [
+    {
+      "name": "Bernard Arnault",
+      "what": "Head of LVMH and among the world's richest people."
+    },
+    {
+      "name": "Chanel",
+      "what": "Coco Chanel's house: the tweed jacket, the 2.55 bag, No. 5 perfume. Matthieu Blazy became creative director in 2025."
+    },
+    {
+      "name": "Louis Vuitton",
+      "what": "The biggest luxury brand by sales. Pharrell Williams designs menswear."
+    },
+    {
+      "name": "Dior",
+      "what": "LVMH's couture house. Jonathan Anderson took over all of Dior in 2025."
+    },
+    {
+      "name": "Gucci",
+      "what": "Kering's biggest brand, struggling after its Alessandro Michele maximalist peak; Demna took over in 2025."
+    },
+    {
+      "name": "Hermès",
+      "what": "The most exclusive and profitable house, famous for the Birkin and Kelly bags and silk scarves."
+    },
+    {
+      "name": "Prada / Miu Miu",
+      "what": "Miuccia Prada's brands. Miu Miu has been the hottest brand of the mid-2020s. Prada bought Versace in 2025."
+    },
+    {
+      "name": "Loewe",
+      "what": "Spanish leather house made cool by Jonathan Anderson; now led by Proenza Schouler's founders."
+    },
+    {
+      "name": "Bottega Veneta",
+      "what": "Known for woven leather 'intrecciato' and no logos."
+    },
+    {
+      "name": "Saint Laurent",
+      "what": "Sleek Parisian rock'n'roll style under Anthony Vaccarello."
+    },
+    {
+      "name": "Balenciaga",
+      "what": "Made ugly-chic and oversized sneakers famous under Demna."
+    },
+    {
+      "name": "Uniqlo",
+      "what": "Japanese basics giant, loved for value; its collabs with designers sell out."
+    },
+    {
+      "name": "Karl Lagerfeld",
+      "what": "Legendary Chanel designer from 1983 to 2019."
+    },
+    {
+      "name": "Anna Wintour",
+      "what": "Long-time Vogue editor, the most powerful figure in fashion media."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1837",
+      "event": "Hermès founded as a harness maker."
+    },
+    {
+      "year": "1910",
+      "event": "Coco Chanel opens her first shop."
+    },
+    {
+      "year": "1947",
+      "event": "Dior's 'New Look' changes post-war fashion."
+    },
+    {
+      "year": "1987",
+      "event": "LVMH formed by merging Louis Vuitton and Moët Hennessy."
+    },
+    {
+      "year": "1994",
+      "event": "Tom Ford revives Gucci with sexy minimalism."
+    },
+    {
+      "year": "2015–22",
+      "event": "Alessandro Michele's maximalist Gucci era."
+    },
+    {
+      "year": "2017",
+      "event": "Supreme x Louis Vuitton marks the streetwear takeover."
+    },
+    {
+      "year": "2018",
+      "event": "Virgil Abloh becomes LV menswear designer."
+    },
+    {
+      "year": "2023",
+      "event": "Quiet luxury trend after TV series Succession."
+    },
+    {
+      "year": "2025",
+      "event": "The great designer reshuffle at Chanel, Dior, Gucci, Balenciaga, Loewe and more."
+    }
+  ],
+  "now": [
+    {
+      "headline": "New designers everywhere",
+      "detail": "Most big houses showed their first collections under new creative directors in 2025-26. Everyone has opinions on who got it right."
+    },
+    {
+      "headline": "Luxury slowdown",
+      "detail": "After years of price hikes, sales slowed, especially in China, and brands are under pressure to justify prices."
+    },
+    {
+      "headline": "Miu Miu's moment",
+      "detail": "Prada's younger sister brand has been one of the strongest performers."
+    },
+    {
+      "headline": "Dupes",
+      "detail": "Cheap 'dupes' of luxury items are celebrated on TikTok, which annoys brands."
+    },
+    {
+      "headline": "K-pop ambassadors",
+      "detail": "Stars from BLACKPINK, BTS and others front almost every major house in Asia."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Luxury shopping hubs",
+      "detail": "Central's Landmark and IFC, Pacific Place in Admiralty, Harbour City and Canton Road in Tsim Sha Tsui."
+    },
+    {
+      "headline": "Local department stores",
+      "detail": "Lane Crawford and Joyce pioneered luxury retail in Hong Kong; I.T brings in edgier labels."
+    },
+    {
+      "headline": "Retail is changing",
+      "detail": "Fewer mainland shoppers and Hong Kongers spending in Shenzhen have closed some luxury stores and lowered rents."
+    },
+    {
+      "headline": "Shanghai Tang",
+      "detail": "The Hong Kong brand that modernised Chinese dress like the qipao."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Is luxury still worth it?",
+      "sides": "Fans praise craftsmanship and design; critics say price rises outpaced quality."
+    },
+    {
+      "question": "Quiet luxury or logos?",
+      "sides": "Understated is classy; logos are fun and recognisable."
+    },
+    {
+      "question": "Is fast fashion OK?",
+      "sides": "Affordable style vs environmental waste and labour concerns."
+    },
+    {
+      "question": "Do designer reshuffles help or hurt?",
+      "sides": "Fresh ideas vs losing a brand's identity."
+    }
+  ],
+  "starters": [
+    "Who do you think has the best new designer this season?",
+    "Are you more quiet luxury or logos?",
+    "Where do you like to shop in Hong Kong?",
+    "Have prices put you off luxury brands?",
+    "What's one piece you'd never regret buying?"
+  ],
+  "sayThis": [
+    {
+      "say": "Miu Miu has been on a roll.",
+      "why": "A widely shared view."
+    },
+    {
+      "say": "Quality over logos for me.",
+      "why": "A safe, tasteful stance."
+    },
+    {
+      "say": "The designer musical chairs in 2025 was wild.",
+      "why": "Shows you follow the industry."
+    },
+    {
+      "say": "Uniqlo basics with one good piece is the move.",
+      "why": "Practical style wisdom."
+    }
+  ],
+  "avoid": [
+    "Asking where someone bought their outfit in a way that implies it's fake.",
+    "Mocking someone's style.",
+    "Mispronouncing Hermès as 'Her-meez' (it's 'air-MEZ')."
+  ],
+  "quiz": [
+    {
+      "q": "Which group owns Louis Vuitton and Dior?",
+      "options": [
+        "Kering",
+        "LVMH",
+        "Richemont",
+        "Prada Group"
+      ],
+      "answer": 1,
+      "explain": "Led by Bernard Arnault."
+    },
+    {
+      "q": "Which brand makes the Birkin bag?",
+      "options": [
+        "Chanel",
+        "Hermès",
+        "Dior",
+        "Gucci"
+      ],
+      "answer": 1,
+      "explain": "The ultimate status bag."
+    },
+    {
+      "q": "What is 'quiet luxury'?",
+      "options": [
+        "Silent stores",
+        "Expensive pieces without visible logos",
+        "Cheap copies",
+        "Online-only brands"
+      ],
+      "answer": 1,
+      "explain": "Popularised by the series Succession."
+    },
+    {
+      "q": "Who designed Chanel from 1983 to 2019?",
+      "options": [
+        "Tom Ford",
+        "Karl Lagerfeld",
+        "Virgil Abloh",
+        "Marc Jacobs"
+      ],
+      "answer": 1,
+      "explain": "Karl Lagerfeld."
+    },
+    {
+      "q": "Who designs Louis Vuitton menswear?",
+      "options": [
+        "Pharrell Williams",
+        "Kanye West",
+        "Jonathan Anderson",
+        "Demna"
+      ],
+      "answer": 0,
+      "explain": "Since 2023."
+    },
+    {
+      "q": "Which brand did Prada buy in 2025?",
+      "options": [
+        "Versace",
+        "Gucci",
+        "Fendi",
+        "Valentino"
+      ],
+      "answer": 0,
+      "explain": "Prada Group acquired Versace."
+    },
+    {
+      "q": "What does 'haute couture' mean?",
+      "options": [
+        "Fast fashion",
+        "Hand-made, made-to-measure fashion",
+        "Streetwear",
+        "Accessories"
+      ],
+      "answer": 1,
+      "explain": "The top tier of fashion."
+    },
+    {
+      "q": "Which Hong Kong brand modernised the qipao?",
+      "options": [
+        "I.T",
+        "Shanghai Tang",
+        "Joyce",
+        "Giordano"
+      ],
+      "answer": 1,
+      "explain": "Founded by David Tang."
+    },
+    {
+      "q": "Gorpcore means…",
+      "options": [
+        "Gothic style",
+        "Outdoor gear worn as fashion",
+        "Vintage clothes",
+        "Formal wear"
+      ],
+      "answer": 1,
+      "explain": "Think Arc'teryx and Salomon."
+    },
+    {
+      "q": "Which group owns Gucci?",
+      "options": [
+        "LVMH",
+        "Kering",
+        "Richemont",
+        "Tapestry"
+      ],
+      "answer": 1,
+      "explain": "Along with Saint Laurent and Bottega Veneta."
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "slug": "art",
+  "refresh": "monthly",
+  "updated": "2026-11-14",
+  "topic": "Art",
+  "category": "Culture",
+  "asOf": "mid-2026",
+  "tagline": "Art Basel, M+, auction records and how to talk about art without bluffing.",
+  "why": "Hong Kong is Asia's art market capital, home to Art Basel Hong Kong, the M+ museum and major auction houses. Art comes up at gallery openings, dinners and in news about record-breaking sales. You don't need an art history degree; knowing the major movements, famous names, local institutions and some useful vocabulary lets you enjoy and discuss art confidently.",
+  "essentials": [
+    {
+      "title": "Major movements",
+      "body": "Renaissance (Leonardo, Michelangelo), Impressionism (Monet), Post-Impressionism (Van Gogh), Cubism (Picasso), Abstract Expressionism (Pollock, Rothko), Pop Art (Warhol) and Contemporary art."
+    },
+    {
+      "title": "Contemporary vs modern",
+      "body": "Modern art is roughly 1860s to 1970s; contemporary art is from the 1970s to now."
+    },
+    {
+      "title": "The art market",
+      "body": "Galleries sell new work (primary market); auction houses resell it (secondary market). Christie's, Sotheby's and Phillips dominate auctions."
+    },
+    {
+      "title": "Art fairs",
+      "body": "Art Basel (Basel, Miami, Hong Kong, Paris) and Frieze gather galleries from around the world."
+    },
+    {
+      "title": "Chinese and Asian art",
+      "body": "From ancient ceramics and ink painting to modern masters like Zao Wou-Ki and Sanyu and contemporary stars like Ai Weiwei and Yayoi Kusama."
+    },
+    {
+      "title": "How to look at art",
+      "body": "Ask what you notice, how it makes you feel, and what the artist might be saying. There's no wrong reaction."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Contemporary art",
+      "meaning": "Art made from roughly the 1970s to today."
+    },
+    {
+      "term": "Installation",
+      "meaning": "Art that transforms a space, often immersive."
+    },
+    {
+      "term": "Medium",
+      "meaning": "The material used: oil, ink, sculpture, video."
+    },
+    {
+      "term": "Abstract",
+      "meaning": "Art that doesn't depict recognisable things."
+    },
+    {
+      "term": "Retrospective",
+      "meaning": "A show covering an artist's whole career."
+    },
+    {
+      "term": "Provenance",
+      "meaning": "A work's ownership history; important for value."
+    },
+    {
+      "term": "Primary / secondary market",
+      "meaning": "Gallery sales of new work vs resales at auction."
+    },
+    {
+      "term": "Edition",
+      "meaning": "A limited number of copies of a print or sculpture."
+    },
+    {
+      "term": "Ink painting",
+      "meaning": "Traditional Chinese painting with brush and ink."
+    },
+    {
+      "term": "Curator",
+      "meaning": "The person who selects and arranges a show."
+    },
+    {
+      "term": "Vernissage / opening",
+      "meaning": "The opening night of an exhibition."
+    },
+    {
+      "term": "Blue-chip artist",
+      "meaning": "An established artist whose work reliably sells."
+    },
+    {
+      "term": "Street art",
+      "meaning": "Murals and graffiti, like Banksy's."
+    },
+    {
+      "term": "Hammer price",
+      "meaning": "The winning bid at auction before fees."
+    },
+    {
+      "term": "NFT art",
+      "meaning": "Digital art sold as tokens; boomed in 2021."
+    }
+  ],
+  "names": [
+    {
+      "name": "M+",
+      "what": "Hong Kong's museum of visual culture in West Kowloon, opened 2021; one of the world's major contemporary museums."
+    },
+    {
+      "name": "Hong Kong Palace Museum",
+      "what": "Opened 2022 with treasures from Beijing's Palace Museum."
+    },
+    {
+      "name": "Art Basel Hong Kong",
+      "what": "Asia's top art fair, every March."
+    },
+    {
+      "name": "Yayoi Kusama",
+      "what": "Japanese artist of polka dots and infinity rooms; M+ held a big retrospective."
+    },
+    {
+      "name": "Ai Weiwei",
+      "what": "Chinese artist and activist."
+    },
+    {
+      "name": "Zao Wou-Ki",
+      "what": "Chinese-French abstract painter whose works fetch huge prices in Hong Kong auctions."
+    },
+    {
+      "name": "Andy Warhol",
+      "what": "Pop Art icon of soup cans and Marilyns."
+    },
+    {
+      "name": "Jean-Michel Basquiat",
+      "what": "Neo-expressionist painter; his works sell for over $100 million."
+    },
+    {
+      "name": "Banksy",
+      "what": "Anonymous British street artist."
+    },
+    {
+      "name": "Tsang Tsou-choi",
+      "what": "'The King of Kowloon', whose calligraphy graffiti became celebrated art."
+    },
+    {
+      "name": "Christie's / Sotheby's / Phillips",
+      "what": "The big auction houses, all with major Hong Kong bases."
+    },
+    {
+      "name": "Gagosian / Hauser & Wirth / White Cube",
+      "what": "Mega-galleries with spaces in Hong Kong."
+    },
+    {
+      "name": "Leonardo da Vinci",
+      "what": "His Salvator Mundi sold for $450 million in 2017, the auction record."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1500s",
+      "event": "High Renaissance: Leonardo, Michelangelo, Raphael."
+    },
+    {
+      "year": "1870s",
+      "event": "Impressionism begins in Paris."
+    },
+    {
+      "year": "1907",
+      "event": "Picasso's Les Demoiselles d'Avignon launches Cubism."
+    },
+    {
+      "year": "1960s",
+      "event": "Pop Art: Warhol, Lichtenstein."
+    },
+    {
+      "year": "2008",
+      "event": "Art HK fair launches; becomes Art Basel Hong Kong in 2013."
+    },
+    {
+      "year": "2017",
+      "event": "Salvator Mundi sells for $450 million."
+    },
+    {
+      "year": "2021",
+      "event": "M+ opens; NFT art boom (Beeple sells for $69 million)."
+    },
+    {
+      "year": "2022",
+      "event": "Hong Kong Palace Museum opens."
+    },
+    {
+      "year": "2024",
+      "event": "Christie's moves its Asia headquarters to The Henderson in Central."
+    }
+  ],
+  "now": [
+    {
+      "headline": "Market slowdown",
+      "detail": "Auction sales fell from their 2022 peak, though top works still sell."
+    },
+    {
+      "headline": "Hong Kong's art week",
+      "detail": "March's Art Basel week, with Art Central and gallery openings, is the city's art highlight."
+    },
+    {
+      "headline": "Immersive art",
+      "detail": "Immersive exhibitions and digital art attract big crowds."
+    },
+    {
+      "headline": "Asian collectors",
+      "detail": "Younger Asian collectors drive demand for contemporary artists."
+    }
+  ],
+  "local": [
+    {
+      "headline": "West Kowloon Cultural District",
+      "detail": "M+, the Palace Museum, Xiqu Centre and harbourfront parks make it a great day out."
+    },
+    {
+      "headline": "Gallery districts",
+      "detail": "H Queen's and Pedder Building in Central, plus Wong Chuk Hang's industrial galleries."
+    },
+    {
+      "headline": "Art Basel week",
+      "detail": "Every March the city fills with collectors, parties and pop-up shows."
+    },
+    {
+      "headline": "Local artists",
+      "detail": "Hong Kong artists like Samson Young, Shirley Tse and Angela Su have represented the city at the Venice Biennale."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Is contemporary art a scam?",
+      "sides": "Some say prices are absurd; others value ideas over technique."
+    },
+    {
+      "question": "Is art an investment?",
+      "sides": "A few works soar; most don't. Buy what you love."
+    },
+    {
+      "question": "Should museums be free?",
+      "sides": "Accessibility vs funding."
+    },
+    {
+      "question": "Are immersive shows real art?",
+      "sides": "Fun and accessible vs Instagram backdrops."
+    }
+  ],
+  "starters": [
+    "Have you been to M+?",
+    "Are you going to Art Basel this year?",
+    "Is there an artist you really love?",
+    "Have you been to any good exhibitions lately?",
+    "Do you collect anything?"
+  ],
+  "sayThis": [
+    {
+      "say": "The building at M+ is a work of art itself.",
+      "why": "Widely agreed."
+    },
+    {
+      "say": "What drew you to this piece?",
+      "why": "A great question at galleries."
+    },
+    {
+      "say": "Kusama's infinity rooms are worth the queue.",
+      "why": "A popular view."
+    },
+    {
+      "say": "I like seeing it in person; photos don't do it justice.",
+      "why": "True for most art."
+    }
+  ],
+  "avoid": [
+    "Saying 'my kid could do that'.",
+    "Touching artworks.",
+    "Asking an artist how much they earn."
+  ],
+  "quiz": [
+    {
+      "q": "When does Art Basel Hong Kong usually take place?",
+      "options": [
+        "January",
+        "March",
+        "July",
+        "November"
+      ],
+      "answer": 1,
+      "explain": "Every March."
+    },
+    {
+      "q": "Which museum opened in West Kowloon in 2021?",
+      "options": [
+        "M+",
+        "Tate Modern",
+        "Palace Museum",
+        "Tai Kwun"
+      ],
+      "answer": 0,
+      "explain": "M+."
+    },
+    {
+      "q": "Who is famous for polka dots and infinity rooms?",
+      "options": [
+        "Takashi Murakami",
+        "Yayoi Kusama",
+        "Ai Weiwei",
+        "Banksy"
+      ],
+      "answer": 1,
+      "explain": "Japanese artist."
+    },
+    {
+      "q": "Who was 'The King of Kowloon'?",
+      "options": [
+        "Tsang Tsou-choi",
+        "Bruce Lee",
+        "Wong Kar-wai",
+        "Zao Wou-Ki"
+      ],
+      "answer": 0,
+      "explain": "Calligraphy graffiti artist."
+    },
+    {
+      "q": "Which painting sold for $450 million?",
+      "options": [
+        "Mona Lisa",
+        "Salvator Mundi",
+        "The Scream",
+        "Starry Night"
+      ],
+      "answer": 1,
+      "explain": "By Leonardo."
+    },
+    {
+      "q": "What's 'provenance'?",
+      "options": [
+        "An art style",
+        "Ownership history",
+        "A frame",
+        "A museum"
+      ],
+      "answer": 1,
+      "explain": "Key for value."
+    },
+    {
+      "q": "Who painted soup cans?",
+      "options": [
+        "Warhol",
+        "Pollock",
+        "Basquiat",
+        "Hockney"
+      ],
+      "answer": 0,
+      "explain": "Pop Art."
+    },
+    {
+      "q": "Which movement did Picasso help start?",
+      "options": [
+        "Impressionism",
+        "Cubism",
+        "Pop Art",
+        "Surrealism"
+      ],
+      "answer": 1,
+      "explain": "Cubism."
+    },
+    {
+      "q": "What's a retrospective?",
+      "options": [
+        "A new artist show",
+        "A show of an artist's whole career",
+        "An auction",
+        "A fair"
+      ],
+      "answer": 1,
+      "explain": "Career overview."
+    },
+    {
+      "q": "Which Chinese-French painter is an auction star?",
+      "options": [
+        "Zao Wou-Ki",
+        "Qi Baishi",
+        "Xu Bing",
+        "Liu Wei"
+      ],
+      "answer": 0,
+      "explain": "Abstract painter."
+    }
+  ]
+}

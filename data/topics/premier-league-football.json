@@ -1,0 +1,429 @@
+{
+  "slug": "premier-league-football",
+  "refresh": "weekly",
+  "updated": "2026-11-14",
+  "topic": "Premier League football",
+  "category": "Sports",
+  "asOf": "mid-2026",
+  "tagline": "Twenty clubs, 38 games each, and the most-watched league on the planet.",
+  "why": "The Premier League is England's top football division and the most popular sports league in the world, watched in almost every country. In Hong Kong it's the default sports small talk: people stay up for 10pm, midnight and 3am kick-offs and support a club for life, often one they picked as a kid in the 1990s or 2000s. You don't need to know tactics. Knowing which club someone supports, how that club is doing, and a few big names gets you a long way.",
+  "essentials": [
+    {
+      "title": "How the season works",
+      "body": "It runs August to May. Each of the 20 clubs plays every other club twice, home and away: 38 games. A win is 3 points, a draw 1, a loss 0. Most points wins the title. There are no playoffs for the title."
+    },
+    {
+      "title": "Relegation makes the bottom exciting",
+      "body": "The bottom three clubs drop down to the Championship (the second tier) and three clubs come up. Staying up is worth well over £100 million, so the relegation fight is as tense as the title race."
+    },
+    {
+      "title": "Europe is the other prize",
+      "body": "Finishing in the top four or five gets a club into next season's Champions League, Europe's elite club competition, which brings money and prestige. Lower places can mean the Europa League or Conference League."
+    },
+    {
+      "title": "The 'Big Six'",
+      "body": "Manchester United, Liverpool, Arsenal, Chelsea, Manchester City and Tottenham are the richest and most-followed clubs. Newcastle (now Saudi-owned) and Aston Villa have pushed into that group."
+    },
+    {
+      "title": "There are other trophies too",
+      "body": "The FA Cup is the oldest knockout cup in the world (since 1871) and includes amateur sides. The League Cup (Carabao Cup) is the smaller domestic cup. Winning several in one season is a 'double' or 'treble'."
+    },
+    {
+      "title": "Managers and money drive everything",
+      "body": "Clubs live and die by their manager (head coach) and transfer spending. Two transfer windows, summer and January, are when players are bought and sold, and the gossip around them is a sport of its own."
+    },
+    {
+      "title": "It's tribal",
+      "body": "Fans support one club, often inherited, and rivalries are deep: Liverpool vs Manchester United, Arsenal vs Tottenham (the North London derby), City vs United (the Manchester derby). Asking 'who do you support?' is the universal opener."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Relegation",
+      "meaning": "Dropping down a division for finishing in the bottom three."
+    },
+    {
+      "term": "Top four",
+      "meaning": "The places that usually earn a Champions League spot."
+    },
+    {
+      "term": "Derby",
+      "meaning": "A match between local rivals, like the North London or Manchester derby."
+    },
+    {
+      "term": "Clean sheet",
+      "meaning": "When a team concedes no goals in a match."
+    },
+    {
+      "term": "Hat-trick",
+      "meaning": "One player scoring three goals in a game."
+    },
+    {
+      "term": "VAR",
+      "meaning": "Video Assistant Referee. Reviews goals, penalties and red cards on video, and is endlessly argued about."
+    },
+    {
+      "term": "Offside",
+      "meaning": "An attacker can't be behind the last defender when the ball is played to them. The most debated rule in football."
+    },
+    {
+      "term": "xG",
+      "meaning": "Expected goals: a stat for how good a team's chances were, regardless of whether they scored."
+    },
+    {
+      "term": "Parking the bus",
+      "meaning": "Defending with everyone behind the ball to protect a result."
+    },
+    {
+      "term": "Gegenpressing",
+      "meaning": "Winning the ball back immediately after losing it. Made famous by Jürgen Klopp."
+    },
+    {
+      "term": "False nine",
+      "meaning": "A striker who drops deep instead of staying up front."
+    },
+    {
+      "term": "Transfer window",
+      "meaning": "The summer and January periods when clubs can buy and sell players."
+    },
+    {
+      "term": "Sacked",
+      "meaning": "Fired. Managers get sacked a lot, and fans love speculating who's next."
+    },
+    {
+      "term": "Bottled it",
+      "meaning": "Collapsed under pressure, often said about a team that blows a lead in the title race."
+    },
+    {
+      "term": "PSR / FFP",
+      "meaning": "Profit and Sustainability Rules: spending limits that have cost clubs like Everton and Nottingham Forest points."
+    },
+    {
+      "term": "Boxing Day",
+      "meaning": "Matches on 26 December, a cherished English tradition."
+    }
+  ],
+  "names": [
+    {
+      "name": "Manchester City",
+      "what": "Abu Dhabi-owned superclub that won four straight titles from 2021 to 2024 under Pep Guardiola. Also facing a huge case over alleged financial rule breaches."
+    },
+    {
+      "name": "Pep Guardiola",
+      "what": "Man City's manager and arguably the most influential coach of his era. Known for possession football."
+    },
+    {
+      "name": "Liverpool",
+      "what": "Won the 2024-25 title in Arne Slot's first season, after Jürgen Klopp left. Then spent heavily on Florian Wirtz and Alexander Isak."
+    },
+    {
+      "name": "Mohamed Salah",
+      "what": "Liverpool's Egyptian forward and one of the league's all-time great goalscorers."
+    },
+    {
+      "name": "Arsenal",
+      "what": "Mikel Arteta's side, runners-up three seasons in a row from 2022-23 to 2024-25 and desperate for a first title since 2004."
+    },
+    {
+      "name": "Manchester United",
+      "what": "England's most decorated club in the Premier League era, with 13 titles under Sir Alex Ferguson, but struggling since he retired in 2013."
+    },
+    {
+      "name": "Sir Alex Ferguson",
+      "what": "Legendary Man United manager from 1986 to 2013."
+    },
+    {
+      "name": "Erling Haaland",
+      "what": "Man City's Norwegian striker, a goal machine who set the single-season record of 36 goals in 2022-23."
+    },
+    {
+      "name": "Chelsea",
+      "what": "Big spenders since Roman Abramovich's era; won the expanded Club World Cup in 2025."
+    },
+    {
+      "name": "Tottenham Hotspur",
+      "what": "Spurs. Famous for near misses, then won the Europa League in 2025 to end a 17-year trophy drought."
+    },
+    {
+      "name": "Thierry Henry",
+      "what": "Arsenal legend and star of the 2003-04 'Invincibles', who went a whole league season unbeaten."
+    },
+    {
+      "name": "Bukayo Saka",
+      "what": "Arsenal's homegrown winger and England regular."
+    },
+    {
+      "name": "Virgil van Dijk",
+      "what": "Liverpool captain and one of the best defenders of his generation."
+    },
+    {
+      "name": "Cole Palmer",
+      "what": "Chelsea's playmaker and the league's coolest penalty taker."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1992",
+      "event": "The Premier League breaks away from the old Football League, backed by Sky TV money."
+    },
+    {
+      "year": "1999",
+      "event": "Manchester United win the treble: league, FA Cup and Champions League."
+    },
+    {
+      "year": "2004",
+      "event": "Arsenal's Invincibles go the whole season unbeaten."
+    },
+    {
+      "year": "2003",
+      "event": "Roman Abramovich buys Chelsea, starting the era of billionaire owners."
+    },
+    {
+      "year": "2008",
+      "event": "Abu Dhabi buys Manchester City."
+    },
+    {
+      "year": "2012",
+      "event": "Agüero's last-second goal wins City the title: 'AGUEROOOO'."
+    },
+    {
+      "year": "2013",
+      "event": "Sir Alex Ferguson retires; United haven't won the league since."
+    },
+    {
+      "year": "2016",
+      "event": "Leicester City win the title as 5000-1 outsiders, the greatest upset in sport."
+    },
+    {
+      "year": "2020",
+      "event": "Liverpool win their first league title in 30 years under Klopp."
+    },
+    {
+      "year": "2021–24",
+      "event": "Man City win four titles in a row, a first in English football."
+    },
+    {
+      "year": "2023",
+      "event": "City win the treble."
+    },
+    {
+      "year": "2025",
+      "event": "Liverpool champions in Slot's first season; Spurs win the Europa League."
+    }
+  ],
+  "now": [
+    {
+      "headline": "Big-money Liverpool",
+      "detail": "After winning the 2024-25 title they broke the British transfer record for Isak and signed Wirtz, then had a bumpy start to the 2025-26 season."
+    },
+    {
+      "headline": "Arsenal's wait",
+      "detail": "Endless debate about whether Arteta's Arsenal can finally win the league or will keep finishing second."
+    },
+    {
+      "headline": "Man City's 115 charges",
+      "detail": "City face a long-running case over alleged breaches of financial rules. A verdict could mean big penalties, and everyone has an opinion."
+    },
+    {
+      "headline": "Manchester United's rebuild",
+      "detail": "United finished 15th in 2024-25, their worst Premier League finish, and the debate over manager Rúben Amorim and the club's owners never stops."
+    },
+    {
+      "headline": "The 2026 World Cup",
+      "detail": "The first 48-team World Cup was hosted in the US, Canada and Mexico in summer 2026, and players' form and fitness after it shapes the season."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Late nights are part of it",
+      "detail": "Hong Kong is 7 or 8 hours ahead of the UK, so matches are 8pm to 4am. 'Did you stay up for the game?' is a natural opener."
+    },
+    {
+      "headline": "Man United and Liverpool rule",
+      "detail": "The two most-followed clubs in Hong Kong, with Arsenal, Chelsea and City close behind. Many fans picked a team during the 1990s and 2000s TV boom."
+    },
+    {
+      "headline": "Jockey Club betting",
+      "detail": "Football betting through the HKJC is legal and popular. Lots of casual fans follow matches through their bets."
+    },
+    {
+      "headline": "The Messi no-show",
+      "detail": "In February 2024 Inter Miami played in Hong Kong and Lionel Messi didn't come off the bench, causing public outrage. People still bring it up."
+    },
+    {
+      "headline": "Where to watch",
+      "detail": "Sports bars in Wan Chai, Lan Kwai Fong and SoHo show the big games; Now TV holds the local broadcast rights."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Is VAR ruining football?",
+      "sides": "Supporters say it fixes obvious errors. Critics say it kills goal celebrations and offside lines measured in millimetres are absurd."
+    },
+    {
+      "question": "Are City's titles tainted?",
+      "sides": "Rivals say the financial charges put an asterisk on them; City fans say they've done nothing wrong and the quality was undeniable."
+    },
+    {
+      "question": "Guardiola or Ferguson: who's the greatest manager?",
+      "sides": "Ferguson built several great teams over 27 years; Guardiola changed how the game is played."
+    },
+    {
+      "question": "Is the Premier League too rich?",
+      "sides": "It dominates Europe financially, which makes it exciting but means other leagues can't keep their stars."
+    },
+    {
+      "question": "Should Man United fans be patient?",
+      "sides": "Some say a long rebuild needs time; others say a club that size can't keep finishing mid-table."
+    }
+  ],
+  "starters": [
+    "Who do you support, and how did you end up with them?",
+    "Did you stay up for the game last night?",
+    "Who's going to win the league this year?",
+    "What do you make of VAR these days?",
+    "Who's the best player you've ever seen live?",
+    "Do you think Arsenal can finally do it?",
+    "Are you still backing your manager?"
+  ],
+  "sayThis": [
+    {
+      "say": "It's a long season. Ask me again in March.",
+      "why": "Safe when people get excited about early results."
+    },
+    {
+      "say": "Their midfield just wasn't there.",
+      "why": "A classic analysis line that's usually true."
+    },
+    {
+      "say": "Leicester in 2016 is still the greatest story in sport.",
+      "why": "Almost everyone agrees, and it's a nice neutral topic."
+    },
+    {
+      "say": "I'd love to watch a game at Anfield one day.",
+      "why": "Liverpool's stadium atmosphere is famous, and it invites stories."
+    },
+    {
+      "say": "The relegation fight is honestly more fun than the title race this year.",
+      "why": "Shows you watch beyond the big clubs."
+    }
+  ],
+  "avoid": [
+    "Calling it soccer with British or Hong Kong fans. It's football.",
+    "Saying 'it's just a game' to someone whose team just lost.",
+    "Pretending to support a club. Fans can tell. Say you're still picking.",
+    "Mixing up Manchester United and Manchester City."
+  ],
+  "quiz": [
+    {
+      "q": "How many clubs are in the Premier League?",
+      "options": [
+        "18",
+        "20",
+        "22",
+        "24"
+      ],
+      "answer": 1,
+      "explain": "20 clubs, each playing 38 games."
+    },
+    {
+      "q": "How many teams are relegated each season?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explain": "The bottom three drop to the Championship."
+    },
+    {
+      "q": "Who won the 2024-25 Premier League?",
+      "options": [
+        "Arsenal",
+        "Manchester City",
+        "Liverpool",
+        "Chelsea"
+      ],
+      "answer": 2,
+      "explain": "Liverpool, in Arne Slot's first season."
+    },
+    {
+      "q": "Which team won the league as 5000-1 outsiders in 2016?",
+      "options": [
+        "Leicester City",
+        "West Ham",
+        "Everton",
+        "Newcastle"
+      ],
+      "answer": 0,
+      "explain": "The greatest upset in modern sport."
+    },
+    {
+      "q": "Who were 'The Invincibles'?",
+      "options": [
+        "Man United 1999",
+        "Chelsea 2005",
+        "Arsenal 2003-04",
+        "Man City 2018"
+      ],
+      "answer": 2,
+      "explain": "Arsenal went the whole league season unbeaten."
+    },
+    {
+      "q": "What is a 'clean sheet'?",
+      "options": [
+        "No yellow cards",
+        "Conceding no goals",
+        "Winning every game",
+        "A new kit"
+      ],
+      "answer": 1,
+      "explain": "Keepers and defenders love them."
+    },
+    {
+      "q": "Which manager led Man City to four straight titles?",
+      "options": [
+        "Jürgen Klopp",
+        "Pep Guardiola",
+        "Mikel Arteta",
+        "José Mourinho"
+      ],
+      "answer": 1,
+      "explain": "From 2021 to 2024."
+    },
+    {
+      "q": "What does VAR stand for?",
+      "options": [
+        "Video Assistant Referee",
+        "Virtual Action Replay",
+        "Verified Advantage Rule",
+        "Video Analysis Review"
+      ],
+      "answer": 0,
+      "explain": "It reviews goals, penalties and red cards."
+    },
+    {
+      "q": "Which club did Sir Alex Ferguson manage?",
+      "options": [
+        "Liverpool",
+        "Manchester United",
+        "Arsenal",
+        "Aberdeen only"
+      ],
+      "answer": 1,
+      "explain": "1986 to 2013, winning 13 league titles."
+    },
+    {
+      "q": "What's the North London derby?",
+      "options": [
+        "Chelsea vs Fulham",
+        "Arsenal vs Tottenham",
+        "West Ham vs Millwall",
+        "Arsenal vs Chelsea"
+      ],
+      "answer": 1,
+      "explain": "One of the fiercest rivalries in England."
+    }
+  ]
+}

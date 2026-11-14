@@ -1,0 +1,375 @@
+{
+  "slug": "hong-kong-restaurant-scene",
+  "refresh": "monthly",
+  "updated": "2026-11-14",
+  "topic": "Hong Kong restaurant scene",
+  "category": "Food & drink",
+  "asOf": "mid-2026",
+  "tagline": "Michelin stars, cha chaan tengs, dim sum and a scene that's reinventing itself.",
+  "why": "Eating out is Hong Kong's favourite pastime, and where you ate last weekend is a guaranteed conversation. The city has everything from Michelin three-star Cantonese to HK$40 cha chaan teng sets, and it's going through big changes as people spend more in Shenzhen and many restaurants close. Knowing the classics, the famous names and the current trends makes you an easy dinner companion.",
+  "essentials": [
+    {
+      "title": "Cantonese is the backbone",
+      "body": "Dim sum, roast meats (char siu, roast goose), seafood, wonton noodles and soups. Freshness and 'wok hei' are the measures of quality."
+    },
+    {
+      "title": "Cha chaan teng",
+      "body": "Hong Kong-style cafés serving milk tea, pineapple buns, macaroni soup and baked pork chop rice: East-meets-West comfort food."
+    },
+    {
+      "title": "Dai pai dong",
+      "body": "Open-air street food stalls, now few and protected; a nostalgic part of the city."
+    },
+    {
+      "title": "Fine dining and rankings",
+      "body": "The Michelin Guide and Asia's 50 Best Restaurants shape reputations. Hong Kong has several three-star restaurants."
+    },
+    {
+      "title": "Neighbourhoods",
+      "body": "Central and SoHo for upscale bars and restaurants, Sheung Wan for trendy spots, Sham Shui Po for cheap eats, Kowloon City for Thai, Wan Chai for everything."
+    },
+    {
+      "title": "Tough times",
+      "body": "Since 2023 many restaurants have closed as locals spend weekends in Shenzhen and tourists spend less. Value and novelty matter more than ever."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Wok hei",
+      "meaning": "'Breath of the wok': the smoky flavour from high-heat stir-frying."
+    },
+    {
+      "term": "Yum cha",
+      "meaning": "Going for dim sum and tea."
+    },
+    {
+      "term": "Har gow / siu mai",
+      "meaning": "Shrimp dumplings / pork and shrimp dumplings, the dim sum benchmarks."
+    },
+    {
+      "term": "Char siu",
+      "meaning": "Cantonese barbecued pork."
+    },
+    {
+      "term": "Siu mei",
+      "meaning": "Roast meats: char siu, roast goose, crispy pork."
+    },
+    {
+      "term": "Cha chaan teng",
+      "meaning": "Hong Kong-style café."
+    },
+    {
+      "term": "Dai pai dong",
+      "meaning": "Licensed open-air food stall."
+    },
+    {
+      "term": "Set lunch",
+      "meaning": "The office workers' fixed-price lunch."
+    },
+    {
+      "term": "Private kitchen",
+      "meaning": "An unlicensed or semi-private dining spot, often in a flat."
+    },
+    {
+      "term": "Omakase",
+      "meaning": "Chef's choice menu, now applied to many cuisines."
+    },
+    {
+      "term": "Service charge",
+      "meaning": "Usually 10% added to the bill; tipping beyond that is optional."
+    },
+    {
+      "term": "OpenRice",
+      "meaning": "Hong Kong's main restaurant review and booking app."
+    },
+    {
+      "term": "Michelin Bib Gourmand",
+      "meaning": "Michelin's list of good-value restaurants."
+    },
+    {
+      "term": "Hotpot (da bin lou)",
+      "meaning": "Cooking food at the table in a simmering broth; a winter favourite."
+    },
+    {
+      "term": "Siu yeh",
+      "meaning": "Late-night snack."
+    }
+  ],
+  "names": [
+    {
+      "name": "Lung King Heen",
+      "what": "Four Seasons' Cantonese restaurant, the first Chinese restaurant to win three Michelin stars."
+    },
+    {
+      "name": "The Chairman",
+      "what": "Cantonese restaurant once named Asia's best restaurant."
+    },
+    {
+      "name": "Caprice",
+      "what": "Three-star French restaurant at the Four Seasons."
+    },
+    {
+      "name": "Tim Ho Wan",
+      "what": "The 'world's cheapest Michelin-starred restaurant', famous for baked char siu buns."
+    },
+    {
+      "name": "Mak's Noodle",
+      "what": "Classic wonton noodle shop in Central."
+    },
+    {
+      "name": "Kam's Roast Goose",
+      "what": "Michelin-starred roast goose in Wan Chai."
+    },
+    {
+      "name": "Australia Dairy Company",
+      "what": "Jordan cha chaan teng famous for scrambled eggs and brusque service."
+    },
+    {
+      "name": "Yardbird",
+      "what": "Yakitori restaurant that put Sheung Wan dining on the map."
+    },
+    {
+      "name": "Mott 32",
+      "what": "Glamorous modern Chinese restaurant known for Peking duck."
+    },
+    {
+      "name": "Maxim's",
+      "what": "The giant catering group behind many restaurants, bakeries and Starbucks HK."
+    },
+    {
+      "name": "Vicky Lau",
+      "what": "Chef of Tate Dining Room, named Asia's Best Female Chef."
+    },
+    {
+      "name": "Lan Kwai Fong",
+      "what": "The famous nightlife district in Central."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1950s",
+      "event": "Cha chaan tengs spread as affordable Western-style cafés."
+    },
+    {
+      "year": "1960s–70s",
+      "event": "Dai pai dong era; licences later frozen."
+    },
+    {
+      "year": "2008",
+      "event": "The first Michelin Guide Hong Kong & Macau."
+    },
+    {
+      "year": "2009",
+      "event": "Tim Ho Wan gets a Michelin star."
+    },
+    {
+      "year": "2013",
+      "event": "Asia's 50 Best Restaurants launches."
+    },
+    {
+      "year": "2020–22",
+      "event": "Covid dining restrictions hit hard."
+    },
+    {
+      "year": "2023–25",
+      "event": "Wave of closures as northbound spending grows."
+    }
+  ],
+  "now": [
+    {
+      "headline": "Restaurant closures",
+      "detail": "Many well-known restaurants closed in 2024-25. Owners blame rent, staffing and northbound spending."
+    },
+    {
+      "headline": "Value is king",
+      "detail": "Set menus, deals and casual concepts are winning."
+    },
+    {
+      "headline": "Shenzhen is competition",
+      "detail": "Hong Kongers go north for cheaper, trendy food."
+    },
+    {
+      "headline": "Bar scene shines",
+      "detail": "Hong Kong bars like Bar Leone keep ranking at the top of Asia's and the World's 50 Best Bars."
+    }
+  ],
+  "local": [
+    {
+      "headline": "OpenRice ratings",
+      "detail": "People check OpenRice before going anywhere."
+    },
+    {
+      "headline": "Queuing is a sport",
+      "detail": "Long queues mean good food; tickets and app queues are common."
+    },
+    {
+      "headline": "Sharing is normal",
+      "detail": "Chinese meals are shared; order for the table."
+    },
+    {
+      "headline": "Late-night eating",
+      "detail": "Siu yeh after drinks: congee, noodles or dai pai dong."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Is Hong Kong still Asia's food capital?",
+      "sides": "World-class restaurants vs closures and Shenzhen's rise."
+    },
+    {
+      "question": "Michelin: reliable or overrated?",
+      "sides": "A good guide vs missing local gems."
+    },
+    {
+      "question": "Best dim sum: fancy or old-school?",
+      "sides": "Refined hotel dim sum vs classic trolley teahouses."
+    },
+    {
+      "question": "Are prices too high?",
+      "sides": "Rent drives prices; diners want value."
+    }
+  ],
+  "starters": [
+    "Where's the best place you've eaten recently?",
+    "What's your go-to dim sum spot?",
+    "Have you been up to Shenzhen to eat?",
+    "Cha chaan teng order?",
+    "Any hidden gems you'd recommend?",
+    "Best roast goose in town?"
+  ],
+  "sayThis": [
+    {
+      "say": "You can judge a dim sum place by its har gow.",
+      "why": "Classic local wisdom."
+    },
+    {
+      "say": "Wok hei makes all the difference.",
+      "why": "Shows you understand Cantonese cooking."
+    },
+    {
+      "say": "So many good places closed this year.",
+      "why": "A shared lament."
+    },
+    {
+      "say": "Milk tea and a pineapple bun with butter. Bo lo yau.",
+      "why": "Local comfort food."
+    }
+  ],
+  "avoid": [
+    "Taking the last piece without offering it.",
+    "Pointing chopsticks at people.",
+    "Insulting someone's favourite cha chaan teng."
+  ],
+  "quiz": [
+    {
+      "q": "What does 'wok hei' mean?",
+      "options": [
+        "Spicy sauce",
+        "Breath of the wok",
+        "Sweet and sour",
+        "Steamed"
+      ],
+      "answer": 1,
+      "explain": "Smoky high-heat flavour."
+    },
+    {
+      "q": "Which was the first Chinese restaurant with three Michelin stars?",
+      "options": [
+        "The Chairman",
+        "Lung King Heen",
+        "Mott 32",
+        "Tim Ho Wan"
+      ],
+      "answer": 1,
+      "explain": "At the Four Seasons."
+    },
+    {
+      "q": "Tim Ho Wan is famous for…",
+      "options": [
+        "Roast goose",
+        "Baked char siu buns",
+        "Wonton noodles",
+        "Hotpot"
+      ],
+      "answer": 1,
+      "explain": "The cheapest Michelin star."
+    },
+    {
+      "q": "What's a cha chaan teng?",
+      "options": [
+        "A tea house",
+        "Hong Kong-style café",
+        "A bakery",
+        "A night market"
+      ],
+      "answer": 1,
+      "explain": "Milk tea and pineapple buns."
+    },
+    {
+      "q": "Which app do Hong Kongers use for restaurant reviews?",
+      "options": [
+        "Yelp",
+        "OpenRice",
+        "TripAdvisor",
+        "Dianping"
+      ],
+      "answer": 1,
+      "explain": "OpenRice."
+    },
+    {
+      "q": "What is siu mei?",
+      "options": [
+        "Dim sum",
+        "Roast meats",
+        "Dessert",
+        "Noodles"
+      ],
+      "answer": 1,
+      "explain": "Char siu, goose, crispy pork."
+    },
+    {
+      "q": "Har gow is…",
+      "options": [
+        "Pork dumpling",
+        "Shrimp dumpling",
+        "Egg tart",
+        "Rice roll"
+      ],
+      "answer": 1,
+      "explain": "The dim sum benchmark."
+    },
+    {
+      "q": "What's 'siu yeh'?",
+      "options": [
+        "Breakfast",
+        "Late-night snack",
+        "Lunch set",
+        "Dessert"
+      ],
+      "answer": 1,
+      "explain": "After drinks."
+    },
+    {
+      "q": "Lan Kwai Fong is known for…",
+      "options": [
+        "Markets",
+        "Nightlife",
+        "Temples",
+        "Hiking"
+      ],
+      "answer": 1,
+      "explain": "Bars and clubs in Central."
+    },
+    {
+      "q": "What's 'bo lo yau'?",
+      "options": [
+        "Pineapple bun with butter",
+        "Egg tart",
+        "French toast",
+        "Milk tea"
+      ],
+      "answer": 0,
+      "explain": "A cha chaan teng classic."
+    }
+  ]
+}

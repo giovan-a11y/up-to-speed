@@ -1,0 +1,399 @@
+{
+  "slug": "films-and-tv-series",
+  "refresh": "weekly",
+  "updated": "2026-11-14",
+  "topic": "Films and TV series",
+  "category": "Culture",
+  "asOf": "mid-2026",
+  "tagline": "What everyone's streaming, the films worth seeing, and Hong Kong cinema's comeback.",
+  "why": "'Watched anything good lately?' is the safest question in small talk. Streaming has turned TV into a global water-cooler, with Korean, Japanese and Hong Kong shows competing with Hollywood. Knowing the big franchises, the prestige series, the directors people admire and what's trending lets you recommend, react and swap opinions easily.",
+  "essentials": [
+    {
+      "title": "Streaming rules",
+      "body": "Netflix is the giant, followed by Disney+, Apple TV, Amazon Prime Video and HBO Max. Viu and local platforms carry Asian shows."
+    },
+    {
+      "title": "Prestige TV",
+      "body": "Big-budget, critically loved series like Succession, The Last of Us, Severance and The White Lotus drive conversation."
+    },
+    {
+      "title": "Franchises dominate cinemas",
+      "body": "Marvel, Star Wars, Fast & Furious and animated hits fill multiplexes, though superhero fatigue is a real debate."
+    },
+    {
+      "title": "Asian content goes global",
+      "body": "Squid Game, Parasite and anime like Demon Slayer showed non-English stories can be global hits."
+    },
+    {
+      "title": "Awards season",
+      "body": "The Oscars (March), Golden Globes and Emmys spark debate. Hong Kong has its own Hong Kong Film Awards in April."
+    },
+    {
+      "title": "Directors as brands",
+      "body": "Christopher Nolan, Denis Villeneuve, Bong Joon-ho, Greta Gerwig and Wong Kar-wai have devoted fans."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Binge-watch",
+      "meaning": "Watching many episodes in one go."
+    },
+    {
+      "term": "Spoiler",
+      "meaning": "Revealing a plot twist. Always warn first."
+    },
+    {
+      "term": "Franchise",
+      "meaning": "A series of connected films, like Marvel."
+    },
+    {
+      "term": "Reboot / remake",
+      "meaning": "A fresh version of an old story."
+    },
+    {
+      "term": "Limited series",
+      "meaning": "A one-season story."
+    },
+    {
+      "term": "Box office",
+      "meaning": "Ticket sales; how cinema success is measured."
+    },
+    {
+      "term": "Director's cut",
+      "meaning": "The version the director wanted."
+    },
+    {
+      "term": "Cinematography",
+      "meaning": "How a film is shot: lighting and camera."
+    },
+    {
+      "term": "Plot twist",
+      "meaning": "An unexpected turn in the story."
+    },
+    {
+      "term": "Cameo",
+      "meaning": "A brief appearance by a famous person."
+    },
+    {
+      "term": "Post-credits scene",
+      "meaning": "A bonus scene after the credits, common in Marvel films."
+    },
+    {
+      "term": "K-drama",
+      "meaning": "Korean TV drama series."
+    },
+    {
+      "term": "Anime",
+      "meaning": "Japanese animation."
+    },
+    {
+      "term": "Superhero fatigue",
+      "meaning": "Audiences tiring of endless superhero films."
+    },
+    {
+      "term": "Rotten Tomatoes",
+      "meaning": "Review aggregator; 'fresh' or 'rotten' scores."
+    }
+  ],
+  "names": [
+    {
+      "name": "Christopher Nolan",
+      "what": "Director of Inception, The Dark Knight and Oppenheimer (Best Picture 2024)."
+    },
+    {
+      "name": "Bong Joon-ho",
+      "what": "Director of Parasite, the first non-English Best Picture winner (2020)."
+    },
+    {
+      "name": "Wong Kar-wai",
+      "what": "Hong Kong auteur of In the Mood for Love and Chungking Express; made the TV series Blossoms Shanghai."
+    },
+    {
+      "name": "Squid Game",
+      "what": "Korean Netflix series, the platform's most-watched show; its final season came out in 2025."
+    },
+    {
+      "name": "Stranger Things",
+      "what": "Netflix's 1980s sci-fi hit, whose final season arrived in late 2025."
+    },
+    {
+      "name": "The White Lotus",
+      "what": "HBO satire set in luxury resorts; season 3 was set in Thailand."
+    },
+    {
+      "name": "Ne Zha 2",
+      "what": "Chinese animated film that became the highest-grossing animated film ever in 2025."
+    },
+    {
+      "name": "Stephen Chow",
+      "what": "Hong Kong comedy legend behind Kung Fu Hustle and Shaolin Soccer."
+    },
+    {
+      "name": "Tony Leung Chiu-wai",
+      "what": "Hong Kong's most acclaimed actor, star of Wong Kar-wai films and Marvel's Shang-Chi."
+    },
+    {
+      "name": "Andy Lau",
+      "what": "Hong Kong superstar actor and singer."
+    },
+    {
+      "name": "Studio Ghibli / Hayao Miyazaki",
+      "what": "Japanese animation studio behind Spirited Away; Oscar for The Boy and the Heron (2024)."
+    },
+    {
+      "name": "Marvel Studios",
+      "what": "The superhero franchise, trying to regain its 2019 Avengers: Endgame peak."
+    },
+    {
+      "name": "A24",
+      "what": "Indie studio behind Everything Everywhere All at Once, starring Michelle Yeoh."
+    },
+    {
+      "name": "Michelle Yeoh",
+      "what": "Malaysian star who started in Hong Kong action films and won the Best Actress Oscar in 2023."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1970s",
+      "event": "Bruce Lee makes Hong Kong action cinema global."
+    },
+    {
+      "year": "1980s–90s",
+      "event": "Golden age of Hong Kong cinema: John Woo, Jackie Chan, Stephen Chow."
+    },
+    {
+      "year": "1997",
+      "event": "Titanic becomes the biggest film ever."
+    },
+    {
+      "year": "2002",
+      "event": "Infernal Affairs, later remade as The Departed."
+    },
+    {
+      "year": "2007",
+      "event": "Netflix starts streaming."
+    },
+    {
+      "year": "2019",
+      "event": "Avengers: Endgame; Parasite wins the Palme d'Or."
+    },
+    {
+      "year": "2021",
+      "event": "Squid Game becomes a global phenomenon."
+    },
+    {
+      "year": "2023",
+      "event": "Barbenheimer; Everything Everywhere All at Once sweeps the Oscars."
+    },
+    {
+      "year": "2024",
+      "event": "Twilight of the Warriors: Walled In and The Last Dance break Hong Kong box office records for local films."
+    },
+    {
+      "year": "2025",
+      "event": "Ne Zha 2 earns over US$2 billion; Netflix's KPop Demon Hunters becomes its most-watched film."
+    }
+  ],
+  "now": [
+    {
+      "headline": "KPop Demon Hunters",
+      "detail": "Netflix's animated musical became a global phenomenon in 2025, with its song 'Golden' topping charts."
+    },
+    {
+      "headline": "Cinemas struggle",
+      "detail": "Audiences come out for events, but many films go straight to streaming."
+    },
+    {
+      "headline": "Chinese box office",
+      "detail": "Local Chinese films now dominate China's box office over Hollywood."
+    },
+    {
+      "headline": "Anime everywhere",
+      "detail": "Demon Slayer: Infinity Castle broke records worldwide in 2025."
+    },
+    {
+      "headline": "Streaming price rises",
+      "detail": "Subscriptions keep rising; people rotate services."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Hong Kong cinema revival",
+      "detail": "Walled In, The Last Dance and The Prosecutor drew big local crowds, sparking talk of a comeback."
+    },
+    {
+      "headline": "TVB nostalgia",
+      "detail": "TVB dramas defined Hong Kong TV for decades; people love reminiscing about classic series."
+    },
+    {
+      "headline": "Where to watch",
+      "detail": "Cinemas like K11 Art House and Broadway Cinematheque; Netflix and Disney+ at home."
+    },
+    {
+      "headline": "Hong Kong Film Awards",
+      "detail": "Each April, honouring local films."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Is the Marvel era over?",
+      "sides": "Recent films disappointed many, but big team-ups still draw crowds."
+    },
+    {
+      "question": "Cinema or streaming?",
+      "sides": "The big screen experience vs convenience and price."
+    },
+    {
+      "question": "Is Hong Kong cinema really back?",
+      "sides": "Strong hits vs a smaller industry than its golden age."
+    },
+    {
+      "question": "Dubbed or subtitled?",
+      "sides": "Subtitles preserve performances; dubbing is easier."
+    }
+  ],
+  "starters": [
+    "Watched anything good lately?",
+    "What are you bingeing right now?",
+    "Did you see The Last Dance?",
+    "Favourite Hong Kong film of all time?",
+    "Cinema or streaming at home?",
+    "Did you get into KPop Demon Hunters?"
+  ],
+  "sayThis": [
+    {
+      "say": "In the Mood for Love is still the most beautiful film ever.",
+      "why": "Widely admired."
+    },
+    {
+      "say": "Infernal Affairs is better than The Departed.",
+      "why": "A popular local take."
+    },
+    {
+      "say": "I need something to binge. Any recommendations?",
+      "why": "Invites people to share."
+    },
+    {
+      "say": "No spoilers, I'm only on episode three.",
+      "why": "Polite and relatable."
+    }
+  ],
+  "avoid": [
+    "Spoiling anything.",
+    "Mocking someone's taste in shows.",
+    "Assuming everyone has seen the latest hit."
+  ],
+  "quiz": [
+    {
+      "q": "Which was the first non-English Best Picture winner?",
+      "options": [
+        "Roma",
+        "Parasite",
+        "Crouching Tiger",
+        "Drive My Car"
+      ],
+      "answer": 1,
+      "explain": "2020."
+    },
+    {
+      "q": "Who directed In the Mood for Love?",
+      "options": [
+        "John Woo",
+        "Wong Kar-wai",
+        "Ang Lee",
+        "Stephen Chow"
+      ],
+      "answer": 1,
+      "explain": "2000."
+    },
+    {
+      "q": "Which animated film earned over US$2 billion in 2025?",
+      "options": [
+        "Inside Out 2",
+        "Ne Zha 2",
+        "Frozen 2",
+        "Moana 2"
+      ],
+      "answer": 1,
+      "explain": "A Chinese film."
+    },
+    {
+      "q": "Infernal Affairs was remade as…",
+      "options": [
+        "Heat",
+        "The Departed",
+        "Inception",
+        "Collateral"
+      ],
+      "answer": 1,
+      "explain": "By Martin Scorsese."
+    },
+    {
+      "q": "Who won Best Actress for Everything Everywhere All at Once?",
+      "options": [
+        "Michelle Yeoh",
+        "Gong Li",
+        "Maggie Cheung",
+        "Zhang Ziyi"
+      ],
+      "answer": 0,
+      "explain": "2023."
+    },
+    {
+      "q": "Squid Game is from…",
+      "options": [
+        "Japan",
+        "Korea",
+        "China",
+        "Thailand"
+      ],
+      "answer": 1,
+      "explain": "Korea."
+    },
+    {
+      "q": "Who made Kung Fu Hustle?",
+      "options": [
+        "Jackie Chan",
+        "Stephen Chow",
+        "Donnie Yen",
+        "Andy Lau"
+      ],
+      "answer": 1,
+      "explain": "Stephen Chow."
+    },
+    {
+      "q": "Which studio made Spirited Away?",
+      "options": [
+        "Toei",
+        "Studio Ghibli",
+        "Pixar",
+        "Kyoto Animation"
+      ],
+      "answer": 1,
+      "explain": "Miyazaki's studio."
+    },
+    {
+      "q": "What's a 'limited series'?",
+      "options": [
+        "A show with one season",
+        "A cheap show",
+        "A show with ads",
+        "A show on one channel"
+      ],
+      "answer": 0,
+      "explain": "One complete story."
+    },
+    {
+      "q": "Which Hong Kong film set in the Walled City was a 2024 hit?",
+      "options": [
+        "Twilight of the Warriors: Walled In",
+        "Kowloon Nights",
+        "City of Darkness",
+        "Chungking Express"
+      ],
+      "answer": 0,
+      "explain": "A record-breaking action film."
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "slug": "fitness-and-running",
+  "refresh": "monthly",
+  "updated": "2026-11-14",
+  "topic": "Fitness and running",
+  "category": "Lifestyle",
+  "asOf": "mid-2026",
+  "tagline": "Marathons, Hyrox, zone 2 and the endless search for the perfect routine.",
+  "why": "Fitness is one of the most common things people talk about: their runs, gym routines, races and gadgets. Hong Kong has a big running and gym culture, from the Standard Chartered Marathon to Hyrox races and trail ultras. Knowing the training vocabulary, the big events and current trends lets you swap tips and encouragement with anyone.",
+  "essentials": [
+    {
+      "title": "Cardio vs strength",
+      "body": "Cardio (running, cycling, swimming) builds endurance; strength training (weights) builds muscle and bone. Most experts recommend both."
+    },
+    {
+      "title": "Race distances",
+      "body": "5K, 10K, half marathon (21.1 km) and marathon (42.2 km). Anything longer is an ultramarathon."
+    },
+    {
+      "title": "The World Marathon Majors",
+      "body": "Tokyo, Boston, London, Berlin, Chicago, New York and Sydney (added in 2025). Finishing all of them earns a 'six-star' (now seven-star) medal."
+    },
+    {
+      "title": "Zone 2 and heart rate",
+      "body": "Training at an easy, conversational pace (zone 2) builds aerobic fitness. Many runners do most runs slow and a few fast."
+    },
+    {
+      "title": "Hybrid fitness",
+      "body": "Hyrox, a race mixing running with functional workouts, exploded worldwide, including in Hong Kong."
+    },
+    {
+      "title": "Recovery matters",
+      "body": "Sleep, rest days, protein and mobility work are as important as training."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "PB / PR",
+      "meaning": "Personal best / personal record."
+    },
+    {
+      "term": "Pace",
+      "meaning": "Minutes per kilometre."
+    },
+    {
+      "term": "Zone 2",
+      "meaning": "Easy aerobic heart rate zone."
+    },
+    {
+      "term": "Intervals",
+      "meaning": "Alternating fast and slow efforts."
+    },
+    {
+      "term": "Tempo run",
+      "meaning": "A comfortably hard sustained run."
+    },
+    {
+      "term": "Long run",
+      "meaning": "The weekly longest run in marathon training."
+    },
+    {
+      "term": "Taper",
+      "meaning": "Reducing training before a race."
+    },
+    {
+      "term": "Hitting the wall",
+      "meaning": "Running out of energy late in a marathon."
+    },
+    {
+      "term": "Negative split",
+      "meaning": "Running the second half faster than the first."
+    },
+    {
+      "term": "Hyrox",
+      "meaning": "Fitness race: eight 1 km runs each followed by a workout station."
+    },
+    {
+      "term": "Reps / sets",
+      "meaning": "Repetitions of an exercise / groups of reps."
+    },
+    {
+      "term": "Progressive overload",
+      "meaning": "Gradually increasing weight or volume to keep improving."
+    },
+    {
+      "term": "VO2 max",
+      "meaning": "A measure of aerobic fitness."
+    },
+    {
+      "term": "Strava",
+      "meaning": "The social app for runners and cyclists. 'If it's not on Strava, it didn't happen.'"
+    },
+    {
+      "term": "DOMS",
+      "meaning": "Delayed onset muscle soreness, the ache a day or two after a workout."
+    },
+    {
+      "term": "Run club",
+      "meaning": "Group runs, now a big social scene."
+    }
+  ],
+  "names": [
+    {
+      "name": "Eliud Kipchoge",
+      "what": "Kenyan marathon legend who ran the first sub-two-hour marathon (unofficial) in 2019."
+    },
+    {
+      "name": "Kelvin Kiptum",
+      "what": "Set the marathon world record of 2:00:35 in 2023; died in a car crash in 2024."
+    },
+    {
+      "name": "Usain Bolt",
+      "what": "The fastest man ever; 100m world record 9.58 seconds."
+    },
+    {
+      "name": "Strava",
+      "what": "Running and cycling social app."
+    },
+    {
+      "name": "Garmin",
+      "what": "Sports watch maker loved by runners."
+    },
+    {
+      "name": "Hyrox",
+      "what": "The fitness racing series that went global."
+    },
+    {
+      "name": "Nike / Adidas / Asics",
+      "what": "Major running shoe brands; super shoes with carbon plates changed racing."
+    },
+    {
+      "name": "Peter Attia / Andrew Huberman",
+      "what": "Popular podcasters on longevity and fitness."
+    },
+    {
+      "name": "Oxfam Trailwalker",
+      "what": "Hong Kong's famous 100 km team charity hike."
+    },
+    {
+      "name": "Standard Chartered Hong Kong Marathon",
+      "what": "The city's biggest running event, every January or February."
+    },
+    {
+      "name": "Ozempic / GLP-1 drugs",
+      "what": "Weight-loss drugs changing how people think about fitness and diet."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "490 BC",
+      "event": "Legend of Pheidippides running from Marathon to Athens."
+    },
+    {
+      "year": "1896",
+      "event": "First modern Olympic marathon."
+    },
+    {
+      "year": "1970s",
+      "event": "Running boom in the US."
+    },
+    {
+      "year": "1997",
+      "event": "First Hong Kong Marathon."
+    },
+    {
+      "year": "2017",
+      "event": "Nike's carbon-plated super shoes transform racing."
+    },
+    {
+      "year": "2019",
+      "event": "Kipchoge's sub-two-hour run."
+    },
+    {
+      "year": "2023",
+      "event": "Kiptum sets the marathon world record."
+    },
+    {
+      "year": "2024–25",
+      "event": "Hyrox and run clubs boom globally."
+    }
+  ],
+  "now": [
+    {
+      "headline": "Run clubs are the new bars",
+      "detail": "Social run clubs became a popular way to meet people."
+    },
+    {
+      "headline": "Hyrox boom",
+      "detail": "Hyrox races sell out worldwide, including in Hong Kong."
+    },
+    {
+      "headline": "Strength for longevity",
+      "detail": "Lifting weights for health, especially as you age, is a big trend."
+    },
+    {
+      "headline": "Wearables everywhere",
+      "detail": "Garmin, Apple Watch, Whoop and Oura track everything."
+    },
+    {
+      "headline": "GLP-1 drugs",
+      "detail": "Weight-loss drugs are changing diet and gym culture."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Hong Kong Marathon",
+      "detail": "Tens of thousands run each year; the route crosses bridges and tunnels."
+    },
+    {
+      "headline": "Harbourfront runs",
+      "detail": "Popular routes: Central to Kennedy Town, Tsim Sha Tsui promenade, the flat Bowen Road fitness trail, and Tai Tam reservoirs."
+    },
+    {
+      "headline": "Heat and humidity",
+      "detail": "Summer running is brutal; serious runners go early morning or at night."
+    },
+    {
+      "headline": "Gym chains",
+      "detail": "Pure, Anytime Fitness and boutique studios are everywhere."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Running: good or bad for knees?",
+      "sides": "Studies suggest recreational running is fine for most knees; injuries come from doing too much too soon."
+    },
+    {
+      "question": "Cardio or weights for fat loss?",
+      "sides": "Both help; diet matters most."
+    },
+    {
+      "question": "Are super shoes fair?",
+      "sides": "Tech boosts speed vs pure athletic competition."
+    },
+    {
+      "question": "Do you need a watch?",
+      "sides": "Data helps vs running by feel."
+    }
+  ],
+  "starters": [
+    "Do you run or go to the gym?",
+    "Have you ever done the Hong Kong Marathon?",
+    "Any races coming up?",
+    "What's your favourite running route?",
+    "Have you tried Hyrox?",
+    "Morning or evening workouts?"
+  ],
+  "sayThis": [
+    {
+      "say": "Most of my runs are slow, zone 2 stuff.",
+      "why": "Sounds informed."
+    },
+    {
+      "say": "Summer here is brutal for running.",
+      "why": "Universally agreed."
+    },
+    {
+      "say": "Strength training is underrated.",
+      "why": "Current wisdom."
+    },
+    {
+      "say": "Did you get a PB?",
+      "why": "Every runner loves this question."
+    }
+  ],
+  "avoid": [
+    "Commenting on people's bodies.",
+    "Lecturing about diets.",
+    "Comparing paces competitively unless invited."
+  ],
+  "quiz": [
+    {
+      "q": "How long is a marathon?",
+      "options": [
+        "21.1 km",
+        "42.2 km",
+        "50 km",
+        "100 km"
+      ],
+      "answer": 1,
+      "explain": "42.195 km."
+    },
+    {
+      "q": "What does PB stand for?",
+      "options": [
+        "Personal best",
+        "Pace bonus",
+        "Pro bar",
+        "Protein boost"
+      ],
+      "answer": 0,
+      "explain": "Personal best."
+    },
+    {
+      "q": "What is zone 2?",
+      "options": [
+        "Sprint pace",
+        "Easy aerobic heart rate",
+        "Max effort",
+        "Rest"
+      ],
+      "answer": 1,
+      "explain": "Conversational pace."
+    },
+    {
+      "q": "What is Hyrox?",
+      "options": [
+        "A protein shake",
+        "A running and workout race",
+        "A watch",
+        "A gym chain"
+      ],
+      "answer": 1,
+      "explain": "Eight 1 km runs plus stations."
+    },
+    {
+      "q": "Who ran the first sub-two-hour marathon?",
+      "options": [
+        "Kiptum",
+        "Kipchoge",
+        "Bekele",
+        "Farah"
+      ],
+      "answer": 1,
+      "explain": "Unofficial, in 2019."
+    },
+    {
+      "q": "What's a taper?",
+      "options": [
+        "Reducing training before a race",
+        "A stretch",
+        "A shoe",
+        "A gel"
+      ],
+      "answer": 0,
+      "explain": "Rest before racing."
+    },
+    {
+      "q": "Which app is the social network for runners?",
+      "options": [
+        "Strava",
+        "MyFitnessPal",
+        "Nike Run",
+        "Peloton"
+      ],
+      "answer": 0,
+      "explain": "Strava."
+    },
+    {
+      "q": "What's 'hitting the wall'?",
+      "options": [
+        "A crash",
+        "Running out of energy",
+        "A finish line",
+        "A sprint"
+      ],
+      "answer": 1,
+      "explain": "Usually around 30 km."
+    },
+    {
+      "q": "What's Hong Kong's famous 100 km charity hike?",
+      "options": [
+        "Oxfam Trailwalker",
+        "MacLehose Run",
+        "Lantau 50",
+        "Peak Race"
+      ],
+      "answer": 0,
+      "explain": "Team event."
+    },
+    {
+      "q": "What's DOMS?",
+      "options": [
+        "A diet",
+        "Delayed muscle soreness",
+        "A race",
+        "A heart rate zone"
+      ],
+      "answer": 1,
+      "explain": "The ache after workouts."
+    }
+  ]
+}

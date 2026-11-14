@@ -1,0 +1,407 @@
+{
+  "slug": "nba-basketball",
+  "refresh": "weekly",
+  "updated": "2026-11-14",
+  "topic": "NBA basketball",
+  "category": "Sports",
+  "asOf": "mid-2026",
+  "tagline": "Thirty teams, 82 games, and the most talked-about athletes on social media.",
+  "why": "The NBA is the world's top basketball league and probably the most global American sport, hugely popular across Asia. Its stars are celebrities on and off the court, and fans argue endlessly about who's the greatest, which trades make sense, and whether the league is better than it used to be. You can follow it casually through highlights, which come out during Hong Kong mornings.",
+  "essentials": [
+    {
+      "title": "League structure",
+      "body": "30 teams split into the Eastern and Western Conferences. Each plays 82 regular-season games from October to April."
+    },
+    {
+      "title": "The playoffs are what matters",
+      "body": "Sixteen teams make the playoffs (with a 'play-in' for seeds 7 to 10). Every round is best-of-seven, ending in the NBA Finals in June. A ring (championship) defines legacies."
+    },
+    {
+      "title": "Stars move a lot",
+      "body": "Unlike football clubs, NBA stars often switch teams through trades and free agency. Superteams and blockbuster trades are constant talking points."
+    },
+    {
+      "title": "Salary cap and the draft",
+      "body": "A salary cap and luxury tax limit spending. The worst teams get the best chance at top picks in the annual draft, so bad teams sometimes 'tank' on purpose."
+    },
+    {
+      "title": "Stats rule the conversation",
+      "body": "Points, rebounds and assists per game, plus shooting percentages. A 'triple-double' is 10 or more in three categories in one game."
+    },
+    {
+      "title": "The GOAT debate never ends",
+      "body": "Michael Jordan vs LeBron James is the eternal argument. Knowing both sides is half of NBA small talk."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "GOAT",
+      "meaning": "Greatest of all time. Usually Jordan or LeBron."
+    },
+    {
+      "term": "Ring",
+      "meaning": "A championship. 'How many rings?' is the ultimate measure of a career."
+    },
+    {
+      "term": "Triple-double",
+      "meaning": "Double figures in three stats (say points, rebounds and assists) in one game."
+    },
+    {
+      "term": "MVP",
+      "meaning": "Most Valuable Player, the top individual award each season."
+    },
+    {
+      "term": "Superteam",
+      "meaning": "A team built by stacking several stars together."
+    },
+    {
+      "term": "Tanking",
+      "meaning": "Losing on purpose to get a better draft pick."
+    },
+    {
+      "term": "Load management",
+      "meaning": "Resting healthy stars to avoid injury. Fans hate it when they've bought tickets."
+    },
+    {
+      "term": "Clutch",
+      "meaning": "Performing under pressure at the end of close games."
+    },
+    {
+      "term": "And-one",
+      "meaning": "Scoring while being fouled, earning an extra free throw."
+    },
+    {
+      "term": "Pick and roll",
+      "meaning": "The most common play: a teammate sets a screen, then rolls to the basket."
+    },
+    {
+      "term": "Three-and-D",
+      "meaning": "A role player who shoots threes and plays good defence."
+    },
+    {
+      "term": "Buzzer-beater",
+      "meaning": "A shot that goes in as time expires."
+    },
+    {
+      "term": "Play-in",
+      "meaning": "A mini-tournament for seeds 7 to 10 to decide the last playoff spots."
+    },
+    {
+      "term": "Max contract",
+      "meaning": "The biggest salary a player can be paid under the rules."
+    },
+    {
+      "term": "Small ball",
+      "meaning": "Playing without a traditional big centre to be faster and shoot more threes."
+    }
+  ],
+  "names": [
+    {
+      "name": "Michael Jordan",
+      "what": "Won six titles with the Chicago Bulls in the 1990s, never losing a Finals. The default GOAT."
+    },
+    {
+      "name": "LeBron James",
+      "what": "Four titles with three teams, the NBA's all-time leading scorer, and still playing past 40."
+    },
+    {
+      "name": "Stephen Curry",
+      "what": "Golden State Warriors star who revolutionised the game with long-range three-point shooting. Four titles."
+    },
+    {
+      "name": "Kobe Bryant",
+      "what": "Lakers legend with five titles, idolised across Asia. Died in a helicopter crash in 2020."
+    },
+    {
+      "name": "Nikola Jokić",
+      "what": "Denver's Serbian centre, a three-time MVP and the best passing big man ever."
+    },
+    {
+      "name": "Shai Gilgeous-Alexander",
+      "what": "Oklahoma City Thunder guard, 2025 MVP and Finals MVP as the Thunder won the title."
+    },
+    {
+      "name": "Victor Wembanyama",
+      "what": "San Antonio's 7-foot-4 French phenomenon who can do everything. 'Wemby'."
+    },
+    {
+      "name": "Luka Dončić",
+      "what": "Slovenian star traded from Dallas to the Lakers in February 2025, one of the most shocking trades ever."
+    },
+    {
+      "name": "Giannis Antetokounmpo",
+      "what": "Milwaukee's 'Greek Freak', a two-time MVP who won the 2021 title."
+    },
+    {
+      "name": "Kevin Durant",
+      "what": "One of the best scorers ever, with two titles at Golden State."
+    },
+    {
+      "name": "Yao Ming",
+      "what": "Chinese centre for the Houston Rockets and Hall of Famer, who made the NBA huge in China."
+    },
+    {
+      "name": "Los Angeles Lakers",
+      "what": "Glamour franchise with 17 titles: Magic, Kareem, Shaq, Kobe, LeBron."
+    },
+    {
+      "name": "Boston Celtics",
+      "what": "The Lakers' great rival, with a record 18 titles after winning in 2024."
+    },
+    {
+      "name": "Cooper Flagg",
+      "what": "The 2025 number one draft pick, now in Dallas."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1946",
+      "event": "The league that becomes the NBA is founded."
+    },
+    {
+      "year": "1960s",
+      "event": "Bill Russell's Celtics win 11 titles in 13 years."
+    },
+    {
+      "year": "1980s",
+      "event": "Magic Johnson's Lakers vs Larry Bird's Celtics saves the league."
+    },
+    {
+      "year": "1991–98",
+      "event": "Jordan's Bulls win six titles. The Last Dance documentary covers this era."
+    },
+    {
+      "year": "1992",
+      "event": "The 'Dream Team' at the Barcelona Olympics makes basketball global."
+    },
+    {
+      "year": "2002",
+      "event": "Yao Ming is drafted first overall by Houston."
+    },
+    {
+      "year": "2010",
+      "event": "LeBron's 'The Decision' to join Miami creates the superteam era."
+    },
+    {
+      "year": "2015–18",
+      "event": "Curry's Warriors win three titles in four years with a three-point revolution."
+    },
+    {
+      "year": "2016",
+      "event": "LeBron's Cavaliers come back from 3-1 down to beat the 73-win Warriors."
+    },
+    {
+      "year": "2020",
+      "event": "Kobe Bryant dies; the season finishes in the Florida 'bubble'."
+    },
+    {
+      "year": "2023",
+      "event": "LeBron passes Kareem as the all-time leading scorer."
+    },
+    {
+      "year": "2025",
+      "event": "Luka is traded to the Lakers; Oklahoma City win the title."
+    }
+  ],
+  "now": [
+    {
+      "headline": "LeBron's last chapter",
+      "detail": "Every season might be LeBron's last. People debate when he'll retire and whether he'll play with his son Bronny."
+    },
+    {
+      "headline": "Wemby's rise",
+      "detail": "Wembanyama is seen as the league's next face. Every highlight goes viral."
+    },
+    {
+      "headline": "The young Thunder",
+      "detail": "OKC won the 2025 title with a young core and loads of future draft picks. Can they build a dynasty?"
+    },
+    {
+      "headline": "Parity",
+      "detail": "There's been a different champion every year for a while, which some love and some say means no great teams."
+    },
+    {
+      "headline": "Europe's influence",
+      "detail": "Many of the best players are now international: Jokić, Giannis, Luka, Wemby, SGA (Canadian)."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Morning viewing",
+      "detail": "US games are on Hong Kong mornings, so fans watch at breakfast or on their commute. Highlights clips are how most people keep up."
+    },
+    {
+      "headline": "The NBA in Macau",
+      "detail": "The NBA returned to China with preseason games in Macau in October 2025, its first games there since a political row in 2019."
+    },
+    {
+      "headline": "Kobe's legacy",
+      "detail": "Kobe was hugely loved in Hong Kong and mainland China, and his jerseys and Nike shoes still sell."
+    },
+    {
+      "headline": "Street courts",
+      "detail": "Courts in Southorn Playground (Wan Chai) and Kowloon parks are busy every night."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Jordan or LeBron?",
+      "sides": "Jordan: six titles, never lost a Finals, unmatched aura. LeBron: longevity, all-round game, all-time scoring record."
+    },
+    {
+      "question": "Is the regular season too long?",
+      "sides": "Load management and a lack of intensity make many say 82 games is too many."
+    },
+    {
+      "question": "Is the league too reliant on three-pointers?",
+      "sides": "Some love the skill; others say every team plays the same way now."
+    },
+    {
+      "question": "Are superteams bad for the league?",
+      "sides": "They create drama but make other teams feel hopeless."
+    }
+  ],
+  "starters": [
+    "Do you have a team, or do you follow players?",
+    "Jordan or LeBron?",
+    "Who's the best player in the league right now?",
+    "What do you think of Wemby?",
+    "Do you watch games live or just highlights?",
+    "Do you play? Where do you play in Hong Kong?"
+  ],
+  "sayThis": [
+    {
+      "say": "Jokić passes like a point guard in a centre's body.",
+      "why": "A widely shared view that sounds informed."
+    },
+    {
+      "say": "Playoff basketball is a different sport.",
+      "why": "Fans agree the intensity jumps."
+    },
+    {
+      "say": "The Luka trade still doesn't make sense to me.",
+      "why": "Almost everyone agrees, so it's a safe opener."
+    },
+    {
+      "say": "Curry changed how kids play the game.",
+      "why": "Credits the three-point revolution."
+    }
+  ],
+  "avoid": [
+    "Arguing GOAT with total certainty. It's a forever debate.",
+    "Calling the regular season meaningless to a fan of a team fighting for a spot.",
+    "Mixing up the Lakers and the Clippers, both in LA."
+  ],
+  "quiz": [
+    {
+      "q": "How many games are in an NBA regular season?",
+      "options": [
+        "62",
+        "72",
+        "82",
+        "92"
+      ],
+      "answer": 2,
+      "explain": "Each team plays 82."
+    },
+    {
+      "q": "What is a triple-double?",
+      "options": [
+        "Three dunks",
+        "Double figures in three stat categories",
+        "Scoring 30 points",
+        "Three wins in a row"
+      ],
+      "answer": 1,
+      "explain": "Usually points, rebounds and assists."
+    },
+    {
+      "q": "How many titles did Michael Jordan win?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 2,
+      "explain": "Six with the Bulls, never losing a Finals."
+    },
+    {
+      "q": "Who is the NBA's all-time leading scorer?",
+      "options": [
+        "Michael Jordan",
+        "Kareem Abdul-Jabbar",
+        "LeBron James",
+        "Kobe Bryant"
+      ],
+      "answer": 2,
+      "explain": "LeBron passed Kareem in 2023."
+    },
+    {
+      "q": "Which team won the 2025 title?",
+      "options": [
+        "Boston Celtics",
+        "Oklahoma City Thunder",
+        "Denver Nuggets",
+        "Los Angeles Lakers"
+      ],
+      "answer": 1,
+      "explain": "Led by MVP Shai Gilgeous-Alexander."
+    },
+    {
+      "q": "Which player was traded to the Lakers in a 2025 shock deal?",
+      "options": [
+        "Luka Dončić",
+        "Kevin Durant",
+        "Giannis",
+        "Jokić"
+      ],
+      "answer": 0,
+      "explain": "Dallas traded him for Anthony Davis."
+    },
+    {
+      "q": "What is 'tanking'?",
+      "options": [
+        "Playing very defensively",
+        "Losing on purpose for a better draft pick",
+        "A type of dunk",
+        "Resting stars"
+      ],
+      "answer": 1,
+      "explain": "Bad teams chase top picks."
+    },
+    {
+      "q": "Which Chinese player became a Hall of Famer with Houston?",
+      "options": [
+        "Yi Jianlian",
+        "Yao Ming",
+        "Wang Zhizhi",
+        "Zhou Qi"
+      ],
+      "answer": 1,
+      "explain": "Yao made the NBA huge in China."
+    },
+    {
+      "q": "Who's known as 'Wemby'?",
+      "options": [
+        "Victor Wembanyama",
+        "Russell Westbrook",
+        "Kemba Walker",
+        "Andrew Wiggins"
+      ],
+      "answer": 0,
+      "explain": "San Antonio's 7-foot-4 French star."
+    },
+    {
+      "q": "How many games is each playoff series?",
+      "options": [
+        "Best of three",
+        "Best of five",
+        "Best of seven",
+        "One game"
+      ],
+      "answer": 2,
+      "explain": "First to four wins."
+    }
+  ]
+}

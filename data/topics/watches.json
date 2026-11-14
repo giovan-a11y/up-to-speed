@@ -1,0 +1,453 @@
+{
+  "slug": "watches",
+  "refresh": "monthly",
+  "updated": "2026-11-14",
+  "topic": "Watches",
+  "category": "Luxury & style",
+  "asOf": "mid-2026",
+  "tagline": "Little machines that tell time worse than your phone, and why people pay a fortune for them.",
+  "why": "Fine watches are one of the few accessories people wear as a quiet signal: of taste, success, or nerdy appreciation for tiny engineering. A mechanical watch is a few hundred hand-finished parts with no battery. Watch talk is really about history, craftsmanship, design icons and the hype around models you can't simply walk in and buy. Hong Kong is one of the world's biggest watch markets, so it comes up constantly.",
+  "essentials": [
+    {
+      "title": "Mechanical vs quartz",
+      "body": "Quartz watches run on a battery and are more accurate. Mechanical watches run on a wound spring, and enthusiasts love them precisely because they're old-school craftsmanship."
+    },
+    {
+      "title": "The movement is the engine",
+      "body": "The movement (or calibre) is the mechanism inside. 'In-house' means the brand makes its own, which carries prestige. Many good brands use reliable movements from suppliers like ETA or Sellita."
+    },
+    {
+      "title": "Complications are extra functions",
+      "body": "Anything beyond hours, minutes and seconds: date, chronograph (stopwatch), GMT (second time zone), moon phase, perpetual calendar, tourbillon, minute repeater. More complications, more cost."
+    },
+    {
+      "title": "The holy trinity",
+      "body": "Patek Philippe, Audemars Piguet and Vacheron Constantin are seen as the top tier of traditional Swiss watchmaking."
+    },
+    {
+      "title": "Steel sports watches are the hype",
+      "body": "Rolex Submariner, GMT-Master II and Daytona, AP Royal Oak, Patek Nautilus. Demand outstrips supply, so there are waitlists, purchase histories and resale prices above retail."
+    },
+    {
+      "title": "Watch categories",
+      "body": "Dive watches, pilot watches, chronographs, dress watches, GMTs and 'integrated bracelet' sports watches. Knowing the category helps you compliment someone's choice."
+    },
+    {
+      "title": "Price tiers",
+      "body": "Roughly: Seiko, Tissot, Hamilton under HK$10,000; Tudor, Longines, Oris and Omega in the tens of thousands; Rolex upward; the trinity and independents into the hundreds of thousands and beyond."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Automatic",
+      "meaning": "A mechanical watch that winds itself from the motion of your wrist."
+    },
+    {
+      "term": "Hand-wound",
+      "meaning": "A mechanical watch you wind by turning the crown."
+    },
+    {
+      "term": "Chronograph",
+      "meaning": "A built-in stopwatch, usually with pushers beside the crown."
+    },
+    {
+      "term": "GMT",
+      "meaning": "A watch that shows a second time zone, loved by travellers and pilots."
+    },
+    {
+      "term": "Tourbillon",
+      "meaning": "A rotating cage that counters gravity's effect on accuracy. Mostly a show of skill, and very expensive."
+    },
+    {
+      "term": "Bezel",
+      "meaning": "The ring around the glass. On dive watches it rotates to time a dive."
+    },
+    {
+      "term": "Dial",
+      "meaning": "The watch face. Special dial colours can double a watch's value."
+    },
+    {
+      "term": "Crown",
+      "meaning": "The knob used to set and wind. Also Rolex's logo."
+    },
+    {
+      "term": "Lume",
+      "meaning": "The glow-in-the-dark paint on hands and markers."
+    },
+    {
+      "term": "Sapphire crystal",
+      "meaning": "The scratch-resistant glass on good watches."
+    },
+    {
+      "term": "In-house",
+      "meaning": "The brand designs and makes its own movement."
+    },
+    {
+      "term": "Grail watch",
+      "meaning": "Someone's dream watch, the one they'd buy if money were no object."
+    },
+    {
+      "term": "Full set",
+      "meaning": "A watch sold with its original box and papers, which raises resale value."
+    },
+    {
+      "term": "Grey market",
+      "meaning": "Unofficial dealers selling new or nearly new watches, often above retail for hyped models."
+    },
+    {
+      "term": "AD",
+      "meaning": "Authorised dealer: an official retailer."
+    },
+    {
+      "term": "Tool watch",
+      "meaning": "A watch built for a job, like diving or flying, rather than dress."
+    },
+    {
+      "term": "Wrist shot",
+      "meaning": "A photo of a watch on someone's wrist. The currency of watch Instagram."
+    },
+    {
+      "term": "Pepsi / Batman / Hulk",
+      "meaning": "Nicknames for Rolex colourways: red-blue GMT, black-blue GMT, green Submariner."
+    }
+  ],
+  "names": [
+    {
+      "name": "Rolex",
+      "what": "The most recognised luxury watch brand. Submariner, Daytona, GMT-Master II and Datejust are its icons."
+    },
+    {
+      "name": "Omega",
+      "what": "The Speedmaster was the first watch on the Moon (1969). Also James Bond's watch since 1995 and the Olympics timekeeper."
+    },
+    {
+      "name": "Patek Philippe",
+      "what": "Often called the finest watchmaker. Famous for 'You never actually own a Patek Philippe. You merely look after it for the next generation.'"
+    },
+    {
+      "name": "Audemars Piguet",
+      "what": "Makers of the Royal Oak (1972), the octagonal steel watch that created the luxury sports watch."
+    },
+    {
+      "name": "Vacheron Constantin",
+      "what": "Founded 1755, the oldest continuously operating watchmaker. The Overseas is its sports model."
+    },
+    {
+      "name": "Gérald Genta",
+      "what": "Designer of the Royal Oak and Patek Nautilus. The most influential watch designer ever."
+    },
+    {
+      "name": "Cartier",
+      "what": "Jeweller whose Tank and Santos are timeless dress watches, hugely popular again with younger buyers."
+    },
+    {
+      "name": "Grand Seiko",
+      "what": "Japan's high-end brand, admired for incredible finishing and the smooth 'Spring Drive' sweep."
+    },
+    {
+      "name": "Seiko",
+      "what": "Japanese giant that launched the first quartz watch; its affordable divers are enthusiast favourites."
+    },
+    {
+      "name": "Swatch Group",
+      "what": "Owns Omega, Longines, Tissot, Blancpain, Breguet and Swatch. Its 2022 Omega MoonSwatch caused queues around the block."
+    },
+    {
+      "name": "Tudor",
+      "what": "Rolex's sister brand. Similar tool-watch DNA at a friendlier price; the Black Bay is its hit."
+    },
+    {
+      "name": "Richard Mille",
+      "what": "Ultra-light, ultra-expensive watches worn by athletes like Rafael Nadal and many Hong Kong tycoons."
+    },
+    {
+      "name": "F.P. Journe",
+      "what": "Independent Paris-based watchmaker, a connoisseur favourite whose prices have soared."
+    },
+    {
+      "name": "A. Lange & Söhne",
+      "what": "German maker some rank alongside the holy trinity for finishing."
+    },
+    {
+      "name": "Hodinkee",
+      "what": "The best-known watch website and media brand."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1755",
+      "event": "Vacheron Constantin is founded in Geneva."
+    },
+    {
+      "year": "1904",
+      "event": "Cartier makes the Santos for aviator Alberto Santos-Dumont, an early men's wristwatch."
+    },
+    {
+      "year": "1926",
+      "event": "Rolex launches the Oyster, the first truly waterproof wristwatch."
+    },
+    {
+      "year": "1953",
+      "event": "The Rolex Submariner and Blancpain Fifty Fathoms define the dive watch."
+    },
+    {
+      "year": "1969",
+      "event": "Omega Speedmaster goes to the Moon; Seiko sells the first quartz wristwatch."
+    },
+    {
+      "year": "1970s–80s",
+      "event": "The quartz crisis: cheap accurate watches nearly kill Swiss watchmaking."
+    },
+    {
+      "year": "1972",
+      "event": "AP Royal Oak launches, a steel watch priced like gold."
+    },
+    {
+      "year": "1976",
+      "event": "Patek Philippe Nautilus launches."
+    },
+    {
+      "year": "1983",
+      "event": "Swatch launches and helps rescue the Swiss industry."
+    },
+    {
+      "year": "2015",
+      "event": "Apple Watch arrives; mechanical watches survive by becoming luxury objects."
+    },
+    {
+      "year": "2017",
+      "event": "Paul Newman's own Rolex Daytona sells for $17.8 million."
+    },
+    {
+      "year": "2021",
+      "event": "Patek discontinues the steel Nautilus 5711, and its resale price spikes."
+    },
+    {
+      "year": "2022",
+      "event": "Resale prices peak, then cool. The MoonSwatch craze peaks too."
+    },
+    {
+      "year": "2023",
+      "event": "Rolex buys Bucherer, the world's biggest watch retailer."
+    }
+  ],
+  "now": [
+    {
+      "headline": "The resale bubble cooled",
+      "detail": "Hyped models that traded far above retail in 2022 have come back down, so 'investment watch' talk is quieter."
+    },
+    {
+      "headline": "Tariffs and price rises",
+      "detail": "US tariffs on Swiss imports in 2025, plus record gold prices, pushed retail prices up across the industry."
+    },
+    {
+      "headline": "Smaller is cool again",
+      "detail": "Many buyers now prefer vintage-style 36 to 39mm cases over the huge watches of the 2000s."
+    },
+    {
+      "headline": "Independents are hot",
+      "detail": "Small makers like F.P. Journe, Akrivia and Kari Voutilainen are the new connoisseur favourites."
+    },
+    {
+      "headline": "Certified pre-owned",
+      "detail": "Rolex runs its own pre-owned programme through dealers, which is changing the second-hand market."
+    },
+    {
+      "headline": "Swiss exports to China slumped",
+      "detail": "Weak demand in mainland China and Hong Kong has hurt Swiss brands since 2024."
+    }
+  ],
+  "local": [
+    {
+      "headline": "A watch capital",
+      "detail": "Hong Kong has been one of the world's top markets for Swiss watches for decades. Canton Road, Causeway Bay and Central are lined with boutiques."
+    },
+    {
+      "headline": "Grey dealers everywhere",
+      "detail": "Shops in Tsim Sha Tsui and Mong Kok sell hyped models above retail, and many collectors buy and sell through them."
+    },
+    {
+      "headline": "Mainland tourists drove the boom",
+      "detail": "Watch shops relied on mainland shoppers; their changing spending habits are a big reason some stores closed."
+    },
+    {
+      "headline": "Watch meetups",
+      "detail": "Collector groups meet for 'RedBar'-style evenings and swap wrist shots. It's a sociable hobby."
+    },
+    {
+      "headline": "Auctions",
+      "detail": "Christie's, Sotheby's and Phillips hold major watch auctions in Hong Kong."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Is a Rolex worth it?",
+      "sides": "Fans cite build quality and resale value; critics say you pay mostly for the crown logo."
+    },
+    {
+      "question": "Mechanical vs quartz",
+      "sides": "Quartz is more accurate and cheaper; mechanical fans say a watch should have a soul."
+    },
+    {
+      "question": "Smartwatch or real watch?",
+      "sides": "Plenty of people wear an Apple Watch for workouts and a mechanical for everything else."
+    },
+    {
+      "question": "Are watches an investment?",
+      "sides": "A few models have soared, but most watches lose value. Buy what you love."
+    },
+    {
+      "question": "Is the purchase-history game fair?",
+      "sides": "Buyers complain they must buy other items to get hyped models; brands say they reward loyal customers."
+    }
+  ],
+  "starters": [
+    "That's a great watch. What is it?",
+    "What was your first 'nice' watch?",
+    "Do you have a grail watch?",
+    "Are you a mechanical person or a smartwatch person?",
+    "Which do you think is the best design ever made?",
+    "Did you get that from an AD or the grey market?",
+    "Do you rotate watches or wear one every day?"
+  ],
+  "sayThis": [
+    {
+      "say": "Is that an automatic?",
+      "why": "Shows you know the difference without sounding like an expert."
+    },
+    {
+      "say": "Gérald Genta designed half the icons, right? Royal Oak and Nautilus.",
+      "why": "Enthusiasts love when someone knows the designer."
+    },
+    {
+      "say": "I like that it's a sensible size.",
+      "why": "Smaller cases are in fashion, so it's a safe compliment."
+    },
+    {
+      "say": "The finishing on Grand Seiko dials is crazy for the price.",
+      "why": "A respected opinion among enthusiasts."
+    },
+    {
+      "say": "Is that the Pepsi?",
+      "why": "Nicknames show you're in on the culture."
+    }
+  ],
+  "avoid": [
+    "Asking how much someone's watch cost.",
+    "Jokingly asking if it's fake.",
+    "Picking up or touching someone's watch without asking.",
+    "Calling every watch an investment."
+  ],
+  "quiz": [
+    {
+      "q": "What powers a quartz watch?",
+      "options": [
+        "A wound spring",
+        "A battery",
+        "Wrist movement",
+        "Solar only"
+      ],
+      "answer": 1,
+      "explain": "Quartz watches use a battery and a vibrating crystal."
+    },
+    {
+      "q": "What is a 'complication'?",
+      "options": [
+        "A repair problem",
+        "Any function beyond telling the time",
+        "A rare dial colour",
+        "A grey-market sale"
+      ],
+      "answer": 1,
+      "explain": "Date, chronograph, GMT and moon phase are complications."
+    },
+    {
+      "q": "Which watch went to the Moon in 1969?",
+      "options": [
+        "Rolex Submariner",
+        "Omega Speedmaster",
+        "Seiko Astron",
+        "Cartier Santos"
+      ],
+      "answer": 1,
+      "explain": "Hence its nickname, the Moonwatch."
+    },
+    {
+      "q": "Who designed the AP Royal Oak?",
+      "options": [
+        "Gérald Genta",
+        "Hans Wilsdorf",
+        "Jony Ive",
+        "Richard Mille"
+      ],
+      "answer": 0,
+      "explain": "Genta also designed the Patek Nautilus."
+    },
+    {
+      "q": "Which three make up the 'holy trinity'?",
+      "options": [
+        "Rolex, Omega, Tudor",
+        "Patek Philippe, Audemars Piguet, Vacheron Constantin",
+        "Cartier, Rolex, Patek",
+        "Seiko, Grand Seiko, Citizen"
+      ],
+      "answer": 1,
+      "explain": "The traditional top tier of Swiss watchmaking."
+    },
+    {
+      "q": "What does a GMT watch show?",
+      "options": [
+        "Moon phase",
+        "A second time zone",
+        "Heart rate",
+        "Tide times"
+      ],
+      "answer": 1,
+      "explain": "Popular with travellers and pilots."
+    },
+    {
+      "q": "What was the 'quartz crisis'?",
+      "options": [
+        "A shortage of quartz",
+        "Cheap quartz watches nearly wiping out Swiss makers",
+        "Fake Rolex boom",
+        "Apple Watch launch"
+      ],
+      "answer": 1,
+      "explain": "In the 1970s and 80s, mostly from Japanese quartz watches."
+    },
+    {
+      "q": "What does 'full set' mean?",
+      "options": [
+        "Every model from one brand",
+        "Watch with original box and papers",
+        "A watch with every complication",
+        "A matching strap set"
+      ],
+      "answer": 1,
+      "explain": "It raises resale value."
+    },
+    {
+      "q": "What's a Rolex 'Pepsi'?",
+      "options": [
+        "A red and blue GMT-Master II",
+        "A green Submariner",
+        "A gold Daytona",
+        "A Datejust with soda dial"
+      ],
+      "answer": 0,
+      "explain": "Named for the red and blue bezel."
+    },
+    {
+      "q": "What is Tudor's relationship to Rolex?",
+      "options": [
+        "Rival",
+        "Sister brand",
+        "Parent company",
+        "Supplier"
+      ],
+      "answer": 1,
+      "explain": "Founded by Rolex's founder Hans Wilsdorf."
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "slug": "ai",
+  "refresh": "weekly",
+  "updated": "2026-11-14",
+  "topic": "AI",
+  "category": "Tech",
+  "asOf": "mid-2026",
+  "tagline": "Chatbots, chips and the trillion-dollar race everyone has an opinion on.",
+  "why": "Artificial intelligence went from a research topic to everyday life when ChatGPT launched in late 2022. Now it's in workplaces, phones and the stock market, and everyone talks about which tools they use, whether AI will take jobs, and how fast it's improving. You don't need to be technical; knowing the key players, terms and debates is enough to hold your own.",
+  "essentials": [
+    {
+      "title": "Large language models",
+      "body": "Chatbots like ChatGPT, Claude, Gemini and DeepSeek run on large language models (LLMs): systems trained on huge amounts of text to predict and generate language."
+    },
+    {
+      "title": "Generative AI",
+      "body": "AI that creates text, images, video, music and code. Tools like Midjourney and Sora make images and video from prompts."
+    },
+    {
+      "title": "Chips and compute",
+      "body": "Training AI needs enormous computing power, mostly Nvidia chips in giant data centres. That's why Nvidia became the world's most valuable company."
+    },
+    {
+      "title": "The big labs",
+      "body": "OpenAI, Google DeepMind, Anthropic, Meta and xAI in the US; DeepSeek, Alibaba (Qwen), Moonshot and others in China. They race to release better models."
+    },
+    {
+      "title": "Agents are the next step",
+      "body": "AI 'agents' can take actions on their own, like browsing, coding or booking, not just answering questions."
+    },
+    {
+      "title": "Risks and rules",
+      "body": "Concerns include misinformation, deepfakes, job loss, bias and long-term safety. The EU passed an AI Act; other countries are writing rules."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "LLM",
+      "meaning": "Large language model: the engine behind chatbots."
+    },
+    {
+      "term": "Prompt",
+      "meaning": "The instruction you give an AI."
+    },
+    {
+      "term": "Hallucination",
+      "meaning": "When AI confidently makes something up."
+    },
+    {
+      "term": "GPU",
+      "meaning": "Graphics processing unit: the chips that train and run AI."
+    },
+    {
+      "term": "Training vs inference",
+      "meaning": "Building the model vs using it to answer."
+    },
+    {
+      "term": "Agent",
+      "meaning": "AI that can take multi-step actions on its own."
+    },
+    {
+      "term": "Open-source / open-weight",
+      "meaning": "Models whose weights anyone can download, like Meta's Llama or DeepSeek."
+    },
+    {
+      "term": "AGI",
+      "meaning": "Artificial general intelligence: AI as capable as humans across most tasks. The industry's stated goal."
+    },
+    {
+      "term": "Multimodal",
+      "meaning": "AI that handles text, images, audio and video."
+    },
+    {
+      "term": "Deepfake",
+      "meaning": "Realistic fake video or audio of real people."
+    },
+    {
+      "term": "Reasoning model",
+      "meaning": "A model that 'thinks' step by step before answering."
+    },
+    {
+      "term": "Vibe coding",
+      "meaning": "Building software by describing it to an AI rather than writing code yourself."
+    },
+    {
+      "term": "Token",
+      "meaning": "A chunk of text; AI usage is often priced per token."
+    },
+    {
+      "term": "Fine-tuning",
+      "meaning": "Training a model further for a specific task."
+    },
+    {
+      "term": "Copilot",
+      "meaning": "An AI assistant built into software, like Microsoft 365 Copilot."
+    }
+  ],
+  "names": [
+    {
+      "name": "OpenAI",
+      "what": "Maker of ChatGPT, the most-used AI chatbot. CEO Sam Altman."
+    },
+    {
+      "name": "Sam Altman",
+      "what": "OpenAI's CEO and the face of the AI boom."
+    },
+    {
+      "name": "Google DeepMind",
+      "what": "Google's AI lab behind Gemini; led by Nobel laureate Demis Hassabis."
+    },
+    {
+      "name": "Anthropic",
+      "what": "Maker of Claude, founded by former OpenAI researchers with a focus on safety."
+    },
+    {
+      "name": "Nvidia / Jensen Huang",
+      "what": "The chip maker powering AI, and its leather-jacketed CEO, born in Taiwan."
+    },
+    {
+      "name": "DeepSeek",
+      "what": "Chinese lab whose cheap, powerful R1 model shocked markets in January 2025."
+    },
+    {
+      "name": "Meta",
+      "what": "Facebook's parent, building Llama models and spending heavily on AI talent."
+    },
+    {
+      "name": "xAI / Grok",
+      "what": "Elon Musk's AI company and its chatbot."
+    },
+    {
+      "name": "Microsoft",
+      "what": "OpenAI's biggest backer, putting Copilot everywhere."
+    },
+    {
+      "name": "TSMC",
+      "what": "Taiwan's chipmaker that manufactures most advanced AI chips."
+    },
+    {
+      "name": "Geoffrey Hinton",
+      "what": "'Godfather of AI', Nobel Prize winner who now warns about AI risks."
+    },
+    {
+      "name": "Alibaba Qwen",
+      "what": "Alibaba's popular open-weight models."
+    },
+    {
+      "name": "Midjourney",
+      "what": "Popular AI image generator."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1956",
+      "event": "The term 'artificial intelligence' is coined."
+    },
+    {
+      "year": "1997",
+      "event": "IBM's Deep Blue beats chess champion Garry Kasparov."
+    },
+    {
+      "year": "2012",
+      "event": "Deep learning breakthrough with neural networks on GPUs."
+    },
+    {
+      "year": "2016",
+      "event": "DeepMind's AlphaGo beats Go champion Lee Sedol."
+    },
+    {
+      "year": "2017",
+      "event": "Google researchers publish the Transformer, the basis of today's LLMs."
+    },
+    {
+      "year": "2022",
+      "event": "ChatGPT launches and reaches 100 million users in two months."
+    },
+    {
+      "year": "2023",
+      "event": "GPT-4, Claude and Gemini launch; AI investment explodes."
+    },
+    {
+      "year": "2024",
+      "event": "AI pioneers win Nobel Prizes in physics and chemistry."
+    },
+    {
+      "year": "2025",
+      "event": "DeepSeek shock; agents and reasoning models; Nvidia hits $5 trillion; GPT-5 launches."
+    }
+  ],
+  "now": [
+    {
+      "headline": "AI at work",
+      "detail": "Companies push staff to use AI tools; people swap tips on what actually saves time."
+    },
+    {
+      "headline": "Jobs debate",
+      "detail": "Entry-level white-collar jobs, coding and customer service are seen as most exposed."
+    },
+    {
+      "headline": "Bubble talk",
+      "detail": "Hundreds of billions are being spent on data centres; investors debate whether returns will follow."
+    },
+    {
+      "headline": "US vs China",
+      "detail": "Chip export controls and competing Chinese models make AI a geopolitical race."
+    },
+    {
+      "headline": "Coding agents",
+      "detail": "AI tools that write and fix code have become one of the most-used AI products."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Access in Hong Kong",
+      "detail": "Some US AI services, including ChatGPT, don't officially serve Hong Kong. People use alternatives, workplace tools or Chinese models."
+    },
+    {
+      "headline": "Chinese AI popular",
+      "detail": "DeepSeek, Qwen and Doubao are widely used locally and in the mainland."
+    },
+    {
+      "headline": "Government push",
+      "detail": "Hong Kong is funding AI research and supercomputing at Cyberport as part of its tech hub ambitions."
+    },
+    {
+      "headline": "Deepfake scams",
+      "detail": "In 2024 a Hong Kong company lost about HK$200 million after staff were tricked by a deepfake video call."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Will AI take my job?",
+      "sides": "Optimists say it changes jobs rather than eliminating them; pessimists see big displacement."
+    },
+    {
+      "question": "Is AI a bubble?",
+      "sides": "Real usage and revenue vs dot-com-style overinvestment."
+    },
+    {
+      "question": "Open or closed models?",
+      "sides": "Open models spread innovation; closed models may be safer."
+    },
+    {
+      "question": "Is AGI close?",
+      "sides": "Some leaders say within years; sceptics say decades or never."
+    }
+  ],
+  "starters": [
+    "Do you use AI tools at work?",
+    "Which chatbot do you use most?",
+    "Do you think AI will change your job?",
+    "Have you tried making images or videos with AI?",
+    "What's the most useful thing AI has done for you?"
+  ],
+  "sayThis": [
+    {
+      "say": "It's great for first drafts, but you still have to check it.",
+      "why": "A balanced, common view."
+    },
+    {
+      "say": "DeepSeek really shook things up.",
+      "why": "Shows awareness of the US-China race."
+    },
+    {
+      "say": "Nvidia sells the shovels in a gold rush.",
+      "why": "A popular investing metaphor."
+    },
+    {
+      "say": "The deepfake scam in Hong Kong was wild.",
+      "why": "A local talking point."
+    }
+  ],
+  "avoid": [
+    "Claiming AI will definitely take or never take jobs.",
+    "Sharing confidential work info in public AI tools.",
+    "Dismissing people who are anxious about it."
+  ],
+  "quiz": [
+    {
+      "q": "What does LLM stand for?",
+      "options": [
+        "Large language model",
+        "Linked learning machine",
+        "Logical language method",
+        "Live learning model"
+      ],
+      "answer": 0,
+      "explain": "The engine behind chatbots."
+    },
+    {
+      "q": "When did ChatGPT launch?",
+      "options": [
+        "2019",
+        "2020",
+        "2022",
+        "2024"
+      ],
+      "answer": 2,
+      "explain": "November 2022."
+    },
+    {
+      "q": "What is an AI 'hallucination'?",
+      "options": [
+        "A visual effect",
+        "Confidently made-up information",
+        "A virus",
+        "A dream feature"
+      ],
+      "answer": 1,
+      "explain": "Always verify."
+    },
+    {
+      "q": "Which company makes most AI chips?",
+      "options": [
+        "Intel",
+        "Nvidia",
+        "AMD",
+        "Qualcomm"
+      ],
+      "answer": 1,
+      "explain": "Nvidia."
+    },
+    {
+      "q": "Which Chinese AI model shocked markets in 2025?",
+      "options": [
+        "DeepSeek R1",
+        "Ernie",
+        "Qwen",
+        "Kimi"
+      ],
+      "answer": 0,
+      "explain": "Cheap and powerful."
+    },
+    {
+      "q": "Who is Nvidia's CEO?",
+      "options": [
+        "Sam Altman",
+        "Jensen Huang",
+        "Satya Nadella",
+        "Lisa Su"
+      ],
+      "answer": 1,
+      "explain": "Jensen Huang."
+    },
+    {
+      "q": "What did AlphaGo do in 2016?",
+      "options": [
+        "Wrote a novel",
+        "Beat Go champion Lee Sedol",
+        "Drove a car",
+        "Passed an exam"
+      ],
+      "answer": 1,
+      "explain": "A landmark moment."
+    },
+    {
+      "q": "Which company makes Claude?",
+      "options": [
+        "Google",
+        "Anthropic",
+        "Meta",
+        "OpenAI"
+      ],
+      "answer": 1,
+      "explain": "Anthropic."
+    },
+    {
+      "q": "What's an AI agent?",
+      "options": [
+        "A spy",
+        "AI that takes actions on its own",
+        "A chip",
+        "A chatbot avatar"
+      ],
+      "answer": 1,
+      "explain": "Multi-step tasks."
+    },
+    {
+      "q": "Who's called the 'Godfather of AI'?",
+      "options": [
+        "Elon Musk",
+        "Geoffrey Hinton",
+        "Bill Gates",
+        "Alan Turing"
+      ],
+      "answer": 1,
+      "explain": "Nobel laureate 2024."
+    }
+  ]
+}

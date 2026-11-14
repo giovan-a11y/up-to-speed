@@ -1,0 +1,424 @@
+{
+  "slug": "cars",
+  "refresh": "monthly",
+  "updated": "2026-11-14",
+  "topic": "Cars",
+  "category": "Luxury & style",
+  "asOf": "mid-2026",
+  "tagline": "Horsepower, heritage, and the endless argument about manual gearboxes.",
+  "why": "Cars are the one hobby almost everyone has an opinion on. Car people bond over performance, design, nostalgia for the cars they grew up with, and big debates about where things are going: electric vs petrol, screens vs buttons, automatic vs manual. In Hong Kong cars are also a status statement because owning one is so expensive. You don't need to know engineering, just the vocabulary and the personalities of the brands.",
+  "essentials": [
+    {
+      "title": "Engines in plain words",
+      "body": "People talk about cylinders (four, six, V8, V12), turbocharged vs naturally aspirated, and horsepower (top-end power) vs torque (pulling force)."
+    },
+    {
+      "title": "Which wheels drive",
+      "body": "FWD (front-wheel drive) is practical, RWD (rear-wheel drive) is the enthusiast's favourite, AWD (all-wheel drive) grips best in bad weather."
+    },
+    {
+      "title": "Powertrains",
+      "body": "Petrol, diesel, hybrid (petrol plus battery), plug-in hybrid and fully electric (EV). Hybrids are booming as a middle ground."
+    },
+    {
+      "title": "Car cultures",
+      "body": "JDM (Japanese), Euro (German and Italian), American muscle, off-road, exotics and supercars, EV fans. People usually belong to one tribe."
+    },
+    {
+      "title": "Brands have personalities",
+      "body": "Porsche is precision, Ferrari is passion, Toyota is reliability, BMW is 'the ultimate driving machine', Mercedes is luxury, Tesla is tech, Volvo is safety."
+    },
+    {
+      "title": "Body styles",
+      "body": "Saloon (sedan), hatchback, estate (wagon), coupe, convertible, SUV, MPV (people carrier). SUVs now dominate sales worldwide."
+    },
+    {
+      "title": "Everything is changing",
+      "body": "Electrification, Chinese brands going global, and software-heavy cars are the big shifts car people talk about."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Horsepower vs torque",
+      "meaning": "Horsepower is how fast you can go; torque is the shove you feel when you accelerate."
+    },
+    {
+      "term": "NA",
+      "meaning": "Naturally aspirated: no turbo. Purists love the sound and instant response."
+    },
+    {
+      "term": "Turbo",
+      "meaning": "A device that forces more air into the engine for more power from a smaller engine."
+    },
+    {
+      "term": "0–100",
+      "meaning": "Seconds to go from 0 to 100 km/h (0-60 mph in the US). The universal bragging number."
+    },
+    {
+      "term": "Manual / stick",
+      "meaning": "A gearbox with a clutch pedal you shift yourself. Increasingly rare and beloved."
+    },
+    {
+      "term": "DCT",
+      "meaning": "Dual-clutch transmission: a lightning-fast automatic used in many performance cars."
+    },
+    {
+      "term": "JDM",
+      "meaning": "Japanese Domestic Market: Japanese cars and the culture around them, like Supras and Skylines."
+    },
+    {
+      "term": "Oversteer / understeer",
+      "meaning": "Oversteer: the rear slides out. Understeer: the front won't turn as much as you want."
+    },
+    {
+      "term": "Daily driver",
+      "meaning": "The car someone uses every day, as opposed to a weekend toy."
+    },
+    {
+      "term": "Sleeper",
+      "meaning": "A car that looks ordinary but is secretly very fast."
+    },
+    {
+      "term": "Restomod",
+      "meaning": "A classic car restored with modern parts, like a 1960s body with a modern engine."
+    },
+    {
+      "term": "Track day",
+      "meaning": "An event where regular people drive their own cars on a race track."
+    },
+    {
+      "term": "Range anxiety",
+      "meaning": "EV owners' fear of running out of charge."
+    },
+    {
+      "term": "PHEV",
+      "meaning": "Plug-in hybrid: can drive a short distance on electricity, then uses petrol."
+    },
+    {
+      "term": "Drift",
+      "meaning": "Deliberately sliding a car sideways through corners, a Japanese-born motorsport."
+    },
+    {
+      "term": "Supercar / hypercar",
+      "meaning": "Supercars are Ferraris and Lamborghinis; hypercars are the million-dollar-plus tier like Bugatti."
+    }
+  ],
+  "names": [
+    {
+      "name": "Porsche",
+      "what": "The 911 has been made since 1964 and is the benchmark sports car. The Cayenne SUV pays the bills."
+    },
+    {
+      "name": "Ferrari",
+      "what": "Italian supercars, red paint and the prancing horse. Owners famously must be 'approved' for some models."
+    },
+    {
+      "name": "Toyota",
+      "what": "The world's biggest carmaker. Bulletproof reliability, plus the Supra, GR Yaris and Land Cruiser for enthusiasts. Its Alphard van is a status symbol in Asia."
+    },
+    {
+      "name": "Tesla",
+      "what": "Made electric cars cool. Elon Musk's company is as much talked about for politics and stock price as cars."
+    },
+    {
+      "name": "BYD",
+      "what": "China's EV giant, which sold more pure electric cars than Tesla worldwide in 2025."
+    },
+    {
+      "name": "Xiaomi",
+      "what": "The phone maker's SU7 electric car became a hit in China in 2024, followed by the YU7 SUV."
+    },
+    {
+      "name": "BMW M",
+      "what": "BMW's performance division. M3 and M5 are icons of the fast saloon."
+    },
+    {
+      "name": "Mercedes-Benz",
+      "what": "The S-Class is the benchmark luxury car; the G-Wagen is a celebrity favourite."
+    },
+    {
+      "name": "Mazda MX-5 Miata",
+      "what": "The best-selling two-seat roadster ever. The default answer to 'what fun cheap car should I buy?'"
+    },
+    {
+      "name": "Ford Mustang",
+      "what": "The original pony car (1964) and the face of American muscle."
+    },
+    {
+      "name": "Lamborghini",
+      "what": "Wild, wedge-shaped supercars and Ferrari's flashier rival."
+    },
+    {
+      "name": "Rolls-Royce",
+      "what": "The ultimate luxury car, owned by BMW. A common sight outside Hong Kong hotels."
+    },
+    {
+      "name": "Jeremy Clarkson",
+      "what": "Former Top Gear and The Grand Tour host, the most famous car TV personality."
+    },
+    {
+      "name": "Nissan Skyline GT-R",
+      "what": "'Godzilla', the JDM legend from Gran Turismo and Fast & Furious."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1886",
+      "event": "Karl Benz patents the first practical car."
+    },
+    {
+      "year": "1908",
+      "event": "Ford's Model T makes cars affordable for ordinary families."
+    },
+    {
+      "year": "1964",
+      "event": "Ford Mustang launches the pony car era; Porsche 911 goes on sale."
+    },
+    {
+      "year": "1973",
+      "event": "The oil crisis pushes buyers toward small, efficient Japanese cars."
+    },
+    {
+      "year": "1989–2002",
+      "event": "Japan's golden era: Miata, NSX, Supra, Skyline GT-R."
+    },
+    {
+      "year": "1997",
+      "event": "The Toyota Prius, the first mass-market hybrid."
+    },
+    {
+      "year": "2001",
+      "event": "The Fast and the Furious makes JDM tuning culture global."
+    },
+    {
+      "year": "2002",
+      "event": "Top Gear relaunches and becomes the world's biggest car show."
+    },
+    {
+      "year": "2012",
+      "event": "The Tesla Model S proves electric cars can be desirable."
+    },
+    {
+      "year": "2015",
+      "event": "Volkswagen's diesel emissions scandal."
+    },
+    {
+      "year": "2020s",
+      "event": "EV push, then a slowdown and a hybrid comeback; Chinese brands surge."
+    }
+  ],
+  "now": [
+    {
+      "headline": "EV slowdown, hybrid comeback",
+      "detail": "Electric car growth slowed in the US and Europe, and hybrids (Toyota's long-time bet) are booming."
+    },
+    {
+      "headline": "China is the new powerhouse",
+      "detail": "BYD, Xiaomi, Zeekr and others build impressive, cheaper EVs. Tariffs keep many out of the US and Europe charges extra duties."
+    },
+    {
+      "headline": "Tesla's tough patch",
+      "detail": "Sales fell in several markets, and people debate whether it's a car company or a robotaxi and AI bet."
+    },
+    {
+      "headline": "Screens vs buttons",
+      "detail": "Many drivers and safety groups are pushing back on touchscreens for basic controls; some brands are bringing buttons back."
+    },
+    {
+      "headline": "Self-driving",
+      "detail": "Robotaxis from Waymo and Chinese firms like Baidu's Apollo Go are spreading, and people argue about when it'll be normal."
+    },
+    {
+      "headline": "Porsche and others retreat on EVs",
+      "detail": "Several luxury brands slowed EV plans and kept petrol engines longer than promised."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Owning a car is a luxury",
+      "detail": "Hong Kong's first registration tax can more than double a car's price, and a parking space can cost more than a flat elsewhere."
+    },
+    {
+      "headline": "Tesla and BYD everywhere",
+      "detail": "EV tax incentives made Hong Kong one of the world's most electric car markets. BYD has grown fast."
+    },
+    {
+      "headline": "Status cars",
+      "detail": "Toyota Alphard vans with drivers, Mercedes S-Class, Rolls-Royces and Ferraris are common sights in Central."
+    },
+    {
+      "headline": "Northbound Travel",
+      "detail": "Since 2023 Hong Kong private cars can drive into Guangdong via the Hong Kong-Zhuhai-Macao Bridge, making weekend road trips popular."
+    },
+    {
+      "headline": "Drive on the left",
+      "detail": "Hong Kong drives on the left with right-hand-drive cars, like the UK and Japan, unlike the mainland."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Manual or automatic?",
+      "sides": "Automatics are faster now; manual fans say driving is about involvement, not lap times."
+    },
+    {
+      "question": "Electric or petrol?",
+      "sides": "EVs are quick and cheap to run; critics cite charging, range and price, and miss the sound."
+    },
+    {
+      "question": "Are Chinese cars now as good as Japanese and German ones?",
+      "sides": "Many reviewers say yes on tech and value; sceptics question long-term reliability and resale."
+    },
+    {
+      "question": "Are modern cars too big?",
+      "sides": "SUVs keep growing. Fans like the space; critics point to safety and parking."
+    },
+    {
+      "question": "JDM vs Euro",
+      "sides": "Japanese cars for reliability and tuning; German and Italian for prestige and driving feel."
+    }
+  ],
+  "starters": [
+    "What do you drive, and would you buy it again?",
+    "Is it worth having a car in Hong Kong?",
+    "What was your first car?",
+    "If money were no object, what's in your garage?",
+    "Would you ever go electric?",
+    "Have you tried driving up to the mainland with Northbound Travel?",
+    "What's the best car you've ever driven?"
+  ],
+  "sayThis": [
+    {
+      "say": "The Miata is always the answer.",
+      "why": "A beloved in-joke among car people."
+    },
+    {
+      "say": "Is that the manual?",
+      "why": "Enthusiasts appreciate the question even if the answer is no."
+    },
+    {
+      "say": "I respect a good sleeper.",
+      "why": "Shows you get the appeal of understated performance."
+    },
+    {
+      "say": "Chinese EVs have come a long way.",
+      "why": "A balanced, current observation."
+    }
+  ],
+  "avoid": [
+    "Confidently quoting specs you aren't sure of. Car people will check.",
+    "Dismissing someone's car as 'just a car'.",
+    "Asking how much someone's car or parking space cost."
+  ],
+  "quiz": [
+    {
+      "q": "What does RWD mean?",
+      "options": [
+        "Rapid wheel drive",
+        "Rear-wheel drive",
+        "Road wheel design",
+        "Racing weight distribution"
+      ],
+      "answer": 1,
+      "explain": "The rear wheels drive the car, which enthusiasts tend to prefer."
+    },
+    {
+      "q": "What's a 'sleeper'?",
+      "options": [
+        "A car with a bed",
+        "An ordinary-looking car that's secretly fast",
+        "A broken-down car",
+        "An overnight race"
+      ],
+      "answer": 1,
+      "explain": "Understated speed is the appeal."
+    },
+    {
+      "q": "Which car has been made since 1964 and is the sports car benchmark?",
+      "options": [
+        "Porsche 911",
+        "Chevrolet Corvette",
+        "Toyota Supra",
+        "Nissan GT-R"
+      ],
+      "answer": 0,
+      "explain": "The 911 has had the same basic layout for 60 years."
+    },
+    {
+      "q": "JDM stands for…",
+      "options": [
+        "Just Drive More",
+        "Japanese Domestic Market",
+        "Joint Diesel Motor",
+        "Junior Driving Manual"
+      ],
+      "answer": 1,
+      "explain": "It covers Japanese cars and tuning culture."
+    },
+    {
+      "q": "Oversteer means…",
+      "options": [
+        "The front won't turn enough",
+        "The rear slides out",
+        "The steering is too heavy",
+        "Driving too fast"
+      ],
+      "answer": 1,
+      "explain": "Understeer is the opposite, when the front pushes wide."
+    },
+    {
+      "q": "Which Chinese brand outsold Tesla in pure EVs worldwide in 2025?",
+      "options": [
+        "Nio",
+        "Geely",
+        "BYD",
+        "Xiaomi"
+      ],
+      "answer": 2,
+      "explain": "BYD is China's EV giant."
+    },
+    {
+      "q": "What does 'NA' mean for an engine?",
+      "options": [
+        "No acceleration",
+        "Naturally aspirated, without a turbo",
+        "North American spec",
+        "Nitrous added"
+      ],
+      "answer": 1,
+      "explain": "Purists love NA engines for their sound and response."
+    },
+    {
+      "q": "What's the best-selling two-seat roadster ever?",
+      "options": [
+        "Mazda MX-5 Miata",
+        "Porsche Boxster",
+        "BMW Z4",
+        "Honda S2000"
+      ],
+      "answer": 0,
+      "explain": "Hence 'the Miata is always the answer.'"
+    },
+    {
+      "q": "Which side of the road does Hong Kong drive on?",
+      "options": [
+        "Left",
+        "Right",
+        "Depends on district",
+        "Both"
+      ],
+      "answer": 0,
+      "explain": "Like the UK and Japan."
+    },
+    {
+      "q": "Which was the first mass-market hybrid car?",
+      "options": [
+        "Honda Insight",
+        "Toyota Prius",
+        "Tesla Roadster",
+        "Nissan Leaf"
+      ],
+      "answer": 1,
+      "explain": "Launched in 1997."
+    }
+  ]
+}

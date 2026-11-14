@@ -1,0 +1,386 @@
+{
+  "slug": "smartphones-and-gadgets",
+  "refresh": "weekly",
+  "updated": "2026-11-14",
+  "topic": "Smartphones and gadgets",
+  "category": "Tech",
+  "asOf": "mid-2026",
+  "tagline": "iPhone vs Android, folding phones, and the gadgets everyone's carrying.",
+  "why": "Your phone is the device you use most, so phones and gadgets are an easy topic with almost anyone. People compare iPhones and Androids, cameras and batteries, and talk about new launches like foldables and AI features. In Hong Kong you'll see the latest iPhones alongside Chinese brands like Huawei and Xiaomi, so knowing the landscape helps.",
+  "essentials": [
+    {
+      "title": "iOS vs Android",
+      "body": "Apple's iPhone runs iOS; nearly everyone else runs Google's Android. iPhone users value the ecosystem; Android users value choice and customisation."
+    },
+    {
+      "title": "The launch calendar",
+      "body": "Samsung launches Galaxy S phones in January-February and foldables in July. Apple launches iPhones every September. Chinese brands launch all year."
+    },
+    {
+      "title": "Cameras sell phones",
+      "body": "Phone cameras compete on zoom, low light and video. Chinese brands often partner with camera makers like Leica and Hasselblad."
+    },
+    {
+      "title": "Foldables",
+      "body": "Phones that fold like a book or a flip phone. Samsung, Huawei, Honor and others make them; Huawei even has a tri-fold."
+    },
+    {
+      "title": "Ecosystems",
+      "body": "Watches, earbuds, tablets and laptops that work together: Apple's is the tightest, but Samsung, Xiaomi and Huawei are building their own."
+    },
+    {
+      "title": "AI features",
+      "body": "Phones now pitch AI features like photo editing, summaries and assistants: Apple Intelligence, Galaxy AI, Gemini."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Flagship",
+      "meaning": "A brand's top phone."
+    },
+    {
+      "term": "Foldable",
+      "meaning": "A phone with a folding screen."
+    },
+    {
+      "term": "Refresh rate",
+      "meaning": "How often the screen updates; 120Hz feels smoother."
+    },
+    {
+      "term": "OLED",
+      "meaning": "A screen type with deep blacks, used in most premium phones."
+    },
+    {
+      "term": "Megapixels",
+      "meaning": "Camera resolution; more isn't always better."
+    },
+    {
+      "term": "Periscope zoom",
+      "meaning": "A lens that gives long optical zoom."
+    },
+    {
+      "term": "Fast charging",
+      "meaning": "Charging quickly; some Chinese phones charge fully in under 20 minutes."
+    },
+    {
+      "term": "eSIM",
+      "meaning": "A digital SIM card."
+    },
+    {
+      "term": "Ecosystem",
+      "meaning": "Devices and services that work together."
+    },
+    {
+      "term": "Walled garden",
+      "meaning": "Apple's closed ecosystem."
+    },
+    {
+      "term": "Bloatware",
+      "meaning": "Unwanted pre-installed apps."
+    },
+    {
+      "term": "Chipset",
+      "meaning": "The phone's processor, like Apple's A-series or Qualcomm Snapdragon."
+    },
+    {
+      "term": "Wearables",
+      "meaning": "Smartwatches, rings, earbuds."
+    },
+    {
+      "term": "Smart ring",
+      "meaning": "Health-tracking rings like Oura."
+    },
+    {
+      "term": "Spatial computing",
+      "meaning": "Apple's term for headsets like Vision Pro."
+    }
+  ],
+  "names": [
+    {
+      "name": "Apple",
+      "what": "iPhone, AirPods, Apple Watch, Mac. The iPhone 17 line and the thin iPhone Air launched in 2025."
+    },
+    {
+      "name": "Samsung",
+      "what": "The biggest Android maker; Galaxy S and Z Fold/Flip lines."
+    },
+    {
+      "name": "Huawei",
+      "what": "Chinese giant that bounced back from US sanctions with its own chips and HarmonyOS; Mate and Pura lines."
+    },
+    {
+      "name": "Xiaomi",
+      "what": "Value-focused Chinese brand, now also making EVs."
+    },
+    {
+      "name": "Google Pixel",
+      "what": "Google's own phones, known for cameras and AI."
+    },
+    {
+      "name": "OPPO, vivo, OnePlus",
+      "what": "Chinese brands known for cameras and fast charging."
+    },
+    {
+      "name": "Honor",
+      "what": "Former Huawei sub-brand, strong in foldables."
+    },
+    {
+      "name": "Qualcomm",
+      "what": "Maker of Snapdragon chips for Android phones."
+    },
+    {
+      "name": "Steve Jobs",
+      "what": "Apple co-founder who launched the iPhone in 2007."
+    },
+    {
+      "name": "Tim Cook",
+      "what": "Apple's CEO since 2011."
+    },
+    {
+      "name": "DJI",
+      "what": "Chinese drone and camera maker; its Osmo Pocket and Action cameras are popular."
+    },
+    {
+      "name": "Garmin",
+      "what": "Sports watch maker loved by runners and hikers."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1973",
+      "event": "First handheld mobile phone call."
+    },
+    {
+      "year": "2000s",
+      "event": "Nokia and BlackBerry dominate."
+    },
+    {
+      "year": "2007",
+      "event": "The iPhone launches."
+    },
+    {
+      "year": "2008",
+      "event": "First Android phone and the App Store."
+    },
+    {
+      "year": "2015",
+      "event": "Apple Watch launches."
+    },
+    {
+      "year": "2019",
+      "event": "First foldables; US sanctions hit Huawei."
+    },
+    {
+      "year": "2023",
+      "event": "Huawei Mate 60 Pro surprises with a Chinese-made advanced chip."
+    },
+    {
+      "year": "2024",
+      "event": "Apple Intelligence announced; Huawei's tri-fold phone."
+    },
+    {
+      "year": "2025",
+      "event": "iPhone Air; Apple's AI Siri delayed; Samsung's thinnest foldables."
+    }
+  ],
+  "now": [
+    {
+      "headline": "Thin is in",
+      "detail": "Ultra-thin phones like the iPhone Air and Galaxy Edge, at the cost of battery life."
+    },
+    {
+      "headline": "AI features",
+      "detail": "People debate whether phone AI is useful or a gimmick. Apple's Siri upgrade was delayed."
+    },
+    {
+      "headline": "Foldables mature",
+      "detail": "Lighter, tougher foldables are becoming mainstream."
+    },
+    {
+      "headline": "Chinese brands rise",
+      "detail": "Huawei leads China's market again; Xiaomi grows globally."
+    },
+    {
+      "headline": "Prices up",
+      "detail": "Tariffs and memory chip costs push prices higher."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Cheap iPhones",
+      "detail": "Hong Kong has some of the world's lowest iPhone prices because there's no sales tax, so mainland visitors buy here."
+    },
+    {
+      "headline": "Two phones",
+      "detail": "Many people carry two phones or dual SIMs for Hong Kong and mainland numbers."
+    },
+    {
+      "headline": "Sham Shui Po",
+      "detail": "The district for electronics, accessories and repairs, including Golden Computer Arcade."
+    },
+    {
+      "headline": "Octopus on phone",
+      "detail": "Paying with Octopus on iPhone or Android is standard."
+    }
+  ],
+  "debates": [
+    {
+      "question": "iPhone or Android?",
+      "sides": "Simplicity and ecosystem vs choice and value."
+    },
+    {
+      "question": "Are foldables worth it?",
+      "sides": "Big screen in your pocket vs price and durability."
+    },
+    {
+      "question": "Do you need to upgrade every year?",
+      "sides": "Phones last longer now; upgrades are smaller."
+    },
+    {
+      "question": "Is phone AI useful?",
+      "sides": "Handy tools vs marketing hype."
+    }
+  ],
+  "starters": [
+    "iPhone or Android?",
+    "Would you get a foldable?",
+    "What's the best gadget you've bought recently?",
+    "How long do you keep a phone?",
+    "Do you use a smartwatch?"
+  ],
+  "sayThis": [
+    {
+      "say": "Phone cameras are basically as good as most people need.",
+      "why": "A balanced take."
+    },
+    {
+      "say": "The battery's the thing I care about most.",
+      "why": "Relatable."
+    },
+    {
+      "say": "Huawei's comeback is impressive.",
+      "why": "Shows awareness of the industry."
+    },
+    {
+      "say": "AirPods are the best Apple product.",
+      "why": "A fun take that sparks debate."
+    }
+  ],
+  "avoid": [
+    "Mocking someone's phone choice.",
+    "Asking someone to unlock their phone to show you.",
+    "Assuming everyone can afford the latest model."
+  ],
+  "quiz": [
+    {
+      "q": "When did the iPhone launch?",
+      "options": [
+        "2005",
+        "2007",
+        "2010",
+        "2012"
+      ],
+      "answer": 1,
+      "explain": "Announced by Steve Jobs."
+    },
+    {
+      "q": "Which company makes the Galaxy Z Fold?",
+      "options": [
+        "Apple",
+        "Samsung",
+        "Huawei",
+        "Xiaomi"
+      ],
+      "answer": 1,
+      "explain": "Samsung."
+    },
+    {
+      "q": "What OS does Huawei use?",
+      "options": [
+        "iOS",
+        "HarmonyOS",
+        "Windows",
+        "Tizen"
+      ],
+      "answer": 1,
+      "explain": "Its own system."
+    },
+    {
+      "q": "What does OLED offer?",
+      "options": [
+        "Deep blacks",
+        "Longer battery only",
+        "Cheaper price",
+        "Bigger size"
+      ],
+      "answer": 0,
+      "explain": "Each pixel lights itself."
+    },
+    {
+      "q": "Who makes Snapdragon chips?",
+      "options": [
+        "Apple",
+        "Qualcomm",
+        "Intel",
+        "Nvidia"
+      ],
+      "answer": 1,
+      "explain": "Qualcomm."
+    },
+    {
+      "q": "Which ultra-thin iPhone launched in 2025?",
+      "options": [
+        "iPhone Air",
+        "iPhone Mini",
+        "iPhone SE",
+        "iPhone Fold"
+      ],
+      "answer": 0,
+      "explain": "The iPhone Air."
+    },
+    {
+      "q": "Why are iPhones cheap in Hong Kong?",
+      "options": [
+        "Made locally",
+        "No sales tax",
+        "Subsidies",
+        "Older models"
+      ],
+      "answer": 1,
+      "explain": "No GST/VAT."
+    },
+    {
+      "q": "Which district is famous for electronics?",
+      "options": [
+        "Central",
+        "Sham Shui Po",
+        "Stanley",
+        "Tai Po"
+      ],
+      "answer": 1,
+      "explain": "Golden Computer Arcade."
+    },
+    {
+      "q": "What's an eSIM?",
+      "options": [
+        "A digital SIM",
+        "A cheap phone",
+        "A screen protector",
+        "An app"
+      ],
+      "answer": 0,
+      "explain": "No physical card."
+    },
+    {
+      "q": "Which company makes DJI drones?",
+      "options": [
+        "A Chinese company",
+        "A Japanese company",
+        "An American company",
+        "A Korean company"
+      ],
+      "answer": 0,
+      "explain": "Based in Shenzhen."
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "slug": "hong-kong-property",
+  "refresh": "weekly",
+  "updated": "2026-11-14",
+  "topic": "Hong Kong property",
+  "category": "Money",
+  "asOf": "mid-2026",
+  "tagline": "The world's most expensive homes, nano flats, and everyone's favourite topic.",
+  "why": "Property is Hong Kong's national obsession. Homes are among the most expensive on earth relative to income, so buying, renting, mortgages and prices come up at every family dinner. After years of falling prices since 2021, the market has been trying to find a bottom. Knowing the vocabulary, the big developers and the policy changes makes you fluent in the city's favourite small talk.",
+  "essentials": [
+    {
+      "title": "Extremely expensive",
+      "body": "Hong Kong has topped global unaffordability rankings for years, with home prices many times the median household income."
+    },
+    {
+      "title": "Prices fell after 2021",
+      "body": "Prices peaked in 2021, then dropped around 25-30% amid rising rates, emigration and weak demand. By 2025 the market showed signs of stabilising."
+    },
+    {
+      "title": "Saleable area is what matters",
+      "body": "Flats are measured in square feet, and since 2013 prices must be quoted by saleable area (actual usable space), not the inflated gross area."
+    },
+    {
+      "title": "Public vs private housing",
+      "body": "About half the population lives in public rental housing or subsidised Home Ownership Scheme (HOS) flats. Waiting times for public housing are years long."
+    },
+    {
+      "title": "Policy moves the market",
+      "body": "The government removed all the 'spicy' extra stamp duties in February 2024 and has loosened mortgage rules to support prices."
+    },
+    {
+      "title": "Rates drive affordability",
+      "body": "Mortgages are tied to HIBOR or the prime rate, which follow US rates. Rate cuts make buying cheaper."
+    },
+    {
+      "title": "Developers are powerful",
+      "body": "A handful of tycoon-led developers built much of Hong Kong and hold huge land banks."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Saleable area",
+      "meaning": "The actual usable floor area of a flat, the legal basis for pricing."
+    },
+    {
+      "term": "Gross floor area",
+      "meaning": "Includes shared areas; the old, inflated measure."
+    },
+    {
+      "term": "Price per square foot (psf)",
+      "meaning": "The standard way to compare flat prices."
+    },
+    {
+      "term": "Nano flat",
+      "meaning": "A tiny flat, often under 200 square feet."
+    },
+    {
+      "term": "Subdivided unit",
+      "meaning": "A flat split into tiny rooms; often poor living conditions. New rules regulate them."
+    },
+    {
+      "term": "HOS",
+      "meaning": "Home Ownership Scheme: subsidised flats for eligible buyers."
+    },
+    {
+      "term": "Public rental housing",
+      "meaning": "Government-owned rental estates."
+    },
+    {
+      "term": "Spicy measures",
+      "meaning": "Extra stamp duties introduced to cool the market, all scrapped in 2024."
+    },
+    {
+      "term": "Stamp duty",
+      "meaning": "Tax paid when buying property."
+    },
+    {
+      "term": "HIBOR",
+      "meaning": "Hong Kong Interbank Offered Rate; many mortgages are priced from it."
+    },
+    {
+      "term": "Negative equity",
+      "meaning": "When your flat is worth less than your mortgage."
+    },
+    {
+      "term": "Off-plan / first-hand",
+      "meaning": "Buying a new flat from a developer before it's built."
+    },
+    {
+      "term": "Show flat",
+      "meaning": "A model flat used to sell new developments, often staged to look bigger."
+    },
+    {
+      "term": "Mortgage insurance",
+      "meaning": "Lets buyers borrow up to 80-90% of the price on some properties."
+    },
+    {
+      "term": "Landlord / agent commission",
+      "meaning": "Agents usually take around 1% from each side."
+    }
+  ],
+  "names": [
+    {
+      "name": "Sun Hung Kai Properties",
+      "what": "Hong Kong's largest developer, owner of ICC and IFC stakes."
+    },
+    {
+      "name": "CK Asset (Li Ka-shing)",
+      "what": "The developer founded by Li Ka-shing, Hong Kong's most famous tycoon."
+    },
+    {
+      "name": "Henderson Land",
+      "what": "Lee Shau-kee's developer; owner of The Henderson tower in Central."
+    },
+    {
+      "name": "New World Development",
+      "what": "Developer that ran into heavy debt trouble in 2025."
+    },
+    {
+      "name": "Swire Properties",
+      "what": "Owner of Pacific Place, Taikoo Place and Cityplaza."
+    },
+    {
+      "name": "Hongkong Land",
+      "what": "Owner of Central's prime offices, including The Landmark."
+    },
+    {
+      "name": "Centaline and Midland",
+      "what": "The two biggest property agencies. The Centa-City Leading Index is the market's thermometer."
+    },
+    {
+      "name": "Hong Kong Housing Authority",
+      "what": "Runs public rental housing and HOS."
+    },
+    {
+      "name": "Northern Metropolis",
+      "what": "The government's huge development plan near the Shenzhen border."
+    },
+    {
+      "name": "The Peak",
+      "what": "Hong Kong's most expensive address, with some of the priciest homes in the world."
+    },
+    {
+      "name": "Taikoo Shing and Mei Foo",
+      "what": "Huge private estates often used as market benchmarks."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1950s",
+      "event": "Shek Kip Mei fire leads to public housing."
+    },
+    {
+      "year": "1978",
+      "event": "The Home Ownership Scheme begins."
+    },
+    {
+      "year": "1997",
+      "event": "Property bubble peaks before the Asian Financial Crisis; prices then fall about 70%."
+    },
+    {
+      "year": "2003",
+      "event": "SARS: the market bottoms."
+    },
+    {
+      "year": "2010–16",
+      "event": "Spicy measures introduced to cool a hot market."
+    },
+    {
+      "year": "2021",
+      "event": "Prices peak."
+    },
+    {
+      "year": "2022–24",
+      "event": "Prices fall on rate hikes and emigration."
+    },
+    {
+      "year": "2024",
+      "event": "All spicy measures scrapped."
+    },
+    {
+      "year": "2025",
+      "event": "Market stabilises; rents rise to records as talent and students arrive."
+    }
+  ],
+  "now": [
+    {
+      "headline": "Has the bottom arrived?",
+      "detail": "Transactions picked up and prices steadied in 2025. Many debate whether to buy now."
+    },
+    {
+      "headline": "Rents at records",
+      "detail": "New arrivals under talent schemes and mainland students pushed rents up, making buying look relatively better."
+    },
+    {
+      "headline": "Developer debt",
+      "detail": "Some developers, notably New World, struggled with debt, raising worries."
+    },
+    {
+      "headline": "Office glut",
+      "detail": "Office vacancies are high and rents low, especially in Central."
+    },
+    {
+      "headline": "Buying across the border",
+      "detail": "Some Hong Kongers buy in Shenzhen or the Greater Bay Area, where prices are far lower."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Small talk staple",
+      "detail": "'Are you renting or buying?' and 'which district?' are standard conversation."
+    },
+    {
+      "headline": "Living with parents",
+      "detail": "Many adults live with parents into their thirties because of prices."
+    },
+    {
+      "headline": "Car parks cost millions",
+      "detail": "Parking spaces regularly sell for several million dollars."
+    },
+    {
+      "headline": "Feng shui",
+      "detail": "Unlucky numbers like 4 are skipped in buildings, and flats with 'bad' history sell at discounts."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Buy or rent?",
+      "sides": "Buying builds equity and stability; renting stays flexible while prices are uncertain."
+    },
+    {
+      "question": "Is there enough land?",
+      "sides": "Some say release land and country park edges; others say protect green space and use brownfield sites."
+    },
+    {
+      "question": "Will prices recover?",
+      "sides": "Optimists cite rate cuts and new arrivals; pessimists cite oversupply and emigration."
+    },
+    {
+      "question": "Are nano flats acceptable?",
+      "sides": "Affordable entry vs inhumane living sizes."
+    }
+  ],
+  "starters": [
+    "Are you renting or did you buy?",
+    "Which district do you live in? Do you like it?",
+    "Do you think now's a good time to buy?",
+    "Have you thought about buying in the Greater Bay Area?",
+    "What's the biggest thing you'd change about housing here?"
+  ],
+  "sayThis": [
+    {
+      "say": "Rates are what everyone's watching.",
+      "why": "True for HK property."
+    },
+    {
+      "say": "Rents are crazy right now.",
+      "why": "Universally agreed."
+    },
+    {
+      "say": "Saleable area is the only number that matters.",
+      "why": "Shows you know the basics."
+    },
+    {
+      "say": "Location over size, always.",
+      "why": "A classic property maxim."
+    }
+  ],
+  "avoid": [
+    "Asking what someone paid for their flat.",
+    "Implying someone 'bought at the top'.",
+    "Talking about deaths or bad luck in someone's building."
+  ],
+  "quiz": [
+    {
+      "q": "What are the 'spicy measures'?",
+      "options": [
+        "Food rules",
+        "Extra stamp duties to cool property",
+        "Mortgage discounts",
+        "New towns"
+      ],
+      "answer": 1,
+      "explain": "Scrapped in 2024."
+    },
+    {
+      "q": "What does HOS stand for?",
+      "options": [
+        "Home Ownership Scheme",
+        "Housing Office Service",
+        "High Occupancy Site",
+        "Home Office Space"
+      ],
+      "answer": 0,
+      "explain": "Subsidised flats."
+    },
+    {
+      "q": "When did Hong Kong prices peak recently?",
+      "options": [
+        "2018",
+        "2021",
+        "2023",
+        "2025"
+      ],
+      "answer": 1,
+      "explain": "Then fell about 25-30%."
+    },
+    {
+      "q": "Which index tracks HK property prices?",
+      "options": [
+        "Hang Seng",
+        "Centa-City Leading Index",
+        "HIBOR",
+        "MPF"
+      ],
+      "answer": 1,
+      "explain": "From Centaline."
+    },
+    {
+      "q": "What's 'negative equity'?",
+      "options": [
+        "Flat worth less than the mortgage",
+        "A tax refund",
+        "Rent subsidy",
+        "A deposit"
+      ],
+      "answer": 0,
+      "explain": "Common after price falls."
+    },
+    {
+      "q": "Which tycoon founded CK Asset?",
+      "options": [
+        "Lee Shau-kee",
+        "Li Ka-shing",
+        "Henry Cheng",
+        "Peter Woo"
+      ],
+      "answer": 1,
+      "explain": "Hong Kong's most famous tycoon."
+    },
+    {
+      "q": "What is the Northern Metropolis?",
+      "options": [
+        "A mall",
+        "A development plan near the Shenzhen border",
+        "A railway",
+        "A stadium"
+      ],
+      "answer": 1,
+      "explain": "A huge new town plan."
+    },
+    {
+      "q": "Prices must be quoted using…",
+      "options": [
+        "Gross area",
+        "Saleable area",
+        "Room count",
+        "Floor level"
+      ],
+      "answer": 1,
+      "explain": "Since 2013."
+    },
+    {
+      "q": "Which developer owns Pacific Place?",
+      "options": [
+        "Swire Properties",
+        "Sun Hung Kai",
+        "Henderson",
+        "New World"
+      ],
+      "answer": 0,
+      "explain": "Swire."
+    },
+    {
+      "q": "Hong Kong mortgages often track…",
+      "options": [
+        "LIBOR",
+        "HIBOR",
+        "SOFR",
+        "Shibor"
+      ],
+      "answer": 1,
+      "explain": "Or the prime rate."
+    }
+  ]
+}

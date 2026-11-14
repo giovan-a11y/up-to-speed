@@ -1,0 +1,359 @@
+{
+  "slug": "hiking-in-hong-kong",
+  "refresh": "monthly",
+  "updated": "2026-11-14",
+  "topic": "Hiking in Hong Kong",
+  "category": "Lifestyle",
+  "asOf": "mid-2026",
+  "tagline": "Dragon's Back, Lion Rock and the four great trails: Hong Kong's green secret.",
+  "why": "Most visitors don't realise that about 40% of Hong Kong is country park. Hiking is one of the city's favourite weekend activities, with dramatic peaks, beaches and trails minutes from skyscrapers. Hikers talk about routes, difficulty, views and the weather. Knowing the famous trails and some hiking lingo makes you great company and might get you invited along.",
+  "essentials": [
+    {
+      "title": "Country parks",
+      "body": "Hong Kong has 25 country parks covering about 40% of its land, with well-marked trails and distance posts."
+    },
+    {
+      "title": "The four long-distance trails",
+      "body": "MacLehose Trail (100 km, New Territories), Wilson Trail (78 km), Hong Kong Trail (50 km, Hong Kong Island) and Lantau Trail (70 km). Each is split into stages."
+    },
+    {
+      "title": "Famous hikes",
+      "body": "Dragon's Back, Lion Rock, Lantau Peak, Sunset Peak, Sharp Peak, Tai Mo Shan (the highest peak at 957 m), Ma On Shan and the Twins."
+    },
+    {
+      "title": "Beaches and islands",
+      "body": "Hikes often end at beaches: Tai Long Wan in Sai Kung, Big Wave Bay, Cheung Sha. Islands like Lamma and Cheung Chau make easy day trips."
+    },
+    {
+      "title": "Weather and safety",
+      "body": "Heat, humidity and typhoons are serious. Check warnings, carry plenty of water, and avoid hiking in heavy rain or very hot weather."
+    },
+    {
+      "title": "Hiking culture",
+      "body": "Weekend hiking with friends, colleagues and hiking groups; many people end with seafood or a beer."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Country park",
+      "meaning": "Protected natural area with trails."
+    },
+    {
+      "term": "Stage",
+      "meaning": "A section of a long-distance trail."
+    },
+    {
+      "term": "Distance post",
+      "meaning": "Marker posts every 500 m on main trails; useful for emergencies."
+    },
+    {
+      "term": "Ridge",
+      "meaning": "The top line of a mountain."
+    },
+    {
+      "term": "Scramble",
+      "meaning": "Steep section where you use hands."
+    },
+    {
+      "term": "Elevation gain",
+      "meaning": "Total climbing on a hike."
+    },
+    {
+      "term": "Trail running",
+      "meaning": "Running on hiking trails; huge in Hong Kong."
+    },
+    {
+      "term": "Typhoon signal",
+      "meaning": "Signal 8 or above means stay home."
+    },
+    {
+      "term": "Very hot weather warning",
+      "meaning": "Issued in heat; avoid strenuous hiking."
+    },
+    {
+      "term": "Kai-to",
+      "meaning": "Small ferry (kaito) to remote villages and beaches."
+    },
+    {
+      "term": "Sunrise hike",
+      "meaning": "Hiking up before dawn for sunrise views."
+    },
+    {
+      "term": "Trekking poles",
+      "meaning": "Poles that help on steep descents."
+    },
+    {
+      "term": "Leave no trace",
+      "meaning": "Take all your rubbish home."
+    }
+  ],
+  "names": [
+    {
+      "name": "Dragon's Back",
+      "what": "Hong Kong Island ridge walk once named Asia's best urban hike, ending at Big Wave Bay."
+    },
+    {
+      "name": "Lion Rock",
+      "what": "Iconic rock that symbolises the 'Lion Rock Spirit' of perseverance."
+    },
+    {
+      "name": "Lantau Peak",
+      "what": "The second-highest peak; sunrise hikes are popular."
+    },
+    {
+      "name": "Sunset Peak",
+      "what": "Lantau peak famous for silvergrass in autumn."
+    },
+    {
+      "name": "Sharp Peak",
+      "what": "A challenging, pointed peak in Sai Kung with stunning beach views."
+    },
+    {
+      "name": "Tai Long Wan",
+      "what": "Hong Kong's most beautiful beaches, in Sai Kung East."
+    },
+    {
+      "name": "Tai Mo Shan",
+      "what": "Hong Kong's highest peak at 957 m."
+    },
+    {
+      "name": "MacLehose Trail",
+      "what": "The 100 km trail used by Oxfam Trailwalker."
+    },
+    {
+      "name": "High Island Reservoir",
+      "what": "UNESCO Global Geopark area with hexagonal rock columns."
+    },
+    {
+      "name": "Lamma Island",
+      "what": "Car-free island with an easy hike and seafood restaurants."
+    },
+    {
+      "name": "Ma On Shan",
+      "what": "Rugged mountain with great views over Tolo Harbour."
+    },
+    {
+      "name": "Hong Kong Observatory",
+      "what": "The weather authority hikers check before every trip."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1976",
+      "event": "Country Parks Ordinance creates protected parks."
+    },
+    {
+      "year": "1979",
+      "event": "MacLehose Trail opens."
+    },
+    {
+      "year": "1981",
+      "event": "First Trailwalker, originally a military exercise."
+    },
+    {
+      "year": "1990s",
+      "event": "Lantau and Wilson trails open."
+    },
+    {
+      "year": "2009",
+      "event": "Hong Kong Geopark designated."
+    },
+    {
+      "year": "2020–22",
+      "event": "Covid sparks a hiking boom."
+    }
+  ],
+  "now": [
+    {
+      "headline": "Hiking boom continues",
+      "detail": "Covid made hiking hugely popular, and many newcomers kept going."
+    },
+    {
+      "headline": "Trail running races",
+      "detail": "Events like the Hong Kong 100 ultra attract international runners."
+    },
+    {
+      "headline": "Rescue calls",
+      "detail": "More hikers means more rescues, especially in heat; safety campaigns are common."
+    },
+    {
+      "headline": "Country park debates",
+      "detail": "Housing proposals near country park edges spark arguments."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Weekend ritual",
+      "detail": "Saturday or Sunday hikes followed by food are a classic social plan."
+    },
+    {
+      "headline": "Easy starters",
+      "detail": "Dragon's Back, Lamma Island and Violet Hill are good beginner hikes."
+    },
+    {
+      "headline": "Getting there",
+      "detail": "MTR, minibus, taxi and ferries reach most trailheads."
+    },
+    {
+      "headline": "Best seasons",
+      "detail": "October to March is ideal; summer is hot and humid."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Best hike in Hong Kong?",
+      "sides": "Dragon's Back for ease, Sharp Peak for drama, Lantau Peak for sunrise."
+    },
+    {
+      "question": "Should country parks be used for housing?",
+      "sides": "Housing need vs protecting nature."
+    },
+    {
+      "question": "Is Instagram ruining popular spots?",
+      "sides": "More people outdoors vs crowds and litter."
+    }
+  ],
+  "starters": [
+    "Do you hike much?",
+    "What's your favourite trail?",
+    "Have you done Sharp Peak?",
+    "Ever done a sunrise hike?",
+    "Have you done any of the MacLehose stages?",
+    "Want to join a hike sometime?"
+  ],
+  "sayThis": [
+    {
+      "say": "Tai Long Wan is unreal. Hard to believe it's Hong Kong.",
+      "why": "A common reaction."
+    },
+    {
+      "say": "Sunset Peak in silvergrass season is beautiful.",
+      "why": "Shows seasonal knowledge."
+    },
+    {
+      "say": "Always bring more water than you think.",
+      "why": "Good Hong Kong hiking advice."
+    },
+    {
+      "say": "Lion Rock Spirit!",
+      "why": "A local cultural reference."
+    }
+  ],
+  "avoid": [
+    "Hiking in flip-flops.",
+    "Leaving rubbish on trails.",
+    "Underestimating summer heat."
+  ],
+  "quiz": [
+    {
+      "q": "About how much of Hong Kong is country park?",
+      "options": [
+        "10%",
+        "25%",
+        "40%",
+        "70%"
+      ],
+      "answer": 2,
+      "explain": "About 40%."
+    },
+    {
+      "q": "How long is the MacLehose Trail?",
+      "options": [
+        "50 km",
+        "78 km",
+        "100 km",
+        "120 km"
+      ],
+      "answer": 2,
+      "explain": "100 km."
+    },
+    {
+      "q": "What's Hong Kong's highest peak?",
+      "options": [
+        "Lantau Peak",
+        "Tai Mo Shan",
+        "Lion Rock",
+        "Ma On Shan"
+      ],
+      "answer": 1,
+      "explain": "957 m."
+    },
+    {
+      "q": "Which hike ends at Big Wave Bay?",
+      "options": [
+        "Dragon's Back",
+        "Lion Rock",
+        "Sharp Peak",
+        "Sunset Peak"
+      ],
+      "answer": 0,
+      "explain": "On Hong Kong Island."
+    },
+    {
+      "q": "Which peak is famous for silvergrass?",
+      "options": [
+        "Sunset Peak",
+        "Lion Rock",
+        "Victoria Peak",
+        "Kowloon Peak"
+      ],
+      "answer": 0,
+      "explain": "In autumn."
+    },
+    {
+      "q": "What does Typhoon Signal 8 mean?",
+      "options": [
+        "Go hiking",
+        "Stay home, strong winds",
+        "Rain only",
+        "Hot weather"
+      ],
+      "answer": 1,
+      "explain": "Serious winds."
+    },
+    {
+      "q": "Where is Tai Long Wan?",
+      "options": [
+        "Lantau",
+        "Sai Kung",
+        "Lamma",
+        "Tai Po"
+      ],
+      "answer": 1,
+      "explain": "Sai Kung East."
+    },
+    {
+      "q": "Which trail is on Hong Kong Island?",
+      "options": [
+        "Hong Kong Trail",
+        "Lantau Trail",
+        "MacLehose Trail",
+        "Wilson Trail"
+      ],
+      "answer": 0,
+      "explain": "50 km."
+    },
+    {
+      "q": "What does 'Lion Rock Spirit' mean?",
+      "options": [
+        "Perseverance",
+        "Wealth",
+        "Luck",
+        "Speed"
+      ],
+      "answer": 0,
+      "explain": "Hong Kong's can-do spirit."
+    },
+    {
+      "q": "Best season for hiking in Hong Kong?",
+      "options": [
+        "July to August",
+        "October to March",
+        "June",
+        "Typhoon season"
+      ],
+      "answer": 1,
+      "explain": "Cool and dry."
+    }
+  ]
+}

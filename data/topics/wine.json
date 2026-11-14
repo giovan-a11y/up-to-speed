@@ -1,0 +1,391 @@
+{
+  "slug": "wine",
+  "refresh": "monthly",
+  "updated": "2026-11-14",
+  "topic": "Wine",
+  "category": "Food & drink",
+  "asOf": "mid-2026",
+  "tagline": "Grapes, places and vintages: how to order, taste and talk without sounding lost.",
+  "why": "Wine is the default drink at business dinners, weddings and celebrations in Hong Kong, which became Asia's wine hub after scrapping wine duty in 2008. Wine talk can feel intimidating, but it rests on a few ideas: grape varieties, regions, vintages and how a wine tastes. Learn those and you can order confidently, compliment the host's bottle, and ask the questions that get wine lovers talking.",
+  "essentials": [
+    {
+      "title": "Grapes vs places",
+      "body": "New World wines (Australia, US, Chile, NZ) are usually labelled by grape, like 'Cabernet Sauvignon'. Old World wines (France, Italy, Spain) are labelled by place, like 'Bordeaux', and you're expected to know which grapes grow there."
+    },
+    {
+      "title": "The big red grapes",
+      "body": "Cabernet Sauvignon (bold, structured), Merlot (softer), Pinot Noir (light, elegant), Syrah/Shiraz (spicy), plus Italy's Nebbiolo and Sangiovese and Spain's Tempranillo."
+    },
+    {
+      "title": "The big white grapes",
+      "body": "Chardonnay (from crisp to buttery), Sauvignon Blanc (zesty), Riesling (aromatic, can be sweet or dry), plus Pinot Grigio and Chenin Blanc."
+    },
+    {
+      "title": "France's key regions",
+      "body": "Bordeaux (Cabernet and Merlot blends; the 'first growths'), Burgundy (Pinot Noir and Chardonnay; tiny prestigious plots), Champagne (sparkling), the Rhône (Syrah, Grenache) and the Loire."
+    },
+    {
+      "title": "How tasting works",
+      "body": "Look, swirl, smell, sip. People describe body (light to full), acidity, tannin (the drying feel in reds), sweetness and finish (how long the taste lasts)."
+    },
+    {
+      "title": "Vintage matters, sometimes",
+      "body": "The vintage is the year the grapes were picked. Weather makes some years better, which matters most for top Bordeaux, Burgundy and Champagne."
+    },
+    {
+      "title": "Food pairing basics",
+      "body": "Match weight with weight: big reds with steak, crisp whites with seafood, off-dry Riesling with spicy food, Champagne with almost anything fried or salty, including dim sum."
+    }
+  ],
+  "jargon": [
+    {
+      "term": "Tannin",
+      "meaning": "The drying, grippy sensation in red wine, from grape skins and oak."
+    },
+    {
+      "term": "Body",
+      "meaning": "How heavy or light a wine feels in the mouth."
+    },
+    {
+      "term": "Acidity",
+      "meaning": "Freshness; makes your mouth water."
+    },
+    {
+      "term": "Dry",
+      "meaning": "Not sweet. Most wines are dry."
+    },
+    {
+      "term": "Terroir",
+      "meaning": "The idea that place, soil and climate shape a wine's character."
+    },
+    {
+      "term": "Vintage",
+      "meaning": "The year the grapes were harvested."
+    },
+    {
+      "term": "Decant",
+      "meaning": "Pouring wine into a carafe to let it breathe or remove sediment."
+    },
+    {
+      "term": "Corked",
+      "meaning": "A fault that makes wine smell like wet cardboard. A valid reason to send it back."
+    },
+    {
+      "term": "Grand cru / premier cru",
+      "meaning": "Top-ranked vineyards or estates in Burgundy and Bordeaux."
+    },
+    {
+      "term": "First growth",
+      "meaning": "Bordeaux's top five châteaux: Lafite, Latour, Margaux, Haut-Brion, Mouton."
+    },
+    {
+      "term": "En primeur",
+      "meaning": "Buying Bordeaux as 'futures' before it's bottled."
+    },
+    {
+      "term": "Natural wine",
+      "meaning": "Wine made with minimal intervention and few additives; trendy and divisive."
+    },
+    {
+      "term": "Sommelier",
+      "meaning": "A restaurant's wine expert."
+    },
+    {
+      "term": "Corkage",
+      "meaning": "The fee a restaurant charges for opening a bottle you bring. BYO is common in Hong Kong."
+    },
+    {
+      "term": "Old World / New World",
+      "meaning": "Europe vs everywhere else."
+    },
+    {
+      "term": "Brut",
+      "meaning": "Dry, for Champagne."
+    }
+  ],
+  "names": [
+    {
+      "name": "Bordeaux",
+      "what": "France's most famous region, home of grand châteaux and long-lived reds."
+    },
+    {
+      "name": "Burgundy",
+      "what": "France's Pinot Noir and Chardonnay heartland; its top wines are the world's priciest."
+    },
+    {
+      "name": "Champagne",
+      "what": "The only sparkling wine that can be called Champagne, from northeast France."
+    },
+    {
+      "name": "Château Lafite Rothschild",
+      "what": "First-growth Bordeaux that became a status symbol in China around 2010."
+    },
+    {
+      "name": "Domaine de la Romanée-Conti (DRC)",
+      "what": "Burgundy's most legendary estate; bottles can cost tens of thousands of dollars."
+    },
+    {
+      "name": "Penfolds Grange",
+      "what": "Australia's most famous wine, very popular in Asia."
+    },
+    {
+      "name": "Napa Valley",
+      "what": "California's star region for Cabernet."
+    },
+    {
+      "name": "Barolo",
+      "what": "Italy's 'king of wines', from Nebbiolo in Piedmont."
+    },
+    {
+      "name": "Tuscany",
+      "what": "Home of Chianti and the 'Super Tuscans' like Sassicaia."
+    },
+    {
+      "name": "Robert Parker",
+      "what": "Critic whose 100-point scores shaped wine buying for decades."
+    },
+    {
+      "name": "Jancis Robinson",
+      "what": "Influential British wine writer."
+    },
+    {
+      "name": "Dom Pérignon",
+      "what": "LVMH's prestige Champagne."
+    },
+    {
+      "name": "Ningxia",
+      "what": "China's leading wine region, winning international awards."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1855",
+      "event": "Bordeaux's official classification ranks the top châteaux."
+    },
+    {
+      "year": "1973",
+      "event": "Mouton Rothschild promoted to first growth, the only change ever."
+    },
+    {
+      "year": "1976",
+      "event": "'Judgement of Paris': California wines beat top French wines in a blind tasting."
+    },
+    {
+      "year": "1980s",
+      "event": "Robert Parker's scores make him the most powerful critic."
+    },
+    {
+      "year": "2008",
+      "event": "Hong Kong scraps wine duty and becomes Asia's wine hub."
+    },
+    {
+      "year": "2010–11",
+      "event": "Chinese demand sends Lafite prices soaring, then crashing."
+    },
+    {
+      "year": "2010s",
+      "event": "Natural wine movement grows."
+    },
+    {
+      "year": "2020s",
+      "event": "Climate change shifts harvests; English sparkling wine gains respect."
+    }
+  ],
+  "now": [
+    {
+      "headline": "Fine wine prices slumped",
+      "detail": "After a 2022 peak, prices for top Bordeaux and Burgundy fell, and many collectors are selling."
+    },
+    {
+      "headline": "Young people drink less",
+      "detail": "Gen Z drinks less alcohol, and wine sales are falling in many markets."
+    },
+    {
+      "headline": "Climate change",
+      "detail": "Earlier harvests and heatwaves are changing classic regions; cooler places like England benefit."
+    },
+    {
+      "headline": "Lighter styles",
+      "detail": "Chillable reds, lower alcohol and fresher styles are in fashion."
+    }
+  ],
+  "local": [
+    {
+      "headline": "Duty-free hub",
+      "detail": "No wine tax since 2008 made Hong Kong a world centre for wine trading and auctions."
+    },
+    {
+      "headline": "BYO culture",
+      "detail": "Many restaurants allow bringing your own wine, sometimes with free corkage on certain nights."
+    },
+    {
+      "headline": "Wine with Chinese food",
+      "detail": "Bordeaux at banquets is a tradition, but Riesling and Champagne pair better with Cantonese dishes."
+    },
+    {
+      "headline": "Wine & Dine Festival",
+      "detail": "The Hong Kong Wine & Dine Festival on the harbourfront each autumn is a big social event."
+    }
+  ],
+  "debates": [
+    {
+      "question": "Is expensive wine worth it?",
+      "sides": "Blind tastings often show people can't tell; enthusiasts say great wine is unmistakable."
+    },
+    {
+      "question": "Natural wine: exciting or faulty?",
+      "sides": "Fans love its energy; critics find it funky and inconsistent."
+    },
+    {
+      "question": "Screw caps or corks?",
+      "sides": "Screw caps prevent cork taint; corks are traditional and may help ageing."
+    },
+    {
+      "question": "Old World or New World?",
+      "sides": "Elegance and tradition vs ripeness and value."
+    }
+  ],
+  "starters": [
+    "Do you have a go-to wine?",
+    "Red or white person?",
+    "What's the best bottle you've ever had?",
+    "Have you been to any wine regions?",
+    "Any good BYO spots you'd recommend?",
+    "What would you pair with this?"
+  ],
+  "sayThis": [
+    {
+      "say": "This has nice acidity.",
+      "why": "Safe, accurate praise for most wines."
+    },
+    {
+      "say": "Riesling is so underrated with Chinese food.",
+      "why": "A favourite opinion of sommeliers."
+    },
+    {
+      "say": "Is this Old World or New World?",
+      "why": "An easy question that invites the host to share."
+    },
+    {
+      "say": "Should we let it open up a bit?",
+      "why": "Sounds knowledgeable with big reds."
+    }
+  ],
+  "avoid": [
+    "Filling your own glass first. Pour for others.",
+    "Holding the glass by the bowl at formal dinners. Hold the stem.",
+    "Sending wine back just because you don't like it. Only if it's faulty."
+  ],
+  "quiz": [
+    {
+      "q": "What is tannin?",
+      "options": [
+        "Sugar",
+        "The drying sensation in red wine",
+        "Alcohol",
+        "A grape"
+      ],
+      "answer": 1,
+      "explain": "From skins and oak."
+    },
+    {
+      "q": "Which region is famous for Pinot Noir and Chardonnay?",
+      "options": [
+        "Bordeaux",
+        "Burgundy",
+        "Rioja",
+        "Napa"
+      ],
+      "answer": 1,
+      "explain": "Burgundy."
+    },
+    {
+      "q": "When did Hong Kong scrap wine duty?",
+      "options": [
+        "1997",
+        "2003",
+        "2008",
+        "2015"
+      ],
+      "answer": 2,
+      "explain": "It became Asia's wine hub."
+    },
+    {
+      "q": "What does 'corked' mean?",
+      "options": [
+        "Sealed",
+        "A fault that smells like wet cardboard",
+        "Expensive",
+        "Aged"
+      ],
+      "answer": 1,
+      "explain": "Send it back."
+    },
+    {
+      "q": "Which country makes Penfolds Grange?",
+      "options": [
+        "USA",
+        "Australia",
+        "South Africa",
+        "Chile"
+      ],
+      "answer": 1,
+      "explain": "Australia's icon."
+    },
+    {
+      "q": "What was the 'Judgement of Paris'?",
+      "options": [
+        "A wine auction",
+        "California wines beating France in a blind tasting",
+        "A Champagne law",
+        "A harvest"
+      ],
+      "answer": 1,
+      "explain": "1976."
+    },
+    {
+      "q": "'Brut' Champagne is…",
+      "options": [
+        "Sweet",
+        "Dry",
+        "Red",
+        "Still"
+      ],
+      "answer": 1,
+      "explain": "Dry."
+    },
+    {
+      "q": "Which is a Bordeaux first growth?",
+      "options": [
+        "Château Lafite Rothschild",
+        "Penfolds",
+        "Opus One",
+        "Sassicaia"
+      ],
+      "answer": 0,
+      "explain": "One of five."
+    },
+    {
+      "q": "What's terroir?",
+      "options": [
+        "A barrel",
+        "How place and climate shape wine",
+        "A grape",
+        "A cork"
+      ],
+      "answer": 1,
+      "explain": "Central to French wine."
+    },
+    {
+      "q": "Barolo is made from which grape?",
+      "options": [
+        "Sangiovese",
+        "Nebbiolo",
+        "Merlot",
+        "Tempranillo"
+      ],
+      "answer": 1,
+      "explain": "Italy's 'king of wines'."
+    }
+  ]
+}
