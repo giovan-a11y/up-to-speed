@@ -1,10 +1,10 @@
 {
   "slug": "formula-1",
   "refresh": "weekly",
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "topic": "Formula 1",
   "category": "Sports",
-  "asOf": "14 Nov 2026",
+  "asOf": "16 Nov 2026",
   "tagline": "Twenty-two drivers, 11 teams, 24 races, and more politics than a royal court.",
   "why": "Formula 1 is the top level of single-seater motor racing: the fastest circuit cars on earth, racing on a calendar that spans five continents from March to December. Netflix's Drive to Survive (2019 onward) and the 2025 Brad Pitt film F1 turned it into a mainstream obsession. Fans love the driver rivalries, the engineering arms race and the team drama as much as the racing itself.",
   "essentials": [
@@ -229,28 +229,28 @@
   ],
   "now": [
     {
+      "headline": "Las Vegas this week",
+      "detail": "Round 22 runs on the Strip on Saturday night, 21 November local time, which is noon on Sunday 22 November in Hong Kong. Qatar (29 Nov) and Abu Dhabi (6 Dec) close the season."
+    },
+    {
       "headline": "Antonelli is world champion",
       "detail": "Mercedes' Kimi Antonelli clinched the 2026 title in Mexico City on 1 November at 20 years and 68 days, the youngest champion ever."
     },
     {
-      "headline": "Norris wins in Brazil",
-      "detail": "Lando Norris won the São Paulo GP from pole on 8 November; Antonelli set fastest lap."
-    },
-    {
-      "headline": "Verstappen's late charge",
-      "detail": "Max Verstappen won Malaysia (the relocated Bahrain round), Singapore and Mexico City and is now second in the standings."
+      "headline": "Norris wins a wet Brazil",
+      "detail": "Lando Norris won the São Paulo GP on 8 November after Antonelli spun out of the lead in the rain, and Max Verstappen charged from 21st to second. Mercedes sealed their ninth constructors' title there."
     },
     {
       "headline": "Fight for P2",
       "detail": "Only 18 points cover Verstappen (279), Russell (262), Hamilton (261) and Leclerc (251) with three races left."
     },
     {
-      "headline": "Las Vegas next",
-      "detail": "Three rounds remain: Las Vegas (21 Nov), Qatar (29 Nov) and the Abu Dhabi finale (6 Dec)."
+      "headline": "2027 seats filling up",
+      "detail": "Ferrari junior Rafael Câmara joins Haas for 2027, and Liam Lawson and Arvid Lindblad stay at Racing Bulls. Esteban Ocon is out for the rest of this season after a row with the Haas boss."
     },
     {
-      "headline": "Hamilton's first Ferrari year",
-      "detail": "He won in Barcelona, his first win since 2024, and took pole and P2 in Mexico City."
+      "headline": "Alan Jones dies",
+      "detail": "Australia's 1980 world champion Alan Jones has died aged 80."
     }
   ],
   "local": [
@@ -441,39 +441,39 @@
       "explain": "Macau's Guia circuit hosts F3, GT and motorbike races."
     },
     {
-      "q": "Where did Kimi Antonelli clinch the 2026 title?",
+      "q": "Who won the wet 2026 São Paulo Grand Prix?",
       "options": [
-        "Austin",
-        "São Paulo",
-        "Mexico City",
-        "Las Vegas"
+        "Kimi Antonelli",
+        "Max Verstappen",
+        "Lando Norris",
+        "Lewis Hamilton"
       ],
       "answer": 2,
-      "explain": "His podium in Mexico City on 1 November sealed it.",
+      "explain": "Norris won after Antonelli spun out of the lead.",
       "current": true
     },
     {
-      "q": "Who won the 2026 São Paulo Grand Prix?",
+      "q": "Which team has signed Ferrari junior Rafael Câmara for 2027?",
       "options": [
-        "Lando Norris",
-        "Max Verstappen",
-        "George Russell",
-        "Charles Leclerc"
+        "Haas",
+        "Williams",
+        "Alpine",
+        "Racing Bulls"
       ],
       "answer": 0,
-      "explain": "Norris won from pole on 8 November.",
+      "explain": "Câmara moves to Ferrari's customer team Haas.",
       "current": true
     },
     {
-      "q": "Which team has scored the most constructors' points in 2026?",
+      "q": "From which grid slot did Verstappen recover to finish second in São Paulo?",
       "options": [
-        "Ferrari",
-        "Red Bull",
-        "McLaren",
-        "Mercedes"
+        "10th",
+        "15th",
+        "18th",
+        "21st"
       ],
       "answer": 3,
-      "explain": "Mercedes lead with 630 points.",
+      "explain": "He charged from 21st to second in the rain.",
       "current": true
     }
   ],
@@ -492,11 +492,11 @@
     },
     {
       "label": "Constructors",
-      "value": "Mercedes 630, Ferrari 504"
+      "value": "Mercedes 630 (9th title)"
     },
     {
-      "label": "Races left",
-      "value": "3 (Vegas 21 Nov)"
+      "label": "Next race",
+      "value": "Las Vegas, noon 22 Nov HKT"
     }
   ],
   "deep": [

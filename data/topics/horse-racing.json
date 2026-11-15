@@ -1,10 +1,10 @@
 {
   "slug": "horse-racing",
   "refresh": "weekly",
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "topic": "Horse racing",
   "category": "Sports",
-  "asOf": "14 Nov 2026",
+  "asOf": "16 Nov 2026",
   "tagline": "Wednesday nights at Happy Valley, Sundays at Sha Tin, and the world's richest betting pools.",
   "why": "Horse racing is Hong Kong's great shared pastime. The Hong Kong Jockey Club runs some of the best-attended, highest-quality and richest racing in the world, and its betting turnover is enormous. Even people who never bet know the big horses, and an evening at Happy Valley is a classic social night out. Knowing the basics lets you join in at work, at dim sum, and at the track.",
   "essentials": [
@@ -201,12 +201,20 @@
   ],
   "now": [
     {
-      "headline": "Ka Ying Rising returns",
-      "detail": "Hong Kong's star sprinter trialled impressively at Sha Tin on 13 November and runs in the Jockey Club Sprint on 22 November."
+      "headline": "Ka Ying Rising returns on Sunday",
+      "detail": "Hong Kong's star sprinter breezed through a Sha Tin trial on 13 November and runs in the Jockey Club Sprint on 22 November."
+    },
+    {
+      "headline": "Poon's 300th winner",
+      "detail": "Jockey Matthew Poon brought up his 300th Hong Kong win at Sha Tin on 14 November."
+    },
+    {
+      "headline": "Panasonic Cup upset",
+      "detail": "Trainer Pierre Ng switched Johannes Brahms to sprinting and he won the Class 2 Panasonic Cup at Sha Tin on 14 November under Vincent Ho."
     },
     {
       "headline": "The streak that ended",
-      "detail": "His 21-race winning run ended with second place in The Everest at Randwick in October."
+      "detail": "Ka Ying Rising's 21-race winning run ended with second place in The Everest at Randwick in October."
     },
     {
       "headline": "Romantic Warrior retires",
@@ -215,10 +223,6 @@
     {
       "headline": "International Races on 13 December",
       "detail": "Ka Ying Rising aims to be the first three-time winner of the HK$28 million Hong Kong Sprint."
-    },
-    {
-      "headline": "Jerry Chau's hot streak",
-      "detail": "Trainer David Hayes says there's 'no jockey hotter than Jerry' right now."
     }
   ],
   "local": [
@@ -396,39 +400,39 @@
       "explain": "The 2000s sprinter."
     },
     {
-      "q": "What ended Ka Ying Rising's 21-race winning streak?",
+      "q": "Which jockey brought up 300 Hong Kong wins at Sha Tin on 14 November 2026?",
       "options": [
-        "A loss in the Hong Kong Sprint",
-        "Second place in The Everest",
-        "An injury",
-        "Defeat in Japan"
+        "Zac Purton",
+        "Matthew Poon",
+        "Jerry Chau",
+        "Vincent Ho"
       ],
       "answer": 1,
-      "explain": "He was runner-up in Sydney's Everest in October.",
+      "explain": "Poon reached the milestone the same day a dirt race was abandoned.",
       "current": true
     },
     {
-      "q": "How many Group 1 races did Romantic Warrior win?",
+      "q": "Which race is Ka Ying Rising's comeback on 22 November?",
       "options": [
-        "9",
-        "12",
-        "15",
-        "20"
+        "Hong Kong Sprint",
+        "The Everest",
+        "Jockey Club Sprint",
+        "Centenary Sprint Cup"
       ],
       "answer": 2,
-      "explain": "15 Group 1s, a Hong Kong record.",
+      "explain": "It's the traditional prep for December's Hong Kong Sprint.",
       "current": true
     },
     {
-      "q": "When is the 2026 Hong Kong International Races day?",
+      "q": "Which trainer won the Panasonic Cup with Johannes Brahms?",
       "options": [
-        "13 December",
-        "1 January",
-        "22 November",
-        "6 December"
+        "David Hayes",
+        "Pierre Ng",
+        "John Size",
+        "Mark Newnham"
       ],
-      "answer": 0,
-      "explain": "Sunday 13 December at Sha Tin.",
+      "answer": 1,
+      "explain": "Ng's switch to sprinting paid off.",
       "current": true
     }
   ],

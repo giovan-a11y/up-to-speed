@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-16",
   "refreshed": [
     "formula-1",
     "premier-league-football",
@@ -21,42 +21,42 @@
     {
       "slug": "investing-and-stocks",
       "topic": "Investing and stocks",
-      "headline": "Nvidia's Jensen Huang resigned and Anthropic set its IPO for 19 November at up to US$1.4 trillion."
-    },
-    {
-      "slug": "formula-1",
-      "topic": "Formula 1",
-      "headline": "Kimi Antonelli is the youngest F1 champion ever; three races left, starting in Las Vegas on 21 November."
-    },
-    {
-      "slug": "gaming",
-      "topic": "Gaming",
-      "headline": "GTA VI finally launches 19 November after an estimated US$1 billion in pre-sales."
-    },
-    {
-      "slug": "the-economy",
-      "topic": "The economy",
-      "headline": "Hot US inflation makes a December Fed hike likely, while Hong Kong's Q3 GDP grew 5.2%."
-    },
-    {
-      "slug": "premier-league-football",
-      "topic": "Premier League football",
-      "headline": "Arsenal lead by five from Brighton; Man United are in the bottom three."
-    },
-    {
-      "slug": "crypto",
-      "topic": "Crypto",
-      "headline": "Bitcoin fell below US$70,000 to a three-month low on rate-hike fears."
-    },
-    {
-      "slug": "horse-racing",
-      "topic": "Horse racing",
-      "headline": "Ka Ying Rising returns in the Jockey Club Sprint on 22 November, eyeing a third Hong Kong Sprint."
+      "headline": "Nvidia reports on Tuesday and Anthropic lists on Thursday in the market's biggest AI week."
     },
     {
       "slug": "tennis",
       "topic": "Tennis",
-      "headline": "The ATP Finals start Sunday in Turin without injured champion Sinner."
+      "headline": "Mirra Andreeva, 19, won the WTA Finals without dropping a set and ends 2026 as world No. 2."
+    },
+    {
+      "slug": "golf",
+      "topic": "Golf",
+      "headline": "Rory McIlroy won an eighth Race to Dubai, equalling Montgomerie's record, as Tyrrell Hatton won in Dubai."
+    },
+    {
+      "slug": "crypto",
+      "topic": "Crypto",
+      "headline": "Bitcoin dropped to about US$62,000, down 15% in a week, as ETF outflows hit US$1.9 billion."
+    },
+    {
+      "slug": "gaming",
+      "topic": "Gaming",
+      "headline": "GTA VI launches Thursday, with reviews reportedly out the day before."
+    },
+    {
+      "slug": "films-and-tv-series",
+      "topic": "Films and TV series",
+      "headline": "Johnny Depp's Ebenezer took No. 1 as Godzilla Minus Zero fell 75%."
+    },
+    {
+      "slug": "hong-kong-property",
+      "topic": "Hong Kong property",
+      "headline": "Resale prices hit a 20-week low and New World plans a HK$25 billion rights issue."
+    },
+    {
+      "slug": "smartphones-and-gadgets",
+      "topic": "Smartphones and gadgets",
+      "headline": "Apple's first touchscreen Mac, the OLED MacBook Pro, is shipping."
     }
   ]
 }

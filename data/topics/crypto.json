@@ -1,10 +1,10 @@
 {
   "slug": "crypto",
   "refresh": "weekly",
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "topic": "Crypto",
   "category": "Money",
-  "asOf": "14 Nov 2026",
+  "asOf": "16 Nov 2026",
   "tagline": "Bitcoin, wild price swings, and Hong Kong's push to be a crypto hub.",
   "why": "Crypto went from a niche internet experiment to something Wall Street, governments and your colleagues talk about. Bitcoin is now held by ETFs and companies, stablecoins are being regulated, and Hong Kong has positioned itself as a licensed crypto hub. It's polarising: some see the future of money, others a casino. Knowing the basics lets you join in without being lost or preachy.",
   "essentials": [
@@ -193,24 +193,28 @@
   ],
   "now": [
     {
-      "headline": "Bitcoin below US$70k",
-      "detail": "Bitcoin closed at about US$69,556 on 13 November, its lowest close in three months and about 20% below September's high."
+      "headline": "Bitcoin slides toward US$62k",
+      "detail": "Bitcoin hit a three-month low of about US$62,080 on 15 November, down roughly 15% in a week, before bouncing to around US$65,000."
     },
     {
-      "headline": "Rate-hike fears",
-      "detail": "A 10-year US Treasury yield above 5% and a likely Fed hike in December are hitting crypto hardest."
+      "headline": "ETF money is leaving",
+      "detail": "US spot Bitcoin ETFs saw about US$1.91 billion of outflows over seven straight sessions from 5 to 13 November, per Farside Investors."
     },
     {
-      "headline": "Ether under US$2,000",
-      "detail": "Ethereum fell to about US$1,970, down 29% from its September peak."
-    },
-    {
-      "headline": "Key levels",
-      "detail": "Traders watch US$70,000 as resistance and June's low of about US$58,559 as the floor."
+      "headline": "A liquidation wave",
+      "detail": "About US$1.96 billion of leveraged crypto bets were wiped out in 24 hours, around US$750 million of them in Bitcoin and mostly longs."
     },
     {
       "headline": "Altcoins hit harder",
-      "detail": "Solana is around US$82, a third below its September high; XRP sits near US$1.04."
+      "detail": "Ether is down to about US$1,790, Solana about US$70, and XRP has slipped below US$1."
+    },
+    {
+      "headline": "Rate-hike fears",
+      "detail": "Hot October inflation (CPI +0.4% on the month), a 10-year Treasury yield above 5% and a likely Fed hike in December are hitting crypto hardest."
+    },
+    {
+      "headline": "Levels to watch",
+      "detail": "Glassnode flags a cluster of liquidations around US$60,000-62,000; below that, June's low of about US$58,559 is the floor traders talk about."
     }
   ],
   "local": [
@@ -391,54 +395,58 @@
       "explain": "Launched in 2015."
     },
     {
-      "q": "Roughly where did Bitcoin close on 13 November 2026?",
+      "q": "Roughly how low did Bitcoin fall on 15 November 2026?",
       "options": [
-        "US$125,000",
-        "US$69,500",
-        "US$40,000",
-        "US$100,000"
+        "US$70,000",
+        "US$62,000",
+        "US$55,000",
+        "US$48,000"
       ],
       "answer": 1,
-      "explain": "About US$69,556, a three-month low.",
+      "explain": "It touched about US$62,080, a three-month low.",
       "current": true
     },
     {
-      "q": "What is the main reason given for crypto's November slide?",
+      "q": "About how much left US spot Bitcoin ETFs over seven sessions to 13 November?",
       "options": [
-        "A big exchange hack",
-        "Higher yields and Fed hike expectations",
-        "A Bitcoin halving",
-        "An ETF ban"
-      ],
-      "answer": 1,
-      "explain": "Rising rates make non-yielding assets less attractive.",
-      "current": true
-    },
-    {
-      "q": "Which major coin has fallen below US$2,000?",
-      "options": [
-        "Solana",
-        "XRP",
-        "Ethereum",
-        "Bitcoin"
+        "US$190 million",
+        "US$500 million",
+        "US$1.9 billion",
+        "US$9 billion"
       ],
       "answer": 2,
-      "explain": "Ether was near US$1,970.",
+      "explain": "About US$1.91 billion, per Farside Investors.",
+      "current": true
+    },
+    {
+      "q": "Which major coin slipped below US$1?",
+      "options": [
+        "Solana",
+        "Ether",
+        "Dogecoin",
+        "XRP"
+      ],
+      "answer": 3,
+      "explain": "XRP is around US$0.96.",
       "current": true
     }
   ],
   "numbers": [
     {
       "label": "Bitcoin",
-      "value": "~US$69,600 (13 Nov)"
+      "value": "~US$65,000 (16 Nov)"
+    },
+    {
+      "label": "BTC 3-month low",
+      "value": "~US$62,080 (15 Nov)"
     },
     {
       "label": "Ethereum",
-      "value": "~US$1,970"
+      "value": "~US$1,790"
     },
     {
       "label": "Solana",
-      "value": "~US$82"
+      "value": "~US$70"
     },
     {
       "label": "BTC 12-month high",

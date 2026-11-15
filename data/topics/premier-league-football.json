@@ -1,10 +1,10 @@
 {
   "slug": "premier-league-football",
   "refresh": "weekly",
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "topic": "Premier League football",
   "category": "Sports",
-  "asOf": "14 Nov 2026",
+  "asOf": "16 Nov 2026",
   "tagline": "Twenty clubs, 38 games each, and the most-watched league on the planet.",
   "why": "The Premier League is England's top football division and the most popular sports league in the world, watched in almost every country. In Hong Kong it's the default sports small talk: people stay up for 10pm, midnight and 3am kick-offs and support a club for life, often one they picked as a kid in the 1990s or 2000s. You don't need to know tactics. Knowing which club someone supports, how that club is doing, and a few big names gets you a long way.",
   "essentials": [
@@ -213,28 +213,28 @@
   ],
   "now": [
     {
+      "headline": "International break",
+      "detail": "There are no league games until Matchweek 11 on 21-23 November. Arsenal visit Newcastle on the 21st and Liverpool host Manchester United on the 22nd."
+    },
+    {
       "headline": "Arsenal on top",
-      "detail": "After 10 games Arsenal lead on 27 points, five clear of surprise package Brighton."
+      "detail": "After 10 games Arsenal lead on 27 points with nine wins and only five goals conceded. Their one defeat was 3-0 at Brighton."
     },
     {
       "headline": "Brighton's flying start",
-      "detail": "Brighton sit second on 22, helped by 5-0 wins over Crystal Palace and at Coventry."
-    },
-    {
-      "headline": "Maresca's City",
-      "detail": "Enzo Maresca replaced Pep Guardiola in the summer; City are third on 21 and Haaland leads the scorers."
+      "detail": "Fabian Hürzeler's Brighton sit second on 22, five points back, helped by 5-0 wins over Crystal Palace and at Coventry."
     },
     {
       "headline": "Man United in trouble",
-      "detail": "United are 18th with 8 points after 10 games, in the relegation zone."
+      "detail": "United are 18th with 8 points, and Michael Carrick has one win in 10 games, so his job is being questioned."
     },
     {
-      "headline": "A summer of new managers",
-      "detail": "Xabi Alonso took Chelsea, Andoni Iraola replaced the sacked Arne Slot at Liverpool, and Eddie Howe left Newcastle."
+      "headline": "Sack-race watch",
+      "detail": "Crystal Palace are bottom and Pierre Sage is expected to go, with Thomas Frank reportedly lined up. Enzo Maresca's City lost three straight before the break."
     },
     {
       "headline": "City's 115 charges verdict",
-      "detail": "Manchester City were found guilty of breaching financial rules between 2009 and 2018 and are appealing."
+      "detail": "Manchester City were found guilty of breaching financial rules between 2009 and 2018 and are appealing, with a points deduction possible."
     }
   ],
   "local": [
@@ -430,39 +430,39 @@
       "explain": "One of the fiercest rivalries in England."
     },
     {
-      "q": "Who replaced Pep Guardiola at Manchester City?",
+      "q": "Who handed Arsenal their only league defeat of 2026-27 so far?",
       "options": [
-        "Xabi Alonso",
-        "Enzo Maresca",
-        "Andoni Iraola",
-        "Marco Rose"
+        "Man City",
+        "Brighton",
+        "Chelsea",
+        "Liverpool"
       ],
       "answer": 1,
-      "explain": "Maresca took over in summer 2026.",
+      "explain": "Brighton won 3-0.",
       "current": true
     },
     {
-      "q": "Which team is second after 10 games of 2026-27?",
+      "q": "Who is Manchester United's manager this season?",
       "options": [
-        "Brighton",
-        "Liverpool",
-        "Chelsea",
-        "Everton"
-      ],
-      "answer": 0,
-      "explain": "Brighton have 22 points.",
-      "current": true
-    },
-    {
-      "q": "Who is Liverpool's manager this season?",
-      "options": [
-        "Arne Slot",
-        "Eddie Howe",
-        "Oliver Glasner",
-        "Andoni Iraola"
+        "Ruben Amorim",
+        "Erik ten Hag",
+        "Thomas Frank",
+        "Michael Carrick"
       ],
       "answer": 3,
-      "explain": "Iraola replaced the sacked Slot in June.",
+      "explain": "Carrick has one win in 10 league games.",
+      "current": true
+    },
+    {
+      "q": "Where do Arsenal play first after the November break?",
+      "options": [
+        "Newcastle",
+        "Liverpool",
+        "Brighton",
+        "Aston Villa"
+      ],
+      "answer": 0,
+      "explain": "Newcastle v Arsenal on 21 November.",
       "current": true
     }
   ],
@@ -484,8 +484,8 @@
       "value": "Man Utd 8, Sunderland 8, Palace 7"
     },
     {
-      "label": "Top scorer",
-      "value": "Haaland (8 by mid-Oct)"
+      "label": "Back on",
+      "value": "21 Nov: Newcastle v Arsenal"
     }
   ],
   "deep": [

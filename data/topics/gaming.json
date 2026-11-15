@@ -1,10 +1,10 @@
 {
   "slug": "gaming",
   "refresh": "weekly",
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "topic": "Gaming",
   "category": "Tech",
-  "asOf": "14 Nov 2026",
+  "asOf": "16 Nov 2026",
   "tagline": "Consoles, mobile hits, esports and the biggest entertainment industry on earth.",
   "why": "Gaming is bigger than film and music combined, and it's no longer just teenagers: most adults play something, from mobile games on the MTR to big console releases. Gamers talk about new launches, favourite franchises, platforms and the industry's drama. Knowing the key consoles, games and terms lets you connect with the many people who play.",
   "essentials": [
@@ -201,8 +201,12 @@
   ],
   "now": [
     {
-      "headline": "GTA VI out on 19 November",
-      "detail": "After two delays, Grand Theft Auto VI launches next Thursday on PlayStation and Xbox."
+      "headline": "GTA VI out on Thursday",
+      "detail": "After two delays, Grand Theft Auto VI launches on 19 November on PlayStation and Xbox; reviews reportedly drop the day before."
+    },
+    {
+      "headline": "A box with no disc",
+      "detail": "Retail boxes went on sale on 12 November with just a download code inside, and the install is about 230GB."
     },
     {
       "headline": "US$1 billion before launch",
@@ -215,10 +219,6 @@
     {
       "headline": "Game Awards nominees on 17 November",
       "detail": "The show is 10 December; GTA VI and the Switch 2 Ocarina of Time remake (96 on Metacritic) are eligible."
-    },
-    {
-      "headline": "Digital-only worries",
-      "detail": "GTA VI is reportedly sold without physical discs, which has annoyed collectors."
     }
   ],
   "local": [
@@ -400,39 +400,39 @@
       "explain": "Also Dark Souls."
     },
     {
-      "q": "When does GTA VI launch?",
+      "q": "When do GTA VI reviews reportedly go live?",
       "options": [
-        "19 November 2026",
-        "26 May 2026",
-        "1 January 2027",
-        "It's already out"
+        "18 November",
+        "12 November",
+        "19 November",
+        "10 December"
       ],
       "answer": 0,
-      "explain": "After delays from 2025 and May 2026.",
+      "explain": "A day before the 19 November launch.",
       "current": true
     },
     {
-      "q": "Which classic is getting a Switch 2 remake with a 96 Metacritic score?",
+      "q": "What's inside a GTA VI retail box?",
       "options": [
-        "Super Mario 64",
-        "Ocarina of Time",
-        "Metroid Prime",
-        "Twilight Princess"
+        "Two Blu-ray discs",
+        "A download code, no disc",
+        "A USB stick",
+        "A cartridge"
       ],
       "answer": 1,
-      "explain": "The Legend of Zelda: Ocarina of Time.",
+      "explain": "Collectors were unhappy that there's no disc.",
       "current": true
     },
     {
-      "q": "Whose 24-hour sales record is GTA VI expected to break?",
+      "q": "Roughly how big is the GTA VI install?",
       "options": [
-        "Call of Duty",
-        "Minecraft",
-        "Pokémon",
-        "GTA V"
+        "50GB",
+        "100GB",
+        "350GB",
+        "230GB"
       ],
       "answer": 3,
-      "explain": "GTA V made US$815.7 million in a day.",
+      "explain": "About 230GB.",
       "current": true
     }
   ],
@@ -444,6 +444,10 @@
     {
       "label": "GTA VI pre-sales (est.)",
       "value": "~US$1bn"
+    },
+    {
+      "label": "Install size",
+      "value": "~230GB"
     },
     {
       "label": "PS / Xbox split",

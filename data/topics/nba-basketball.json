@@ -1,10 +1,10 @@
 {
   "slug": "nba-basketball",
   "refresh": "weekly",
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "topic": "NBA basketball",
   "category": "Sports",
-  "asOf": "14 Nov 2026",
+  "asOf": "16 Nov 2026",
   "tagline": "Thirty teams, 82 games, and the most talked-about athletes on social media.",
   "why": "The NBA is the world's top basketball league and probably the most global American sport, hugely popular across Asia. Its stars are celebrities on and off the court, and fans argue endlessly about who's the greatest, which trades make sense, and whether the league is better than it used to be. You can follow it casually through highlights, which come out during Hong Kong mornings.",
   "essentials": [
@@ -205,28 +205,28 @@
   ],
   "now": [
     {
-      "headline": "Lakers lead the West",
-      "detail": "LA are 11-2, the league's best record, with Luka Dončić averaging about 38.6 points."
+      "headline": "Spurs and Lakers tied at the top",
+      "detail": "San Antonio and LA are both 11-2, the league's best record, and meet on 27 November."
     },
     {
-      "headline": "Spurs right behind",
-      "detail": "San Antonio are 10-2 with the best net rating; Lakers vs Spurs on 27 November is a big date."
+      "headline": "Wemby's monster night",
+      "detail": "Victor Wembanyama scored 40 on 15-of-19 shooting with 11 rebounds and nine blocks against Phoenix on 9 November, part of a nine-game Spurs win streak."
     },
     {
-      "headline": "Celtics and 76ers set the East pace",
-      "detail": "Boston (10-2) and Philadelphia (9-3) top the East; NBC's power rankings put the Sixers No. 1."
+      "headline": "Luka's scoring spree",
+      "detail": "Luka Dončić leads the league at about 38.6 points a game; he had 32 points, 10 assists and five steals in a win over Atlanta."
+    },
+    {
+      "headline": "Rockets rising",
+      "detail": "Houston are 10-3, third in the West, after Alperen Şengün outplayed an injured Nikola Jokić in a 110-100 win over Denver."
+    },
+    {
+      "headline": "East pace-setters",
+      "detail": "Boston (10-2) lead the East from Philadelphia (10-3) and Detroit (8-3)."
     },
     {
       "headline": "Knicks are champs",
       "detail": "New York won the 2026 title over the Spurs in June, their first since 1973."
-    },
-    {
-      "headline": "Thunder hit by injuries",
-      "detail": "OKC are 8-4 and in the play-in spot after injuries slowed them down."
-    },
-    {
-      "headline": "Giannis in Miami",
-      "detail": "Antetokounmpo now plays for the Heat and is averaging 28.5 points."
     }
   ],
   "local": [
@@ -408,46 +408,46 @@
       "explain": "First to four wins."
     },
     {
-      "q": "Who won the 2026 NBA title?",
+      "q": "Which two teams share the NBA's best record in mid-November 2026?",
       "options": [
-        "Oklahoma City Thunder",
-        "San Antonio Spurs",
-        "New York Knicks",
-        "Boston Celtics"
+        "Celtics and 76ers",
+        "Thunder and Nuggets",
+        "Spurs and Lakers",
+        "Knicks and Heat"
       ],
       "answer": 2,
-      "explain": "The Knicks beat the Spurs for their first title since 1973.",
+      "explain": "Both are 11-2.",
       "current": true
     },
     {
-      "q": "Who leads the NBA in scoring early in 2026-27?",
+      "q": "How many blocks did Wembanyama have in his 40-point game against Phoenix?",
       "options": [
-        "Luka Dončić",
-        "Shai Gilgeous-Alexander",
-        "Victor Wembanyama",
-        "Stephen Curry"
+        "Nine",
+        "Five",
+        "Seven",
+        "Twelve"
       ],
       "answer": 0,
-      "explain": "Dončić is averaging around 38.6 points.",
+      "explain": "40 points, 11 rebounds and nine blocks.",
       "current": true
     },
     {
-      "q": "Which team does Giannis Antetokounmpo play for this season?",
+      "q": "Which team is third in the West at 10-3?",
       "options": [
-        "Milwaukee Bucks",
-        "Miami Heat",
-        "New York Knicks",
-        "Golden State Warriors"
+        "Oklahoma City",
+        "Denver",
+        "Golden State",
+        "Houston"
       ],
-      "answer": 1,
-      "explain": "He's with the Heat now.",
+      "answer": 3,
+      "explain": "The Rockets, led by Alperen Şengün.",
       "current": true
     }
   ],
   "numbers": [
     {
       "label": "Best record",
-      "value": "Lakers 11-2"
+      "value": "Spurs & Lakers 11-2"
     },
     {
       "label": "East leader",

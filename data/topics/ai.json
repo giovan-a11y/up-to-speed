@@ -1,10 +1,10 @@
 {
   "slug": "ai",
   "refresh": "weekly",
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "topic": "AI",
   "category": "Tech",
-  "asOf": "14 Nov 2026",
+  "asOf": "16 Nov 2026",
   "tagline": "Chatbots, chips and the trillion-dollar race everyone has an opinion on.",
   "why": "Artificial intelligence went from a research topic to everyday life when ChatGPT launched in late 2022. Now it's in workplaces, phones and the stock market, and everyone talks about which tools they use, whether AI will take jobs, and how fast it's improving. You don't need to be technical; knowing the key players, terms and debates is enough to hold your own.",
   "essentials": [
@@ -189,28 +189,28 @@
   ],
   "now": [
     {
-      "headline": "Anthropic goes public",
-      "detail": "The Claude maker set a US$70-78 IPO range valuing it at up to about US$1.4 trillion; trading is expected from 19 November. Its revenue hit US$33.2 billion in the first nine months of 2026."
+      "headline": "Anthropic lists this week",
+      "detail": "The Claude maker is expected to start trading on Nasdaq on 19 November, raising up to US$64.4 billion at a valuation of up to about US$1.4 trillion."
     },
     {
-      "headline": "Nvidia's CEO quits",
-      "detail": "Jensen Huang resigned on 12 November after 33 years; CFO Colette Kress is interim CEO."
+      "headline": "Nvidia without Huang",
+      "detail": "Nvidia reports on 17 November, its first results since Jensen Huang resigned. Colette Kress is interim CEO, Harvey Jones became board chair, and a CEO search is on."
     },
     {
-      "headline": "OpenAI at US$1.25 trillion",
-      "detail": "OpenAI has reportedly raised US$11 billion at a US$1.25 trillion valuation and backs US limits on China's access to AI chips."
+      "headline": "New models",
+      "detail": "Anthropic released Claude Fable 5.2 and Mythos 5.2, reportedly 20% cheaper and up to 30% faster, while Google opened Gemini 4 Carbon to developers and AI Ultra subscribers."
     },
     {
-      "headline": "Google's Gemini 4",
-      "detail": "Gemini 4 Hydrogen became Google's default fast model on 12 November."
+      "headline": "ChatGPT Wallet",
+      "detail": "OpenAI now lets ChatGPT agents buy things, with your approval for each purchase, built with American Express, Mastercard and Visa."
     },
     {
-      "headline": "Gemini glasses",
-      "detail": "Google's display-free Gemini glasses with Warby Parker and Gentle Monster start at US$395 and ship 10 December in the US and Korea."
+      "headline": "OpenAI's sums",
+      "detail": "OpenAI reportedly made about US$10 billion of revenue in the September quarter with a US$10.9 billion operating loss (Bloomberg), even at a US$1.25 trillion valuation."
     },
     {
-      "headline": "Bubble talk",
-      "detail": "Hong Kong's government lists a market correction if AI hopes prove too optimistic as a key risk."
+      "headline": "Microsoft outage",
+      "detail": "Outlook, Teams and Copilot went down on Thursday and Friday, with complaints in 74 countries; Microsoft says it wasn't a cyberattack."
     }
   ],
   "local": [
@@ -391,39 +391,39 @@
       "explain": "Nobel laureate 2024."
     },
     {
-      "q": "When is Anthropic expected to start trading publicly?",
+      "q": "What is OpenAI's new feature that lets agents make purchases?",
       "options": [
-        "1 January 2027",
-        "19 November 2026",
-        "It already listed in 2025",
-        "13 December 2026"
+        "ChatGPT Pay",
+        "ChatGPT Wallet",
+        "OpenAI Checkout",
+        "Operator Shop"
       ],
       "answer": 1,
-      "explain": "The debut is expected on Thursday 19 November.",
+      "explain": "Built with Amex, Mastercard and Visa, with approval for each purchase.",
       "current": true
     },
     {
-      "q": "Who replaced Jensen Huang as Nvidia's interim CEO?",
+      "q": "When does Nvidia report its first results without Jensen Huang?",
       "options": [
-        "Colette Kress",
-        "Sam Altman",
-        "Satya Nadella",
-        "Dario Amodei"
-      ],
-      "answer": 0,
-      "explain": "Nvidia's long-time CFO.",
-      "current": true
-    },
-    {
-      "q": "Which companies designed Google's Gemini glasses frames?",
-      "options": [
-        "Ray-Ban and Oakley",
-        "Gucci and Prada",
-        "Warby Parker and Gentle Monster",
-        "Zeiss and Muji"
+        "19 November",
+        "12 November",
+        "17 November",
+        "10 December"
       ],
       "answer": 2,
-      "explain": "Samsung engineered them.",
+      "explain": "Tuesday 17 November.",
+      "current": true
+    },
+    {
+      "q": "Who became Nvidia's board chair in the shake-up?",
+      "options": [
+        "Harvey Jones",
+        "Colette Kress",
+        "Lisa Su",
+        "Satya Nadella"
+      ],
+      "answer": 0,
+      "explain": "Kress is interim CEO; Harvey Jones is the board's first chair.",
       "current": true
     }
   ],
@@ -441,8 +441,8 @@
       "value": "US$1.25tn"
     },
     {
-      "label": "Gemini glasses",
-      "value": "from US$395"
+      "label": "Nvidia market value",
+      "value": "~US$4tn (from US$5.8tn in Oct)"
     }
   ]
 }

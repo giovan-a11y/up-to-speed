@@ -1,10 +1,10 @@
 {
   "slug": "smartphones-and-gadgets",
   "refresh": "weekly",
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "topic": "Smartphones and gadgets",
   "category": "Tech",
-  "asOf": "14 Nov 2026",
+  "asOf": "16 Nov 2026",
   "tagline": "iPhone vs Android, folding phones, and the gadgets everyone's carrying.",
   "why": "Your phone is the device you use most, so phones and gadgets are an easy topic with almost anyone. People compare iPhones and Androids, cameras and batteries, and talk about new launches like foldables and AI features. In Hong Kong you'll see the latest iPhones alongside Chinese brands like Huawei and Xiaomi, so knowing the landscape helps.",
   "essentials": [
@@ -185,28 +185,28 @@
   ],
   "now": [
     {
-      "headline": "iPhone Duo folds in",
-      "detail": "Apple's first folding iPhone, the US$1,999 iPhone Duo, went on sale about a month ago; 100,000 apps are already optimised for it."
+      "headline": "First touchscreen Mac",
+      "detail": "Apple's OLED MacBook Pro, its first touchscreen Mac, is shipping. The HomeView smart-home hub (7-inch screen, A18 chip) and a new Apple TV 4K launched on 13 November."
     },
     {
-      "headline": "Fold torture test",
-      "detail": "CNET's live hinge test has passed 425,000 folds on the Duo and counting."
+      "headline": "Ternus shakes up iOS",
+      "detail": "Under new CEO John Ternus, Apple is giving engineers six weeks of coding and two of integration per stage for iOS 28, according to Bloomberg's Mark Gurman."
+    },
+    {
+      "headline": "Xiaomi 18 Pro this week",
+      "detail": "Xiaomi launches the 18 Pro and 18 Pro Max globally in Paris on 17 November, with 200MP main and periscope cameras and a rear display; Oppo's Reno 17 launches in China on 16 November."
+    },
+    {
+      "headline": "iPhone Duo folds in",
+      "detail": "Apple's first folding iPhone, the US$1,999 iPhone Duo, has more than 100,000 apps optimised for its two screens."
     },
     {
       "headline": "Gemini glasses pre-orders",
-      "detail": "Google's camera glasses with no display start at US$395 and ship 10 December in the US and Korea."
+      "detail": "Google's camera glasses with no display start at US$395 and reach stores on 10 December in the US and Korea."
     },
     {
       "headline": "Prices are rising",
       "detail": "Apple raised iPhone prices in September; the 256GB iPhone 17 went from US$799 to US$899."
-    },
-    {
-      "headline": "Galaxy S27 leaks",
-      "detail": "Leaks point to a four-model Galaxy S27 line-up, including a new S27 Pro, for early 2027."
-    },
-    {
-      "headline": "M6 iMac",
-      "detail": "Reviewers call it a modest upgrade: roughly 20-30% faster multi-core than the M4 model."
     }
   ],
   "local": [
@@ -387,39 +387,39 @@
       "explain": "Based in Shenzhen."
     },
     {
-      "q": "What is Apple's folding iPhone called?",
+      "q": "Who is Apple's CEO now?",
       "options": [
-        "iPhone Fold",
-        "iPhone Flip",
-        "iPhone Air",
-        "iPhone Duo"
+        "Tim Cook",
+        "Craig Federighi",
+        "Jeff Williams",
+        "John Ternus"
       ],
       "answer": 3,
-      "explain": "It launched at US$1,999.",
+      "explain": "Ternus is pushing a faster software process for iOS 28.",
       "current": true
     },
     {
-      "q": "What do Google's new Gemini glasses lack?",
+      "q": "What's the big first for Apple's new OLED MacBook Pro?",
       "options": [
-        "A camera",
-        "A display",
-        "A battery",
-        "A microphone"
-      ],
-      "answer": 1,
-      "explain": "They have a 12MP camera but no screen.",
-      "current": true
-    },
-    {
-      "q": "What did the 256GB iPhone 17 rise to in September 2026?",
-      "options": [
-        "US$899",
-        "US$699",
-        "US$999",
-        "US$1,199"
+        "It's Apple's first touchscreen Mac",
+        "It folds in half",
+        "It has no keyboard",
+        "It runs iOS"
       ],
       "answer": 0,
-      "explain": "Up US$100 from US$799.",
+      "explain": "It also brings back the lit Apple logo.",
+      "current": true
+    },
+    {
+      "q": "Which phone launches globally in Paris on 17 November?",
+      "options": [
+        "Galaxy S27",
+        "Oppo Reno 17",
+        "Xiaomi 18 Pro",
+        "Pixel 11"
+      ],
+      "answer": 2,
+      "explain": "With 200MP main and periscope cameras.",
       "current": true
     }
   ],
@@ -435,6 +435,10 @@
     {
       "label": "Gemini glasses",
       "value": "from US$395"
+    },
+    {
+      "label": "Xiaomi 18 Pro launch",
+      "value": "17 Nov"
     }
   ]
 }

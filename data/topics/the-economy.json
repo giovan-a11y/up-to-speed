@@ -1,10 +1,10 @@
 {
   "slug": "the-economy",
   "refresh": "weekly",
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "topic": "The economy",
   "category": "Money",
-  "asOf": "14 Nov 2026",
+  "asOf": "16 Nov 2026",
   "tagline": "Interest rates, tariffs, China's slowdown, and why your coffee costs more.",
   "why": "The economy is the backdrop to everyone's job, rent and investments, and in Hong Kong it's shaped by both the US (through the dollar peg) and mainland China. Economic small talk is about whether things are getting better or worse, interest rates, trade wars, and local issues like retail, tourism and people spending weekends in Shenzhen. You don't need to be an economist, just able to follow the main forces.",
   "essentials": [
@@ -185,8 +185,12 @@
       "detail": "October CPI rose 0.4% on the month; markets price about a 90% chance of a 25bp hike on 8-9 December under Chair Kevin Warsh."
     },
     {
-      "headline": "Energy-driven inflation",
-      "detail": "Energy prices stay high after the Iran war pushed up oil; producer prices are up 6.5% on a year ago."
+      "headline": "A heavy data week",
+      "detail": "China's October activity data lands on 16 November, with forecasts of just +0.8% for retail sales and +5.3% for industrial output. US retail sales follow on Tuesday and the Fed's minutes on Wednesday."
+    },
+    {
+      "headline": "Japan likely to hike too",
+      "detail": "A Reuters poll has the Bank of Japan raising rates to 1.50% at its 17-18 December meeting; Japan's Q3 GDP was expected to show barely any growth."
     },
     {
       "headline": "Hong Kong grows 5.2%",
@@ -383,39 +387,39 @@
       "explain": "Paul Chan."
     },
     {
-      "q": "How fast did Hong Kong's economy grow in Q3 2026?",
+      "q": "Where is the Bank of Japan expected to take rates in December 2026?",
       "options": [
-        "1.8%",
-        "3.1%",
-        "5.2%",
-        "7.5%"
+        "Back to zero",
+        "1.00%",
+        "1.50%",
+        "2.50%"
       ],
       "answer": 2,
-      "explain": "Year on year, its fastest pace since 2023.",
+      "explain": "A Reuters poll expects a hike from about 1.25% to 1.50%.",
       "current": true
     },
     {
-      "q": "What does the market expect from the Fed in December 2026?",
+      "q": "How much did US consumer prices rise in October 2026, month on month?",
       "options": [
-        "A rate hike",
-        "A big rate cut",
-        "Quantitative easing",
-        "No meeting"
+        "0.4%",
+        "0.1%",
+        "0.8%",
+        "1.2%"
       ],
       "answer": 0,
-      "explain": "Futures show about a 90% chance of a 25bp hike.",
+      "explain": "Hotter than expected, which is why a December hike is priced in.",
       "current": true
     },
     {
-      "q": "Who chairs the US Federal Reserve now?",
+      "q": "How much did Hong Kong's real goods exports jump in Q3 2026?",
       "options": [
-        "Jerome Powell",
-        "Christopher Waller",
-        "Janet Yellen",
-        "Kevin Warsh"
+        "5%",
+        "12%",
+        "50%",
+        "30%"
       ],
       "answer": 3,
-      "explain": "Warsh succeeded Powell.",
+      "explain": "AI-related electronics drove a 30% rise.",
       "current": true
     }
   ],
@@ -439,6 +443,10 @@
     {
       "label": "HK unemployment",
       "value": "3.9%"
+    },
+    {
+      "label": "BoJ rate",
+      "value": "~1.25% (1.50% expected Dec)"
     }
   ]
 }

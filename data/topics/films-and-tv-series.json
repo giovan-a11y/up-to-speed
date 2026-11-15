@@ -1,10 +1,10 @@
 {
   "slug": "films-and-tv-series",
   "refresh": "weekly",
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "topic": "Films and TV series",
   "category": "Culture",
-  "asOf": "14 Nov 2026",
+  "asOf": "16 Nov 2026",
   "tagline": "What everyone's streaming, the films worth seeing, and Hong Kong cinema's comeback.",
   "why": "'Watched anything good lately?' is the safest question in small talk. Streaming has turned TV into a global water-cooler, with Korean, Japanese and Hong Kong shows competing with Hollywood. Knowing the big franchises, the prestige series, the directors people admire and what's trending lets you recommend, react and swap opinions easily.",
   "essentials": [
@@ -197,11 +197,15 @@
   ],
   "now": [
     {
-      "headline": "Godzilla Minus Zero tops the box office",
-      "detail": "The Toho sequel opened at No. 1 in the US with US$30.6 million on 6-8 November, ahead of The Cat in the Hat."
+      "headline": "Ebenezer tops the box office",
+      "detail": "Johnny Depp plays Scrooge in Ti West's take on A Christmas Carol, which opened at No. 1 in the US with about US$19 million on 13-15 November; it's his first wide release there since 2018."
     },
     {
-      "headline": "Hunger Games next",
+      "headline": "Godzilla's record drop",
+      "detail": "Godzilla Minus Zero fell about 75% to US$8.3 million in its second weekend, the worst second-weekend drop for a Godzilla film."
+    },
+    {
+      "headline": "Hunger Games on Friday",
       "detail": "The Hunger Games: Sunrise on the Reaping opens 20 November, tracking for a US$50-70 million start."
     },
     {
@@ -396,46 +400,50 @@
       "explain": "A record-breaking action film."
     },
     {
-      "q": "Which film opened at No. 1 in the US on 6-8 November 2026?",
+      "q": "Which film was No. 1 at the US box office on 13-15 November 2026?",
       "options": [
-        "The Cat in the Hat",
         "Godzilla Minus Zero",
-        "Ramayana",
-        "Ebenezer"
+        "The Cat in the Hat",
+        "Ebenezer",
+        "Wicked: For Good"
       ],
-      "answer": 1,
-      "explain": "It took US$30.6 million.",
+      "answer": 2,
+      "explain": "It opened with about US$19 million.",
       "current": true
     },
     {
-      "q": "Which two blockbusters both open on 18 December 2026?",
+      "q": "Who plays Scrooge in Ebenezer?",
       "options": [
-        "Avengers: Doomsday and Dune: Part Three",
-        "Toy Story 5 and Shrek 5",
-        "The Batman II and Avatar 4",
-        "Frozen 3 and Moana 2"
+        "Johnny Depp",
+        "Jim Carrey",
+        "Michael Caine",
+        "Bill Murray"
       ],
       "answer": 0,
-      "explain": "A Marvel vs Dune clash.",
+      "explain": "It's Depp's first US wide release since 2018.",
       "current": true
     },
     {
-      "q": "What is 2026's top-grossing film in the US so far?",
+      "q": "How far did Godzilla Minus Zero fall in its second weekend?",
       "options": [
-        "The Odyssey",
-        "Toy Story 5",
-        "Michael",
-        "Spider-Man: Brand New Day"
+        "About 25%",
+        "About 50%",
+        "About 90%",
+        "About 75%"
       ],
       "answer": 3,
-      "explain": "About US$958 million domestically.",
+      "explain": "A record drop for a Godzilla film.",
       "current": true
     }
   ],
   "numbers": [
     {
-      "label": "US No. 1 (6-8 Nov)",
-      "value": "Godzilla Minus Zero, $30.6m"
+      "label": "US No. 1 (13-15 Nov)",
+      "value": "Ebenezer, ~$19m"
+    },
+    {
+      "label": "No. 2",
+      "value": "The Cat in the Hat, $11.4m"
     },
     {
       "label": "2026 top film (US)",

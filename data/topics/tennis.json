@@ -1,10 +1,10 @@
 {
   "slug": "tennis",
   "refresh": "weekly",
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "topic": "Tennis",
   "category": "Sports",
-  "asOf": "14 Nov 2026",
+  "asOf": "16 Nov 2026",
   "tagline": "Four Grand Slams, one long season, and a new rivalry after the golden era.",
   "why": "Tennis is a global individual sport with a year-round tour, and its biggest events (the four Grand Slams) are cultural moments. After two decades of Federer, Nadal and Djokovic, a new generation led by Jannik Sinner and Carlos Alcaraz has taken over. It's an easy sport to talk about because the storylines are personal: rivalries, comebacks, ageing champions and rising stars.",
   "essentials": [
@@ -197,28 +197,28 @@
   ],
   "now": [
     {
-      "headline": "ATP Finals start Sunday",
-      "detail": "The Turin finale runs 15-22 November; Zverev and Alcaraz head the two groups."
+      "headline": "Andreeva wins the WTA Finals",
+      "detail": "Mirra Andreeva, 19, beat Elina Svitolina 7-5, 6-3 in Indian Wells on 15 November and won all five matches without dropping a set. She is the first teenage champion since Maria Sharapova in 2004."
+    },
+    {
+      "headline": "A huge year for Mirra",
+      "detail": "She also won Roland Garros in 2026 and will finish the year world No. 2, the youngest year-end No. 2 since Sharapova in 2006. The title paid US$3.37 million."
+    },
+    {
+      "headline": "ATP Finals under way",
+      "detail": "Alexander Zverev opened in Turin with a 6-4, 6-4 win over Spanish teenager Rafael Jódar. Carlos Alcaraz starts on Monday against Frances Tiafoe; the final is 22 November."
+    },
+    {
+      "headline": "The two groups",
+      "detail": "Zverev, Ben Shelton, Arthur Fils and Jódar in one; Alcaraz, Tiafoe, Daniil Medvedev and Flavio Cobolli in the other."
     },
     {
       "headline": "Sinner misses Turin",
       "detail": "Defending champion Jannik Sinner withdrew injured, so Italy's hopes rest on debutant Flavio Cobolli."
     },
     {
-      "headline": "Alcaraz back in form",
-      "detail": "After returning from injury at the US Open, Alcaraz won Tokyo, Vienna and Paris and is chasing his first ATP Finals title."
-    },
-    {
-      "headline": "WTA Finals in Indian Wells",
-      "detail": "Semis today: Pegula vs Andreeva and Svitolina vs Nosková; the final is 15 November."
-    },
-    {
       "headline": "Rybakina is No. 1",
       "detail": "Elena Rybakina won the Australian and US Opens in 2026 and is world No. 1, but pulled out of the WTA Finals ill."
-    },
-    {
-      "headline": "New faces",
-      "detail": "Spanish teen Rafael Jódar, Arthur Fils and Frances Tiafoe all make their ATP Finals debuts."
     }
   ],
   "local": [
@@ -400,39 +400,39 @@
       "explain": "The only grass Slam."
     },
     {
-      "q": "Which defending champion is missing the 2026 ATP Finals through injury?",
+      "q": "Who won the 2026 WTA Finals?",
       "options": [
-        "Carlos Alcaraz",
-        "Novak Djokovic",
-        "Alexander Zverev",
-        "Jannik Sinner"
-      ],
-      "answer": 3,
-      "explain": "Sinner won in 2025 but withdrew this year.",
-      "current": true
-    },
-    {
-      "q": "Where are the 2026 WTA Finals being played?",
-      "options": [
-        "Riyadh",
-        "Indian Wells",
-        "Shenzhen",
-        "Turin"
+        "Elina Svitolina",
+        "Mirra Andreeva",
+        "Jessica Pegula",
+        "Aryna Sabalenka"
       ],
       "answer": 1,
-      "explain": "They moved to Indian Wells, California.",
+      "explain": "Andreeva beat Svitolina 7-5, 6-3 without dropping a set all week.",
       "current": true
     },
     {
-      "q": "Which two Slams did Elena Rybakina win in 2026?",
+      "q": "Who did Alexander Zverev beat in his 2026 ATP Finals opener?",
       "options": [
-        "Australian and US Opens",
-        "French Open and Wimbledon",
-        "Wimbledon and US Open",
-        "Australian Open and Wimbledon"
+        "Ben Shelton",
+        "Arthur Fils",
+        "Frances Tiafoe",
+        "Rafael Jódar"
+      ],
+      "answer": 3,
+      "explain": "Zverev won 6-4, 6-4 against the teenage debutant.",
+      "current": true
+    },
+    {
+      "q": "Which Grand Slam did Mirra Andreeva win in 2026?",
+      "options": [
+        "Roland Garros",
+        "Wimbledon",
+        "Australian Open",
+        "US Open"
       ],
       "answer": 0,
-      "explain": "She took Melbourne and New York and rose to No. 1.",
+      "explain": "Her first major came in Paris.",
       "current": true
     }
   ],
@@ -446,12 +446,12 @@
       "value": "Elena Rybakina"
     },
     {
-      "label": "ATP Finals",
-      "value": "Turin, 15-22 Nov"
+      "label": "WTA Finals champion",
+      "value": "Mirra Andreeva"
     },
     {
-      "label": "WTA Finals final",
-      "value": "15 Nov, Indian Wells"
+      "label": "ATP Finals final",
+      "value": "22 Nov, Turin"
     }
   ]
 }

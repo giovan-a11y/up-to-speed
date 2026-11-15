@@ -1,10 +1,10 @@
 {
   "slug": "investing-and-stocks",
   "refresh": "weekly",
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "topic": "Investing and stocks",
   "category": "Money",
-  "asOf": "14 Nov 2026",
+  "asOf": "16 Nov 2026",
   "tagline": "Indexes, AI stocks, interest rates, and the eternal question: what are you buying?",
   "why": "Everyone in Hong Kong has an opinion on the market, from the Hang Seng to US tech stocks. Investing talk is about what's going up, what the central banks will do, and whether something is a bubble. You don't need to give advice; you just need to understand the vocabulary, the big names and the main schools of thought so you can follow along and ask good questions.",
   "essentials": [
@@ -205,28 +205,28 @@
   ],
   "now": [
     {
-      "headline": "Jensen Huang resigns",
-      "detail": "Nvidia's CEO quit on 12 November amid personal scandal; CFO Colette Kress is interim CEO and the shares fell as much as 14% intraday."
+      "headline": "The big AI week",
+      "detail": "Nvidia reports on Tuesday 17 November, its first results without Jensen Huang, with analysts expecting about US$109 billion in revenue. Anthropic is expected to start trading on Nasdaq on Thursday 19 November."
     },
     {
-      "headline": "Anthropic IPO next week",
-      "detail": "The Claude maker set a US$70-78 price range, valuing it at up to about US$1.4 trillion, with a debut expected on 19 November."
+      "headline": "Anthropic's giant float",
+      "detail": "At US$70-78 a share, Anthropic and some investors aim to raise up to US$64.4 billion by selling 825 million shares, valuing it at up to about US$1.4 trillion."
+    },
+    {
+      "headline": "Nvidia after Huang",
+      "detail": "CFO Colette Kress is interim CEO after Huang resigned on 12 November; Nvidia's market value has fallen from about US$5.8 trillion in early October to roughly US$4 trillion."
     },
     {
       "headline": "Fed hike coming?",
-      "detail": "Hot October inflation has markets pricing a quarter-point hike at the 8-9 December meeting; the 10-year yield is about 5.15%."
+      "detail": "Hot October inflation has markets pricing a quarter-point hike on 8-9 December; Fed minutes come out on Wednesday and the 10-year yield is about 5.15%."
     },
     {
-      "headline": "Hang Seng slips",
-      "detail": "The HSI fell 1.55% to 23,637.60 on 13 November, with tech names like Lenovo down 6%."
+      "headline": "Hang Seng down three days running",
+      "detail": "The HSI fell 1.55% to 23,637.60 on 13 November, with Tencent down 3.2%. Tencent, Alibaba, Baidu and JD.com all report this week."
     },
     {
-      "headline": "US indexes near highs",
-      "detail": "The S&P 500 closed at 7,561.67 on Friday; all three US benchmarks still rose for the week."
-    },
-    {
-      "headline": "OpenAI's mega round",
-      "detail": "OpenAI has reportedly raised US$11 billion at a US$1.25 trillion valuation, with an IPO expected next year."
+      "headline": "New World's rights issue",
+      "detail": "New World Development plans a HK$25 billion rights issue after Bain Capital walked away from a possible investment."
     }
   ],
   "local": [
@@ -412,46 +412,46 @@
       "explain": "The Hongkong and Shanghai Banking Corporation."
     },
     {
-      "q": "Who became Nvidia's interim CEO after Jensen Huang resigned?",
+      "q": "When does Nvidia report its first results since Jensen Huang quit?",
       "options": [
-        "Tim Cook",
-        "Colette Kress",
-        "Harvey Jones",
-        "Lisa Su"
+        "13 November",
+        "17 November",
+        "19 November",
+        "8 December"
       ],
       "answer": 1,
-      "explain": "Kress, Nvidia's CFO since 2013, stepped in.",
+      "explain": "Tuesday 17 November, two days before Anthropic lists.",
       "current": true
     },
     {
-      "q": "What price range did Anthropic set for its IPO?",
+      "q": "How much could Anthropic's IPO raise?",
       "options": [
-        "US$20-25",
-        "US$150-160",
-        "US$70-78",
-        "US$35-40"
-      ],
-      "answer": 2,
-      "explain": "Valuing it at up to about US$1.4 trillion.",
-      "current": true
-    },
-    {
-      "q": "Roughly where is the US 10-year Treasury yield?",
-      "options": [
-        "5.15%",
-        "2.5%",
-        "3.5%",
-        "7%"
+        "Up to US$64.4 billion",
+        "Up to US$11 billion",
+        "Up to US$25 billion",
+        "Up to US$140 billion"
       ],
       "answer": 0,
-      "explain": "It climbed above 5% in November.",
+      "explain": "825 million shares at US$70-78.",
+      "current": true
+    },
+    {
+      "q": "Which Hong Kong developer plans a HK$25 billion rights issue?",
+      "options": [
+        "Sun Hung Kai",
+        "Henderson Land",
+        "CK Asset",
+        "New World Development"
+      ],
+      "answer": 3,
+      "explain": "It follows Bain Capital ending talks on an investment.",
       "current": true
     }
   ],
   "numbers": [
     {
       "label": "S&P 500",
-      "value": "7,561.67"
+      "value": "7,561.67 (~+11% in 2026)"
     },
     {
       "label": "Nasdaq",

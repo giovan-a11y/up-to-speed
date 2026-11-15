@@ -1,10 +1,10 @@
 {
   "slug": "hong-kong-property",
   "refresh": "weekly",
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "topic": "Hong Kong property",
   "category": "Money",
-  "asOf": "14 Nov 2026",
+  "asOf": "16 Nov 2026",
   "tagline": "The world's most expensive homes, nano flats, and everyone's favourite topic.",
   "why": "Property is Hong Kong's national obsession. Homes are among the most expensive on earth relative to income, so buying, renting, mortgages and prices come up at every family dinner. After years of falling prices since 2021, the market has been trying to find a bottom. Knowing the vocabulary, the big developers and the policy changes makes you fluent in the city's favourite small talk.",
   "essentials": [
@@ -185,20 +185,24 @@
   ],
   "now": [
     {
-      "headline": "Prices up about 7% this year",
-      "detail": "Official data show private home prices rose 0.19% in September, up 7.1% for the first nine months and 9.3% on a year ago."
+      "headline": "Resale prices at a 20-week low",
+      "detail": "Centaline's CCL fell 0.17% to 159.11, its fourth straight weekly drop and 1.9% below August's peak of 162.16."
+    },
+    {
+      "headline": "New-home price war",
+      "detail": "Cheap launches are pulling buyers away from resale flats. Henderson Land sold eight flats at Chester II in Hung Hom for HK$68.8 million on Saturday, at HK$21,503-25,683 per sq ft."
+    },
+    {
+      "headline": "New World's rescue cash",
+      "detail": "New World Development plans a HK$25 billion rights issue after Bain Capital ended talks on a possible investment."
+    },
+    {
+      "headline": "Prices still up about 7% this year",
+      "detail": "Official data show private home prices rose 7.1% in the first nine months and 9.3% on a year ago."
     },
     {
       "headline": "Rents at a record",
       "detail": "The official rent index hit a new high in September, up 6.2% year on year; small flats yield about 3.5%."
-    },
-    {
-      "headline": "Resale prices cooling",
-      "detail": "Centaline's CCL slipped to about 160 in mid-October as developers launched new projects at aggressive prices."
-    },
-    {
-      "headline": "New-home rush",
-      "detail": "Developers sold about 1,700 new flats in the first 27 days of October, the third straight month above 1,000."
     },
     {
       "headline": "Rate-hike worry",
@@ -383,43 +387,47 @@
       "explain": "Or the prime rate."
     },
     {
-      "q": "How much did official Hong Kong home prices rise in the first nine months of 2026?",
+      "q": "Roughly where is Centaline's CCL resale index now?",
       "options": [
-        "About 1%",
-        "About 7%",
-        "About 15%",
-        "They fell 5%"
+        "About 140",
+        "About 159",
+        "About 175",
+        "About 190"
       ],
       "answer": 1,
-      "explain": "+7.1% Jan-Sep per the Rating and Valuation Department.",
+      "explain": "159.11, a 20-week low.",
       "current": true
     },
     {
-      "q": "What hit a record high in September 2026?",
+      "q": "How many weeks in a row has the CCL fallen?",
       "options": [
-        "Home rents",
-        "Land sale prices",
-        "Mortgage rates",
-        "Vacancy rates"
-      ],
-      "answer": 0,
-      "explain": "The official rental index set a new record.",
-      "current": true
-    },
-    {
-      "q": "What is the effective mortgage rate cap at most major HK banks?",
-      "options": [
-        "1.5%",
-        "5%",
-        "3.25%",
-        "4.75%"
+        "Two",
+        "Three",
+        "Four",
+        "Ten"
       ],
       "answer": 2,
-      "explain": "Most cap it at 3.25%.",
+      "explain": "Four straight weekly drops, down 1.3% in total.",
+      "current": true
+    },
+    {
+      "q": "Which Hung Hom project did Henderson Land sell eight flats at on Saturday?",
+      "options": [
+        "Highwood",
+        "Chester II",
+        "The Henley",
+        "Mount Pavilia"
+      ],
+      "answer": 1,
+      "explain": "Eight units fetched over HK$68.8 million.",
       "current": true
     }
   ],
   "numbers": [
+    {
+      "label": "CCL",
+      "value": "159.11 (20-week low)"
+    },
     {
       "label": "Official prices YTD",
       "value": "+7.1% (Jan-Sep)"
@@ -427,10 +435,6 @@
     {
       "label": "Rents y/y",
       "value": "+6.2%, record high"
-    },
-    {
-      "label": "CCL",
-      "value": "~160 (mid-Oct)"
     },
     {
       "label": "Mortgage rate cap",

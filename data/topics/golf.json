@@ -1,10 +1,10 @@
 {
   "slug": "golf",
   "refresh": "weekly",
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "topic": "Golf",
   "category": "Sports",
-  "asOf": "14 Nov 2026",
+  "asOf": "16 Nov 2026",
   "tagline": "Four majors, one tiny ball, and a sport that's half networking.",
   "why": "Golf is both a pro sport with global superstars and a social and business ritual, especially in Hong Kong where club memberships are status symbols. Pro golf has been through a civil war since Saudi-backed LIV Golf launched in 2022. Even if you don't play, knowing the majors, the big names and a bit of vocabulary makes you fluent at the 19th hole.",
   "essentials": [
@@ -201,16 +201,16 @@
   ],
   "now": [
     {
-      "headline": "Race to Dubai finale",
-      "detail": "At the DP World Tour Championship, Rory McIlroy and Tyrrell Hatton share the lead at -5 after two rounds; the final round is Sunday."
+      "headline": "Hatton wins in Dubai",
+      "detail": "Tyrrell Hatton won the DP World Tour Championship by five shots at 15 under, closing with a 66 for his ninth DP World Tour title."
     },
     {
-      "headline": "Rory chases a record",
-      "detail": "A win would give McIlroy an eighth Race to Dubai title, equalling Colin Montgomerie's record."
+      "headline": "Rory makes history",
+      "detail": "Rory McIlroy finished second with a bogey-free 67 to snatch the Race to Dubai from Eugenio Chacarra: his fifth in a row and eighth overall, equalling Colin Montgomerie's record."
     },
     {
       "headline": "Rory's 2026 Masters",
-      "detail": "McIlroy won the Masters again in April; the other majors went to Aaron Rai, Wyndham Clark and Ryan Fox."
+      "detail": "The Masters in April was McIlroy's only win this season; the other majors went to Aaron Rai, Wyndham Clark and Ryan Fox."
     },
     {
       "headline": "USA win the Presidents Cup",
@@ -221,8 +221,8 @@
       "detail": "Scottie Scheffler won the Tour Championship and the FedEx Cup in August."
     },
     {
-      "headline": "Hero World Challenge next",
-      "detail": "Tiger Woods' Bahamas event on 6 December is the next big-name stop."
+      "headline": "What's next",
+      "detail": "The new DP World Tour season starts at the Australian PGA in Sydney (26-29 Nov), McIlroy plays the Australian Open (3-6 Dec), and Tiger Woods' Hero World Challenge in the Bahamas runs to 6 December."
     }
   ],
   "local": [
@@ -404,43 +404,51 @@
       "explain": "The 2021 Masters."
     },
     {
-      "q": "Who won the 2026 Open Championship?",
+      "q": "Who won the 2026 DP World Tour Championship in Dubai?",
       "options": [
-        "Tommy Fleetwood",
-        "Ryan Fox",
-        "Aaron Rai",
-        "Shane Lowry"
+        "Rory McIlroy",
+        "Eugenio Chacarra",
+        "Tyrrell Hatton",
+        "Matt Fitzpatrick"
       ],
-      "answer": 1,
-      "explain": "New Zealand's Ryan Fox lifted the Claret Jug in July.",
+      "answer": 2,
+      "explain": "Hatton won by five shots at 15 under.",
       "current": true
     },
     {
-      "q": "What was the 2026 Presidents Cup score?",
+      "q": "How many Race to Dubai titles does Rory McIlroy now have?",
       "options": [
-        "Internationals 16-14",
-        "USA 18.5-11.5",
-        "Tied 15-15",
-        "USA 17-13"
+        "Six",
+        "Seven",
+        "Nine",
+        "Eight"
       ],
       "answer": 3,
-      "explain": "The US rallied at Medinah for an 11th straight win.",
+      "explain": "Eight, equalling Colin Montgomerie's record.",
       "current": true
     },
     {
-      "q": "Whose record could McIlroy equal with an eighth Race to Dubai title?",
+      "q": "Who did McIlroy overtake on the final day to win the 2026 Race to Dubai?",
       "options": [
-        "Seve Ballesteros",
-        "Colin Montgomerie",
-        "Nick Faldo",
-        "Lee Westwood"
+        "Eugenio Chacarra",
+        "Tyrrell Hatton",
+        "Jon Rahm",
+        "Tommy Fleetwood"
       ],
-      "answer": 1,
-      "explain": "Monty won eight Order of Merit titles.",
+      "answer": 0,
+      "explain": "Chacarra finished third in Dubai and narrowly missed the season title.",
       "current": true
     }
   ],
   "numbers": [
+    {
+      "label": "Race to Dubai",
+      "value": "Rory McIlroy (8th title)"
+    },
+    {
+      "label": "DP World Tour Championship",
+      "value": "Tyrrell Hatton, -15"
+    },
     {
       "label": "Masters",
       "value": "Rory McIlroy"
@@ -456,14 +464,6 @@
     {
       "label": "The Open",
       "value": "Ryan Fox"
-    },
-    {
-      "label": "FedEx Cup",
-      "value": "Scottie Scheffler"
-    },
-    {
-      "label": "Presidents Cup",
-      "value": "USA 17-13"
     }
   ]
 }

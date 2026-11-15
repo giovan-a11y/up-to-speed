@@ -1,10 +1,10 @@
 {
   "slug": "k-pop-and-canto-pop",
   "refresh": "weekly",
-  "updated": "2026-11-14",
+  "updated": "2026-11-16",
   "topic": "K-pop and Canto-pop",
   "category": "Culture",
-  "asOf": "14 Nov 2026",
+  "asOf": "16 Nov 2026",
   "tagline": "Idols, fandoms, comeback stages and Hong Kong's own pop legends.",
   "why": "K-pop is a global cultural force, and Canto-pop is the soundtrack of Hong Kong. Fans follow groups closely, buy albums, attend concerts and debate who's best. In Hong Kong, Canto-pop has had a revival led by boy band MIRROR, while legends like Leslie Cheung and Anita Mui still define the city's culture. Knowing the key names and fan language makes music small talk easy.",
   "essentials": [
@@ -201,28 +201,28 @@
   ],
   "now": [
     {
-      "headline": "BIGBANG at Kai Tak",
-      "detail": "BIGBANG's 20th-anniversary world tour plays Kai Tak Stadium this weekend, 13-15 November."
+      "headline": "BIGBANG's record Kai Tak run",
+      "detail": "G-Dragon, Taeyang and Daesung played XX: Cosmos shows on 13-15 November, with an added fourth show on Tuesday 17 November; the group say they've never played four shows in one city before."
+    },
+    {
+      "headline": "Officials in the crowd",
+      "detail": "Culture Secretary Rosanna Law went to the opening night and called the atmosphere 'electric'."
     },
     {
       "headline": "BTS head back to Asia",
       "detail": "The ARIRANG tour's Asian leg starts 19 November in Kaohsiung, with 15 shows in five cities including Bangkok and Kuala Lumpur."
     },
     {
-      "headline": "ARIRANG album",
-      "detail": "BTS's fifth full album, released in March, was their first as a full group since military service."
-    },
-    {
       "headline": "Busy November releases",
       "detail": "TXT's PERFECT STORM (16 Nov), NAYEON and ENHYPEN (20 Nov) and TAEYEON's album Unspecial (30 Nov)."
     },
     {
-      "headline": "Jennie's Netflix song",
-      "detail": "BLACKPINK's Jennie released Someone to Hold for the Netflix film Steps on 6 November."
+      "headline": "ARIRANG album",
+      "detail": "BTS's fifth full album, released in March, was their first as a full group since military service."
     },
     {
-      "headline": "Kai Tak concerts",
-      "detail": "Hong Kong's new stadium has made the city a stop for the biggest K-pop and Canto-pop shows."
+      "headline": "Jennie's Netflix song",
+      "detail": "BLACKPINK's Jennie released Someone to Hold for the Netflix film Steps on 6 November."
     }
   ],
   "local": [
@@ -404,39 +404,39 @@
       "explain": "YG Entertainment."
     },
     {
-      "q": "Which group plays Kai Tak Stadium on 13-15 November 2026?",
+      "q": "How many shows is BIGBANG playing at Kai Tak Stadium this month?",
       "options": [
-        "SEVENTEEN",
-        "BIGBANG",
-        "TWICE",
-        "Stray Kids"
+        "Two",
+        "Four",
+        "Three",
+        "Six"
       ],
       "answer": 1,
-      "explain": "Their 20th-anniversary world tour.",
+      "explain": "13, 14 and 15 November plus an added show on the 17th.",
       "current": true
     },
     {
-      "q": "What is the name of BTS's 2026 album and tour?",
+      "q": "What is BIGBANG's 2026-27 world tour called?",
       "options": [
         "ARIRANG",
-        "PROOF",
-        "MAP OF THE SOUL",
-        "BE"
+        "Born Pink",
+        "XX: Cosmos",
+        "Made"
       ],
-      "answer": 0,
-      "explain": "Released in March 2026.",
+      "answer": 2,
+      "explain": "XX: Cosmos, for their 20th anniversary.",
       "current": true
     },
     {
-      "q": "Where does the Asian leg of BTS's tour begin?",
+      "q": "Which BIGBANG members are on the tour?",
       "options": [
-        "Hong Kong",
-        "Tokyo",
-        "Singapore",
-        "Kaohsiung"
+        "G-Dragon, Taeyang and Daesung",
+        "T.O.P and Seungri",
+        "All five original members",
+        "G-Dragon only"
       ],
-      "answer": 3,
-      "explain": "On 19 November in Taiwan.",
+      "answer": 0,
+      "explain": "Hong Kong gets G-Dragon, Taeyang and Daesung.",
       "current": true
     }
   ],
