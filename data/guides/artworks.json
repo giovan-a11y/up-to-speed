@@ -1,0 +1,335 @@
+{
+  "slug": "artworks",
+  "title": "Famous artworks",
+  "emoji": "🖼️",
+  "order": 7,
+  "blurb": "Recognise the paintings and sculptures everyone references, and know who made them.",
+  "tagLabel": "Key facts",
+  "groupNoun": "eras",
+  "quizTags": false,
+  "groups": [
+    {
+      "slug": "old-masters",
+      "name": "Old masters",
+      "emoji": "🎨",
+      "intro": "Renaissance and Golden Age masterpieces.",
+      "items": [
+        {
+          "name": "Mona Lisa",
+          "local": "La Gioconda",
+          "lang": "it-IT",
+          "what": "Small portrait with the famous half-smile, behind bulletproof glass.",
+          "tags": [
+            "Leonardo da Vinci"
+          ],
+          "say": "c. 1503–1519",
+          "wiki": "Mona Lisa"
+        },
+        {
+          "name": "The Last Supper",
+          "local": "Il Cenacolo",
+          "lang": "it-IT",
+          "what": "Mural of Jesus and the apostles at the moment he says one will betray him.",
+          "tags": [
+            "Leonardo da Vinci"
+          ],
+          "say": "1495–1498",
+          "wiki": "The Last Supper (Leonardo)"
+        },
+        {
+          "name": "The Birth of Venus",
+          "local": "La nascita di Venere",
+          "lang": "it-IT",
+          "what": "Venus arriving on a giant scallop shell.",
+          "tags": [
+            "Sandro Botticelli"
+          ],
+          "say": "c. 1485",
+          "wiki": "The Birth of Venus"
+        },
+        {
+          "name": "The Creation of Adam",
+          "what": "God's finger almost touching Adam's, on the Sistine Chapel ceiling.",
+          "tags": [
+            "Michelangelo"
+          ],
+          "say": "c. 1512",
+          "wiki": "The Creation of Adam"
+        },
+        {
+          "name": "David",
+          "what": "5-metre marble statue of the biblical hero.",
+          "tags": [
+            "Michelangelo"
+          ],
+          "say": "1504",
+          "wiki": "David (Michelangelo)"
+        },
+        {
+          "name": "Girl with a Pearl Earring",
+          "local": "Meisje met de parel",
+          "lang": "nl-NL",
+          "what": "Girl in a blue-and-gold turban glancing over her shoulder.",
+          "tags": [
+            "Johannes Vermeer"
+          ],
+          "say": "c. 1665",
+          "wiki": "Girl with a Pearl Earring"
+        },
+        {
+          "name": "The Night Watch",
+          "local": "De Nachtwacht",
+          "lang": "nl-NL",
+          "what": "Huge, dramatic group portrait of a city militia company.",
+          "tags": [
+            "Rembrandt"
+          ],
+          "say": "1642",
+          "wiki": "The Night Watch"
+        },
+        {
+          "name": "Las Meninas",
+          "lang": "es-ES",
+          "what": "Young princess, her maids and the painter himself, with a puzzling mirror.",
+          "tags": [
+            "Diego Velázquez"
+          ],
+          "say": "1656",
+          "wiki": "Las Meninas"
+        }
+      ]
+    },
+    {
+      "slug": "modern",
+      "name": "Impressionism & modern art",
+      "emoji": "🌻",
+      "intro": "From Monet to Picasso: the 1870s to the 1940s.",
+      "items": [
+        {
+          "name": "Impression, Sunrise",
+          "local": "Impression, soleil levant",
+          "lang": "fr-FR",
+          "what": "Hazy harbour at dawn: the painting that gave Impressionism its name.",
+          "tags": [
+            "Claude Monet"
+          ],
+          "say": "1872",
+          "wiki": "Impression, Sunrise"
+        },
+        {
+          "name": "Water Lilies",
+          "local": "Nymphéas",
+          "lang": "fr-FR",
+          "what": "About 250 paintings of the lily pond in his garden at Giverny.",
+          "tags": [
+            "Claude Monet"
+          ],
+          "say": "1896–1926",
+          "wiki": "Water Lilies (Monet series)"
+        },
+        {
+          "name": "A Sunday on La Grande Jatte",
+          "what": "Parisians in the park, painted entirely in tiny dots (pointillism).",
+          "tags": [
+            "Georges Seurat"
+          ],
+          "say": "1884–1886",
+          "wiki": "A Sunday Afternoon on the Island of La Grande Jatte"
+        },
+        {
+          "name": "The Starry Night",
+          "local": "De sterrennacht",
+          "lang": "nl-NL",
+          "what": "Swirling night sky over a village, painted from his asylum window.",
+          "tags": [
+            "Vincent van Gogh"
+          ],
+          "say": "1889",
+          "wiki": "The Starry Night"
+        },
+        {
+          "name": "Sunflowers",
+          "what": "Yellow sunflowers in a vase, painted several times.",
+          "tags": [
+            "Vincent van Gogh"
+          ],
+          "say": "1888–1889",
+          "wiki": "Sunflowers (Van Gogh series)"
+        },
+        {
+          "name": "The Scream",
+          "local": "Skrik",
+          "lang": "nb-NO",
+          "what": "Agonised figure under a blood-red sky.",
+          "tags": [
+            "Edvard Munch"
+          ],
+          "say": "1893",
+          "wiki": "The Scream"
+        },
+        {
+          "name": "The Kiss",
+          "local": "Der Kuss",
+          "lang": "de-AT",
+          "what": "Embracing lovers wrapped in gold leaf.",
+          "tags": [
+            "Gustav Klimt"
+          ],
+          "say": "1907–1908",
+          "wiki": "The Kiss (Klimt)"
+        },
+        {
+          "name": "The Persistence of Memory",
+          "what": "Melting pocket watches in a dreamlike landscape.",
+          "tags": [
+            "Salvador Dalí"
+          ],
+          "say": "1931",
+          "wiki": "The Persistence of Memory"
+        },
+        {
+          "name": "Guernica",
+          "lang": "es-ES",
+          "what": "Huge black, white and grey anti-war painting of the bombing of Guernica.",
+          "tags": [
+            "Pablo Picasso"
+          ],
+          "say": "1937",
+          "wiki": "Guernica (Picasso)"
+        },
+        {
+          "name": "American Gothic",
+          "what": "Stern farmer with a pitchfork beside his daughter.",
+          "tags": [
+            "Grant Wood"
+          ],
+          "say": "1930",
+          "wiki": "American Gothic"
+        },
+        {
+          "name": "Nighthawks",
+          "what": "Lonely late-night diner seen through a big window.",
+          "tags": [
+            "Edward Hopper"
+          ],
+          "say": "1942",
+          "wiki": "Nighthawks (Hopper)"
+        }
+      ]
+    },
+    {
+      "slug": "contemporary",
+      "name": "Pop & contemporary",
+      "emoji": "🎈",
+      "intro": "Warhol to Banksy: the art of the auction headlines.",
+      "items": [
+        {
+          "name": "Campbell's Soup Cans",
+          "what": "32 canvases of soup cans that defined Pop Art.",
+          "tags": [
+            "Andy Warhol"
+          ],
+          "say": "1962",
+          "wiki": "Campbell's Soup Cans"
+        },
+        {
+          "name": "Marilyn Diptych",
+          "what": "Fifty repeated Marilyn Monroe faces, half in colour, half fading to black and white.",
+          "tags": [
+            "Andy Warhol"
+          ],
+          "say": "1962",
+          "wiki": "Marilyn Diptych"
+        },
+        {
+          "name": "Balloon Dog",
+          "what": "Giant mirror-polished steel balloon animals in candy colours.",
+          "tags": [
+            "Jeff Koons"
+          ],
+          "say": "1994–2000",
+          "wiki": "Balloon Dog"
+        },
+        {
+          "name": "Girl with Balloon",
+          "what": "Stencil of a girl reaching for a red heart balloon; a framed copy shredded itself at auction in 2018.",
+          "tags": [
+            "Banksy"
+          ],
+          "say": "2002",
+          "wiki": "Girl with Balloon"
+        },
+        {
+          "name": "Maman",
+          "what": "Giant bronze and steel spider, over 9 m tall.",
+          "tags": [
+            "Louise Bourgeois"
+          ],
+          "say": "1999",
+          "wiki": "Maman (sculpture)"
+        },
+        {
+          "name": "Cloud Gate",
+          "what": "Mirror-polished steel sculpture nicknamed 'The Bean'.",
+          "tags": [
+            "Anish Kapoor"
+          ],
+          "say": "2006",
+          "wiki": "Cloud Gate"
+        }
+      ]
+    },
+    {
+      "slug": "asian-art",
+      "name": "Asian masterpieces",
+      "emoji": "🌊",
+      "intro": "Works every art lover in Asia knows.",
+      "items": [
+        {
+          "name": "The Great Wave off Kanagawa",
+          "local": "神奈川沖浪裏",
+          "lang": "ja-JP",
+          "what": "Woodblock print of a giant clawing wave with Mount Fuji in the distance.",
+          "tags": [
+            "Katsushika Hokusai"
+          ],
+          "say": "c. 1831",
+          "wiki": "The Great Wave off Kanagawa"
+        },
+        {
+          "name": "Along the River During the Qingming Festival",
+          "local": "清明上河圖",
+          "lang": "zh-CN",
+          "what": "Five-metre scroll showing daily life in the Song-dynasty capital.",
+          "tags": [
+            "Zhang Zeduan"
+          ],
+          "say": "12th century",
+          "wiki": "Along the River During the Qingming Festival"
+        },
+        {
+          "name": "Dwelling in the Fuchun Mountains",
+          "local": "富春山居圖",
+          "lang": "zh-CN",
+          "what": "Yuan landscape scroll burned and split in two; halves are in Taipei and Hangzhou.",
+          "tags": [
+            "Huang Gongwang"
+          ],
+          "say": "1350",
+          "wiki": "Dwelling in the Fuchun Mountains"
+        },
+        {
+          "name": "Yayoi Kusama's pumpkins",
+          "local": "草間彌生",
+          "lang": "ja-JP",
+          "what": "Polka-dotted yellow pumpkins, the Japanese artist's signature motif.",
+          "tags": [
+            "Yayoi Kusama"
+          ],
+          "say": "Since the 1940s",
+          "wiki": "Yayoi Kusama"
+        }
+      ]
+    }
+  ]
+}

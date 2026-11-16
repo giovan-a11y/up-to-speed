@@ -1,0 +1,360 @@
+{
+  "slug": "fruits-vegetables",
+  "title": "Fruits & vegetables",
+  "emoji": "🥭",
+  "order": 5,
+  "blurb": "Asian and tropical fruit, Chinese greens and the Western vegetables on restaurant menus.",
+  "tagLabel": "Taste & season",
+  "groupNoun": "sections",
+  "quizTags": false,
+  "groups": [
+    {
+      "slug": "asian-fruits",
+      "name": "Asian & tropical fruits",
+      "emoji": "🍈",
+      "intro": "The fruits on Hong Kong market stalls and in gift boxes.",
+      "lang": "zh-HK",
+      "items": [
+        {
+          "name": "Durian",
+          "local": "榴槤",
+          "what": "Spiky 'king of fruits' with custard-like flesh and a famously strong smell; Musang King is the prized variety.",
+          "tags": [
+            "creamy",
+            "pungent",
+            "Malaysia & Thailand"
+          ],
+          "wiki": "Durian"
+        },
+        {
+          "name": "Mangosteen",
+          "local": "山竹",
+          "what": "Deep purple shell hiding sweet-sour white segments; the 'queen of fruits'.",
+          "tags": [
+            "sweet-tart",
+            "Southeast Asia"
+          ],
+          "wiki": "Purple mangosteen"
+        },
+        {
+          "name": "Lychee",
+          "local": "荔枝",
+          "what": "Bumpy red shell and juicy, translucent white flesh; at its best in June.",
+          "tags": [
+            "floral",
+            "sweet",
+            "southern China",
+            "summer"
+          ],
+          "wiki": "Lychee"
+        },
+        {
+          "name": "Longan",
+          "local": "龍眼",
+          "what": "'Dragon eye': small tan-shelled fruit, like a milder lychee.",
+          "tags": [
+            "sweet",
+            "musky",
+            "summer"
+          ],
+          "wiki": "Longan"
+        },
+        {
+          "name": "Rambutan",
+          "local": "紅毛丹",
+          "what": "Hairy red cousin of the lychee.",
+          "tags": [
+            "sweet",
+            "juicy",
+            "Southeast Asia"
+          ],
+          "wiki": "Rambutan"
+        },
+        {
+          "name": "Dragon fruit",
+          "local": "火龍果",
+          "what": "Pink scaly skin with white or magenta flesh and tiny black seeds.",
+          "tags": [
+            "mild",
+            "crunchy seeds"
+          ],
+          "wiki": "Pitaya"
+        },
+        {
+          "name": "Jackfruit",
+          "local": "菠蘿蜜",
+          "what": "The biggest tree fruit: sweet yellow pods inside; young ones are cooked as a meat substitute.",
+          "tags": [
+            "sweet",
+            "fibrous",
+            "huge"
+          ],
+          "wiki": "Jackfruit"
+        },
+        {
+          "name": "Pomelo",
+          "local": "柚子",
+          "what": "Giant thick-skinned citrus, a Mid-Autumn and New Year favourite.",
+          "tags": [
+            "mild grapefruit taste",
+            "autumn"
+          ],
+          "wiki": "Pomelo"
+        },
+        {
+          "name": "Persimmon",
+          "local": "柿",
+          "what": "Orange autumn fruit, crisp or jelly-soft when ripe; also dried.",
+          "tags": [
+            "honey-sweet",
+            "autumn"
+          ],
+          "wiki": "Japanese persimmon"
+        },
+        {
+          "name": "Starfruit",
+          "local": "楊桃",
+          "what": "Star-shaped when sliced; juicy and tart.",
+          "tags": [
+            "tart-sweet",
+            "crunchy"
+          ],
+          "wiki": "Carambola"
+        },
+        {
+          "name": "Yuzu",
+          "local": "ゆず",
+          "what": "Knobbly Japanese citrus prized for its fragrant zest in desserts and cocktails.",
+          "tags": [
+            "fragrant",
+            "sour",
+            "Japan",
+            "winter"
+          ],
+          "wiki": "Yuzu"
+        },
+        {
+          "name": "Shine Muscat grapes",
+          "local": "シャインマスカット",
+          "what": "Large, very sweet green Japanese grapes with edible skin, sold as luxury gifts.",
+          "tags": [
+            "very sweet",
+            "seedless",
+            "Japan"
+          ],
+          "wiki": "Shine Muscat"
+        }
+      ]
+    },
+    {
+      "slug": "asian-veg",
+      "name": "Asian vegetables",
+      "emoji": "🥬",
+      "intro": "The greens and roots in Cantonese cooking, and their English names.",
+      "lang": "zh-HK",
+      "items": [
+        {
+          "name": "Bok choy",
+          "local": "白菜",
+          "what": "Mild cabbage with thick white stalks and dark green leaves.",
+          "tags": [
+            "crunchy stems",
+            "mild"
+          ],
+          "wiki": "Bok choy"
+        },
+        {
+          "name": "Choy sum",
+          "local": "菜心",
+          "what": "Tender greens with small yellow flowers, the standard blanched vegetable at cha chaan tengs.",
+          "tags": [
+            "sweet",
+            "tender"
+          ],
+          "wiki": "Choy sum"
+        },
+        {
+          "name": "Gai lan",
+          "local": "芥蘭",
+          "what": "Chinese broccoli: thick stems and broad leaves, served with oyster sauce at yum cha.",
+          "tags": [
+            "slightly bitter",
+            "crunchy"
+          ],
+          "wiki": "Gai lan"
+        },
+        {
+          "name": "Water spinach",
+          "local": "通菜",
+          "what": "Hollow-stemmed greens stir-fried with garlic or fermented bean curd (also kangkung, ong choy).",
+          "tags": [
+            "crisp",
+            "mild"
+          ],
+          "wiki": "Ipomoea aquatica"
+        },
+        {
+          "name": "Daikon",
+          "local": "蘿蔔",
+          "what": "Long white radish, used in turnip cake and Japanese simmered dishes.",
+          "tags": [
+            "mild",
+            "peppery",
+            "juicy"
+          ],
+          "wiki": "Daikon"
+        },
+        {
+          "name": "Bitter melon",
+          "local": "苦瓜",
+          "what": "Bumpy green gourd with a famously bitter taste.",
+          "tags": [
+            "bitter"
+          ],
+          "wiki": "Momordica charantia"
+        },
+        {
+          "name": "Winter melon",
+          "local": "冬瓜",
+          "what": "Huge pale-green melon used in clear soups.",
+          "tags": [
+            "mild",
+            "watery"
+          ],
+          "wiki": "Wax gourd"
+        },
+        {
+          "name": "Shiitake",
+          "local": "冬菇",
+          "what": "Dark, meaty mushroom, often dried for deeper flavour.",
+          "tags": [
+            "umami",
+            "meaty"
+          ],
+          "wiki": "Shiitake"
+        },
+        {
+          "name": "Enoki",
+          "local": "金針菇",
+          "what": "Clusters of thin white mushrooms, a hot-pot staple.",
+          "tags": [
+            "mild",
+            "crunchy"
+          ],
+          "wiki": "Enokitake"
+        },
+        {
+          "name": "Taro",
+          "local": "芋頭",
+          "what": "Starchy root with purple-flecked flesh, used in desserts and dim sum.",
+          "tags": [
+            "nutty",
+            "starchy"
+          ],
+          "wiki": "Taro"
+        }
+      ]
+    },
+    {
+      "slug": "western-veg",
+      "name": "Western vegetables & herbs",
+      "emoji": "🥕",
+      "intro": "Names that confuse people on menus, including UK versus US words.",
+      "items": [
+        {
+          "name": "Artichoke",
+          "what": "Thistle bud: you eat the soft base of each leaf and the heart.",
+          "tags": [
+            "nutty",
+            "Mediterranean",
+            "spring"
+          ],
+          "wiki": "Artichoke"
+        },
+        {
+          "name": "Asparagus",
+          "what": "Green or white spears; white asparagus season (Spargelzeit) is a big deal in Germany.",
+          "tags": [
+            "grassy",
+            "spring"
+          ],
+          "wiki": "Asparagus"
+        },
+        {
+          "name": "Aubergine / eggplant",
+          "what": "Glossy purple vegetable: aubergine in the UK, eggplant in the US.",
+          "tags": [
+            "soft when cooked",
+            "absorbs flavour"
+          ],
+          "wiki": "Eggplant"
+        },
+        {
+          "name": "Courgette / zucchini",
+          "what": "Green summer squash: courgette in the UK, zucchini in the US.",
+          "tags": [
+            "mild",
+            "summer"
+          ],
+          "wiki": "Zucchini"
+        },
+        {
+          "name": "Fennel",
+          "what": "Crunchy white bulb with feathery fronds and an aniseed taste.",
+          "tags": [
+            "aniseed",
+            "crunchy"
+          ],
+          "wiki": "Fennel"
+        },
+        {
+          "name": "Kale",
+          "what": "Curly dark-green cabbage, the 2010s superfood.",
+          "tags": [
+            "earthy",
+            "chewy"
+          ],
+          "wiki": "Kale"
+        },
+        {
+          "name": "Rocket / arugula",
+          "what": "Peppery salad leaf: rocket in the UK, arugula in the US.",
+          "tags": [
+            "peppery"
+          ],
+          "wiki": "Arugula"
+        },
+        {
+          "name": "Truffle",
+          "what": "Prized underground fungus shaved over pasta: white from Alba, black from Périgord.",
+          "tags": [
+            "earthy",
+            "very expensive",
+            "autumn and winter"
+          ],
+          "wiki": "Truffle"
+        },
+        {
+          "name": "Avocado",
+          "what": "Creamy green fruit used like a vegetable, from guacamole to toast.",
+          "tags": [
+            "buttery",
+            "mild"
+          ],
+          "wiki": "Avocado"
+        },
+        {
+          "name": "Coriander / cilantro",
+          "local": "芫茜",
+          "lang": "zh-HK",
+          "what": "The herb people love or hate: coriander in the UK, cilantro in the US.",
+          "tags": [
+            "citrusy",
+            "divisive"
+          ],
+          "wiki": "Coriander"
+        }
+      ]
+    }
+  ]
+}

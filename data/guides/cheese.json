@@ -1,0 +1,311 @@
+{
+  "slug": "cheese",
+  "title": "Cheese",
+  "emoji": "🧀",
+  "order": 3,
+  "blurb": "The cheeses on every cheese board: what they look like, what milk they're from and how they taste.",
+  "tagLabel": "Milk, texture, taste",
+  "groupNoun": "countries",
+  "quizTags": true,
+  "groups": [
+    {
+      "slug": "france",
+      "name": "France",
+      "emoji": "🇫🇷",
+      "intro": "Over a thousand cheeses; these are the ones you'll actually meet.",
+      "lang": "fr-FR",
+      "items": [
+        {
+          "name": "Brie de Meaux",
+          "what": "Soft cheese with a white bloomy rind and a buttery, oozing inside.",
+          "tags": [
+            "cow's milk",
+            "soft",
+            "white rind",
+            "mild and creamy"
+          ],
+          "say": "bree",
+          "wiki": "Brie"
+        },
+        {
+          "name": "Camembert",
+          "what": "Normandy's smaller, earthier cousin of brie, sold in a round wooden box.",
+          "tags": [
+            "cow's milk",
+            "soft",
+            "white rind",
+            "earthy"
+          ],
+          "wiki": "Camembert"
+        },
+        {
+          "name": "Roquefort",
+          "what": "Sheep's-milk blue cheese aged in caves in southern France.",
+          "tags": [
+            "sheep's milk",
+            "blue veins",
+            "salty",
+            "tangy"
+          ],
+          "say": "rock-FOR",
+          "wiki": "Roquefort"
+        },
+        {
+          "name": "Comté",
+          "what": "Firm Alpine cheese with nutty, sweet notes, aged for months in huge wheels.",
+          "tags": [
+            "cow's milk",
+            "hard",
+            "nutty"
+          ],
+          "say": "con-TAY",
+          "wiki": "Comté cheese"
+        },
+        {
+          "name": "Chèvre",
+          "what": "Goat's cheese, fresh and spreadable or aged in logs, sometimes coated in ash.",
+          "tags": [
+            "goat's milk",
+            "tangy",
+            "soft to firm"
+          ],
+          "say": "SHEV-ruh",
+          "wiki": "Goat cheese"
+        },
+        {
+          "name": "Reblochon",
+          "what": "Washed-rind Alpine cheese, melted over potatoes in tartiflette.",
+          "tags": [
+            "cow's milk",
+            "soft",
+            "washed rind",
+            "nutty"
+          ],
+          "say": "reb-lo-SHON",
+          "wiki": "Reblochon"
+        }
+      ]
+    },
+    {
+      "slug": "italy",
+      "name": "Italy",
+      "emoji": "🇮🇹",
+      "intro": "From the 'king of cheeses' to fresh mozzarella.",
+      "lang": "it-IT",
+      "items": [
+        {
+          "name": "Parmigiano Reggiano",
+          "what": "The 'king of cheeses': hard and granular, aged 12 to 36 months in huge wheels stamped with its name.",
+          "tags": [
+            "cow's milk",
+            "hard",
+            "granular",
+            "savoury"
+          ],
+          "say": "par-mee-JAH-no reh-JAH-no",
+          "wiki": "Parmigiano Reggiano"
+        },
+        {
+          "name": "Mozzarella di bufala",
+          "what": "Soft, milky fresh cheese in white balls; the best is made from water-buffalo milk.",
+          "tags": [
+            "buffalo milk",
+            "fresh",
+            "soft",
+            "milky"
+          ],
+          "say": "mot-sa-REL-la",
+          "wiki": "Mozzarella"
+        },
+        {
+          "name": "Gorgonzola",
+          "what": "Creamy Italian blue cheese, mild (dolce) or sharp (piccante).",
+          "tags": [
+            "cow's milk",
+            "blue veins",
+            "creamy"
+          ],
+          "say": "gor-gon-ZO-la",
+          "wiki": "Gorgonzola"
+        },
+        {
+          "name": "Pecorino Romano",
+          "what": "Hard, salty sheep's cheese grated over Roman pastas.",
+          "tags": [
+            "sheep's milk",
+            "hard",
+            "salty"
+          ],
+          "say": "peh-ko-REE-no",
+          "wiki": "Pecorino romano"
+        },
+        {
+          "name": "Taleggio",
+          "what": "Square washed-rind cheese with a pungent smell and a mild, fruity taste.",
+          "tags": [
+            "cow's milk",
+            "soft",
+            "washed rind"
+          ],
+          "say": "ta-LEH-jo",
+          "wiki": "Taleggio cheese"
+        },
+        {
+          "name": "Ricotta",
+          "what": "Soft, fluffy whey cheese used in cannoli and lasagne.",
+          "tags": [
+            "whey",
+            "fresh",
+            "mild",
+            "slightly sweet"
+          ],
+          "say": "ri-KOT-ta",
+          "wiki": "Ricotta"
+        }
+      ]
+    },
+    {
+      "slug": "swiss-dutch",
+      "name": "Switzerland & the Netherlands",
+      "emoji": "🇨🇭",
+      "intro": "Alpine melting cheeses and Dutch wheels.",
+      "items": [
+        {
+          "name": "Gruyère",
+          "lang": "fr-CH",
+          "what": "Firm Swiss Alpine cheese and the base of fondue.",
+          "tags": [
+            "cow's milk",
+            "hard",
+            "nutty",
+            "melts well"
+          ],
+          "say": "groo-YAIR",
+          "wiki": "Gruyère cheese"
+        },
+        {
+          "name": "Emmental",
+          "lang": "de-CH",
+          "what": "The cartoon 'Swiss cheese' with big holes.",
+          "tags": [
+            "cow's milk",
+            "semi-hard",
+            "holes",
+            "mild"
+          ],
+          "say": "EM-en-tal",
+          "wiki": "Emmental cheese"
+        },
+        {
+          "name": "Raclette",
+          "lang": "fr-CH",
+          "what": "Wheel cheese that is melted and scraped over potatoes and pickles.",
+          "tags": [
+            "cow's milk",
+            "semi-hard",
+            "melting"
+          ],
+          "say": "ra-KLET",
+          "wiki": "Raclette"
+        },
+        {
+          "name": "Gouda",
+          "lang": "nl-NL",
+          "what": "Dutch cheese, mild when young and caramel-crunchy when aged.",
+          "tags": [
+            "cow's milk",
+            "semi-hard to hard",
+            "sweet"
+          ],
+          "say": "HOW-da",
+          "wiki": "Gouda cheese"
+        },
+        {
+          "name": "Edam",
+          "lang": "nl-NL",
+          "what": "Mild Dutch ball-shaped cheese coated in red wax.",
+          "tags": [
+            "cow's milk",
+            "semi-hard",
+            "red wax"
+          ],
+          "say": "EE-dam",
+          "wiki": "Edam cheese"
+        }
+      ]
+    },
+    {
+      "slug": "world",
+      "name": "Britain, Spain, Greece & beyond",
+      "emoji": "🌍",
+      "intro": "Cheddar, manchego, feta and friends.",
+      "items": [
+        {
+          "name": "Cheddar",
+          "what": "Britain's favourite, from mild to extra-mature and crumbly.",
+          "tags": [
+            "cow's milk",
+            "hard",
+            "sharp"
+          ],
+          "wiki": "Cheddar cheese"
+        },
+        {
+          "name": "Stilton",
+          "what": "English blue cheese, a Christmas tradition with a glass of port.",
+          "tags": [
+            "cow's milk",
+            "blue veins",
+            "creamy"
+          ],
+          "wiki": "Stilton cheese"
+        },
+        {
+          "name": "Manchego",
+          "lang": "es-ES",
+          "what": "Spanish sheep's cheese with a zigzag-patterned rind, served with quince paste.",
+          "tags": [
+            "sheep's milk",
+            "firm",
+            "nutty"
+          ],
+          "say": "man-CHAY-go",
+          "wiki": "Manchego"
+        },
+        {
+          "name": "Feta",
+          "local": "Φέτα",
+          "what": "Greek white cheese kept in brine; salty and crumbly.",
+          "tags": [
+            "sheep's and goat's milk",
+            "brined",
+            "crumbly"
+          ],
+          "wiki": "Feta"
+        },
+        {
+          "name": "Halloumi",
+          "local": "Χαλλούμι",
+          "what": "Cypriot 'squeaky' cheese that grills without melting.",
+          "tags": [
+            "goat's and sheep's milk",
+            "firm",
+            "salty"
+          ],
+          "wiki": "Halloumi"
+        },
+        {
+          "name": "Paneer",
+          "local": "पनीर",
+          "what": "Indian fresh cheese that doesn't melt, cubed into curries.",
+          "tags": [
+            "cow's or buffalo milk",
+            "fresh",
+            "mild"
+          ],
+          "wiki": "Paneer"
+        }
+      ]
+    }
+  ]
+}

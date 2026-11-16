@@ -1,0 +1,415 @@
+{
+  "slug": "cocktails-spirits",
+  "title": "Cocktails & spirits",
+  "emoji": "🍸",
+  "order": 2,
+  "blurb": "The classic drinks people order by name, what goes in them, and the spirits behind them.",
+  "tagLabel": "What's in it",
+  "groupNoun": "sections",
+  "quizTags": true,
+  "groups": [
+    {
+      "slug": "classic-cocktails",
+      "name": "Classic cocktails",
+      "emoji": "🍸",
+      "intro": "The drinks every good bartender knows by name. Order one confidently and you'll sound like a regular.",
+      "items": [
+        {
+          "name": "Martini",
+          "what": "Gin and dry vermouth, stirred very cold and served in a V-shaped glass with an olive or lemon twist. 'Dirty' adds olive brine.",
+          "tags": [
+            "gin",
+            "dry vermouth",
+            "olive or lemon twist"
+          ],
+          "wiki": "Martini (cocktail)"
+        },
+        {
+          "name": "Negroni",
+          "lang": "it-IT",
+          "what": "Bitter, ruby-red Italian aperitivo of equal parts, served over ice with orange peel.",
+          "tags": [
+            "gin",
+            "Campari",
+            "sweet vermouth",
+            "orange peel"
+          ],
+          "say": "neh-GRO-nee",
+          "wiki": "Negroni"
+        },
+        {
+          "name": "Old Fashioned",
+          "what": "Whisky lightly sweetened with sugar and bitters, over one big ice cube.",
+          "tags": [
+            "bourbon or rye",
+            "sugar",
+            "Angostura bitters",
+            "orange peel"
+          ],
+          "wiki": "Old fashioned (cocktail)"
+        },
+        {
+          "name": "Manhattan",
+          "what": "Whisky and sweet vermouth, served 'up' (no ice) with a cherry.",
+          "tags": [
+            "rye whiskey",
+            "sweet vermouth",
+            "bitters",
+            "cherry"
+          ],
+          "wiki": "Manhattan (cocktail)"
+        },
+        {
+          "name": "Margarita",
+          "lang": "es-MX",
+          "what": "Tequila, lime and orange liqueur in a salt-rimmed glass, shaken or frozen.",
+          "tags": [
+            "tequila",
+            "lime",
+            "triple sec",
+            "salt rim"
+          ],
+          "wiki": "Margarita"
+        },
+        {
+          "name": "Mojito",
+          "lang": "es-ES",
+          "what": "Cuban highball with fresh mint and lime, topped with soda.",
+          "tags": [
+            "white rum",
+            "mint",
+            "lime",
+            "sugar",
+            "soda water"
+          ],
+          "say": "mo-HEE-toh",
+          "wiki": "Mojito"
+        },
+        {
+          "name": "Daiquiri",
+          "what": "Simple Cuban classic of rum, lime and sugar, shaken and served up.",
+          "tags": [
+            "white rum",
+            "lime juice",
+            "sugar"
+          ],
+          "say": "DAK-er-ee",
+          "wiki": "Daiquiri"
+        },
+        {
+          "name": "Espresso Martini",
+          "what": "Vodka and fresh espresso shaken to a creamy foam, topped with three coffee beans.",
+          "tags": [
+            "vodka",
+            "espresso",
+            "coffee liqueur",
+            "sugar"
+          ],
+          "wiki": "Espresso martini"
+        },
+        {
+          "name": "Aperol Spritz",
+          "what": "Bright orange Italian aperitivo topped up with prosecco, the drink of summer terraces.",
+          "tags": [
+            "Aperol",
+            "prosecco",
+            "soda water",
+            "orange slice"
+          ],
+          "wiki": "Spritz (aperitif)"
+        },
+        {
+          "name": "Mai Tai",
+          "what": "Tiki-bar classic of rum, lime and almond syrup, garnished with mint.",
+          "tags": [
+            "aged rum",
+            "lime",
+            "orange curaçao",
+            "orgeat"
+          ],
+          "wiki": "Mai Tai"
+        },
+        {
+          "name": "Piña Colada",
+          "lang": "es-ES",
+          "what": "Creamy tropical blend from Puerto Rico.",
+          "tags": [
+            "rum",
+            "coconut cream",
+            "pineapple juice"
+          ],
+          "say": "PEEN-ya ko-LAH-da",
+          "wiki": "Piña colada"
+        },
+        {
+          "name": "Moscow Mule",
+          "what": "Vodka and spicy ginger beer, served in a copper mug.",
+          "tags": [
+            "vodka",
+            "ginger beer",
+            "lime"
+          ],
+          "wiki": "Moscow mule"
+        },
+        {
+          "name": "Whisky Sour",
+          "what": "Whisky, lemon and sugar, often with a frothy egg-white top.",
+          "tags": [
+            "bourbon",
+            "lemon juice",
+            "sugar",
+            "egg white"
+          ],
+          "wiki": "Whiskey sour"
+        },
+        {
+          "name": "Cosmopolitan",
+          "what": "Pink 1990s icon made famous by Sex and the City.",
+          "tags": [
+            "vodka",
+            "triple sec",
+            "cranberry juice",
+            "lime"
+          ],
+          "wiki": "Cosmopolitan (cocktail)"
+        },
+        {
+          "name": "Bloody Mary",
+          "what": "Savoury brunch drink of vodka and spiced tomato juice with a celery stick.",
+          "tags": [
+            "vodka",
+            "tomato juice",
+            "Worcestershire sauce",
+            "Tabasco",
+            "celery"
+          ],
+          "wiki": "Bloody Mary (cocktail)"
+        },
+        {
+          "name": "Gin and tonic",
+          "what": "The highball everyone knows, with lime or cucumber.",
+          "tags": [
+            "gin",
+            "tonic water",
+            "lime"
+          ],
+          "wiki": "Gin and tonic"
+        },
+        {
+          "name": "Japanese highball",
+          "local": "ハイボール",
+          "what": "Japanese whisky and soda in a tall, ice-cold glass; huge in Japanese izakayas.",
+          "tags": [
+            "Japanese whisky",
+            "soda water",
+            "ice"
+          ],
+          "wiki": "Highball (cocktail)"
+        },
+        {
+          "name": "French 75",
+          "what": "Gin, lemon and sugar topped with champagne, served in a flute.",
+          "tags": [
+            "gin",
+            "lemon juice",
+            "sugar",
+            "champagne"
+          ],
+          "wiki": "French 75 (cocktail)"
+        },
+        {
+          "name": "Paloma",
+          "lang": "es-MX",
+          "what": "Mexico's favourite tequila drink, with grapefruit soda and a salt rim.",
+          "tags": [
+            "tequila",
+            "grapefruit soda",
+            "lime",
+            "salt"
+          ],
+          "say": "pa-LO-ma",
+          "wiki": "Paloma (cocktail)"
+        },
+        {
+          "name": "Caipirinha",
+          "lang": "pt-BR",
+          "what": "Brazil's national cocktail: cachaça muddled with lime and sugar.",
+          "tags": [
+            "cachaça",
+            "lime",
+            "sugar"
+          ],
+          "say": "kai-pi-REEN-ya",
+          "wiki": "Caipirinha"
+        }
+      ]
+    },
+    {
+      "slug": "spirits",
+      "name": "Spirits & sparkling wine",
+      "emoji": "🥃",
+      "intro": "The base spirits and wines behind the bar, and the words on the label.",
+      "items": [
+        {
+          "name": "Gin",
+          "what": "Clear spirit flavoured with juniper; London Dry is the classic style, Japan's Roku and Hong Kong's own craft gins are popular.",
+          "tags": [
+            "grain spirit",
+            "juniper",
+            "botanicals",
+            "England & Netherlands"
+          ],
+          "wiki": "Gin"
+        },
+        {
+          "name": "Vodka",
+          "what": "Neutral clear spirit, made from grain or potatoes.",
+          "tags": [
+            "grain or potatoes",
+            "Russia",
+            "Poland"
+          ],
+          "wiki": "Vodka"
+        },
+        {
+          "name": "Rum",
+          "what": "Spirit from sugar cane or molasses: white, gold, dark or spiced.",
+          "tags": [
+            "sugar cane",
+            "molasses",
+            "Caribbean"
+          ],
+          "wiki": "Rum"
+        },
+        {
+          "name": "Tequila",
+          "what": "Mexican spirit from blue agave; blanco (unaged), reposado and añejo (aged).",
+          "tags": [
+            "blue agave",
+            "Jalisco",
+            "Mexico"
+          ],
+          "say": "teh-KEE-la",
+          "wiki": "Tequila"
+        },
+        {
+          "name": "Mezcal",
+          "what": "Smoky agave spirit, mostly from Oaxaca.",
+          "tags": [
+            "roasted agave",
+            "smoky",
+            "Oaxaca",
+            "Mexico"
+          ],
+          "say": "mes-CAL",
+          "wiki": "Mezcal"
+        },
+        {
+          "name": "Scotch whisky",
+          "what": "Whisky made in Scotland and aged at least three years; single malt or blended.",
+          "tags": [
+            "malted barley",
+            "oak casks",
+            "Scotland"
+          ],
+          "wiki": "Scotch whisky"
+        },
+        {
+          "name": "Bourbon",
+          "what": "American whiskey of at least 51% corn, aged in new charred oak barrels.",
+          "tags": [
+            "corn",
+            "new charred oak",
+            "Kentucky",
+            "sweet vanilla notes"
+          ],
+          "wiki": "Bourbon whiskey"
+        },
+        {
+          "name": "Japanese whisky",
+          "local": "ウイスキー",
+          "what": "Scotch-style whisky; Yamazaki, Hibiki and Nikka are the names collectors chase.",
+          "tags": [
+            "malted barley",
+            "mizunara oak",
+            "Suntory",
+            "Nikka"
+          ],
+          "wiki": "Japanese whisky"
+        },
+        {
+          "name": "Cognac",
+          "lang": "fr-FR",
+          "what": "Grape brandy from the Cognac region of France, graded VS, VSOP and XO; a Hong Kong banquet favourite.",
+          "tags": [
+            "white grapes",
+            "French oak",
+            "Cognac region",
+            "Hennessy",
+            "Rémy Martin"
+          ],
+          "wiki": "Cognac"
+        },
+        {
+          "name": "Baijiu",
+          "local": "白酒",
+          "what": "China's fiery, fragrant grain spirit; Kweichow Moutai is the prestige bottle at business dinners.",
+          "tags": [
+            "sorghum",
+            "Moutai",
+            "very strong",
+            "China"
+          ],
+          "wiki": "Baijiu"
+        },
+        {
+          "name": "Sake",
+          "local": "日本酒",
+          "lang": "ja-JP",
+          "what": "Japanese brewed rice drink, graded by how much the rice is polished: junmai, ginjo, daiginjo.",
+          "tags": [
+            "polished rice",
+            "koji",
+            "water",
+            "Japan"
+          ],
+          "wiki": "Sake"
+        },
+        {
+          "name": "Soju",
+          "local": "소주",
+          "what": "Korea's clear, light spirit, drunk in shots with Korean BBQ; the world's best-selling liquor brand is Jinro.",
+          "tags": [
+            "rice or sweet potato",
+            "Korea",
+            "green bottle"
+          ],
+          "wiki": "Soju"
+        },
+        {
+          "name": "Champagne",
+          "lang": "fr-FR",
+          "what": "Sparkling wine that can only come from the Champagne region of France.",
+          "tags": [
+            "Chardonnay",
+            "Pinot Noir",
+            "Pinot Meunier",
+            "Champagne region"
+          ],
+          "wiki": "Champagne"
+        },
+        {
+          "name": "Prosecco",
+          "lang": "it-IT",
+          "what": "Light, fruity Italian sparkling wine, cheaper and sweeter than champagne.",
+          "tags": [
+            "Glera grapes",
+            "Veneto",
+            "Italy"
+          ],
+          "wiki": "Prosecco"
+        }
+      ]
+    }
+  ]
+}

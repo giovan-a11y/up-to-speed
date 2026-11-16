@@ -1,0 +1,454 @@
+{
+  "slug": "etiquette",
+  "title": "Etiquette around the world",
+  "emoji": "🙏",
+  "order": 11,
+  "blurb": "Tipping, table manners and gift customs, country by country, so you don't put a foot wrong.",
+  "tagLabel": "Key facts",
+  "groupNoun": "regions",
+  "quizTags": false,
+  "groups": [
+    {
+      "slug": "east-asia",
+      "name": "East Asia",
+      "emoji": "🏯",
+      "intro": "Bowing, chopsticks and gift wrapping.",
+      "region": "Asia",
+      "items": [
+        {
+          "name": "Japan",
+          "local": "日本",
+          "lang": "ja-JP",
+          "what": "Quiet, polite and orderly; small courtesies matter.",
+          "facts": [
+            {
+              "k": "Tipping",
+              "v": "Not done; it can confuse staff."
+            },
+            {
+              "k": "At the table",
+              "v": "Don't stand chopsticks upright in rice or pass food chopstick to chopstick. Slurping noodles is fine. Say 'itadakimasu' before eating."
+            },
+            {
+              "k": "Gifts & greetings",
+              "v": "Bow on greeting. Give and receive gifts and business cards with both hands; avoid sets of four."
+            }
+          ],
+          "wiki": "Flag of Japan"
+        },
+        {
+          "name": "South Korea",
+          "local": "대한민국",
+          "what": "Respect for age shapes everything at the table.",
+          "facts": [
+            {
+              "k": "Tipping",
+              "v": "Not expected."
+            },
+            {
+              "k": "At the table",
+              "v": "Wait for the eldest to start. Pour for others, not yourself, and turn your head away from elders when you drink."
+            },
+            {
+              "k": "Gifts & greetings",
+              "v": "A slight bow, often with a handshake. Use both hands to give and receive; don't write names in red ink."
+            }
+          ],
+          "wiki": "Flag of South Korea"
+        },
+        {
+          "name": "Mainland China",
+          "local": "中国",
+          "what": "Hospitality is generous, and saving face matters.",
+          "facts": [
+            {
+              "k": "Tipping",
+              "v": "Not customary, except in top hotels."
+            },
+            {
+              "k": "At the table",
+              "v": "The host orders and pays; it's polite to offer to pay. Toast with 'ganbei' and leave a little food to show you're full."
+            },
+            {
+              "k": "Gifts & greetings",
+              "v": "Gifts may be politely refused before being accepted. Avoid clocks (送鐘 sounds like attending a funeral), umbrellas, pears and the number four."
+            }
+          ],
+          "wiki": "Flag of China"
+        },
+        {
+          "name": "Hong Kong",
+          "local": "香港",
+          "lang": "zh-HK",
+          "what": "Fast, efficient and very food-focused.",
+          "facts": [
+            {
+              "k": "Tipping",
+              "v": "Restaurants usually add a 10% service charge; round up taxis."
+            },
+            {
+              "k": "At the table",
+              "v": "Tap two fingers on the table to say thanks when someone pours your tea. Dishes are shared."
+            },
+            {
+              "k": "Gifts & greetings",
+              "v": "Lai see red packets at Lunar New Year, given with both hands. Avoid clocks and fours."
+            }
+          ],
+          "wiki": "Flag of Hong Kong"
+        },
+        {
+          "name": "Taiwan",
+          "local": "臺灣",
+          "lang": "zh-TW",
+          "what": "Warm and courteous, with Chinese customs similar to Hong Kong's.",
+          "facts": [
+            {
+              "k": "Tipping",
+              "v": "Not expected; hotels and upscale restaurants add 10% service."
+            },
+            {
+              "k": "At the table",
+              "v": "Don't stick chopsticks upright in rice. Night-market eating on the go is normal."
+            },
+            {
+              "k": "Gifts & greetings",
+              "v": "Similar gift taboos to China: no clocks, umbrellas or sets of four."
+            }
+          ],
+          "wiki": "Flag of the Republic of China"
+        }
+      ]
+    },
+    {
+      "slug": "se-south-asia",
+      "name": "Southeast & South Asia",
+      "emoji": "🛕",
+      "intro": "Temples, hands and heads.",
+      "region": "Asia",
+      "items": [
+        {
+          "name": "Thailand",
+          "local": "ประเทศไทย",
+          "what": "Calm, smiling and respectful, especially of the monarchy and Buddhism.",
+          "facts": [
+            {
+              "k": "Tipping",
+              "v": "Not required; small tips and rounding up are appreciated."
+            },
+            {
+              "k": "At the table",
+              "v": "Eat with a spoon in the right hand, using the fork to push food; chopsticks are for noodles."
+            },
+            {
+              "k": "Gifts & greetings",
+              "v": "Greet with a wai (palms together). Don't touch anyone's head or point your feet at people or Buddha images. Never criticise the royal family; it's illegal."
+            }
+          ],
+          "wiki": "Flag of Thailand"
+        },
+        {
+          "name": "Singapore",
+          "what": "Orderly, multicultural and rule-abiding.",
+          "facts": [
+            {
+              "k": "Tipping",
+              "v": "Not expected; bills include a 10% service charge plus GST."
+            },
+            {
+              "k": "At the table",
+              "v": "At hawker centres, a tissue packet on a seat means it's reserved ('chope')."
+            },
+            {
+              "k": "Gifts & greetings",
+              "v": "Handshakes are common. Fines are real: no littering, eating on the MRT or selling chewing gum."
+            }
+          ],
+          "wiki": "Flag of Singapore"
+        },
+        {
+          "name": "India",
+          "local": "भारत",
+          "what": "Hospitable, with big regional and religious differences.",
+          "facts": [
+            {
+              "k": "Tipping",
+              "v": "About 10% in restaurants if no service charge is added."
+            },
+            {
+              "k": "At the table",
+              "v": "Eat with your right hand. Many people are vegetarian; Hindus avoid beef and Muslims avoid pork."
+            },
+            {
+              "k": "Gifts & greetings",
+              "v": "Greet with namaste. Give and receive with the right hand; avoid leather gifts for Hindus and alcohol for Muslims."
+            }
+          ],
+          "wiki": "Flag of India"
+        },
+        {
+          "name": "Vietnam",
+          "local": "Việt Nam",
+          "lang": "vi-VN",
+          "what": "Friendly and family-centred, with Confucian respect for elders.",
+          "facts": [
+            {
+              "k": "Tipping",
+              "v": "Not expected but appreciated in tourist areas."
+            },
+            {
+              "k": "At the table",
+              "v": "Wait for the eldest to start; pick up your bowl to eat rice."
+            },
+            {
+              "k": "Gifts & greetings",
+              "v": "Use both hands to give. Avoid giving handkerchiefs, sharp objects or anything black."
+            }
+          ],
+          "wiki": "Flag of Vietnam"
+        }
+      ]
+    },
+    {
+      "slug": "europe",
+      "name": "Europe",
+      "emoji": "🇪🇺",
+      "intro": "Cheek kisses, bread etiquette and service charges.",
+      "region": "Europe",
+      "items": [
+        {
+          "name": "France",
+          "what": "Formal politeness opens every door.",
+          "facts": [
+            {
+              "k": "Tipping",
+              "v": "Service is included ('service compris'); leave small change for good service."
+            },
+            {
+              "k": "At the table",
+              "v": "Say 'bonjour' entering any shop. Bread goes on the table, not the plate; keep your hands on the table."
+            },
+            {
+              "k": "Gifts & greetings",
+              "v": "Friends greet with la bise (cheek kisses). Bring flowers or chocolates, not chrysanthemums (funerals)."
+            }
+          ],
+          "wiki": "Flag of France"
+        },
+        {
+          "name": "Italy",
+          "what": "Food rules are taken seriously.",
+          "facts": [
+            {
+              "k": "Tipping",
+              "v": "A 'coperto' cover charge is on the bill; tipping is optional rounding."
+            },
+            {
+              "k": "At the table",
+              "v": "Cappuccino is a morning drink; no parmesan on seafood pasta; don't cut spaghetti."
+            },
+            {
+              "k": "Gifts & greetings",
+              "v": "Cheek kisses among friends; dress smartly."
+            }
+          ],
+          "wiki": "Flag of Italy"
+        },
+        {
+          "name": "United Kingdom",
+          "what": "Polite, understated and keen on queues.",
+          "facts": [
+            {
+              "k": "Tipping",
+              "v": "10–12.5% in restaurants, often added as a service charge; none at the pub bar."
+            },
+            {
+              "k": "At the table",
+              "v": "At the pub, groups buy drinks in 'rounds'. Never jump a queue."
+            },
+            {
+              "k": "Gifts & greetings",
+              "v": "A handshake; small talk about the weather is a genuine national pastime."
+            }
+          ],
+          "wiki": "Flag of the United Kingdom"
+        },
+        {
+          "name": "Germany",
+          "what": "Punctual, direct and orderly.",
+          "facts": [
+            {
+              "k": "Tipping",
+              "v": "Round up 5–10%, telling the server the total as you pay rather than leaving it on the table."
+            },
+            {
+              "k": "At the table",
+              "v": "Say 'Prost' and look people in the eye when clinking glasses."
+            },
+            {
+              "k": "Gifts & greetings",
+              "v": "A firm handshake; be on time. Shops close on Sundays."
+            }
+          ],
+          "wiki": "Flag of Germany"
+        },
+        {
+          "name": "Spain",
+          "what": "Relaxed and social, and it runs late.",
+          "facts": [
+            {
+              "k": "Tipping",
+              "v": "Small change or rounding up."
+            },
+            {
+              "k": "At the table",
+              "v": "Lunch is around 2–4 pm and dinner from 9 pm or later. Tapas are for sharing."
+            },
+            {
+              "k": "Gifts & greetings",
+              "v": "Two cheek kisses among friends."
+            }
+          ],
+          "wiki": "Flag of Spain"
+        }
+      ]
+    },
+    {
+      "slug": "americas",
+      "name": "Americas",
+      "emoji": "🗽",
+      "intro": "Where tipping really matters.",
+      "region": "Americas",
+      "items": [
+        {
+          "name": "United States",
+          "what": "Friendly and informal, with tipping built into wages.",
+          "facts": [
+            {
+              "k": "Tipping",
+              "v": "18–22% at restaurants is expected; about US$1–2 a drink at bars."
+            },
+            {
+              "k": "At the table",
+              "v": "Portions are big and taking leftovers home is normal."
+            },
+            {
+              "k": "Gifts & greetings",
+              "v": "A firm handshake and first names quickly."
+            }
+          ],
+          "wiki": "Flag of the United States"
+        },
+        {
+          "name": "Mexico",
+          "what": "Warm, family-oriented and festive.",
+          "facts": [
+            {
+              "k": "Tipping",
+              "v": "10–15% in restaurants."
+            },
+            {
+              "k": "At the table",
+              "v": "Lunch is the main meal, often late afternoon."
+            },
+            {
+              "k": "Gifts & greetings",
+              "v": "A handshake, or a cheek kiss among friends."
+            }
+          ],
+          "wiki": "Flag of Mexico"
+        },
+        {
+          "name": "Brazil",
+          "what": "Warm, physical and relaxed about time.",
+          "facts": [
+            {
+              "k": "Tipping",
+              "v": "A 10% service charge is usually on the bill."
+            },
+            {
+              "k": "At the table",
+              "v": "Use a knife and fork even for pizza."
+            },
+            {
+              "k": "Gifts & greetings",
+              "v": "Hugs and cheek kisses; the 'OK' hand sign is rude there."
+            }
+          ],
+          "wiki": "Flag of Brazil"
+        }
+      ]
+    },
+    {
+      "slug": "middle-east",
+      "name": "Middle East & North Africa",
+      "emoji": "🕌",
+      "intro": "Hospitality, right hands and Ramadan.",
+      "region": "Middle East & Africa",
+      "items": [
+        {
+          "name": "United Arab Emirates",
+          "local": "الإمارات",
+          "what": "Very hospitable, modern and respectful of Islamic customs.",
+          "facts": [
+            {
+              "k": "Tipping",
+              "v": "10–15% is appreciated if not included."
+            },
+            {
+              "k": "At the table",
+              "v": "Eat and pass with your right hand. During Ramadan, be discreet about eating and drinking in public in daylight."
+            },
+            {
+              "k": "Gifts & greetings",
+              "v": "Wait for a woman to offer her hand. Don't give alcohol or pork products."
+            }
+          ],
+          "wiki": "Flag of the United Arab Emirates"
+        },
+        {
+          "name": "Morocco",
+          "local": "المغرب",
+          "what": "Hospitable, with mint tea offered as welcome.",
+          "facts": [
+            {
+              "k": "Tipping",
+              "v": "About 10% in restaurants; small tips for services are expected."
+            },
+            {
+              "k": "At the table",
+              "v": "Eat from the shared dish with your right hand, using bread to scoop."
+            },
+            {
+              "k": "Gifts & greetings",
+              "v": "Accept the mint tea. During Ramadan, avoid eating in public in daylight."
+            }
+          ],
+          "wiki": "Flag of Morocco"
+        },
+        {
+          "name": "Türkiye",
+          "local": "Türkiye",
+          "lang": "tr-TR",
+          "what": "Generous hosts; tea is offered everywhere.",
+          "facts": [
+            {
+              "k": "Tipping",
+              "v": "5–10% in restaurants."
+            },
+            {
+              "k": "At the table",
+              "v": "Accept the tea (çay). Take your shoes off when entering a home."
+            },
+            {
+              "k": "Gifts & greetings",
+              "v": "Bring sweets like baklava or Turkish delight when visiting."
+            }
+          ],
+          "wiki": "Flag of Turkey"
+        }
+      ]
+    }
+  ],
+  "quizFacts": true
+}

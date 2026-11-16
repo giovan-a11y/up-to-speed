@@ -1,0 +1,399 @@
+{
+  "slug": "brand-logos",
+  "title": "Brand logos",
+  "emoji": "🏷️",
+  "order": 10,
+  "blurb": "Spot car and luxury brands from their badges and monograms, and know the story behind each.",
+  "tagLabel": "The logo",
+  "groupNoun": "sections",
+  "quizTags": false,
+  "groups": [
+    {
+      "slug": "car-brands",
+      "name": "Car badges",
+      "emoji": "🚗",
+      "intro": "What's on the bonnet, and what it means.",
+      "items": [
+        {
+          "name": "Ferrari",
+          "lang": "it-IT",
+          "what": "Black prancing horse on a yellow shield; the horse came from WWI pilot Francesco Baracca's plane.",
+          "tags": [
+            "prancing horse",
+            "yellow shield",
+            "Maranello",
+            "Italy"
+          ],
+          "wiki": "Ferrari"
+        },
+        {
+          "name": "Lamborghini",
+          "lang": "it-IT",
+          "what": "Golden charging bull on a black shield; founder Ferruccio Lamborghini was a Taurus, and models are named after fighting bulls.",
+          "tags": [
+            "raging bull",
+            "black shield",
+            "Italy"
+          ],
+          "wiki": "Lamborghini"
+        },
+        {
+          "name": "Porsche",
+          "what": "Crest with a black horse (Stuttgart's emblem), red-and-black stripes and antlers from Württemberg.",
+          "tags": [
+            "Stuttgart horse",
+            "crest",
+            "Germany"
+          ],
+          "wiki": "Porsche"
+        },
+        {
+          "name": "Mercedes-Benz",
+          "what": "Three-pointed star in a circle, standing for land, sea and air.",
+          "tags": [
+            "three-pointed star",
+            "Germany"
+          ],
+          "wiki": "Mercedes-Benz"
+        },
+        {
+          "name": "BMW",
+          "what": "Roundel quartered in blue and white, the colours of Bavaria (not a propeller, despite the legend).",
+          "tags": [
+            "blue-and-white roundel",
+            "Munich"
+          ],
+          "wiki": "BMW"
+        },
+        {
+          "name": "Audi",
+          "what": "Four interlocking rings for the four companies that merged into Auto Union.",
+          "tags": [
+            "four rings",
+            "Germany"
+          ],
+          "wiki": "Audi"
+        },
+        {
+          "name": "Volkswagen",
+          "what": "A V over a W in a circle; the name means 'people's car'.",
+          "tags": [
+            "VW roundel",
+            "Germany"
+          ],
+          "wiki": "Volkswagen"
+        },
+        {
+          "name": "Toyota",
+          "what": "Three overlapping ovals forming a T.",
+          "tags": [
+            "three ovals",
+            "Japan"
+          ],
+          "wiki": "Toyota"
+        },
+        {
+          "name": "Lexus",
+          "what": "Stylised L inside an oval; Toyota's luxury brand.",
+          "tags": [
+            "L in an oval",
+            "Japan"
+          ],
+          "wiki": "Lexus"
+        },
+        {
+          "name": "Tesla",
+          "what": "A stylised T shaped like a cross-section of an electric motor.",
+          "tags": [
+            "T badge",
+            "USA"
+          ],
+          "wiki": "Tesla, Inc."
+        },
+        {
+          "name": "Rolls-Royce",
+          "what": "Overlapping double R, and the Spirit of Ecstasy figurine on the bonnet.",
+          "tags": [
+            "RR monogram",
+            "Spirit of Ecstasy",
+            "UK"
+          ],
+          "wiki": "Rolls-Royce Motor Cars"
+        },
+        {
+          "name": "Bentley",
+          "what": "A winged B.",
+          "tags": [
+            "winged B",
+            "UK"
+          ],
+          "wiki": "Bentley"
+        },
+        {
+          "name": "Aston Martin",
+          "what": "The name across a pair of wings; James Bond's car.",
+          "tags": [
+            "wings",
+            "UK"
+          ],
+          "wiki": "Aston Martin"
+        },
+        {
+          "name": "Maserati",
+          "lang": "it-IT",
+          "what": "Trident taken from the Neptune fountain in Bologna.",
+          "tags": [
+            "trident",
+            "Italy"
+          ],
+          "wiki": "Maserati"
+        },
+        {
+          "name": "Alfa Romeo",
+          "lang": "it-IT",
+          "what": "Red cross of Milan beside a serpent swallowing a man, the Visconti family emblem.",
+          "tags": [
+            "cross and serpent",
+            "Milan"
+          ],
+          "wiki": "Alfa Romeo"
+        },
+        {
+          "name": "Jaguar",
+          "what": "A leaping jaguar ('the leaper') or a growling jaguar face.",
+          "tags": [
+            "leaping cat",
+            "UK"
+          ],
+          "wiki": "Jaguar Cars"
+        },
+        {
+          "name": "Subaru",
+          "what": "Six stars of the Pleiades cluster, which is 'Subaru' in Japanese.",
+          "tags": [
+            "six stars",
+            "Japan"
+          ],
+          "wiki": "Subaru"
+        },
+        {
+          "name": "BYD",
+          "what": "The letters BYD in an oval; the world's biggest electric-car maker, now everywhere in Hong Kong.",
+          "tags": [
+            "letters BYD",
+            "Build Your Dreams",
+            "China"
+          ],
+          "wiki": "BYD Auto"
+        }
+      ]
+    },
+    {
+      "slug": "fashion-luxury",
+      "name": "Fashion & luxury monograms",
+      "emoji": "👜",
+      "intro": "Monograms and emblems you'll see on bags, belts and shop fronts.",
+      "items": [
+        {
+          "name": "Chanel",
+          "lang": "fr-FR",
+          "what": "Two interlocking Cs, back to back.",
+          "tags": [
+            "interlocking CC",
+            "Paris"
+          ],
+          "wiki": "Chanel"
+        },
+        {
+          "name": "Louis Vuitton",
+          "lang": "fr-FR",
+          "what": "LV monogram on brown canvas with four-petal flowers and stars.",
+          "tags": [
+            "LV monogram",
+            "Paris"
+          ],
+          "wiki": "Louis Vuitton"
+        },
+        {
+          "name": "Gucci",
+          "lang": "it-IT",
+          "what": "Interlocking GG, plus the green-red-green web stripe.",
+          "tags": [
+            "GG",
+            "web stripe",
+            "Florence"
+          ],
+          "wiki": "Gucci"
+        },
+        {
+          "name": "Hermès",
+          "lang": "fr-FR",
+          "what": "A horse-drawn Duc carriage, from its start as a harness maker; the orange box is iconic.",
+          "tags": [
+            "carriage and horse",
+            "orange box",
+            "Paris"
+          ],
+          "wiki": "Hermès"
+        },
+        {
+          "name": "Dior",
+          "lang": "fr-FR",
+          "what": "'CD' initials and the Oblique monogram pattern.",
+          "tags": [
+            "CD",
+            "Dior Oblique",
+            "Paris"
+          ],
+          "wiki": "Dior"
+        },
+        {
+          "name": "Prada",
+          "lang": "it-IT",
+          "what": "Inverted triangle plaque on bags.",
+          "tags": [
+            "triangle plaque",
+            "Milan"
+          ],
+          "wiki": "Prada"
+        },
+        {
+          "name": "Fendi",
+          "lang": "it-IT",
+          "what": "FF 'Zucca' monogram designed by Karl Lagerfeld.",
+          "tags": [
+            "FF monogram",
+            "Rome"
+          ],
+          "wiki": "Fendi"
+        },
+        {
+          "name": "Versace",
+          "lang": "it-IT",
+          "what": "Medusa head inside a Greek key border.",
+          "tags": [
+            "Medusa head",
+            "Milan"
+          ],
+          "wiki": "Versace"
+        },
+        {
+          "name": "Saint Laurent",
+          "lang": "fr-FR",
+          "what": "Overlapping YSL 'Cassandre' monogram designed by A.M. Cassandre.",
+          "tags": [
+            "YSL monogram",
+            "Paris"
+          ],
+          "wiki": "Yves Saint Laurent (brand)"
+        },
+        {
+          "name": "Celine",
+          "lang": "fr-FR",
+          "what": "The Triomphe: two interlocked Cs, inspired by the chain around the Arc de Triomphe.",
+          "tags": [
+            "Triomphe CC",
+            "Paris"
+          ],
+          "wiki": "Celine (brand)"
+        },
+        {
+          "name": "Givenchy",
+          "lang": "fr-FR",
+          "what": "The 4G: four Gs arranged in a square.",
+          "tags": [
+            "4G emblem",
+            "Paris"
+          ],
+          "wiki": "Givenchy"
+        },
+        {
+          "name": "Burberry",
+          "what": "The beige-black-red check and the Equestrian Knight logo.",
+          "tags": [
+            "check pattern",
+            "knight on horseback",
+            "London"
+          ],
+          "wiki": "Burberry"
+        },
+        {
+          "name": "Tiffany & Co.",
+          "what": "The robin's-egg 'Tiffany Blue' box with a white ribbon.",
+          "tags": [
+            "Tiffany Blue box",
+            "New York"
+          ],
+          "wiki": "Tiffany & Co."
+        },
+        {
+          "name": "Cartier",
+          "lang": "fr-FR",
+          "what": "Red boxes and the panther, the house's signature animal.",
+          "tags": [
+            "panther",
+            "red box",
+            "Paris"
+          ],
+          "wiki": "Cartier (jeweler)"
+        },
+        {
+          "name": "Rolex",
+          "what": "A five-pointed golden crown.",
+          "tags": [
+            "crown",
+            "Geneva"
+          ],
+          "wiki": "Rolex"
+        },
+        {
+          "name": "Lacoste",
+          "lang": "fr-FR",
+          "what": "A green crocodile, the nickname of tennis star René Lacoste.",
+          "tags": [
+            "crocodile",
+            "France"
+          ],
+          "wiki": "Lacoste"
+        },
+        {
+          "name": "Ralph Lauren",
+          "what": "A polo player on horseback.",
+          "tags": [
+            "polo player",
+            "New York"
+          ],
+          "wiki": "Ralph Lauren Corporation"
+        },
+        {
+          "name": "Nike",
+          "what": "The Swoosh, designed in 1971 by student Carolyn Davidson for US$35.",
+          "tags": [
+            "Swoosh",
+            "USA"
+          ],
+          "wiki": "Nike, Inc."
+        },
+        {
+          "name": "Adidas",
+          "what": "Three stripes, plus the trefoil (Originals) and the three-bar 'mountain' logo.",
+          "tags": [
+            "three stripes",
+            "trefoil",
+            "Germany"
+          ],
+          "wiki": "Adidas"
+        },
+        {
+          "name": "Supreme",
+          "what": "White Futura letters in a red box.",
+          "tags": [
+            "red box logo",
+            "New York"
+          ],
+          "wiki": "Supreme (brand)"
+        }
+      ]
+    }
+  ]
+}

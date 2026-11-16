@@ -1,0 +1,509 @@
+{
+  "slug": "travel-cities",
+  "title": "Travel cities",
+  "emoji": "✈️",
+  "order": 12,
+  "blurb": "The must-sees, must-eats and neighbourhoods of the cities people talk about travelling to.",
+  "tagLabel": "Key facts",
+  "groupNoun": "regions",
+  "quizTags": false,
+  "groups": [
+    {
+      "slug": "asia-pacific",
+      "name": "Asia & Pacific",
+      "emoji": "🌏",
+      "intro": "The weekend trips and big-holiday cities from Hong Kong.",
+      "region": "Asia",
+      "items": [
+        {
+          "name": "Tokyo",
+          "local": "東京",
+          "lang": "ja-JP",
+          "what": "Huge, safe and spotless, mixing neon and calm shrines.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "Shibuya Crossing, Senso-ji, Meiji Shrine, teamLab, Tokyo Skytree"
+            },
+            {
+              "k": "Eat",
+              "v": "Sushi at Toyosu, ramen, izakaya yakitori, depachika food halls"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "Shibuya, Shinjuku, Ginza, Asakusa, Shimokitazawa"
+            }
+          ],
+          "wiki": "Tokyo"
+        },
+        {
+          "name": "Kyoto",
+          "local": "京都",
+          "lang": "ja-JP",
+          "what": "Japan's old imperial capital of temples and geisha districts.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "Fushimi Inari's red gates, Kinkaku-ji, Arashiyama bamboo grove"
+            },
+            {
+              "k": "Eat",
+              "v": "Kaiseki, matcha sweets, Nishiki Market"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "Gion, Higashiyama, Arashiyama"
+            }
+          ],
+          "wiki": "Kyoto"
+        },
+        {
+          "name": "Osaka",
+          "local": "大阪",
+          "lang": "ja-JP",
+          "what": "Japan's loud, fun 'kitchen of the nation'.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "Dotonbori, Osaka Castle, Universal Studios Japan"
+            },
+            {
+              "k": "Eat",
+              "v": "Takoyaki, okonomiyaki, kushikatsu"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "Namba, Umeda, Shinsekai"
+            }
+          ],
+          "wiki": "Osaka"
+        },
+        {
+          "name": "Seoul",
+          "local": "서울",
+          "what": "Fast, trendy and open late, from palaces to K-beauty.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "Gyeongbokgung Palace, Bukchon Hanok Village, N Seoul Tower"
+            },
+            {
+              "k": "Eat",
+              "v": "Korean BBQ, fried chicken and beer, Gwangjang Market"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "Myeongdong, Hongdae, Gangnam, Seongsu"
+            }
+          ],
+          "wiki": "Seoul"
+        },
+        {
+          "name": "Taipei",
+          "local": "臺北",
+          "lang": "zh-TW",
+          "what": "Friendly, easy and all about food.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "Taipei 101, National Palace Museum, Jiufen day trip"
+            },
+            {
+              "k": "Eat",
+              "v": "Night markets, beef noodles, xiaolongbao at Din Tai Fung"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "Ximending, Da'an, Xinyi"
+            }
+          ],
+          "wiki": "Taipei"
+        },
+        {
+          "name": "Bangkok",
+          "local": "กรุงเทพฯ",
+          "what": "Chaotic, hot, cheap and full of temples.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "Grand Palace, Wat Arun, Chatuchak Weekend Market"
+            },
+            {
+              "k": "Eat",
+              "v": "Street food, pad thai, mango sticky rice, rooftop bars"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "Sukhumvit, Silom, Chinatown (Yaowarat)"
+            }
+          ],
+          "wiki": "Bangkok"
+        },
+        {
+          "name": "Singapore",
+          "what": "Clean, green and efficient city-state.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "Gardens by the Bay, Marina Bay Sands, Sentosa"
+            },
+            {
+              "k": "Eat",
+              "v": "Hawker centres: chicken rice, laksa, chilli crab"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "Marina Bay, Chinatown, Tiong Bahru, Kampong Glam"
+            }
+          ],
+          "wiki": "Singapore"
+        },
+        {
+          "name": "Shanghai",
+          "local": "上海",
+          "lang": "zh-CN",
+          "what": "China's glossy financial capital with colonial-era charm.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "The Bund, Lujiazui skyline, Yu Garden"
+            },
+            {
+              "k": "Eat",
+              "v": "Xiaolongbao, shengjianbao, hairy crab in autumn"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "Former French Concession, Jing'an, Xintiandi"
+            }
+          ],
+          "wiki": "Shanghai"
+        },
+        {
+          "name": "Sydney",
+          "what": "Harbour city of beaches and outdoor living.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "Opera House, Harbour Bridge, Bondi to Coogee walk"
+            },
+            {
+              "k": "Eat",
+              "v": "Brunch, flat whites, fresh seafood"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "The Rocks, Surry Hills, Bondi, Manly"
+            }
+          ],
+          "wiki": "Sydney"
+        }
+      ]
+    },
+    {
+      "slug": "europe",
+      "name": "Europe",
+      "emoji": "🇪🇺",
+      "intro": "The classic European city breaks.",
+      "region": "Europe",
+      "items": [
+        {
+          "name": "Paris",
+          "lang": "fr-FR",
+          "what": "Cafés, museums and boulevards.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "Eiffel Tower, Louvre, Musée d'Orsay, Montmartre"
+            },
+            {
+              "k": "Eat",
+              "v": "Croissants, bistros, steak frites, macarons"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "Le Marais, Saint-Germain-des-Prés, Montmartre"
+            }
+          ],
+          "wiki": "Paris"
+        },
+        {
+          "name": "London",
+          "what": "Museums (mostly free), pubs and royal sights.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "British Museum, Tower of London, Westminster, Tate Modern"
+            },
+            {
+              "k": "Eat",
+              "v": "Sunday roast, Borough Market, curry on Brick Lane"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "Soho, Shoreditch, Notting Hill, South Bank"
+            }
+          ],
+          "wiki": "London"
+        },
+        {
+          "name": "Rome",
+          "local": "Roma",
+          "lang": "it-IT",
+          "what": "Ancient ruins on every corner.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "Colosseum, Pantheon, Vatican and Sistine Chapel, Trevi Fountain"
+            },
+            {
+              "k": "Eat",
+              "v": "Carbonara, cacio e pepe, supplì, gelato"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "Trastevere, Monti, Centro Storico"
+            }
+          ],
+          "wiki": "Rome"
+        },
+        {
+          "name": "Barcelona",
+          "lang": "es-ES",
+          "what": "Gaudí, beaches and late nights.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "Sagrada Família, Park Güell, La Rambla, Casa Batlló"
+            },
+            {
+              "k": "Eat",
+              "v": "Tapas, paella, cava"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "Gothic Quarter, El Born, Gràcia"
+            }
+          ],
+          "wiki": "Barcelona"
+        },
+        {
+          "name": "Amsterdam",
+          "lang": "nl-NL",
+          "what": "Canals, bikes and Dutch masters.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "Rijksmuseum, Van Gogh Museum, Anne Frank House"
+            },
+            {
+              "k": "Eat",
+              "v": "Stroopwafels, Dutch fries, herring"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "Jordaan, De Pijp, canal belt"
+            }
+          ],
+          "wiki": "Amsterdam"
+        },
+        {
+          "name": "Lisbon",
+          "local": "Lisboa",
+          "lang": "pt-PT",
+          "what": "Hilly, sunny and tiled.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "Belém Tower, Tram 28, Alfama viewpoints"
+            },
+            {
+              "k": "Eat",
+              "v": "Pastel de nata, grilled sardines, bifana"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "Alfama, Bairro Alto, Chiado"
+            }
+          ],
+          "wiki": "Lisbon"
+        },
+        {
+          "name": "Istanbul",
+          "lang": "tr-TR",
+          "what": "Where Europe meets Asia across the Bosphorus.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "Hagia Sophia, Blue Mosque, Grand Bazaar, Bosphorus cruise"
+            },
+            {
+              "k": "Eat",
+              "v": "Kebabs, baklava, Turkish breakfast"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "Sultanahmet, Beyoğlu, Karaköy, Kadıköy"
+            }
+          ],
+          "wiki": "Istanbul"
+        }
+      ]
+    },
+    {
+      "slug": "americas",
+      "name": "Americas",
+      "emoji": "🌎",
+      "intro": "The big North and South American trips.",
+      "region": "Americas",
+      "items": [
+        {
+          "name": "New York",
+          "what": "The city that never sleeps.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "Central Park, Times Square, Met Museum, Statue of Liberty"
+            },
+            {
+              "k": "Eat",
+              "v": "Pizza slices, bagels, pastrami at Katz's"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "Manhattan's SoHo and West Village, Brooklyn"
+            }
+          ],
+          "wiki": "New York City"
+        },
+        {
+          "name": "Los Angeles",
+          "what": "Sprawling, sunny and car-dependent.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "Hollywood, Santa Monica, Getty Center, Griffith Observatory"
+            },
+            {
+              "k": "Eat",
+              "v": "Tacos, Korean BBQ in Koreatown, In-N-Out"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "Venice, Silver Lake, Beverly Hills"
+            }
+          ],
+          "wiki": "Los Angeles"
+        },
+        {
+          "name": "San Francisco",
+          "what": "Hilly, foggy tech city on the bay.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "Golden Gate Bridge, Alcatraz, cable cars"
+            },
+            {
+              "k": "Eat",
+              "v": "Sourdough, clam chowder, Mission burritos"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "Mission, Chinatown, North Beach"
+            }
+          ],
+          "wiki": "San Francisco"
+        },
+        {
+          "name": "Mexico City",
+          "local": "Ciudad de México",
+          "lang": "es-MX",
+          "what": "Huge, artsy and one of the world's best food cities.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "Zócalo, Frida Kahlo Museum, Teotihuacán pyramids"
+            },
+            {
+              "k": "Eat",
+              "v": "Tacos al pastor, street food, mezcal"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "Roma, Condesa, Coyoacán"
+            }
+          ],
+          "wiki": "Mexico City"
+        }
+      ]
+    },
+    {
+      "slug": "middle-east-africa",
+      "name": "Middle East & Africa",
+      "emoji": "🌍",
+      "intro": "Desert glamour, souks and safaris.",
+      "region": "Middle East & Africa",
+      "items": [
+        {
+          "name": "Dubai",
+          "local": "دبي",
+          "what": "Record-breaking towers, malls and desert.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "Burj Khalifa, Dubai Mall, desert safari, Palm Jumeirah"
+            },
+            {
+              "k": "Eat",
+              "v": "Shawarma, Emirati dishes, lavish brunches"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "Downtown, Dubai Marina, Al Fahidi"
+            }
+          ],
+          "wiki": "Dubai"
+        },
+        {
+          "name": "Marrakech",
+          "local": "مراكش",
+          "what": "Red-walled city of souks and riads.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "Jemaa el-Fnaa square, Majorelle Garden, the souks"
+            },
+            {
+              "k": "Eat",
+              "v": "Tagine, couscous, mint tea"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "The Medina, Gueliz"
+            }
+          ],
+          "wiki": "Marrakesh"
+        },
+        {
+          "name": "Cape Town",
+          "what": "Mountains, ocean and wine country together.",
+          "facts": [
+            {
+              "k": "See",
+              "v": "Table Mountain, Cape of Good Hope, Robben Island"
+            },
+            {
+              "k": "Eat",
+              "v": "Braai, seafood, Stellenbosch wine"
+            },
+            {
+              "k": "Neighbourhoods",
+              "v": "V&A Waterfront, Bo-Kaap, Camps Bay"
+            }
+          ],
+          "wiki": "Cape Town"
+        }
+      ]
+    }
+  ]
+}
