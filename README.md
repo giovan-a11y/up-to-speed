@@ -1,6 +1,6 @@
 # Up to Speed
 
-Crash courses on 30+ small-talk topics (sports, luxury & style, money, food & drink, tech, culture, lifestyle), each with a course, flashcards, quiz, cheat sheet and a Hong Kong angle. Plus **World cuisines**: 25 cuisines and 237 signature dishes with pictures and main ingredients, flashcards and a picture quiz, so you can recognise dishes by name and look. It installs to your Home Screen and works offline.
+Crash courses on 30+ small-talk topics (sports, luxury & style, money, food & drink, tech, culture, lifestyle), each with a course, flashcards, quiz, cheat sheet and a Hong Kong angle. Plus 12 **picture guides** (571 entries): world cuisines, cocktails & spirits, cheese, bread & pastries, fruits & vegetables, landmarks, artworks, dog & cat breeds, flowers & plants, brand logos, etiquette by country and travel cities. Each entry has a picture, its name with a 🔊 pronunciation button, and the key facts, plus flashcards and a quiz. It installs to your Home Screen and works offline.
 
 **Open it:** https://giovan-a11y.github.io/up-to-speed/ (on iPhone: open in Safari → Share → Add to Home Screen; on Android or a computer: *Install app*).
 
@@ -19,6 +19,7 @@ The installed app downloads new content the next time it's opened online and say
 |---|---|
 | `data/topics/<slug>.json` | One topic each. `refresh` is `weekly` or `monthly`. |
 | `data/cuisines/<slug>.json` | The World cuisines section: one cuisine each, with signature dishes (name, picture from Wikipedia, main ingredients). Evergreen; request more with an issue titled `Cuisine: X`. |
+| `data/guides/<slug>.json` | The other picture guides, one file each with groups of entries. Evergreen. |
 | `data/weekly.json` | The latest refresh date and "Fresh this week" highlights. |
 | `build.py` | Checks every topic and cuisine and combines them into `data/bundle.json`, which the app loads; also stamps `sw.js` so installed apps update. Run `python3 build.py` after any change. |
 | `index.html` | The app. |

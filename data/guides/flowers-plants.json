@@ -1,0 +1,280 @@
+{
+  "slug": "flowers-plants",
+  "title": "Flowers & plants",
+  "emoji": "🌸",
+  "order": 9,
+  "blurb": "Flowers for gifts and what they mean, Lunar New Year plants, and today's favourite houseplants.",
+  "tagLabel": "Meaning & use",
+  "groupNoun": "sections",
+  "quizTags": false,
+  "groups": [
+    {
+      "slug": "flowers",
+      "name": "Flowers & what they say",
+      "emoji": "💐",
+      "intro": "Handy before you buy a bouquet.",
+      "lang": "zh-HK",
+      "items": [
+        {
+          "name": "Rose",
+          "local": "玫瑰",
+          "what": "The classic: red for romance, pink for thanks, yellow for friendship.",
+          "tags": [
+            "love",
+            "Valentine's Day"
+          ],
+          "wiki": "Rose"
+        },
+        {
+          "name": "Tulip",
+          "what": "Cup-shaped spring flower, the symbol of the Netherlands.",
+          "tags": [
+            "spring",
+            "cheerful"
+          ],
+          "wiki": "Tulip"
+        },
+        {
+          "name": "Peony",
+          "local": "牡丹",
+          "what": "Lush, many-petalled blooms; China's 'king of flowers'.",
+          "tags": [
+            "wealth",
+            "honour",
+            "weddings"
+          ],
+          "wiki": "Paeonia"
+        },
+        {
+          "name": "Moth orchid",
+          "local": "蝴蝶蘭",
+          "what": "Long-lasting orchid on arching stems; the classic gift for shop openings and Lunar New Year.",
+          "tags": [
+            "elegance",
+            "prosperity",
+            "openings"
+          ],
+          "wiki": "Phalaenopsis"
+        },
+        {
+          "name": "Lily",
+          "local": "百合",
+          "what": "Big fragrant trumpet flowers; white lilies are common at Western funerals.",
+          "tags": [
+            "purity",
+            "sympathy"
+          ],
+          "wiki": "Lilium"
+        },
+        {
+          "name": "Chrysanthemum",
+          "local": "菊花",
+          "what": "In Hong Kong and much of Asia white and yellow ones mean funerals, so don't give them as a gift. Also Japan's imperial emblem.",
+          "tags": [
+            "funerals in Asia",
+            "autumn"
+          ],
+          "wiki": "Chrysanthemum"
+        },
+        {
+          "name": "Sunflower",
+          "local": "向日葵",
+          "what": "Big yellow head that follows the sun when young.",
+          "tags": [
+            "cheer",
+            "loyalty"
+          ],
+          "wiki": "Common sunflower"
+        },
+        {
+          "name": "Hydrangea",
+          "local": "繡球花",
+          "what": "Big pom-pom heads; the colour depends on how acidic the soil is.",
+          "tags": [
+            "rainy season in Japan",
+            "gratitude"
+          ],
+          "wiki": "Hydrangea"
+        },
+        {
+          "name": "Carnation",
+          "local": "康乃馨",
+          "what": "Ruffled flowers; pink and red are the Mother's Day flower.",
+          "tags": [
+            "Mother's Day"
+          ],
+          "wiki": "Dianthus caryophyllus"
+        },
+        {
+          "name": "Cherry blossom",
+          "local": "桜",
+          "lang": "ja-JP",
+          "what": "Japan's sakura, blooming late March to early April; picnics under them are hanami.",
+          "tags": [
+            "spring",
+            "Japan",
+            "fleeting beauty"
+          ],
+          "wiki": "Cherry blossom"
+        }
+      ]
+    },
+    {
+      "slug": "lunar-new-year",
+      "name": "Lunar New Year plants",
+      "emoji": "🧧",
+      "intro": "What Hong Kong flower markets sell before Chinese New Year, and why.",
+      "lang": "zh-HK",
+      "hk": "The Victoria Park Lunar New Year fair is the city's biggest flower market.",
+      "items": [
+        {
+          "name": "Peach blossom",
+          "local": "桃花",
+          "what": "Pink blossom branches, said to bring romance and good relationships.",
+          "tags": [
+            "love",
+            "luck"
+          ],
+          "wiki": "Peach blossom"
+        },
+        {
+          "name": "Kumquat tree",
+          "local": "年桔",
+          "what": "Potted tree heavy with little gold fruit; the name sounds like 'gold' and 'luck'.",
+          "tags": [
+            "wealth",
+            "luck"
+          ],
+          "wiki": "Kumquat"
+        },
+        {
+          "name": "Narcissus",
+          "local": "水仙",
+          "what": "Fragrant white 'Chinese sacred lily' grown in bowls of pebbles.",
+          "tags": [
+            "good fortune",
+            "new start"
+          ],
+          "wiki": "Narcissus tazetta"
+        },
+        {
+          "name": "Lucky bamboo",
+          "local": "富貴竹",
+          "what": "Twisted or tiered stalks in water; the number of stalks carries meaning (avoid four).",
+          "tags": [
+            "wealth",
+            "health"
+          ],
+          "wiki": "Dracaena sanderiana"
+        },
+        {
+          "name": "Pussy willow",
+          "local": "銀柳",
+          "what": "Branches of soft silver buds, often decorated with red.",
+          "tags": [
+            "silver",
+            "prosperity"
+          ],
+          "wiki": "Salix discolor"
+        },
+        {
+          "name": "Gladiolus",
+          "local": "劍蘭",
+          "what": "Tall spikes of flowers that open upwards, for rising fortune.",
+          "tags": [
+            "step-by-step success"
+          ],
+          "wiki": "Gladiolus"
+        }
+      ]
+    },
+    {
+      "slug": "houseplants",
+      "name": "Houseplants",
+      "emoji": "🪴",
+      "intro": "The plants on every interior Instagram.",
+      "lang": "zh-HK",
+      "items": [
+        {
+          "name": "Monstera",
+          "local": "龜背竹",
+          "what": "Big glossy leaves with holes and splits: the 'Swiss cheese plant'.",
+          "tags": [
+            "easy",
+            "statement plant"
+          ],
+          "wiki": "Monstera deliciosa"
+        },
+        {
+          "name": "Fiddle-leaf fig",
+          "what": "Tall plant with large violin-shaped leaves; famously fussy.",
+          "tags": [
+            "statement",
+            "fussy"
+          ],
+          "wiki": "Ficus lyrata"
+        },
+        {
+          "name": "Snake plant",
+          "local": "虎尾蘭",
+          "what": "Upright stiff striped leaves; almost impossible to kill.",
+          "tags": [
+            "very easy",
+            "low light"
+          ],
+          "wiki": "Dracaena trifasciata"
+        },
+        {
+          "name": "Pothos",
+          "local": "綠蘿",
+          "what": "Trailing vine with heart-shaped leaves.",
+          "tags": [
+            "very easy",
+            "trailing"
+          ],
+          "wiki": "Epipremnum aureum"
+        },
+        {
+          "name": "Peace lily",
+          "local": "白掌",
+          "what": "Dark leaves with white flower hoods; droops dramatically when thirsty.",
+          "tags": [
+            "easy",
+            "flowers indoors"
+          ],
+          "wiki": "Spathiphyllum"
+        },
+        {
+          "name": "Bird of paradise",
+          "local": "天堂鳥",
+          "what": "Flowers shaped like a tropical bird's head; big banana-like leaves indoors.",
+          "tags": [
+            "statement",
+            "bright light"
+          ],
+          "wiki": "Strelitzia reginae"
+        },
+        {
+          "name": "Money tree",
+          "local": "發財樹",
+          "what": "Braided trunk with hand-shaped leaves; a popular feng shui gift.",
+          "tags": [
+            "luck",
+            "easy"
+          ],
+          "wiki": "Pachira aquatica"
+        },
+        {
+          "name": "Bonsai",
+          "local": "盆栽",
+          "what": "Miniature trees trained and pruned in shallow pots.",
+          "tags": [
+            "patience",
+            "Japan and China"
+          ],
+          "wiki": "Bonsai"
+        }
+      ]
+    }
+  ]
+}

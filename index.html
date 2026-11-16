@@ -268,13 +268,30 @@ body { padding-bottom: env(safe-area-inset-bottom); }
 a.btn { text-decoration: none; }
 @media (max-width: 520px) { .brand small { display: none; } }
 .brand { white-space: nowrap; }
-/* World cuisines */
-.cz-banner { all: unset; box-sizing: border-box; cursor: pointer; display: grid; grid-template-columns: auto 1fr auto; gap: 14px; align-items: center; width: 100%; margin-top: 24px; padding: 16px 18px; border-radius: 16px; background: var(--surface); border: 1.5px solid var(--accent); box-shadow: var(--shadow); }
-.cz-banner:hover, .cz-banner:focus-visible { background: color-mix(in srgb, var(--accent) 8%, var(--surface)); }
-.cz-banner b { display: block; font-family: var(--f-display); font-size: 20px; }
-.cz-banner span span { color: var(--muted); font-size: 14px; }
-.cz-flags { font-size: 22px; letter-spacing: 2px; display: grid; grid-template-columns: repeat(4, 1fr); line-height: 1.15; }
-.cz-go { font-size: 22px; color: var(--accent); }
+/* Picture guides (World cuisines and friends) */
+.guides { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 10px; }
+.guide-card { all: unset; box-sizing: border-box; cursor: pointer; display: grid; grid-template-columns: 44px 1fr; gap: 12px; align-items: start; padding: 14px; border-radius: 14px; background: var(--surface); border: 1px solid var(--line); }
+.guide-card:hover, .guide-card:focus-visible { border-color: var(--accent); }
+.g-emoji { font-size: 30px; line-height: 44px; text-align: center; background: var(--bg); border-radius: 12px; }
+.g-txt { display: grid; gap: 2px; min-width: 0; }
+.g-txt b { font-family: var(--f-display); font-size: 17px; }
+.g-txt span { color: var(--muted); font-size: 13.5px; }
+.g-txt small { font-family: var(--f-mono); font-size: 11px; color: var(--accent); margin-top: 4px; }
+.facts { margin: 2px 0 4px; display: grid; gap: 4px; }
+.facts div { display: grid; grid-template-columns: 92px 1fr; gap: 8px; font-size: 13.5px; }
+.facts dt { font-family: var(--f-mono); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); padding-top: 2px; }
+.facts dd { margin: 0; }
+.fc-face .facts { text-align: left; max-width: 420px; }
+.say-btn { border: 1px solid var(--line); background: var(--bg); border-radius: 99px; width: 30px; height: 30px; font-size: 14px; line-height: 1; padding: 0; vertical-align: middle; margin-left: 2px; }
+.say-btn:hover { border-color: var(--accent); }
+.cz-card.nopic { padding-top: 16px; }
+@media (max-width: 520px) {
+  .guides { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .guide-card { grid-template-columns: 1fr; gap: 6px; padding: 12px; }
+  .g-emoji { width: 40px; line-height: 40px; font-size: 24px; }
+  .g-txt b { font-size: 15.5px; }
+  .g-txt > span { display: none; }
+}
 .cz-back { justify-self: start; padding-left: 0; }
 .cz-flav { display: flex; gap: 8px; flex-wrap: wrap; align-items: baseline; }
 .cz-flav span { font-family: var(--f-mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
@@ -292,7 +309,6 @@ a.btn { text-decoration: none; }
 .pic.cz-big { width: 100%; max-width: 360px; aspect-ratio: 4 / 3; justify-self: center; margin: 0 auto; }
 .fc-face .pic.cz-big { width: min(100%, 300px); }
 .fc-wrap .fc, .fc-wrap .fc-inner { min-height: 360px; }
-@media (max-width: 520px) { .cz-flags { display: none; } .cz-banner { grid-template-columns: 1fr auto; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
 </style>
 </head>
@@ -330,7 +346,7 @@ const blankProgress = () => ({ read: [], known: [], best: null, qa: [], updated:
 for (const c of SAMPLES) { const s = c.slug || slugify(c.topic); store[s] = { course: normalize(c), progress: blankProgress(), builtin: true }; }
 
 let view = { name: "home", slug: null, tab: "course" };
-let cz = { slug: null, tab: "browse", region: "All" }; // World cuisines view state
+let gv = { g: null, grp: null, tab: "browse", region: "All" }; // picture guide view state
 let czQuiz = null, czFc = null;
 let homeCat = "All";
 let sampleFn = null, db = null, uid = null;
@@ -447,8 +463,8 @@ function go(name, slug, tab) {
 }
 function fromHash() {
   const s = decodeURIComponent(location.hash.slice(1));
-  if (s === "cuisines" || s.startsWith("cuisines/")) { const k = s.split("/")[1] || null; if (cz.slug !== k) { cz.slug = k; cz.tab = "browse"; czQuiz = null; czFc = null; } view = { name: "cuisines", slug: null, tab: "course" }; }
-  else if (s && store[s]) view = { name: "topic", slug: s, tab: "course" }; else if (view.name === "topic" || view.name === "cuisines") view = { name: "home" };
+  if (/^(cuisines|guide\/)/.test(s)) { gv.hash = s; view = { name: "guide", slug: null, tab: "course" }; } // resolved in renderGuide
+  else if (s && store[s]) view = { name: "topic", slug: s, tab: "course" }; else if (view.name === "topic" || view.name === "guide") view = { name: "home" };
 }
 window.addEventListener("hashchange", () => { fromHash(); render(); });
 fromHash();
@@ -461,7 +477,7 @@ function render() {
   document.getElementById("new-btn").hidden = view.name === "home";
   if (genState) return renderGen();
   if (view.name === "topic" && store[view.slug]) return renderTopic();
-  if (view.name === "cuisines") return renderCuisines();
+  if (view.name === "guide") return renderGuide();
   renderHome();
 }
 
@@ -495,7 +511,7 @@ function renderHome() {
       <div id="req-zone">${reqPanel()}</div>
       <p class="note ${homeMsg ? "err" : ""}" id="home-note">${esc(homeMsg)}</p>
     </section>
-    ${czBanner()}
+    ${guidesHome()}
     <div class="filters" role="tablist" aria-label="Categories">${["All", ...CATEGORIES, "Mine"].map((k) => `<button class="chip ${homeCat === k ? "on" : ""}" type="button" data-cat="${esc(k)}">${esc(k)}</button>`).join("")}</div>
     ${homeCat === "Mine" && !mine.length ? `<p class="note" style="margin-top:20px">Topics you create appear here. Type one above to start.</p>` : ""}${groups.map(([name, list]) => list.length ? `<div class="section-label">${esc(name)}</div><div class="library">${list.map(([s, e]) => cardHtml(s, e)).join("")}</div>` : "").join("")}`;
   const form = document.getElementById("ask-form"), inp = document.getElementById("topic-in");
@@ -504,7 +520,7 @@ function renderHome() {
   $app.querySelectorAll("[data-open]").forEach((b) => b.onclick = () => go("topic", b.dataset.open));
   $app.querySelectorAll("[data-cat]").forEach((b) => b.onclick = () => { homeCat = b.dataset.cat; renderHome(); });
   wireReq();
-  const czb = document.getElementById("cz-open"); if (czb) czb.onclick = () => goCuisines(null);
+  $app.querySelectorAll("[data-guide]").forEach((b) => b.onclick = () => goGuide(b.dataset.guide, null));
   $app.insertAdjacentHTML("beforeend", footHtml());
   wireFoot();
 }
@@ -864,195 +880,261 @@ function wirePicBar(pane, c) {
   };
 }
 
-// ---------- World cuisines: recognise dishes by name, look and main ingredients ----------
-const CUISINES = Array.isArray(BUNDLE.cuisines) ? BUNDLE.cuisines.filter((c) => c && c.slug && Array.isArray(c.dishes)) : [];
-const REGIONS = ["Europe", "Asia", "Americas", "Middle East & Africa"];
-const CZ_KEY = "uts.cuisines";
+// ---------- Picture guides (World cuisines, cocktails, landmarks…): recognise things by name, look and key facts ----------
+// Each guide: { slug, title, emoji, blurb, tagLabel, groupNoun, quizTags, groups: [{ slug, name, emoji, region, intro, key: {label, value}, hk, items: [{ name, local, say, what, tags, facts: [{k, v}], wiki }] }] }
+const GUIDES = (Array.isArray(BUNDLE.guides) ? BUNDLE.guides : []).filter((g) => g && g.slug && Array.isArray(g.groups));
+const REGIONS = ["Hong Kong", "Asia", "Europe", "Americas", "Middle East & Africa", "Oceania"];
+const CZ_KEY = "uts.cuisines"; // progress for every guide (named before more guides existed)
 let czProg = { known: [], best: {} }; try { czProg = { ...czProg, ...JSON.parse(localStorage.getItem(CZ_KEY) || "{}") }; } catch {}
 const czSave = () => { try { localStorage.setItem(CZ_KEY, JSON.stringify(czProg)); } catch {} };
-const dishId = (c, d) => c.slug + ":" + d.name;
-const czBySlug = (s) => CUISINES.find((c) => c.slug === s);
-const czAll = () => CUISINES.flatMap((c) => c.dishes.map((d) => ({ c, d, id: dishId(c, d) })));
-const czScope = () => { const c = czBySlug(cz.slug); return c ? c.dishes.map((d) => ({ c, d, id: dishId(c, d) })) : czAll(); };
-const dishQ = (d) => "=" + (d.wiki || d.name);
-const dishPic = (d) => `<figure class="pic" data-q="${esc(dishQ(d))}"></figure>`;
-const czKnown = (list) => list.filter((x) => czProg.known.includes(x.id)).length;
-
-
-
-function czHash() { return "#cuisines" + (cz.slug ? "/" + cz.slug : ""); }
-function goCuisines(slug, tab) {
-  cz.slug = slug || null; cz.tab = tab || "browse"; czQuiz = null; czFc = null;
-  view = { name: "cuisines", slug: null, tab: "course" };
-  if (location.hash !== czHash()) { try { history.replaceState(null, "", czHash()); } catch { location.hash = czHash(); } }
+const gBySlug = (s) => GUIDES.find((g) => g.slug === s);
+const gGroup = (g, s) => g && g.groups.find((x) => x.slug === s);
+const itemId = (g, grp, it) => (g.slug === "cuisines" ? "" : g.slug + ":") + grp.slug + ":" + it.name;
+const gAll = (g) => g.groups.flatMap((grp) => grp.items.map((it) => ({ g, grp, it, id: itemId(g, grp, it) })));
+const gScope = () => { const g = gBySlug(gv.g), grp = gGroup(g, gv.grp); return grp ? grp.items.map((it) => ({ g, grp, it, id: itemId(g, grp, it) })) : g ? gAll(g) : []; };
+const itemQ = (it) => it.wiki ? "=" + it.wiki : "";
+const itemPic = (it, cls) => it.wiki ? `<figure class="pic${cls ? " " + cls : ""}" data-q="${esc(itemQ(it))}"></figure>` : "";
+const gKnown = (list) => list.filter((x) => czProg.known.includes(x.id)).length;
+const gHash = () => "#" + (gv.g === "cuisines" ? "cuisines" : "guide/" + gv.g) + (gv.grp ? "/" + gv.grp : "");
+function goGuide(g, grp, tab) {
+  if (gv.g !== g) gv.region = "All";
+  gv.g = g; gv.grp = grp || null; gv.tab = tab || "browse"; czQuiz = null; czFc = null;
+  view = { name: "guide", slug: null, tab: "course" };
+  if (location.hash !== gHash()) { try { history.replaceState(null, "", gHash()); } catch { location.hash = gHash(); } }
   render(); window.scrollTo({ top: 0 });
 }
-const czBanner = () => CUISINES.length ? `<button class="cz-banner" type="button" id="cz-open">
-    <span class="cz-flags" aria-hidden="true">${CUISINES.slice(0, 8).map((c) => c.flag).join("")}</span>
-    <span><b>World cuisines</b><span>${CUISINES.length} cuisines, ${czAll().length} signature dishes. Learn to recognise each one by its name, look and main ingredients.</span></span>
-    <span class="cz-go" aria-hidden="true">→</span>
-  </button>` : "";
+function guideFromHash(s) {
+  const p = s.split("/");
+  const [g, grp] = p[0] === "cuisines" ? ["cuisines", p[1]] : p[0] === "guide" ? [p[1], p[2]] : [null, null];
+  if (!g || !gBySlug(g)) return false;
+  const k = grp && gGroup(gBySlug(g), grp) ? grp : null;
+  if (gv.g !== g || gv.grp !== k) { gv.g = g; gv.grp = k; gv.tab = "browse"; czQuiz = null; czFc = null; }
+  view = { name: "guide", slug: null, tab: "course" };
+  return true;
+}
+const guidesHome = () => GUIDES.length ? `<div class="section-label">Picture guides</div>
+  <p class="note" style="margin:-4px 0 12px">Learn to recognise things people mention by name: what they look like and the few facts worth knowing.</p>
+  <div class="guides">${GUIDES.map((g) => { const all = gAll(g), k = gKnown(all); return `<button class="guide-card" type="button" data-guide="${esc(g.slug)}">
+    <span class="g-emoji" aria-hidden="true">${esc(g.emoji || "📖")}</span>
+    <span class="g-txt"><b>${esc(g.title)}</b><span>${esc(g.blurb)}</span><small>${all.length} to learn${k ? ` · ${k} known` : ""}</small></span>
+  </button>`; }).join("")}</div>` : "";
 
-function renderCuisines() {
-  const c = czBySlug(cz.slug), scope = czScope();
-  const tabs = [["browse", c ? "Dishes" : "All cuisines"], ["cards", "Flashcards"], ["quiz", "Picture quiz"]];
-  const pct = scope.length ? Math.round(czKnown(scope) / scope.length * 100) : 0;
+function itemBody(g, it, opts = {}) {
+  return `${it.local || it.say ? `<span class="cz-local">${it.local ? esc(it.local) : ""}${it.local && it.say ? " · " : ""}${it.say ? `say <i>${esc(it.say)}</i>` : ""}</span>` : ""}
+    ${opts.noWhat ? "" : `<span>${esc(it.what)}</span>`}
+    ${it.tags && it.tags.length ? `<ul class="ing" aria-label="${esc(g.tagLabel || "Key facts")}">${it.tags.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
+    ${it.facts && it.facts.length ? `<dl class="facts">${it.facts.map((f) => `<div><dt>${esc(f.k)}</dt><dd>${esc(f.v)}</dd></div>`).join("")}</dl>` : ""}`;
+}
+
+function renderGuide() {
+  if (gv.hash) { const h = gv.hash; gv.hash = null; if (!guideFromHash(h)) { view = { name: "home" }; return renderHome(); } }
+  const g = gBySlug(gv.g); if (!g) { go("home"); return; }
+  const grp = gGroup(g, gv.grp), scope = gScope();
+  const tabs = [["browse", grp ? "Browse" : "All " + (g.groupNoun || "sections")], ["cards", "Flashcards"], ["quiz", "Quiz"]];
+  const pct = scope.length ? Math.round(gKnown(scope) / scope.length * 100) : 0;
   $app.innerHTML = `
     <section class="t-head">
-      ${c ? `<button class="btn ghost sm cz-back" type="button" id="cz-up">← All cuisines</button>` : ""}
-      <h1>${c ? `<span aria-hidden="true">${c.flag}</span> ${esc(c.cuisine)}` : "World cuisines"}</h1>
-      ${cz.tab !== "browse" ? "" : `<p class="tagline">${c ? esc(c.intro) : "Signature dishes from around the world: what they look like, what's in them, and how to say them."}</p>`}
-      ${c && cz.tab === "browse" ? `<div class="cz-flav"><span>Key flavours</span><b>${esc(c.flavours)}</b></div>${c.hk ? `<p class="note">🇭🇰 ${esc(c.hk)}</p>` : ""}` : ""}
-      <div class="row"><div class="meter"><div class="lbl"><b>${czKnown(scope)} of ${scope.length} dishes known</b><span>${pct}%</span></div><div class="bar"><span style="width:${pct}%"></span></div></div></div>
+      <button class="btn ghost sm cz-back" type="button" id="cz-up">← ${grp ? esc(g.title) : "All topics"}</button>
+      <h1>${grp ? `${grp.emoji ? `<span aria-hidden="true">${esc(grp.emoji)}</span> ` : ""}${esc(grp.name)}` : `<span aria-hidden="true">${esc(g.emoji || "")}</span> ${esc(g.title)}`}</h1>
+      ${gv.tab !== "browse" ? "" : `<p class="tagline">${esc(grp ? grp.intro || "" : g.blurb)}</p>`}
+      ${grp && gv.tab === "browse" ? `${grp.key && grp.key.value ? `<div class="cz-flav"><span>${esc(grp.key.label || "Key")}</span><b>${esc(grp.key.value)}</b></div>` : ""}${grp.hk ? `<p class="note">🇭🇰 ${esc(grp.hk)}</p>` : ""}` : ""}
+      <div class="row"><div class="meter"><div class="lbl"><b>${gKnown(scope)} of ${scope.length} known</b><span>${pct}%</span></div><div class="bar"><span style="width:${pct}%"></span></div></div></div>
     </section>
-    <nav class="tabs" role="tablist">${tabs.map(([k, l]) => `<button role="tab" type="button" data-cztab="${k}" aria-selected="${cz.tab === k}">${l}</button>`).join("")}</nav>
+    <nav class="tabs" role="tablist">${tabs.map(([k, l]) => `<button role="tab" type="button" data-cztab="${k}" aria-selected="${gv.tab === k}">${l}</button>`).join("")}</nav>
     <div id="pane"></div>
     <div class="toolbar"><button class="btn ghost sm" type="button" id="back">← All topics</button></div>`;
-  $app.querySelectorAll("[data-cztab]").forEach((b) => b.onclick = () => { cz.tab = b.dataset.cztab; czQuiz = null; czFc = null; renderCuisines(); });
+  $app.querySelectorAll("[data-cztab]").forEach((b) => b.onclick = () => { gv.tab = b.dataset.cztab; czQuiz = null; czFc = null; renderGuide(); });
   document.getElementById("back").onclick = () => go("home");
-  const up = document.getElementById("cz-up"); if (up) up.onclick = () => goCuisines(null);
+  document.getElementById("cz-up").onclick = () => grp ? goGuide(g.slug, null) : go("home");
   const pane = document.getElementById("pane");
-  if (cz.tab === "cards") czCards(pane); else if (cz.tab === "quiz") czQuizPane(pane); else if (c) czDishes(pane, c); else czIndex(pane);
+  if (gv.tab === "cards") gCards(pane, g); else if (gv.tab === "quiz") gQuizPane(pane, g); else if (grp) gItems(pane, g, grp); else gIndex(pane, g);
 }
 
-function czPicBar() {
-  return `<div class="picbar"><span id="cz-pic-status">${navigator.onLine ? "Dish pictures come from Wikipedia and are kept on this device for offline use." : "You're offline: pictures you've already saved still show."}</span><button class="btn ghost sm" type="button" id="cz-pic-save">Save all ${new Set(czAll().map((x) => dishQ(x.d))).size} pictures for offline</button></div>`;
+const picCount = (g) => new Set(gAll(g).map((x) => itemQ(x.it)).filter(Boolean)).size;
+function gPicBar(g) {
+  return `<div class="picbar"><span id="cz-pic-status">${navigator.onLine ? "Pictures come from Wikipedia and are kept on this device for offline use." : "You're offline: pictures you've already saved still show."}</span><button class="btn ghost sm" type="button" id="cz-pic-save">Save all ${picCount(g)} pictures for offline</button></div>`;
 }
-const CZ_SAVED = "uts.cuisines.saved";
-async function czSaveAll(manual) {
+const savedKey = (g) => "uts.guide.saved." + g.slug;
+async function gSaveAll(g) {
   const st = () => document.getElementById("cz-pic-status"), btn = document.getElementById("cz-pic-save");
   if (!navigator.onLine) { if (st()) st().textContent = "Connect to the internet first, then tap again."; return; }
-  if (czSaveAll.running) return; czSaveAll.running = true; if (btn) btn.disabled = true;
-  const qs = [...new Set(czAll().map((x) => dishQ(x.d)))]; let done = 0, ok = 0;
+  gSaveAll.running = gSaveAll.running || {};
+  if (gSaveAll.running[g.slug]) return; gSaveAll.running[g.slug] = true; if (btn) btn.disabled = true;
+  const qs = [...new Set(gAll(g).map((x) => itemQ(x.it)).filter(Boolean))]; let done = 0, ok = 0;
+  const mine = () => view.name === "guide" && gv.g === g.slug;
   const worker = async () => {
     while (qs.length) {
       const q = qs.shift(), r = await resolvePic(q);
       if (r && r.img) {
         // Store straight into the picture cache the service worker reads, so this works on the very first visit too.
+        // CORS (Wikimedia allows it) keeps the stored size real; opaque responses count as megabytes each.
         try { const c = await caches.open("uts-img"); if (!(await c.match(r.img, { ignoreVary: true }))) { const res = await fetch(r.img, { mode: "cors" }); if (res.ok) await c.put(r.img, res); } ok++; }
         catch { try { await fetch(r.img, { mode: "no-cors" }); ok++; } catch {} }
       }
-      done++; const s = st(); if (s) s.textContent = `Saving dish pictures for offline… ${done} of ${done + qs.length}`;
+      done++; const s = st(); if (s && mine()) s.textContent = `Saving pictures for offline… ${done} of ${done + qs.length}`;
     }
   };
   try { await navigator.storage?.persist?.(); } catch {}
   await Promise.all([worker(), worker(), worker()]);
-  try { localStorage.setItem(CZ_SAVED, String(Date.now())); } catch {}
-  czSaveAll.running = false;
+  try { localStorage.setItem(savedKey(g), String(Date.now())); } catch {}
+  gSaveAll.running[g.slug] = false;
   const s = st(), b = document.getElementById("cz-pic-save"); if (b) b.disabled = false;
-  if (s) s.textContent = `${ok} dish pictures saved. They'll show even when you're offline.`;
-  if (view.name === "cuisines") hydratePics($app);
+  if (s && mine()) s.textContent = `${ok} pictures saved. They'll show even when you're offline.`;
+  if (mine()) hydratePics($app);
 }
-function czAutoSave() {
-  let last = 0; try { last = +localStorage.getItem(CZ_SAVED) || 0; } catch {}
-  if (navigator.onLine && !navigator.connection?.saveData && Date.now() - last > 7 * 864e5) setTimeout(() => czSaveAll(false), 1500);
+function gAutoSave(g) {
+  let last = 0; try { last = +localStorage.getItem(savedKey(g)) || +(g.slug === "cuisines" && localStorage.getItem("uts.cuisines.saved")) || 0; } catch {}
+  if (navigator.onLine && !navigator.connection?.saveData && Date.now() - last > 7 * 864e5) setTimeout(() => gSaveAll(g), 1500);
 }
-function czWirePicBar(pane) { const b = pane.querySelector("#cz-pic-save"); if (b) b.onclick = () => czSaveAll(true); }
+function gWirePicBar(pane, g) { const b = pane.querySelector("#cz-pic-save"); if (b) b.onclick = () => gSaveAll(g); }
 
-function czIndex(pane) {
-  const regs = ["All", ...REGIONS.filter((r) => CUISINES.some((c) => c.region === r))];
-  const list = (r) => CUISINES.filter((c) => c.region === r);
-  const card = (c) => { const ds = c.dishes.map((d) => ({ id: dishId(c, d) })); return `<button class="card cz-card" type="button" data-cz="${esc(c.slug)}">
-      <div class="cz-strip">${c.dishes.slice(0, 3).map(dishPic).join("")}</div>
-      <h3><span aria-hidden="true">${c.flag}</span> ${esc(c.cuisine)}</h3>
-      <p class="tag">${esc(c.flavours)}</p>
-      <div class="meter"><div class="lbl"><b>${c.dishes.length} dishes</b><span>${czKnown(ds)} known</span></div><div class="bar"><span style="width:${Math.round(czKnown(ds) / ds.length * 100)}%"></span></div></div>
+function gIndex(pane, g) {
+  const hasReg = g.groups.some((x) => x.region);
+  const regs = ["All", ...REGIONS.filter((r) => g.groups.some((x) => x.region === r)), ...[...new Set(g.groups.map((x) => x.region).filter((r) => r && !REGIONS.includes(r)))]];
+  if (!regs.includes(gv.region)) gv.region = "All";
+  const card = (grp) => { const ds = grp.items.map((it) => ({ id: itemId(g, grp, it) })); const pics = grp.items.filter((it) => it.wiki).slice(0, 3); return `<button class="card cz-card ${pics.length ? "" : "nopic"}" type="button" data-grp="${esc(grp.slug)}">
+      ${pics.length ? `<div class="cz-strip">${pics.map((it) => itemPic(it)).join("")}</div>` : ""}
+      <h3>${grp.emoji ? `<span aria-hidden="true">${esc(grp.emoji)}</span> ` : ""}${esc(grp.name)}</h3>
+      <p class="tag">${esc(grp.key && grp.key.value ? grp.key.value : grp.intro || "")}</p>
+      <div class="meter"><div class="lbl"><b>${grp.items.length} to learn</b><span>${gKnown(ds)} known</span></div><div class="bar"><span style="width:${Math.round(gKnown(ds) / ds.length * 100)}%"></span></div></div>
     </button>`; };
-  pane.innerHTML = `${czPicBar()}
-    <div class="filters" role="tablist" aria-label="Regions">${regs.map((r) => `<button class="chip ${cz.region === r ? "on" : ""}" type="button" data-reg="${esc(r)}">${esc(r)}</button>`).join("")}</div>
-    ${(cz.region === "All" ? regs.slice(1) : [cz.region]).map((r) => `<div class="section-label">${esc(r)}</div><div class="library">${list(r).map(card).join("")}</div>`).join("")}
-    ${REPO ? `<p class="note" style="margin-top:20px">Missing a cuisine? <a href="${esc(czIssueUrl())}" target="_blank" rel="noopener">Request it</a> and it's added in the next morning update.</p>` : ""}`;
-  pane.querySelectorAll("[data-reg]").forEach((b) => b.onclick = () => { cz.region = b.dataset.reg; renderCuisines(); });
-  pane.querySelectorAll("[data-cz]").forEach((b) => b.onclick = () => goCuisines(b.dataset.cz));
-  czWirePicBar(pane); hydratePics(pane); czAutoSave();
+  const sections = hasReg ? (gv.region === "All" ? regs.slice(1) : [gv.region]).map((r) => [r, g.groups.filter((x) => x.region === r)]) : [["", g.groups]];
+  pane.innerHTML = `${picCount(g) ? gPicBar(g) : ""}
+    ${hasReg && regs.length > 2 ? `<div class="filters" role="tablist" aria-label="Regions">${regs.map((r) => `<button class="chip ${gv.region === r ? "on" : ""}" type="button" data-reg="${esc(r)}">${esc(r)}</button>`).join("")}</div>` : ""}
+    ${sections.map(([r, list]) => list.length ? `${r ? `<div class="section-label">${esc(r)}</div>` : ""}<div class="library">${list.map(card).join("")}</div>` : "").join("")}
+    ${REPO && g.request ? `<p class="note" style="margin-top:20px">Missing one? <a href="${esc(gIssueUrl(g))}" target="_blank" rel="noopener">Request it</a> and it's added in the next morning update.</p>` : ""}`;
+  pane.querySelectorAll("[data-reg]").forEach((b) => b.onclick = () => { gv.region = b.dataset.reg; renderGuide(); });
+  pane.querySelectorAll("[data-grp]").forEach((b) => b.onclick = () => goGuide(g.slug, b.dataset.grp));
+  gWirePicBar(pane, g); hydratePics(pane); gAutoSave(g);
 }
-const czIssueUrl = () => `https://github.com/${REPO}/issues/new?title=${encodeURIComponent("Cuisine: ")}&body=${encodeURIComponent("Type the cuisine after 'Cuisine: ' in the title (e.g. Cuisine: Ethiopian) and submit. Claude adds it in the next morning run.")}`;
+const gIssueUrl = (g) => `https://github.com/${REPO}/issues/new?title=${encodeURIComponent(g.request + ": ")}&body=${encodeURIComponent(`Type what you want after '${g.request}: ' in the title and submit. Claude adds it in the next morning run.`)}`;
 
-function czDishes(pane, c) {
-  pane.innerHTML = `${czPicBar()}<div class="gal cz-gal">${c.dishes.map((d) => { const id = dishId(c, d), k = czProg.known.includes(id); return `<div class="cz-dish">
-      ${dishPic(d)}
+function gItems(pane, g, grp) {
+  pane.innerHTML = `${picCount(g) ? gPicBar(g) : ""}<div class="gal cz-gal">${grp.items.map((it) => { const id = itemId(g, grp, it), k = czProg.known.includes(id); return `<div class="cz-dish ${it.wiki ? "" : "nopic"}">
+      ${itemPic(it)}
       <div class="txt">
-        <b class="cz-name">${esc(d.name)}</b>
-        ${d.local || d.say ? `<span class="cz-local">${d.local ? esc(d.local) : ""}${d.local && d.say ? " · " : ""}${d.say ? `say <i>${esc(d.say)}</i>` : ""}</span>` : ""}
-        <span>${esc(d.what)}</span>
-        <ul class="ing" aria-label="Main ingredients">${d.ingredients.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>
+        <b class="cz-name">${esc(it.name)} ${speakBtn(grp, it)}</b>
+        ${itemBody(g, it)}
         <button class="btn sm readbtn" type="button" data-know="${esc(id)}" aria-pressed="${k}">${k ? "✓ I know this one" : "I know this one"}</button>
       </div></div>`; }).join("")}</div>`;
   pane.querySelectorAll("[data-know]").forEach((b) => b.onclick = () => {
     const id = b.dataset.know, i = czProg.known.indexOf(id);
     if (i >= 0) czProg.known.splice(i, 1); else czProg.known.push(id);
     czSave(); b.setAttribute("aria-pressed", i < 0); b.textContent = i < 0 ? "✓ I know this one" : "I know this one";
-    czMeter();
+    gMeter();
   });
-  czWirePicBar(pane); hydratePics(pane); czAutoSave();
+  gWirePicBar(pane, g); hydratePics(pane); gAutoSave(g);
 }
-function czMeter() {
-  const scope = czScope(), pct = scope.length ? Math.round(czKnown(scope) / scope.length * 100) : 0, m = $app.querySelector(".t-head .meter");
-  if (m) m.innerHTML = `<div class="lbl"><b>${czKnown(scope)} of ${scope.length} dishes known</b><span>${pct}%</span></div><div class="bar"><span style="width:${pct}%"></span></div>`;
+function gMeter() {
+  const scope = gScope(), pct = scope.length ? Math.round(gKnown(scope) / scope.length * 100) : 0, m = $app.querySelector(".t-head .meter");
+  if (m) m.innerHTML = `<div class="lbl"><b>${gKnown(scope)} of ${scope.length} known</b><span>${pct}%</span></div><div class="bar"><span style="width:${pct}%"></span></div>`;
 }
 
-function czCards(pane) {
-  if (!czFc) czFc = { order: shuffle(czScope()), i: 0, flipped: false, only: false };
+function gCards(pane, g) {
+  if (!czFc) czFc = { order: shuffle(gScope()), i: 0, flipped: false, only: false };
   const list = czFc.only ? czFc.order.filter((x) => !czProg.known.includes(x.id)) : czFc.order;
-  if (!list.length) { pane.innerHTML = `<div class="empty"><h2>You know every dish here.</h2><p>Try the picture quiz, or pick another cuisine.</p><button class="btn" type="button" id="fc-all">Show all cards again</button></div>`; document.getElementById("fc-all").onclick = () => { czFc.only = false; czFc.i = 0; czCards(pane); }; return; }
+  if (!list.length) { pane.innerHTML = `<div class="empty"><h2>You know every one here.</h2><p>Try the quiz, or pick another section.</p><button class="btn" type="button" id="fc-all">Show all cards again</button></div>`; document.getElementById("fc-all").onclick = () => { czFc.only = false; czFc.i = 0; gCards(pane, g); }; return; }
   if (czFc.i >= list.length) czFc.i = 0;
   const x = list[czFc.i], k = czProg.known.includes(x.id);
+  const front = x.it.wiki ? `<span class="kind">What's this?</span>${itemPic(x.it, "cz-big")}<span class="note">Tap to reveal</span>`
+    : `<span class="kind">${esc(x.grp.name)}</span><h3>${esc(x.it.name)}</h3><span class="note">What do you know about it? Tap to reveal</span>`;
   pane.innerHTML = `<div class="fc-wrap">
     <div class="fc-meta"><span>Card ${czFc.i + 1} of ${list.length}</span><label><input type="checkbox" id="fc-only" ${czFc.only ? "checked" : ""}> Only ones I don't know</label></div>
     <button class="fc ${czFc.flipped ? "flipped" : ""}" type="button" id="fc" aria-label="Flip card">
       <div class="fc-inner">
-        <div class="fc-face"><span class="kind">What's this dish?</span>${dishPic(x.d).replace('class="pic"', 'class="pic cz-big"')}<span class="note">Tap to reveal</span></div>
-        <div class="fc-face fc-back"><span class="kind">${x.c.flag} ${esc(x.c.cuisine)}</span><h3>${esc(x.d.name)}</h3>${x.d.local ? `<span class="cz-local">${esc(x.d.local)}</span>` : ""}<ul class="ing">${x.d.ingredients.map((i) => `<li>${esc(i)}</li>`).join("")}</ul></div>
+        <div class="fc-face">${front}</div>
+        <div class="fc-face fc-back"><span class="kind">${x.grp.emoji ? esc(x.grp.emoji) + " " : ""}${esc(x.grp.name)}</span><h3>${esc(x.it.name)} ${speakBtn(x.grp, x.it)}</h3>${itemBody(g, x.it, { noWhat: !!(x.it.tags && x.it.tags.length) && g.slug === "cuisines" })}</div>
       </div>
     </button>
     <div class="fc-actions"><button class="btn learn" type="button" id="fc-no">Still learning</button><button class="btn know" type="button" id="fc-yes">${k ? "✓ " : ""}I know it</button></div>
   </div>`;
   hydratePics(pane);
   document.getElementById("fc").onclick = () => { czFc.flipped = !czFc.flipped; document.getElementById("fc").classList.toggle("flipped", czFc.flipped); };
-  document.getElementById("fc-only").onchange = (ev) => { czFc.only = ev.target.checked; czFc.i = 0; czFc.flipped = false; czCards(pane); };
+  document.getElementById("fc-only").onchange = (ev) => { czFc.only = ev.target.checked; czFc.i = 0; czFc.flipped = false; gCards(pane, g); };
   const next = (know) => {
     const i = czProg.known.indexOf(x.id);
     if (know && i < 0) czProg.known.push(x.id); if (!know && i >= 0) czProg.known.splice(i, 1);
-    czSave(); czMeter(); czFc.flipped = false; if (!(czFc.only && know)) czFc.i++; czCards(pane);
+    czSave(); gMeter(); czFc.flipped = false; if (!(czFc.only && know)) czFc.i++; gCards(pane, g);
   };
   document.getElementById("fc-yes").onclick = () => next(true);
   document.getElementById("fc-no").onclick = () => next(false);
 }
 
-function czQuizPane(pane) {
-  const key = cz.slug || "all";
+function gQuizPane(pane, g) {
+  const key = g.slug + "/" + (gv.grp || "all");
   if (!czQuiz) {
-    const scope = czScope(), all = czAll();
+    const scope = gScope(), all = gAll(g);
     const qs = shuffle(scope).slice(0, 10).map((x) => {
-      const pool = (cz.slug ? scope : all.filter((y) => y.c.region === x.c.region)).filter((y) => y.d.name !== x.d.name);
-      const ask = Math.random() < 0.7 ? "name" : "ing";
+      let pool = (gv.grp ? scope : all.filter((y) => !x.grp.region || y.grp.region === x.grp.region)).filter((y) => y.it.name !== x.it.name);
+      if (pool.length < 3) pool = all.filter((y) => y.it.name !== x.it.name);
+      const hasFacts = x.it.facts && x.it.facts.length;
+      const ask = !x.it.wiki || (hasFacts && (g.quizFacts || Math.random() < 0.35)) ? "fact" : g.quizTags && x.it.tags && x.it.tags.length >= 3 && Math.random() < 0.3 ? "tags" : "name";
+      const telling = hasFacts ? x.it.facts.filter((f) => f.v.length > 40) : [];
+      const fpool = telling.length ? telling : x.it.facts || [];
+      const fact = fpool.length ? fpool[Math.floor(Math.random() * fpool.length)] : null;
       const opts = shuffle([x, ...shuffle(pool).slice(0, 3)]);
-      return { x, ask, opts, answer: opts.indexOf(x) };
+      return { x, ask, fact, opts, answer: opts.indexOf(x) };
     });
     czQuiz = { qs, i: 0, score: 0, picked: null };
   }
   const Q = czQuiz;
   if (Q.i >= Q.qs.length) {
     const best = Math.max(czProg.best[key] || 0, Q.score); czProg.best[key] = best; czSave();
-    pane.innerHTML = `<div class="quiz" style="text-align:center"><div class="score">${Q.score}/${Q.qs.length}</div><p>${Q.score >= 8 ? "You'd order like a local." : Q.score >= 5 ? "Good eye. A few more rounds and they'll stick." : "Keep going: flick through the flashcards, then try again."}</p><p class="note">Best: ${best}/${Q.qs.length}</p><div><button class="btn primary" type="button" id="qz-again">New round</button></div></div>`;
-    document.getElementById("qz-again").onclick = () => { czQuiz = null; czQuizPane(pane); };
+    pane.innerHTML = `<div class="quiz" style="text-align:center"><div class="score">${Q.score}/${Q.qs.length}</div><p>${Q.score >= 8 ? "You know your stuff." : Q.score >= 5 ? "Good eye. A few more rounds and they'll stick." : "Keep going: flick through the flashcards, then try again."}</p><p class="note">Best: ${best}/${Q.qs.length}</p><div><button class="btn primary" type="button" id="qz-again">New round</button></div></div>`;
+    document.getElementById("qz-again").onclick = () => { czQuiz = null; gQuizPane(pane, g); };
     return;
   }
   const q = Q.qs[Q.i], done = Q.picked != null;
-  const label = (o) => q.ask === "name" ? esc(o.d.name) + (cz.slug ? "" : ` <span class="note">${o.c.flag}</span>`) : esc(o.d.ingredients.slice(0, 4).join(", "));
+  const label = (o) => q.ask === "tags" ? esc(o.it.tags.slice(0, 4).join(", ")) : esc(o.it.name) + (!gv.grp && o.grp.emoji && g.groups.length > 3 ? ` <span class="note">${esc(o.grp.emoji)}</span>` : "");
+  const head = q.ask === "name" ? `What's this called?` : q.ask === "tags" ? `What's mainly in this?` : g.quizFacts ? `Which ${esc(g.itemNoun || "country")} is this?` : `Which one is this?`;
+  const clue = q.ask !== "fact" ? itemPic(q.x.it, "cz-big")
+    : g.quizFacts && q.fact ? `<div class="explain"><span class="note">${esc(q.fact.k)}</span><br>${esc(q.fact.v)}</div>`
+    : q.x.it.facts && q.x.it.facts.length ? `<dl class="facts explain">${q.x.it.facts.map((f) => `<div><dt>${esc(f.k)}</dt><dd>${esc(f.v)}</dd></div>`).join("")}</dl>`
+    : `<div class="explain">${esc(q.x.it.what)}</div>`;
   pane.innerHTML = `<div class="quiz">
     <div class="fc-meta"><span>Question ${Q.i + 1} of ${Q.qs.length}</span><span>Score ${Q.score}</span></div>
-    <h2>${q.ask === "name" ? "What's this dish called?" : `What's mainly in this ${cz.slug ? "" : esc(q.x.c.cuisine) + " "}dish?`}</h2>
-    ${dishPic(q.x.d).replace('class="pic"', 'class="pic cz-big"')}
-    ${q.ask === "ing" ? `<p class="note" style="text-align:center">${done ? esc(q.x.d.name) : "Look at the picture"}</p>` : ""}
+    <h2>${head}</h2>
+    ${clue}
+    ${q.ask === "tags" ? `<p class="note" style="text-align:center">${done ? esc(q.x.it.name) : "Look at the picture"}</p>` : ""}
     <div class="opts">${q.opts.map((o, i) => `<button class="opt ${done && i === q.answer ? "right" : ""} ${done && i === Q.picked && i !== q.answer ? "wrong" : ""}" type="button" data-opt="${i}" ${done ? "disabled" : ""}>${label(o)}</button>`).join("")}</div>
-    ${done ? `<div class="explain"><b>${esc(q.x.d.name)}</b>${q.x.d.local ? ` (${esc(q.x.d.local)})` : ""} · ${q.x.c.flag} ${esc(q.x.c.cuisine)}<br><span class="note">${esc(q.x.d.what)}</span></div><button class="btn primary" type="button" id="qz-next">${Q.i + 1 < Q.qs.length ? "Next" : "See score"}</button>` : ""}
+    ${done ? `<div class="explain"><b>${esc(q.x.it.name)}</b> ${speakBtn(q.x.grp, q.x.it)}${q.x.it.local ? ` (${esc(q.x.it.local)})` : ""} · ${q.x.grp.emoji ? esc(q.x.grp.emoji) + " " : ""}${esc(q.x.grp.name)}<br><span class="note">${esc(q.ask === "fact" ? (q.x.it.facts || []).map((f) => f.k + ": " + f.v).join(" · ") || q.x.it.what : q.x.it.what)}</span></div><button class="btn primary" type="button" id="qz-next">${Q.i + 1 < Q.qs.length ? "Next" : "See score"}</button>` : ""}
   </div>`;
   hydratePics(pane);
-  pane.querySelectorAll("[data-opt]").forEach((b) => b.onclick = () => { Q.picked = +b.dataset.opt; if (Q.picked === q.answer) Q.score++; czQuizPane(pane); });
-  const nx = document.getElementById("qz-next"); if (nx) nx.onclick = () => { Q.i++; Q.picked = null; czQuizPane(pane); };
+  pane.querySelectorAll("[data-opt]").forEach((b) => b.onclick = () => { Q.picked = +b.dataset.opt; if (Q.picked === q.answer) Q.score++; gQuizPane(pane, g); });
+  const nx = document.getElementById("qz-next"); if (nx) nx.onclick = () => { Q.i++; Q.picked = null; gQuizPane(pane, g); };
 }
 
+// ---------- Say it aloud: the browser's built-in speech, in the word's own language (works offline on most phones) ----------
+const canSpeak = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
+function speakLang(text, lang) {
+  const t = String(text);
+  if (/[가-힯]/.test(t)) return "ko-KR";
+  if (/[぀-ヿ]/.test(t)) return "ja-JP";
+  if (/[一-鿿]/.test(t)) return /^(ja|zh)/.test(lang || "") ? lang : "zh-CN";
+  if (/[฀-๿]/.test(t)) return "th-TH";
+  if (/[؀-ۿ]/.test(t)) return "ar-SA";
+  if (/[Ͱ-Ͽ]/.test(t)) return "el-GR";
+  if (/[஀-௿]/.test(t)) return "ta-IN";
+  if (/[ऀ-ॿ]/.test(t)) return "hi-IN";
+  return lang || "";
+}
+function speakTarget(grp, it) {
+  const lang = it.lang || grp.lang || "";
+  const native = it.local ? String(it.local).split(" / ")[0].replace(/\s*\(.*?\)\s*/g, " ").trim() : "";
+  const text = native || it.name, l = speakLang(text, lang);
+  return l && !/^en/.test(l) ? { text, lang: l } : null;
+}
+const speakBtn = (grp, it) => { if (!canSpeak) return ""; const s = speakTarget(grp, it); return s ? `<button class="say-btn" type="button" data-say="${esc(s.text)}" data-lang="${esc(s.lang)}" aria-label="Say ${esc(it.name)} aloud" title="Hear it">🔊</button>` : ""; };
+function speakNow(text, lang) {
+  const synth = window.speechSynthesis; synth.cancel();
+  const voices = synth.getVoices(), base = lang.split("-")[0];
+  const v = voices.find((x) => x.lang.replace("_", "-") === lang) || voices.find((x) => x.lang.toLowerCase().startsWith(base));
+  const u = new SpeechSynthesisUtterance(text); u.lang = lang; u.rate = 0.85; if (v) u.voice = v;
+  if (voices.length && !v) toast(`This device has no ${new Intl.DisplayNames(["en"], { type: "language" }).of(base) || base} voice installed, so it may sound off. You can add one in your phone's speech settings.`);
+  synth.speak(u);
+}
+document.addEventListener("click", (ev) => { const b = ev.target.closest?.("[data-say]"); if (!b) return; ev.preventDefault(); ev.stopPropagation(); speakNow(b.dataset.say, b.dataset.lang); }, true);
+if (canSpeak) { try { speechSynthesis.getVoices(); speechSynthesis.onvoiceschanged = () => {}; } catch {} }
 // ---------- Offline replacements for the in-Claude features ----------
 let reqDraft = "";
 const REQ_KEY = "uts.requests";

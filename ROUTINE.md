@@ -60,7 +60,9 @@ Copy the shape of an existing file such as `data/topics/wine.json` and research 
 
 Also add a highlight for it to `data/weekly.json` (keep the existing entries) so it appears under "Fresh this week".
 
-## World cuisines
+## Picture guides (World cuisines, cocktails, landmarks…)
+
+`data/guides/<slug>.json` holds the other picture guides (cocktails & spirits, cheese, bread & pastries, fruits & vegetables, landmarks, artworks, dog & cat breeds, flowers & plants, brand logos, etiquette, travel cities). Each has `groups`, and each group has `items` of `{ "name", "local"?, "lang"?, "say"?, "what", "tags": [...] or "facts": [{ "k", "v" }], "wiki" }`. They are evergreen like the cuisines: leave them alone in the weekly refresh. `lang` (or the group's `lang`) is the BCP 47 language the 🔊 button speaks `local` (or `name`) in, e.g. `fr-FR`; leave it out for English names.
 
 `data/cuisines/<slug>.json` holds the World cuisines section: one file per cuisine with signature dishes the app shows with a picture, name and main ingredients. It is evergreen: **don't touch it in the weekly refresh**, only when a `Cuisine:` request comes in.
 

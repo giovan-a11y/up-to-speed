@@ -1,0 +1,395 @@
+{
+  "slug": "dog-cat-breeds",
+  "title": "Dog & cat breeds",
+  "emoji": "🐕",
+  "order": 8,
+  "blurb": "Tell a Shiba from a Corgi and a Ragdoll from a British Shorthair.",
+  "tagLabel": "Size & personality",
+  "groupNoun": "sections",
+  "quizTags": false,
+  "groups": [
+    {
+      "slug": "small-dogs",
+      "name": "Small dogs",
+      "emoji": "🐶",
+      "intro": "The breeds you see most in Hong Kong flats and parks.",
+      "hk": "Small breeds rule in Hong Kong flats; many housing estates restrict or ban dogs.",
+      "items": [
+        {
+          "name": "Shiba Inu",
+          "local": "柴犬",
+          "lang": "ja-JP",
+          "what": "Fox-like Japanese dog with a curled tail; the face of the 'Doge' meme.",
+          "tags": [
+            "small",
+            "independent",
+            "Japan"
+          ],
+          "wiki": "Shiba Inu"
+        },
+        {
+          "name": "Pomeranian",
+          "what": "Tiny fluffball with a fox face.",
+          "tags": [
+            "toy",
+            "lively",
+            "vocal"
+          ],
+          "wiki": "Pomeranian dog"
+        },
+        {
+          "name": "French Bulldog",
+          "what": "Bat-eared, flat-faced and stocky; one of the world's most popular breeds.",
+          "tags": [
+            "small",
+            "playful",
+            "flat-faced"
+          ],
+          "wiki": "French Bulldog"
+        },
+        {
+          "name": "Corgi",
+          "what": "Short legs, big ears, fox face; Queen Elizabeth II's favourite.",
+          "tags": [
+            "small",
+            "herding dog",
+            "energetic"
+          ],
+          "wiki": "Pembroke Welsh Corgi"
+        },
+        {
+          "name": "Chihuahua",
+          "what": "The smallest breed, with big ears and a big attitude.",
+          "tags": [
+            "toy",
+            "bold",
+            "Mexico"
+          ],
+          "wiki": "Chihuahua (dog)"
+        },
+        {
+          "name": "Dachshund",
+          "what": "Long body and short legs: the 'sausage dog'.",
+          "tags": [
+            "small",
+            "stubborn",
+            "Germany"
+          ],
+          "wiki": "Dachshund"
+        },
+        {
+          "name": "Toy Poodle",
+          "what": "Curly coat, very smart; toy, miniature and standard sizes.",
+          "tags": [
+            "toy",
+            "clever",
+            "low-shedding"
+          ],
+          "wiki": "Poodle"
+        },
+        {
+          "name": "Shih Tzu",
+          "local": "西施犬",
+          "what": "Long silky coat, often in a topknot; bred for Chinese palaces.",
+          "tags": [
+            "toy",
+            "affectionate",
+            "Tibet and China"
+          ],
+          "wiki": "Shih Tzu"
+        },
+        {
+          "name": "Maltese",
+          "what": "Small white dog with a long, silky coat.",
+          "tags": [
+            "toy",
+            "gentle"
+          ],
+          "wiki": "Maltese dog"
+        },
+        {
+          "name": "Yorkshire Terrier",
+          "what": "Tiny terrier with a steel-blue and tan silky coat.",
+          "tags": [
+            "toy",
+            "feisty"
+          ],
+          "wiki": "Yorkshire Terrier"
+        },
+        {
+          "name": "Pug",
+          "what": "Wrinkly flat face, curly tail.",
+          "tags": [
+            "small",
+            "comical",
+            "China"
+          ],
+          "wiki": "Pug"
+        },
+        {
+          "name": "Bichon Frisé",
+          "what": "White powder-puff coat, trimmed round.",
+          "tags": [
+            "small",
+            "cheerful",
+            "low-shedding"
+          ],
+          "wiki": "Bichon Frisé"
+        }
+      ]
+    },
+    {
+      "slug": "big-dogs",
+      "name": "Medium & large dogs",
+      "emoji": "🐕‍🦺",
+      "intro": "Family favourites, working dogs and Instagram stars.",
+      "items": [
+        {
+          "name": "Golden Retriever",
+          "what": "Golden coat, friendly face; the classic family dog.",
+          "tags": [
+            "large",
+            "gentle",
+            "family dog"
+          ],
+          "wiki": "Golden Retriever"
+        },
+        {
+          "name": "Labrador Retriever",
+          "what": "Short coat in black, yellow or chocolate; the most popular guide dog.",
+          "tags": [
+            "large",
+            "friendly",
+            "loves food"
+          ],
+          "wiki": "Labrador Retriever"
+        },
+        {
+          "name": "German Shepherd",
+          "what": "Black-and-tan working dog used by police.",
+          "tags": [
+            "large",
+            "loyal",
+            "protective"
+          ],
+          "wiki": "German Shepherd"
+        },
+        {
+          "name": "Siberian Husky",
+          "what": "Wolf-like sled dog with striking blue or odd-coloured eyes.",
+          "tags": [
+            "medium",
+            "energetic",
+            "dramatic"
+          ],
+          "wiki": "Siberian Husky"
+        },
+        {
+          "name": "Border Collie",
+          "what": "Black-and-white sheepdog, often called the smartest breed.",
+          "tags": [
+            "medium",
+            "very clever",
+            "needs work"
+          ],
+          "wiki": "Border Collie"
+        },
+        {
+          "name": "Samoyed",
+          "what": "Fluffy white dog with a permanent 'Sammy smile'.",
+          "tags": [
+            "medium",
+            "friendly",
+            "very fluffy"
+          ],
+          "wiki": "Samoyed dog"
+        },
+        {
+          "name": "Akita",
+          "local": "秋田犬",
+          "lang": "ja-JP",
+          "what": "Powerful Japanese dog; Hachikō, the loyal dog of Shibuya Station, was one.",
+          "tags": [
+            "large",
+            "loyal",
+            "reserved"
+          ],
+          "wiki": "Akita (dog)"
+        },
+        {
+          "name": "Bernese Mountain Dog",
+          "what": "Big tricolour Swiss farm dog.",
+          "tags": [
+            "giant",
+            "gentle"
+          ],
+          "wiki": "Bernese Mountain Dog"
+        },
+        {
+          "name": "Shar Pei",
+          "local": "沙皮狗",
+          "lang": "zh-HK",
+          "what": "Deep wrinkles and a blue-black tongue; from southern China.",
+          "tags": [
+            "medium",
+            "independent"
+          ],
+          "wiki": "Shar Pei"
+        },
+        {
+          "name": "Chow Chow",
+          "local": "鬆獅犬",
+          "lang": "zh-HK",
+          "what": "Lion-like mane and a blue-black tongue.",
+          "tags": [
+            "medium",
+            "aloof",
+            "China"
+          ],
+          "wiki": "Chow Chow"
+        },
+        {
+          "name": "Beagle",
+          "what": "Floppy-eared scent hound; Snoopy is one.",
+          "tags": [
+            "medium",
+            "curious",
+            "vocal"
+          ],
+          "wiki": "Beagle"
+        },
+        {
+          "name": "Dobermann",
+          "what": "Sleek black-and-rust guard dog.",
+          "tags": [
+            "large",
+            "alert",
+            "protective"
+          ],
+          "wiki": "Dobermann"
+        }
+      ]
+    },
+    {
+      "slug": "cats",
+      "name": "Cats",
+      "emoji": "🐈",
+      "intro": "The breeds cat people talk about.",
+      "items": [
+        {
+          "name": "British Shorthair",
+          "what": "Round face, dense blue-grey plush coat; the Cheshire Cat look.",
+          "tags": [
+            "calm",
+            "chunky",
+            "plush coat"
+          ],
+          "wiki": "British Shorthair"
+        },
+        {
+          "name": "Scottish Fold",
+          "what": "Ears folded forward, owl-like face. The fold gene causes joint problems, so breeding it is controversial.",
+          "tags": [
+            "sweet",
+            "round face"
+          ],
+          "wiki": "Scottish Fold"
+        },
+        {
+          "name": "Ragdoll",
+          "what": "Big blue-eyed cat that goes floppy when picked up.",
+          "tags": [
+            "large",
+            "docile",
+            "semi-long coat"
+          ],
+          "wiki": "Ragdoll"
+        },
+        {
+          "name": "Maine Coon",
+          "what": "One of the largest breeds, with ear tufts and a bushy tail.",
+          "tags": [
+            "giant",
+            "gentle",
+            "shaggy"
+          ],
+          "wiki": "Maine Coon"
+        },
+        {
+          "name": "Persian",
+          "what": "Flat face and long, luxurious coat.",
+          "tags": [
+            "quiet",
+            "high-maintenance coat"
+          ],
+          "wiki": "Persian cat"
+        },
+        {
+          "name": "Siamese",
+          "what": "Cream body with dark points and blue eyes; very talkative.",
+          "tags": [
+            "vocal",
+            "social",
+            "Thailand"
+          ],
+          "wiki": "Siamese cat"
+        },
+        {
+          "name": "Bengal",
+          "what": "Leopard-spotted coat from wild cat ancestry.",
+          "tags": [
+            "very active",
+            "spotted"
+          ],
+          "wiki": "Bengal cat"
+        },
+        {
+          "name": "Sphynx",
+          "what": "Hairless, wrinkly and warm to the touch.",
+          "tags": [
+            "hairless",
+            "affectionate"
+          ],
+          "wiki": "Sphynx cat"
+        },
+        {
+          "name": "Russian Blue",
+          "what": "Silvery-blue coat and green eyes.",
+          "tags": [
+            "shy",
+            "gentle"
+          ],
+          "wiki": "Russian Blue"
+        },
+        {
+          "name": "Munchkin",
+          "what": "Very short legs from a natural mutation.",
+          "tags": [
+            "short legs",
+            "playful"
+          ],
+          "wiki": "Munchkin cat"
+        },
+        {
+          "name": "Norwegian Forest Cat",
+          "what": "Big, long-haired cat built for Scandinavian winters.",
+          "tags": [
+            "large",
+            "fluffy",
+            "hardy"
+          ],
+          "wiki": "Norwegian Forest Cat"
+        },
+        {
+          "name": "Abyssinian",
+          "what": "Slim, ticked golden coat, like a small wild cat.",
+          "tags": [
+            "active",
+            "curious"
+          ],
+          "wiki": "Abyssinian cat"
+        }
+      ]
+    }
+  ]
+}

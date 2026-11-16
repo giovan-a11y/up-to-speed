@@ -1,0 +1,874 @@
+{
+  "slug": "landmarks",
+  "title": "Landmarks & architecture",
+  "emoji": "🏛️",
+  "order": 6,
+  "blurb": "Famous buildings and monuments: where they are, when they went up and who designed them.",
+  "tagLabel": "Key facts",
+  "groupNoun": "regions",
+  "quizTags": false,
+  "groups": [
+    {
+      "slug": "hong-kong",
+      "name": "Hong Kong",
+      "emoji": "🇭🇰",
+      "intro": "The skyline and sights you can point out to visitors.",
+      "region": "Hong Kong",
+      "lang": "zh-HK",
+      "items": [
+        {
+          "name": "Bank of China Tower",
+          "local": "中銀大廈",
+          "what": "Angular glass tower of triangles, inspired by bamboo shoots; its sharp edges were long a feng shui talking point.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Central"
+            },
+            {
+              "k": "Built",
+              "v": "1990"
+            },
+            {
+              "k": "By",
+              "v": "I. M. Pei"
+            }
+          ],
+          "wiki": "Bank of China Tower (Hong Kong)"
+        },
+        {
+          "name": "HSBC Main Building",
+          "local": "滙豐總行大廈",
+          "what": "'Inside-out' high-tech tower with its steel structure on the outside, guarded by the bronze lions Stephen and Stitt.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Central"
+            },
+            {
+              "k": "Built",
+              "v": "1985"
+            },
+            {
+              "k": "By",
+              "v": "Norman Foster"
+            }
+          ],
+          "wiki": "HSBC Main Building"
+        },
+        {
+          "name": "International Commerce Centre",
+          "local": "環球貿易廣場",
+          "what": "Hong Kong's tallest building at 484 m, with the sky100 observation deck.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "West Kowloon"
+            },
+            {
+              "k": "Built",
+              "v": "2010"
+            },
+            {
+              "k": "By",
+              "v": "Kohn Pedersen Fox"
+            }
+          ],
+          "wiki": "International Commerce Centre"
+        },
+        {
+          "name": "M+",
+          "local": "M+",
+          "what": "Museum of visual culture with a giant LED façade facing the harbour.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "West Kowloon Cultural District"
+            },
+            {
+              "k": "Built",
+              "v": "2021"
+            },
+            {
+              "k": "By",
+              "v": "Herzog & de Meuron"
+            }
+          ],
+          "wiki": "M+"
+        },
+        {
+          "name": "Tian Tan Buddha",
+          "local": "天壇大佛",
+          "what": "Giant seated bronze Buddha, 34 m tall, at the top of 268 steps.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Ngong Ping, Lantau"
+            },
+            {
+              "k": "Built",
+              "v": "1993"
+            },
+            {
+              "k": "By",
+              "v": "Po Lin Monastery"
+            }
+          ],
+          "wiki": "Tian Tan Buddha"
+        },
+        {
+          "name": "Tai Kwun",
+          "local": "大館",
+          "what": "Former Central Police Station and Victoria Prison, restored as an arts and heritage hub.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Central"
+            },
+            {
+              "k": "Built",
+              "v": "1864–1925; reopened 2018"
+            },
+            {
+              "k": "By",
+              "v": "Restored with new wings by Herzog & de Meuron"
+            }
+          ],
+          "wiki": "Tai Kwun"
+        }
+      ]
+    },
+    {
+      "slug": "asia",
+      "name": "Asia & Pacific",
+      "emoji": "🌏",
+      "intro": "The big names from Agra to Sydney.",
+      "region": "Asia",
+      "items": [
+        {
+          "name": "Taj Mahal",
+          "local": "ताज महल",
+          "what": "White marble mausoleum built by Mughal emperor Shah Jahan for his wife Mumtaz Mahal.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Agra, India"
+            },
+            {
+              "k": "Built",
+              "v": "1632–1653"
+            },
+            {
+              "k": "By",
+              "v": "Shah Jahan; architect Ustad Ahmad Lahori"
+            }
+          ],
+          "wiki": "Taj Mahal"
+        },
+        {
+          "name": "Angkor Wat",
+          "local": "អង្គរវត្ត",
+          "what": "The world's largest religious monument, a Khmer temple complex famous at sunrise.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Siem Reap, Cambodia"
+            },
+            {
+              "k": "Built",
+              "v": "12th century"
+            },
+            {
+              "k": "By",
+              "v": "King Suryavarman II"
+            }
+          ],
+          "wiki": "Angkor Wat"
+        },
+        {
+          "name": "Great Wall of China",
+          "local": "長城",
+          "what": "Walls built over many centuries; the famous brick sections near Beijing are Ming dynasty.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Northern China"
+            },
+            {
+              "k": "Built",
+              "v": "Mostly 1300s–1600s (Ming)"
+            },
+            {
+              "k": "By",
+              "v": "Chinese dynasties"
+            }
+          ],
+          "wiki": "Great Wall of China"
+        },
+        {
+          "name": "Forbidden City",
+          "local": "紫禁城",
+          "what": "Vast imperial palace of the Ming and Qing emperors, with golden roofs.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Beijing"
+            },
+            {
+              "k": "Built",
+              "v": "1420"
+            },
+            {
+              "k": "By",
+              "v": "Ming dynasty, Yongle Emperor"
+            }
+          ],
+          "wiki": "Forbidden City"
+        },
+        {
+          "name": "Kinkaku-ji",
+          "local": "金閣寺",
+          "lang": "ja-JP",
+          "what": "The Golden Pavilion: Zen temple covered in gold leaf, reflected in a pond.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Kyoto"
+            },
+            {
+              "k": "Built",
+              "v": "1397 (rebuilt 1955)"
+            },
+            {
+              "k": "By",
+              "v": "Ashikaga Yoshimitsu"
+            }
+          ],
+          "wiki": "Kinkaku-ji"
+        },
+        {
+          "name": "Tokyo Skytree",
+          "local": "東京スカイツリー",
+          "what": "The world's tallest tower at 634 m.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Tokyo"
+            },
+            {
+              "k": "Built",
+              "v": "2012"
+            },
+            {
+              "k": "By",
+              "v": "Nikken Sekkei"
+            }
+          ],
+          "wiki": "Tokyo Skytree"
+        },
+        {
+          "name": "Shanghai Tower",
+          "local": "上海中心大廈",
+          "what": "Twisting 632 m skyscraper, China's tallest.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Lujiazui, Shanghai"
+            },
+            {
+              "k": "Built",
+              "v": "2015"
+            },
+            {
+              "k": "By",
+              "v": "Gensler"
+            }
+          ],
+          "wiki": "Shanghai Tower"
+        },
+        {
+          "name": "Taipei 101",
+          "local": "台北101",
+          "lang": "zh-TW",
+          "what": "Bamboo-inspired tower with a giant steel damper ball you can visit.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Taipei"
+            },
+            {
+              "k": "Built",
+              "v": "2004"
+            },
+            {
+              "k": "By",
+              "v": "C.Y. Lee"
+            }
+          ],
+          "wiki": "Taipei 101"
+        },
+        {
+          "name": "Petronas Towers",
+          "what": "Twin towers joined by a sky bridge; the world's tallest buildings from 1998 to 2004.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Kuala Lumpur"
+            },
+            {
+              "k": "Built",
+              "v": "1998"
+            },
+            {
+              "k": "By",
+              "v": "César Pelli"
+            }
+          ],
+          "wiki": "Petronas Towers"
+        },
+        {
+          "name": "Marina Bay Sands",
+          "what": "Three hotel towers topped by a ship-shaped SkyPark and infinity pool.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Singapore"
+            },
+            {
+              "k": "Built",
+              "v": "2010"
+            },
+            {
+              "k": "By",
+              "v": "Moshe Safdie"
+            }
+          ],
+          "wiki": "Marina Bay Sands"
+        },
+        {
+          "name": "Sydney Opera House",
+          "what": "Concert hall under white sail-like shells on the harbour.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Sydney, Australia"
+            },
+            {
+              "k": "Built",
+              "v": "1973"
+            },
+            {
+              "k": "By",
+              "v": "Jørn Utzon"
+            }
+          ],
+          "wiki": "Sydney Opera House"
+        }
+      ]
+    },
+    {
+      "slug": "europe",
+      "name": "Europe",
+      "emoji": "🇪🇺",
+      "intro": "Cathedrals, towers and museums every traveller names.",
+      "region": "Europe",
+      "items": [
+        {
+          "name": "Eiffel Tower",
+          "local": "Tour Eiffel",
+          "lang": "fr-FR",
+          "what": "Wrought-iron lattice tower built for the 1889 World's Fair, once meant to be temporary.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Paris"
+            },
+            {
+              "k": "Built",
+              "v": "1889"
+            },
+            {
+              "k": "By",
+              "v": "Gustave Eiffel's company"
+            }
+          ],
+          "wiki": "Eiffel Tower"
+        },
+        {
+          "name": "Notre-Dame de Paris",
+          "lang": "fr-FR",
+          "what": "Gothic cathedral with flying buttresses; reopened in December 2024 after the 2019 fire.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Paris"
+            },
+            {
+              "k": "Built",
+              "v": "1163–1345"
+            },
+            {
+              "k": "By",
+              "v": "Medieval master builders"
+            }
+          ],
+          "wiki": "Notre-Dame de Paris"
+        },
+        {
+          "name": "Louvre Pyramid",
+          "local": "Pyramide du Louvre",
+          "lang": "fr-FR",
+          "what": "Glass and steel pyramid entrance to the Louvre.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Paris"
+            },
+            {
+              "k": "Built",
+              "v": "1989"
+            },
+            {
+              "k": "By",
+              "v": "I. M. Pei"
+            }
+          ],
+          "wiki": "Louvre Pyramid"
+        },
+        {
+          "name": "Sagrada Família",
+          "lang": "es-ES",
+          "what": "Gaudí's still-unfinished basilica, with its central towers being completed in the 2020s.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Barcelona"
+            },
+            {
+              "k": "Built",
+              "v": "Since 1882"
+            },
+            {
+              "k": "By",
+              "v": "Antoni Gaudí"
+            }
+          ],
+          "wiki": "Sagrada Família"
+        },
+        {
+          "name": "Colosseum",
+          "local": "Colosseo",
+          "lang": "it-IT",
+          "what": "Roman amphitheatre where gladiators fought.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Rome"
+            },
+            {
+              "k": "Built",
+              "v": "AD 80"
+            },
+            {
+              "k": "By",
+              "v": "Emperors Vespasian and Titus"
+            }
+          ],
+          "wiki": "Colosseum"
+        },
+        {
+          "name": "Parthenon",
+          "local": "Παρθενώνας",
+          "what": "Marble temple to Athena on the Acropolis.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Athens"
+            },
+            {
+              "k": "Built",
+              "v": "432 BC"
+            },
+            {
+              "k": "By",
+              "v": "Ictinus and Callicrates, with Phidias"
+            }
+          ],
+          "wiki": "Parthenon"
+        },
+        {
+          "name": "Big Ben",
+          "what": "The Westminster clock tower, officially the Elizabeth Tower; Big Ben is really the bell.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "London"
+            },
+            {
+              "k": "Built",
+              "v": "1859"
+            },
+            {
+              "k": "By",
+              "v": "Charles Barry and Augustus Pugin"
+            }
+          ],
+          "wiki": "Big Ben"
+        },
+        {
+          "name": "The Shard",
+          "what": "Glass spire, the UK's tallest building.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "London"
+            },
+            {
+              "k": "Built",
+              "v": "2012"
+            },
+            {
+              "k": "By",
+              "v": "Renzo Piano"
+            }
+          ],
+          "wiki": "The Shard"
+        },
+        {
+          "name": "Guggenheim Museum Bilbao",
+          "what": "Curving titanium-clad museum that put Bilbao on the map.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Bilbao, Spain"
+            },
+            {
+              "k": "Built",
+              "v": "1997"
+            },
+            {
+              "k": "By",
+              "v": "Frank Gehry"
+            }
+          ],
+          "wiki": "Guggenheim Museum Bilbao"
+        },
+        {
+          "name": "Neuschwanstein Castle",
+          "local": "Schloss Neuschwanstein",
+          "lang": "de-DE",
+          "what": "Fairy-tale castle of King Ludwig II that inspired Disney's Sleeping Beauty castle.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Bavaria, Germany"
+            },
+            {
+              "k": "Built",
+              "v": "1869–1886"
+            },
+            {
+              "k": "By",
+              "v": "King Ludwig II"
+            }
+          ],
+          "wiki": "Neuschwanstein Castle"
+        }
+      ]
+    },
+    {
+      "slug": "americas",
+      "name": "Americas",
+      "emoji": "🌎",
+      "intro": "From New York skyscrapers to the Andes.",
+      "region": "Americas",
+      "items": [
+        {
+          "name": "Empire State Building",
+          "what": "Art Deco skyscraper, the world's tallest for nearly 40 years.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "New York"
+            },
+            {
+              "k": "Built",
+              "v": "1931"
+            },
+            {
+              "k": "By",
+              "v": "Shreve, Lamb & Harmon"
+            }
+          ],
+          "wiki": "Empire State Building"
+        },
+        {
+          "name": "Statue of Liberty",
+          "what": "Copper statue given by France, now green with age.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "New York"
+            },
+            {
+              "k": "Built",
+              "v": "1886"
+            },
+            {
+              "k": "By",
+              "v": "Frédéric Bartholdi; frame by Gustave Eiffel"
+            }
+          ],
+          "wiki": "Statue of Liberty"
+        },
+        {
+          "name": "Golden Gate Bridge",
+          "what": "Suspension bridge painted 'International Orange'.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "San Francisco"
+            },
+            {
+              "k": "Built",
+              "v": "1937"
+            },
+            {
+              "k": "By",
+              "v": "Joseph Strauss"
+            }
+          ],
+          "wiki": "Golden Gate Bridge"
+        },
+        {
+          "name": "Guggenheim Museum New York",
+          "what": "White spiral museum with a ramp gallery inside.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "New York"
+            },
+            {
+              "k": "Built",
+              "v": "1959"
+            },
+            {
+              "k": "By",
+              "v": "Frank Lloyd Wright"
+            }
+          ],
+          "wiki": "Solomon R. Guggenheim Museum"
+        },
+        {
+          "name": "Fallingwater",
+          "what": "House cantilevered over a waterfall.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Pennsylvania"
+            },
+            {
+              "k": "Built",
+              "v": "1937"
+            },
+            {
+              "k": "By",
+              "v": "Frank Lloyd Wright"
+            }
+          ],
+          "wiki": "Fallingwater"
+        },
+        {
+          "name": "Machu Picchu",
+          "lang": "es-PE",
+          "what": "Inca citadel high in the Andes.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Peru"
+            },
+            {
+              "k": "Built",
+              "v": "15th century"
+            },
+            {
+              "k": "By",
+              "v": "Inca emperor Pachacuti"
+            }
+          ],
+          "wiki": "Machu Picchu"
+        },
+        {
+          "name": "Christ the Redeemer",
+          "local": "Cristo Redentor",
+          "lang": "pt-BR",
+          "what": "Art Deco statue with outstretched arms above Rio.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Rio de Janeiro"
+            },
+            {
+              "k": "Built",
+              "v": "1931"
+            },
+            {
+              "k": "By",
+              "v": "Paul Landowski and Heitor da Silva Costa"
+            }
+          ],
+          "wiki": "Christ the Redeemer (statue)"
+        },
+        {
+          "name": "Chichén Itzá",
+          "lang": "es-MX",
+          "what": "Mayan city whose step pyramid, El Castillo, casts a serpent shadow at the equinox.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Yucatán, Mexico"
+            },
+            {
+              "k": "Built",
+              "v": "c. 600–1200"
+            },
+            {
+              "k": "By",
+              "v": "The Maya"
+            }
+          ],
+          "wiki": "Chichen Itza"
+        }
+      ]
+    },
+    {
+      "slug": "middle-east-africa",
+      "name": "Middle East & Africa",
+      "emoji": "🌍",
+      "intro": "Ancient wonders and record-breaking towers.",
+      "region": "Middle East & Africa",
+      "items": [
+        {
+          "name": "Pyramids of Giza",
+          "local": "أهرامات الجيزة",
+          "what": "The Great Pyramid is the last surviving Wonder of the Ancient World.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Giza, Egypt"
+            },
+            {
+              "k": "Built",
+              "v": "c. 2560 BC"
+            },
+            {
+              "k": "By",
+              "v": "Pharaoh Khufu and successors"
+            }
+          ],
+          "wiki": "Giza pyramid complex"
+        },
+        {
+          "name": "Petra",
+          "local": "البتراء",
+          "what": "Rose-red city carved into cliffs; the Treasury façade is the famous view.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Jordan"
+            },
+            {
+              "k": "Built",
+              "v": "c. 1st century BC"
+            },
+            {
+              "k": "By",
+              "v": "The Nabataeans"
+            }
+          ],
+          "wiki": "Petra"
+        },
+        {
+          "name": "Hagia Sophia",
+          "local": "Ayasofya",
+          "lang": "tr-TR",
+          "what": "Vast domed church, then mosque, then museum, and a mosque again since 2020.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Istanbul"
+            },
+            {
+              "k": "Built",
+              "v": "AD 537"
+            },
+            {
+              "k": "By",
+              "v": "Isidore of Miletus and Anthemius of Tralles"
+            }
+          ],
+          "wiki": "Hagia Sophia"
+        },
+        {
+          "name": "Burj Khalifa",
+          "local": "برج خليفة",
+          "what": "The world's tallest building at 828 m.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Dubai"
+            },
+            {
+              "k": "Built",
+              "v": "2010"
+            },
+            {
+              "k": "By",
+              "v": "SOM (Adrian Smith)"
+            }
+          ],
+          "wiki": "Burj Khalifa"
+        },
+        {
+          "name": "Sheikh Zayed Grand Mosque",
+          "local": "جامع الشيخ زايد الكبير",
+          "what": "White marble mosque with 82 domes and one of the world's largest carpets.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Abu Dhabi"
+            },
+            {
+              "k": "Built",
+              "v": "2007"
+            },
+            {
+              "k": "By",
+              "v": "Yusef Abdelki"
+            }
+          ],
+          "wiki": "Sheikh Zayed Grand Mosque"
+        },
+        {
+          "name": "Louvre Abu Dhabi",
+          "what": "Museum under a huge lace-like dome that filters 'rain of light'.",
+          "facts": [
+            {
+              "k": "Where",
+              "v": "Abu Dhabi"
+            },
+            {
+              "k": "Built",
+              "v": "2017"
+            },
+            {
+              "k": "By",
+              "v": "Jean Nouvel"
+            }
+          ],
+          "wiki": "Louvre Abu Dhabi"
+        }
+      ]
+    }
+  ]
+}

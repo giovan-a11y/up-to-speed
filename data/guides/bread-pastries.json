@@ -1,0 +1,454 @@
+{
+  "slug": "bread-pastries",
+  "title": "Bread & pastries",
+  "emoji": "🥐",
+  "order": 4,
+  "blurb": "Breads, French pastries, cakes and the Hong Kong bakery classics, by name and look.",
+  "tagLabel": "What's in it",
+  "groupNoun": "sections",
+  "quizTags": true,
+  "groups": [
+    {
+      "slug": "breads",
+      "name": "Breads of the world",
+      "emoji": "🍞",
+      "intro": "The loaves and flatbreads you'll see in bakeries and on menus.",
+      "items": [
+        {
+          "name": "Baguette",
+          "lang": "fr-FR",
+          "what": "Long, thin French loaf with a crackly crust and airy inside.",
+          "tags": [
+            "flour",
+            "water",
+            "salt",
+            "yeast",
+            "France"
+          ],
+          "say": "bag-ET",
+          "wiki": "Baguette"
+        },
+        {
+          "name": "Sourdough",
+          "what": "Tangy, chewy loaf with an open crumb, risen with a wild-yeast starter.",
+          "tags": [
+            "flour",
+            "water",
+            "salt",
+            "sourdough starter"
+          ],
+          "wiki": "Sourdough"
+        },
+        {
+          "name": "Ciabatta",
+          "lang": "it-IT",
+          "what": "Flat, airy Italian 'slipper' loaf.",
+          "tags": [
+            "flour",
+            "water",
+            "olive oil",
+            "Italy"
+          ],
+          "say": "cha-BAH-ta",
+          "wiki": "Ciabatta"
+        },
+        {
+          "name": "Focaccia",
+          "lang": "it-IT",
+          "what": "Olive-oil-rich Italian flatbread, dimpled and topped with rosemary and salt.",
+          "tags": [
+            "flour",
+            "olive oil",
+            "rosemary",
+            "sea salt"
+          ],
+          "say": "fo-KAH-cha",
+          "wiki": "Focaccia"
+        },
+        {
+          "name": "Brioche",
+          "lang": "fr-FR",
+          "what": "Rich, soft, golden French bread made with butter and eggs.",
+          "tags": [
+            "flour",
+            "butter",
+            "eggs",
+            "sugar"
+          ],
+          "say": "bree-OSH",
+          "wiki": "Brioche"
+        },
+        {
+          "name": "Bagel",
+          "what": "Dense, chewy ring-shaped roll, boiled then baked; New York's with cream cheese and lox.",
+          "tags": [
+            "flour",
+            "malt",
+            "water",
+            "sesame or poppy seeds"
+          ],
+          "wiki": "Bagel"
+        },
+        {
+          "name": "Pita",
+          "what": "Round pocket flatbread of the eastern Mediterranean.",
+          "tags": [
+            "flour",
+            "water",
+            "yeast"
+          ],
+          "wiki": "Pita"
+        },
+        {
+          "name": "Rye bread",
+          "local": "Roggenbrot",
+          "lang": "de-DE",
+          "what": "Dense, dark, sour bread, everyday in Germany and Scandinavia.",
+          "tags": [
+            "rye flour",
+            "sourdough",
+            "seeds"
+          ],
+          "wiki": "Rye bread"
+        },
+        {
+          "name": "Shokupan",
+          "local": "食パン",
+          "lang": "ja-JP",
+          "what": "Fluffy, cloud-soft Japanese milk bread, sold in tall square loaves.",
+          "tags": [
+            "flour",
+            "milk",
+            "butter",
+            "sugar"
+          ],
+          "wiki": "Shokupan"
+        },
+        {
+          "name": "Tortilla",
+          "lang": "es-MX",
+          "what": "Thin round flatbread of corn or wheat, the base of tacos and burritos.",
+          "tags": [
+            "corn masa or wheat flour",
+            "water"
+          ],
+          "say": "tor-TEE-ya",
+          "wiki": "Tortilla"
+        }
+      ]
+    },
+    {
+      "slug": "french-pastries",
+      "name": "French pastries",
+      "emoji": "🇫🇷",
+      "intro": "The viennoiserie and pâtisserie in every Paris window.",
+      "lang": "fr-FR",
+      "items": [
+        {
+          "name": "Croissant",
+          "what": "Flaky, crescent-shaped laminated pastry.",
+          "tags": [
+            "flour",
+            "butter",
+            "yeast",
+            "milk"
+          ],
+          "say": "krwah-SAHN",
+          "wiki": "Croissant"
+        },
+        {
+          "name": "Pain au chocolat",
+          "what": "Rectangular croissant pastry wrapped around two sticks of chocolate (called chocolatine in the south-west).",
+          "tags": [
+            "croissant dough",
+            "butter",
+            "dark chocolate"
+          ],
+          "say": "pan oh sho-ko-LAH",
+          "wiki": "Pain au chocolat"
+        },
+        {
+          "name": "Éclair",
+          "what": "Long choux bun filled with cream and topped with shiny icing.",
+          "tags": [
+            "choux pastry",
+            "pastry cream",
+            "chocolate glaze"
+          ],
+          "say": "ay-KLAIR",
+          "wiki": "Éclair"
+        },
+        {
+          "name": "Mille-feuille",
+          "what": "'Thousand leaves': layers of puff pastry and cream under a marbled icing top.",
+          "tags": [
+            "puff pastry",
+            "pastry cream",
+            "icing"
+          ],
+          "say": "meel-FUY",
+          "wiki": "Mille-feuille"
+        },
+        {
+          "name": "Macaron",
+          "what": "Pastel almond-meringue sandwich biscuits; Ladurée and Pierre Hermé are the famous names.",
+          "tags": [
+            "almond flour",
+            "egg whites",
+            "sugar",
+            "ganache"
+          ],
+          "say": "mack-a-RON",
+          "wiki": "Macaron"
+        },
+        {
+          "name": "Madeleine",
+          "what": "Small shell-shaped butter sponge cake.",
+          "tags": [
+            "butter",
+            "eggs",
+            "sugar",
+            "flour",
+            "lemon"
+          ],
+          "say": "mad-LEN",
+          "wiki": "Madeleine (cake)"
+        },
+        {
+          "name": "Canelé",
+          "what": "Small Bordeaux cake with a dark caramelised crust and custardy centre.",
+          "tags": [
+            "milk",
+            "eggs",
+            "rum",
+            "vanilla"
+          ],
+          "say": "can-uh-LAY",
+          "wiki": "Canelé"
+        },
+        {
+          "name": "Paris-Brest",
+          "what": "Ring of choux pastry filled with praline cream, shaped like a bicycle wheel.",
+          "tags": [
+            "choux pastry",
+            "praline cream",
+            "almonds"
+          ],
+          "say": "pa-REE BREST",
+          "wiki": "Paris–Brest"
+        },
+        {
+          "name": "Tarte Tatin",
+          "what": "Upside-down caramelised apple tart.",
+          "tags": [
+            "apples",
+            "caramel",
+            "pastry",
+            "butter"
+          ],
+          "say": "tart ta-TAN",
+          "wiki": "Tarte Tatin"
+        },
+        {
+          "name": "Kouign-amann",
+          "what": "Breton pastry of buttery, sugary, caramelised layers.",
+          "tags": [
+            "dough",
+            "butter",
+            "sugar"
+          ],
+          "say": "queen-ah-MAHN",
+          "wiki": "Kouign-amann"
+        }
+      ]
+    },
+    {
+      "slug": "cakes",
+      "name": "Cakes & sweets of the world",
+      "emoji": "🍰",
+      "intro": "Cakes and sweet bakes people name-drop.",
+      "items": [
+        {
+          "name": "New York cheesecake",
+          "what": "Dense, creamy baked cheesecake on a biscuit base.",
+          "tags": [
+            "cream cheese",
+            "eggs",
+            "sugar",
+            "graham cracker base"
+          ],
+          "wiki": "Cheesecake"
+        },
+        {
+          "name": "Basque cheesecake",
+          "local": "Tarta de queso",
+          "lang": "es-ES",
+          "what": "Crustless cheesecake with a burnt, almost black top, from La Viña in San Sebastián.",
+          "tags": [
+            "cream cheese",
+            "eggs",
+            "cream",
+            "sugar"
+          ],
+          "wiki": "Basque cheesecake"
+        },
+        {
+          "name": "Cinnamon roll",
+          "local": "Kanelbulle",
+          "lang": "sv-SE",
+          "what": "Swirled bun with cinnamon sugar; Sweden's kanelbulle is the fika classic.",
+          "tags": [
+            "dough",
+            "butter",
+            "cinnamon",
+            "sugar",
+            "cardamom"
+          ],
+          "wiki": "Cinnamon roll"
+        },
+        {
+          "name": "Cannoli",
+          "lang": "it-IT",
+          "what": "Sicilian crisp fried pastry tubes filled with sweet ricotta.",
+          "tags": [
+            "fried pastry shell",
+            "ricotta",
+            "sugar",
+            "pistachio"
+          ],
+          "say": "ka-NO-lee",
+          "wiki": "Cannoli"
+        },
+        {
+          "name": "Sachertorte",
+          "lang": "de-AT",
+          "what": "Vienna's dense chocolate cake with a layer of apricot jam.",
+          "tags": [
+            "chocolate",
+            "apricot jam",
+            "butter",
+            "eggs"
+          ],
+          "say": "ZAH-ker-tor-teh",
+          "wiki": "Sachertorte"
+        },
+        {
+          "name": "Apple strudel",
+          "local": "Apfelstrudel",
+          "lang": "de-AT",
+          "what": "Paper-thin Austrian pastry rolled around spiced apples.",
+          "tags": [
+            "strudel dough",
+            "apples",
+            "cinnamon",
+            "raisins"
+          ],
+          "wiki": "Apple strudel"
+        },
+        {
+          "name": "Castella",
+          "local": "カステラ",
+          "lang": "ja-JP",
+          "what": "Moist Japanese honey sponge cake from Nagasaki, sold in long bars.",
+          "tags": [
+            "eggs",
+            "sugar",
+            "flour",
+            "honey"
+          ],
+          "wiki": "Castella"
+        },
+        {
+          "name": "Doughnut",
+          "what": "Fried dough ring, glazed or filled.",
+          "tags": [
+            "flour",
+            "sugar",
+            "yeast",
+            "glaze"
+          ],
+          "wiki": "Doughnut"
+        }
+      ]
+    },
+    {
+      "slug": "hk-bakery",
+      "name": "Hong Kong bakery",
+      "emoji": "🇭🇰",
+      "intro": "The buns and tarts in every Hong Kong bakery window, in English.",
+      "lang": "zh-HK",
+      "items": [
+        {
+          "name": "Pineapple bun",
+          "local": "菠蘿包",
+          "what": "Sweet bun with a crackly, sugary top that looks like pineapple skin (no pineapple inside).",
+          "tags": [
+            "bun dough",
+            "sugar crust",
+            "butter"
+          ],
+          "wiki": "Pineapple bun"
+        },
+        {
+          "name": "Cocktail bun",
+          "local": "雞尾包",
+          "what": "Sweet bun filled with buttery coconut, topped with sesame.",
+          "tags": [
+            "coconut",
+            "butter",
+            "sugar",
+            "sesame"
+          ],
+          "wiki": "Cocktail bun"
+        },
+        {
+          "name": "Egg tart",
+          "local": "蛋撻",
+          "what": "Glossy yellow custard in shortcrust or flaky pastry.",
+          "tags": [
+            "pastry",
+            "eggs",
+            "sugar",
+            "evaporated milk"
+          ],
+          "wiki": "Egg tart"
+        },
+        {
+          "name": "Wife cake",
+          "local": "老婆餅",
+          "what": "Flaky round pastry with a sweet winter-melon filling.",
+          "tags": [
+            "flaky pastry",
+            "winter melon",
+            "sesame"
+          ],
+          "wiki": "Wife cake"
+        },
+        {
+          "name": "Mooncake",
+          "local": "月餅",
+          "what": "Dense Mid-Autumn pastry stamped with characters, filled with lotus paste and salted egg yolk.",
+          "tags": [
+            "lotus seed paste",
+            "salted egg yolk",
+            "pastry"
+          ],
+          "wiki": "Mooncake"
+        },
+        {
+          "name": "Hong Kong-style French toast",
+          "local": "西多士",
+          "what": "Thick peanut-butter toast, egg-dipped and fried, topped with butter and syrup.",
+          "tags": [
+            "bread",
+            "peanut butter",
+            "egg",
+            "butter",
+            "golden syrup"
+          ],
+          "wiki": "Hong Kong-style French toast"
+        }
+      ]
+    }
+  ]
+}
