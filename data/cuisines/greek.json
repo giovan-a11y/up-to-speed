@@ -1,0 +1,124 @@
+{
+  "slug": "greek",
+  "cuisine": "Greek",
+  "flag": "🇬🇷",
+  "region": "Europe",
+  "order": 5,
+  "intro": "Sunny, generous Mediterranean cooking: olive oil on everything, grilled meats, feta, lemon and oregano, eaten slowly at a taverna.",
+  "flavours": "Olive oil, lemon, oregano, feta, yoghurt, dill",
+  "dishes": [
+    {
+      "name": "Moussaka",
+      "local": "Μουσακάς (Mousakás)",
+      "say": "moo-sah-KAH",
+      "what": "Layers of aubergine and spiced minced lamb under a thick béchamel top.",
+      "ingredients": [
+        "aubergine",
+        "minced lamb",
+        "tomato",
+        "cinnamon",
+        "béchamel"
+      ],
+      "wiki": "Moussaka"
+    },
+    {
+      "name": "Souvlaki",
+      "local": "Σουβλάκι",
+      "say": "soo-VLAH-kee",
+      "what": "Small chunks of grilled pork or chicken on a skewer, often wrapped in pitta.",
+      "ingredients": [
+        "pork or chicken",
+        "lemon",
+        "oregano",
+        "olive oil",
+        "pitta"
+      ],
+      "wiki": "Souvlaki"
+    },
+    {
+      "name": "Gyros",
+      "local": "Γύρος",
+      "say": "YEE-ros",
+      "what": "Meat roasted on a vertical spit, shaved into pitta with tomato, onion, fries and tzatziki.",
+      "ingredients": [
+        "pork or chicken",
+        "pitta",
+        "tzatziki",
+        "tomato",
+        "onion",
+        "fries"
+      ],
+      "wiki": "Gyros"
+    },
+    {
+      "name": "Greek salad",
+      "local": "Χωριάτικη (Horiatiki)",
+      "say": "ho-ree-AH-tee-kee",
+      "what": "Village salad with a slab of feta on top and no lettuce.",
+      "ingredients": [
+        "tomato",
+        "cucumber",
+        "red onion",
+        "olives",
+        "feta",
+        "oregano"
+      ],
+      "wiki": "Greek salad"
+    },
+    {
+      "name": "Spanakopita",
+      "local": "Σπανακόπιτα",
+      "say": "spa-na-KO-pee-ta",
+      "what": "Crisp filo pie filled with spinach and feta.",
+      "ingredients": [
+        "filo pastry",
+        "spinach",
+        "feta",
+        "onion",
+        "dill"
+      ],
+      "wiki": "Spanakopita"
+    },
+    {
+      "name": "Tzatziki",
+      "local": "Τζατζίκι",
+      "say": "dza-DZEE-kee",
+      "what": "Cool garlicky yoghurt dip with grated cucumber.",
+      "ingredients": [
+        "Greek yoghurt",
+        "cucumber",
+        "garlic",
+        "dill",
+        "olive oil"
+      ],
+      "wiki": "Tzatziki"
+    },
+    {
+      "name": "Pastitsio",
+      "local": "Παστίτσιο",
+      "say": "pa-STEE-tsee-oh",
+      "what": "Greek baked pasta: tubes of pasta, spiced meat sauce and béchamel.",
+      "ingredients": [
+        "tubular pasta",
+        "minced beef",
+        "tomato",
+        "cinnamon",
+        "béchamel"
+      ],
+      "wiki": "Pastitsio"
+    },
+    {
+      "name": "Loukoumades",
+      "local": "Λουκουμάδες",
+      "say": "loo-koo-MAH-thes",
+      "what": "Little fried dough balls soaked in honey and dusted with cinnamon.",
+      "ingredients": [
+        "dough",
+        "honey",
+        "cinnamon",
+        "walnuts"
+      ],
+      "wiki": "Loukoumades"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "slug": "middle-eastern",
+  "cuisine": "Lebanese & Middle Eastern",
+  "flag": "🇱🇧",
+  "region": "Middle East & Africa",
+  "order": 9,
+  "intro": "The mezze table of the Levant: dips, salads, grilled meats and flatbreads shared by everyone, bright with lemon, garlic and herbs.",
+  "flavours": "Chickpeas, tahini, lemon, garlic, parsley, olive oil, sumac",
+  "dishes": [
+    {
+      "name": "Hummus",
+      "local": "حمص",
+      "say": "HOOM-us",
+      "what": "Smooth dip of chickpeas blended with tahini, lemon and garlic.",
+      "ingredients": [
+        "chickpeas",
+        "tahini",
+        "lemon",
+        "garlic",
+        "olive oil"
+      ],
+      "wiki": "Hummus"
+    },
+    {
+      "name": "Falafel",
+      "local": "فلافل",
+      "say": "fa-LAH-fel",
+      "what": "Deep-fried balls of ground chickpeas or fava beans with herbs, tucked in pitta.",
+      "ingredients": [
+        "chickpeas",
+        "parsley",
+        "coriander",
+        "onion",
+        "cumin"
+      ],
+      "wiki": "Falafel"
+    },
+    {
+      "name": "Shawarma",
+      "local": "شاورما",
+      "say": "sha-WAR-ma",
+      "what": "Spit-roasted marinated meat shaved into flatbread with garlic sauce and pickles.",
+      "ingredients": [
+        "chicken or lamb",
+        "flatbread",
+        "toum (garlic sauce)",
+        "pickles"
+      ],
+      "wiki": "Shawarma"
+    },
+    {
+      "name": "Tabbouleh",
+      "local": "تبولة",
+      "say": "ta-BOO-leh",
+      "what": "Herb salad, mostly parsley, with bulgur, tomato, lemon and mint.",
+      "ingredients": [
+        "parsley",
+        "bulgur",
+        "tomato",
+        "mint",
+        "lemon",
+        "olive oil"
+      ],
+      "wiki": "Tabbouleh"
+    },
+    {
+      "name": "Fattoush",
+      "local": "فتوش",
+      "say": "fat-TOOSH",
+      "what": "Crunchy salad with toasted pitta pieces and sour sumac dressing.",
+      "ingredients": [
+        "lettuce",
+        "tomato",
+        "cucumber",
+        "radish",
+        "toasted pitta",
+        "sumac"
+      ],
+      "wiki": "Fattoush"
+    },
+    {
+      "name": "Baba ghanoush",
+      "local": "بابا غنوج",
+      "say": "BAH-ba gah-NOOSH",
+      "what": "Smoky dip of charred aubergine with tahini and lemon.",
+      "ingredients": [
+        "aubergine",
+        "tahini",
+        "lemon",
+        "garlic",
+        "olive oil"
+      ],
+      "wiki": "Baba ghanoush"
+    },
+    {
+      "name": "Kibbeh",
+      "local": "كبة",
+      "say": "KIB-beh",
+      "what": "Torpedo-shaped croquettes of bulgur and lamb, stuffed with spiced meat and pine nuts.",
+      "ingredients": [
+        "bulgur",
+        "minced lamb",
+        "onion",
+        "pine nuts",
+        "allspice"
+      ],
+      "wiki": "Kibbeh"
+    },
+    {
+      "name": "Manakish",
+      "local": "مناقيش",
+      "say": "ma-NA-eesh",
+      "what": "Lebanese breakfast flatbread topped with za'atar and olive oil, or cheese.",
+      "ingredients": [
+        "dough",
+        "za'atar",
+        "olive oil",
+        "akkawi cheese"
+      ],
+      "wiki": "Manakish"
+    }
+  ]
+}

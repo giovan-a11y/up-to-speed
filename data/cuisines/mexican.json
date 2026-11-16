@@ -1,0 +1,146 @@
+{
+  "slug": "mexican",
+  "cuisine": "Mexican",
+  "flag": "🇲🇽",
+  "region": "Americas",
+  "order": 23,
+  "intro": "Corn, chillies and beans at its core, with a UNESCO-listed food culture far deeper than Tex-Mex: slow-cooked moles, street tacos and fresh salsas.",
+  "flavours": "Corn (masa), chillies, lime, coriander, beans, avocado, tomatillo",
+  "hk": "Hong Kong's taquerias and margarita bars have multiplied; most serve a mix of real Mexican and Tex-Mex.",
+  "dishes": [
+    {
+      "name": "Tacos al pastor",
+      "say": "al pas-TOR",
+      "what": "Pork marinated in chillies and achiote, roasted on a vertical spit and served in corn tortillas with pineapple.",
+      "ingredients": [
+        "pork",
+        "achiote",
+        "guajillo chilli",
+        "pineapple",
+        "corn tortillas",
+        "coriander",
+        "onion"
+      ],
+      "wiki": "Al pastor"
+    },
+    {
+      "name": "Guacamole",
+      "say": "gwa-ka-MOH-leh",
+      "what": "Mashed avocado with lime, onion, chilli and coriander.",
+      "ingredients": [
+        "avocado",
+        "lime",
+        "onion",
+        "chilli",
+        "coriander",
+        "salt"
+      ],
+      "wiki": "Guacamole"
+    },
+    {
+      "name": "Enchiladas",
+      "say": "en-chi-LAH-das",
+      "what": "Corn tortillas rolled around a filling and smothered in chilli sauce and cheese.",
+      "ingredients": [
+        "corn tortillas",
+        "chicken",
+        "chilli sauce",
+        "cheese",
+        "crema"
+      ],
+      "wiki": "Enchilada"
+    },
+    {
+      "name": "Mole poblano",
+      "say": "MOH-leh po-BLAH-no",
+      "what": "Dark, complex sauce of chillies, spices and chocolate, poured over turkey or chicken.",
+      "ingredients": [
+        "dried chillies",
+        "chocolate",
+        "spices",
+        "nuts",
+        "seeds",
+        "chicken"
+      ],
+      "wiki": "Mole poblano"
+    },
+    {
+      "name": "Tamales",
+      "say": "ta-MAH-les",
+      "what": "Corn dough with a filling, wrapped in a corn husk or banana leaf.",
+      "ingredients": [
+        "masa",
+        "lard",
+        "pork or chicken",
+        "salsa",
+        "corn husk"
+      ],
+      "wiki": "Tamale"
+    },
+    {
+      "name": "Pozole",
+      "say": "po-SO-leh",
+      "what": "Hearty soup of hominy corn and pork, topped with cabbage, radish and oregano.",
+      "ingredients": [
+        "hominy",
+        "pork",
+        "chillies",
+        "cabbage",
+        "radish",
+        "lime"
+      ],
+      "wiki": "Pozole"
+    },
+    {
+      "name": "Chiles en nogada",
+      "say": "CHEE-les en no-GAH-da",
+      "what": "Stuffed poblano peppers under walnut cream and pomegranate, the colours of the Mexican flag.",
+      "ingredients": [
+        "poblano peppers",
+        "minced meat",
+        "fruit",
+        "walnut sauce",
+        "pomegranate"
+      ],
+      "wiki": "Chiles en nogada"
+    },
+    {
+      "name": "Cochinita pibil",
+      "say": "ko-chee-NEE-ta pee-BEEL",
+      "what": "Yucatán pork slow-roasted in banana leaves with achiote and bitter orange.",
+      "ingredients": [
+        "pork",
+        "achiote",
+        "sour orange",
+        "banana leaves",
+        "pickled red onion"
+      ],
+      "wiki": "Cochinita pibil"
+    },
+    {
+      "name": "Quesadilla",
+      "say": "keh-sa-DEE-ya",
+      "what": "Tortilla folded over melted cheese (and in Mexico City, not always cheese!).",
+      "ingredients": [
+        "tortilla",
+        "Oaxaca cheese",
+        "fillings",
+        "salsa"
+      ],
+      "wiki": "Quesadilla"
+    },
+    {
+      "name": "Elote",
+      "say": "eh-LOH-teh",
+      "what": "Grilled corn on the cob slathered with mayo, cotija cheese, chilli and lime.",
+      "ingredients": [
+        "corn",
+        "mayonnaise",
+        "cotija cheese",
+        "chilli powder",
+        "lime"
+      ],
+      "wiki": "Elote"
+    }
+  ]
+}

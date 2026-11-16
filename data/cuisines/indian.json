@@ -1,0 +1,185 @@
+{
+  "slug": "indian",
+  "cuisine": "Indian",
+  "flag": "🇮🇳",
+  "region": "Asia",
+  "order": 11,
+  "intro": "Really dozens of regional cuisines: rich creamy curries and tandoor breads in the north, rice, coconut and dosas in the south, all built on layered spices.",
+  "flavours": "Cumin, coriander, turmeric, garam masala, ghee, chilli, curry leaves",
+  "hk": "Chungking Mansions in Tsim Sha Tsui is Hong Kong's legendary spot for cheap, authentic South Asian food.",
+  "dishes": [
+    {
+      "name": "Butter chicken",
+      "local": "मुर्ग़ मखनी (Murgh makhani)",
+      "say": "MURG MUCK-nee",
+      "what": "Tandoori chicken in a mild, creamy tomato-butter sauce, invented in Delhi.",
+      "ingredients": [
+        "chicken",
+        "tomato",
+        "butter",
+        "cream",
+        "fenugreek",
+        "garam masala"
+      ],
+      "wiki": "Butter chicken"
+    },
+    {
+      "name": "Biryani",
+      "local": "बिरयानी",
+      "say": "bir-YAH-nee",
+      "what": "Fragrant layered rice and meat cooked together with saffron and fried onions; Hyderabad and Lucknow are famous.",
+      "ingredients": [
+        "basmati rice",
+        "chicken or mutton",
+        "saffron",
+        "fried onions",
+        "yoghurt",
+        "spices"
+      ],
+      "wiki": "Biryani"
+    },
+    {
+      "name": "Tandoori chicken",
+      "local": "तंदूरी मुर्ग़",
+      "say": "tan-DOO-ree",
+      "what": "Chicken marinated in yoghurt and spices, roasted in a clay tandoor oven until charred red.",
+      "ingredients": [
+        "chicken",
+        "yoghurt",
+        "chilli",
+        "ginger",
+        "garlic",
+        "lemon"
+      ],
+      "wiki": "Tandoori chicken"
+    },
+    {
+      "name": "Masala dosa",
+      "local": "மசாலா தோசை",
+      "say": "ma-SAH-la DOH-sa",
+      "what": "South Indian crisp, paper-thin fermented rice crêpe wrapped around spiced potato, with sambar and chutney.",
+      "ingredients": [
+        "rice",
+        "urad dal",
+        "potato",
+        "mustard seeds",
+        "curry leaves"
+      ],
+      "wiki": "Masala dosa"
+    },
+    {
+      "name": "Palak paneer",
+      "local": "पालक पनीर",
+      "say": "PAH-lak pa-NEER",
+      "what": "Cubes of fresh cheese in a spiced spinach purée.",
+      "ingredients": [
+        "paneer",
+        "spinach",
+        "onion",
+        "garlic",
+        "ginger",
+        "cream"
+      ],
+      "wiki": "Palak paneer"
+    },
+    {
+      "name": "Dal makhani",
+      "local": "दाल मखनी",
+      "say": "DAHL muck-NEE",
+      "what": "Creamy, buttery black lentils.",
+      "ingredients": [
+        "black lentils",
+        "kidney beans",
+        "butter",
+        "cream",
+        "tomato"
+      ],
+      "wiki": "Dal makhani"
+    },
+    {
+      "name": "Rogan josh",
+      "local": "रोगन जोश",
+      "say": "ROH-gan JOSH",
+      "what": "Kashmiri lamb curry, deep red from mild Kashmiri chilli.",
+      "ingredients": [
+        "lamb",
+        "Kashmiri chilli",
+        "yoghurt",
+        "fennel",
+        "ginger"
+      ],
+      "wiki": "Rogan josh"
+    },
+    {
+      "name": "Chole bhature",
+      "local": "छोले भटूरे",
+      "say": "CHOH-lay ba-TOO-ray",
+      "what": "Spicy chickpea curry with huge puffed fried breads; a Punjabi favourite.",
+      "ingredients": [
+        "chickpeas",
+        "onion",
+        "tomato",
+        "flour",
+        "yoghurt"
+      ],
+      "wiki": "Chole bhature"
+    },
+    {
+      "name": "Samosa",
+      "local": "समोसा",
+      "say": "sa-MOH-sa",
+      "what": "Triangular fried pastry stuffed with spiced potato and peas.",
+      "ingredients": [
+        "pastry",
+        "potato",
+        "peas",
+        "cumin",
+        "coriander",
+        "chilli"
+      ],
+      "wiki": "Samosa"
+    },
+    {
+      "name": "Pani puri",
+      "local": "पानी पूरी",
+      "say": "PAH-nee POO-ree",
+      "what": "Crisp hollow puri filled with spicy tamarind water, eaten in one bite; also called golgappa.",
+      "ingredients": [
+        "puri shells",
+        "potato",
+        "chickpeas",
+        "tamarind",
+        "mint water"
+      ],
+      "wiki": "Panipuri"
+    },
+    {
+      "name": "Naan",
+      "local": "नान",
+      "say": "NAHN",
+      "what": "Soft, leavened flatbread slapped onto the wall of a tandoor; garlic naan is a favourite.",
+      "ingredients": [
+        "flour",
+        "yoghurt",
+        "yeast",
+        "ghee",
+        "garlic"
+      ],
+      "wiki": "Naan"
+    },
+    {
+      "name": "Gulab jamun",
+      "local": "गुलाब जामुन",
+      "say": "goo-LAHB JAH-mun",
+      "what": "Soft fried milk dumplings soaking in rose-cardamom syrup.",
+      "ingredients": [
+        "milk solids (khoya)",
+        "flour",
+        "sugar syrup",
+        "cardamom",
+        "rosewater"
+      ],
+      "wiki": "Gulab jamun"
+    }
+  ]
+}

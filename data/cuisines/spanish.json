@@ -1,0 +1,141 @@
+{
+  "slug": "spanish",
+  "cuisine": "Spanish",
+  "flag": "🇪🇸",
+  "region": "Europe",
+  "order": 3,
+  "intro": "Built for sharing and eating late: tapas, cured ham, seafood and rice, with olive oil and smoked paprika running through it all.",
+  "flavours": "Olive oil, garlic, smoked paprika (pimentón), saffron, sherry",
+  "hk": "Tapas bars are a Hong Kong after-work favourite, especially around Soho and Wan Chai.",
+  "dishes": [
+    {
+      "name": "Paella",
+      "local": "Paella valenciana",
+      "say": "pie-AY-ya",
+      "what": "Saffron rice cooked in a wide, shallow pan; the original Valencian version has chicken and rabbit, not seafood. The crust on the bottom is the socarrat.",
+      "ingredients": [
+        "bomba rice",
+        "saffron",
+        "chicken",
+        "rabbit",
+        "green beans",
+        "olive oil"
+      ],
+      "wiki": "Paella"
+    },
+    {
+      "name": "Tortilla española",
+      "local": "Tortilla de patatas",
+      "say": "tor-TEE-ya",
+      "what": "Thick, golden omelette of potatoes (and, hotly debated, onion), served in wedges.",
+      "ingredients": [
+        "eggs",
+        "potatoes",
+        "onion",
+        "olive oil"
+      ],
+      "wiki": "Spanish omelette"
+    },
+    {
+      "name": "Jamón ibérico",
+      "say": "ha-MON ee-BEH-ree-co",
+      "what": "Cured ham from black Iberian pigs, the best fed on acorns (bellota), sliced paper-thin.",
+      "ingredients": [
+        "Iberian pork leg",
+        "sea salt"
+      ],
+      "wiki": "Jamón ibérico"
+    },
+    {
+      "name": "Patatas bravas",
+      "say": "pa-TAH-tas BRAH-vas",
+      "what": "Fried potato chunks with spicy tomato sauce and often aioli.",
+      "ingredients": [
+        "potatoes",
+        "tomato",
+        "pimentón",
+        "chilli",
+        "aioli"
+      ],
+      "wiki": "Patatas bravas"
+    },
+    {
+      "name": "Gambas al ajillo",
+      "say": "GAM-bas al a-HEE-yo",
+      "what": "Prawns sizzling in garlic-and-chilli olive oil; mop it up with bread.",
+      "ingredients": [
+        "prawns",
+        "garlic",
+        "chilli",
+        "olive oil",
+        "parsley"
+      ],
+      "wiki": "Gambas al ajillo"
+    },
+    {
+      "name": "Pulpo a la gallega",
+      "say": "POOL-po",
+      "what": "Galician octopus sliced over potatoes with olive oil and paprika.",
+      "ingredients": [
+        "octopus",
+        "potatoes",
+        "olive oil",
+        "pimentón",
+        "sea salt"
+      ],
+      "wiki": "Pulpo a la gallega"
+    },
+    {
+      "name": "Croquetas",
+      "local": "Croquetas de jamón",
+      "say": "crow-KET-as",
+      "what": "Crisp fried croquettes with a molten béchamel centre, often with ham.",
+      "ingredients": [
+        "béchamel",
+        "jamón",
+        "breadcrumbs",
+        "egg"
+      ],
+      "wiki": "Croquette"
+    },
+    {
+      "name": "Gazpacho",
+      "say": "gath-PAH-cho",
+      "what": "Chilled Andalusian soup of raw blended tomatoes and vegetables.",
+      "ingredients": [
+        "tomato",
+        "cucumber",
+        "pepper",
+        "garlic",
+        "olive oil",
+        "sherry vinegar"
+      ],
+      "wiki": "Gazpacho"
+    },
+    {
+      "name": "Pimientos de Padrón",
+      "say": "pim-YEN-tos deh pa-DRON",
+      "what": "Blistered little green peppers with sea salt; most are mild, one in a while is hot.",
+      "ingredients": [
+        "Padrón peppers",
+        "olive oil",
+        "sea salt"
+      ],
+      "wiki": "Padrón pepper"
+    },
+    {
+      "name": "Churros con chocolate",
+      "say": "CHOO-ros",
+      "what": "Fried dough sticks dunked in thick hot chocolate.",
+      "ingredients": [
+        "flour",
+        "water",
+        "salt",
+        "oil",
+        "sugar",
+        "chocolate"
+      ],
+      "wiki": "Churro"
+    }
+  ]
+}

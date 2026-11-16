@@ -1,0 +1,170 @@
+{
+  "slug": "french",
+  "cuisine": "French",
+  "flag": "🇫🇷",
+  "region": "Europe",
+  "order": 1,
+  "intro": "The cuisine that wrote the rulebook for restaurant cooking: butter, cream, wine and patient technique, from Paris bistros to Provençal olive oil country.",
+  "flavours": "Butter, cream, wine, shallots, thyme, Dijon mustard",
+  "hk": "Hong Kong has one of Asia's densest French fine-dining scenes, and bistros all over Central and Sheung Wan.",
+  "dishes": [
+    {
+      "name": "Croissant",
+      "say": "krwah-SAHN",
+      "what": "Flaky, crescent-shaped breakfast pastry made by folding layers of butter into dough.",
+      "ingredients": [
+        "flour",
+        "butter",
+        "yeast",
+        "milk",
+        "sugar"
+      ],
+      "wiki": "Croissant"
+    },
+    {
+      "name": "Coq au vin",
+      "say": "cock-oh-VAN",
+      "what": "Chicken braised slowly in red wine until tender; a Burgundy classic.",
+      "ingredients": [
+        "chicken",
+        "red wine",
+        "lardons",
+        "mushrooms",
+        "pearl onions"
+      ],
+      "wiki": "Coq au vin"
+    },
+    {
+      "name": "Beef bourguignon",
+      "local": "Bœuf bourguignon",
+      "say": "burr-geen-YON",
+      "what": "Rich Burgundy beef stew in a dark red-wine sauce.",
+      "ingredients": [
+        "beef chuck",
+        "Burgundy red wine",
+        "carrots",
+        "onions",
+        "mushrooms",
+        "bacon"
+      ],
+      "wiki": "Beef bourguignon"
+    },
+    {
+      "name": "Ratatouille",
+      "say": "rat-a-TOO-ee",
+      "what": "Provençal stew of summer vegetables in olive oil.",
+      "ingredients": [
+        "aubergine",
+        "courgette",
+        "peppers",
+        "tomato",
+        "onion",
+        "herbes de Provence"
+      ],
+      "wiki": "Ratatouille"
+    },
+    {
+      "name": "Bouillabaisse",
+      "say": "BOO-ya-bess",
+      "what": "Marseille fisherman's stew, served with toast and garlicky rouille sauce.",
+      "ingredients": [
+        "rockfish",
+        "saffron",
+        "fennel",
+        "tomato",
+        "olive oil",
+        "orange peel"
+      ],
+      "wiki": "Bouillabaisse"
+    },
+    {
+      "name": "Steak frites",
+      "say": "stake FREET",
+      "what": "Bistro staple: pan-fried steak with a pile of thin fries, often with béarnaise.",
+      "ingredients": [
+        "steak",
+        "potatoes",
+        "butter",
+        "shallots",
+        "béarnaise sauce"
+      ],
+      "wiki": "Steak frites"
+    },
+    {
+      "name": "Duck confit",
+      "local": "Confit de canard",
+      "say": "con-FEE de can-AR",
+      "what": "Duck leg cooked in its own fat (that's what confit means) with crisp skin; a south-west speciality.",
+      "ingredients": [
+        "duck legs",
+        "duck fat",
+        "salt",
+        "garlic",
+        "thyme"
+      ],
+      "wiki": "Duck confit"
+    },
+    {
+      "name": "Escargots",
+      "local": "Escargots de Bourgogne",
+      "say": "ess-car-GO",
+      "what": "Snails baked in their shells with sizzling garlic-parsley butter.",
+      "ingredients": [
+        "snails",
+        "butter",
+        "garlic",
+        "parsley"
+      ],
+      "wiki": "Escargot"
+    },
+    {
+      "name": "Croque monsieur",
+      "say": "crock mus-YUR",
+      "what": "Toasted ham-and-cheese sandwich topped with béchamel; with a fried egg it's a croque madame.",
+      "ingredients": [
+        "bread",
+        "ham",
+        "Gruyère",
+        "béchamel"
+      ],
+      "wiki": "Croque monsieur"
+    },
+    {
+      "name": "Quiche Lorraine",
+      "local": "Quiche lorraine",
+      "say": "KEESH lor-REN",
+      "what": "Savoury open tart filled with egg custard and bacon.",
+      "ingredients": [
+        "pastry",
+        "eggs",
+        "cream",
+        "lardons"
+      ],
+      "wiki": "Quiche"
+    },
+    {
+      "name": "Crème brûlée",
+      "say": "krem broo-LAY",
+      "what": "Vanilla custard with a crackly layer of burnt sugar on top.",
+      "ingredients": [
+        "cream",
+        "egg yolks",
+        "sugar",
+        "vanilla"
+      ],
+      "wiki": "Crème brûlée"
+    },
+    {
+      "name": "Macaron",
+      "say": "mack-a-RON",
+      "what": "Pastel sandwich biscuits of almond meringue with a creamy filling.",
+      "ingredients": [
+        "almond flour",
+        "egg whites",
+        "sugar",
+        "ganache or buttercream"
+      ],
+      "wiki": "Macaron"
+    }
+  ]
+}

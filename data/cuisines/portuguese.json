@@ -1,0 +1,106 @@
+{
+  "slug": "portuguese",
+  "cuisine": "Portuguese",
+  "flag": "🇵🇹",
+  "region": "Europe",
+  "order": 4,
+  "intro": "Seafaring comfort food: salt cod in a thousand ways, grilled sardines, pork and the world's favourite custard tart. It reached Hong Kong via Macau.",
+  "flavours": "Bacalhau (salt cod), olive oil, garlic, piri-piri, bay leaf",
+  "hk": "Macau's Macanese cooking is Portuguese-Chinese fusion; the Macau egg tart is the Lord Stow's descendant of the pastel de nata.",
+  "dishes": [
+    {
+      "name": "Pastel de nata",
+      "say": "pash-TEL deh NAH-ta",
+      "what": "Flaky custard tart with a scorched top, invented by monks at Belém in Lisbon.",
+      "ingredients": [
+        "puff pastry",
+        "egg yolks",
+        "cream",
+        "sugar",
+        "cinnamon"
+      ],
+      "wiki": "Pastel de nata"
+    },
+    {
+      "name": "Bacalhau à Brás",
+      "say": "ba-ka-LYOW ah BRAHSH",
+      "what": "Shredded salt cod scrambled with matchstick fries, onions and eggs, topped with olives.",
+      "ingredients": [
+        "salt cod",
+        "potatoes",
+        "eggs",
+        "onion",
+        "black olives",
+        "parsley"
+      ],
+      "wiki": "Bacalhau à Brás"
+    },
+    {
+      "name": "Grilled sardines",
+      "local": "Sardinhas assadas",
+      "say": "sar-DEEN-yash",
+      "what": "Whole sardines charcoal-grilled with sea salt, the smell of Lisbon's June festivals.",
+      "ingredients": [
+        "sardines",
+        "sea salt",
+        "olive oil",
+        "bread"
+      ],
+      "wiki": "Sardine"
+    },
+    {
+      "name": "Francesinha",
+      "say": "fran-seh-ZEEN-ya",
+      "what": "Porto's monster sandwich of meats under melted cheese and a beer-tomato sauce, with fries.",
+      "ingredients": [
+        "bread",
+        "ham",
+        "linguiça",
+        "steak",
+        "cheese",
+        "beer sauce"
+      ],
+      "wiki": "Francesinha"
+    },
+    {
+      "name": "Caldo verde",
+      "say": "CAL-doo VAIR-deh",
+      "what": "Green soup of potato and finely shredded kale with a slice of chouriço.",
+      "ingredients": [
+        "potatoes",
+        "kale",
+        "onion",
+        "chouriço",
+        "olive oil"
+      ],
+      "wiki": "Caldo verde"
+    },
+    {
+      "name": "Bifana",
+      "say": "bee-FAH-na",
+      "what": "Garlicky marinated pork steak in a crusty roll, a classic snack.",
+      "ingredients": [
+        "pork",
+        "garlic",
+        "white wine",
+        "bread roll",
+        "mustard"
+      ],
+      "wiki": "Bifana"
+    },
+    {
+      "name": "Piri-piri chicken",
+      "local": "Frango piri-piri",
+      "say": "PEE-ree PEE-ree",
+      "what": "Grilled chicken basted with fiery bird's-eye chilli oil.",
+      "ingredients": [
+        "chicken",
+        "piri-piri chillies",
+        "garlic",
+        "lemon",
+        "olive oil"
+      ],
+      "wiki": "Piri piri"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "slug": "peruvian",
+  "cuisine": "Peruvian",
+  "flag": "🇵🇪",
+  "region": "Americas",
+  "order": 24,
+  "intro": "One of the world's most exciting cuisines: Andean potatoes and chillies meet Japanese (Nikkei) and Chinese (Chifa) influences.",
+  "flavours": "Ají amarillo, lime, potatoes, corn, coriander, red onion",
+  "hk": "Peruvian and Nikkei restaurants are a fixture of Hong Kong's dining scene.",
+  "dishes": [
+    {
+      "name": "Ceviche",
+      "local": "Cebiche",
+      "say": "seh-VEE-cheh",
+      "what": "Raw fish 'cooked' in lime juice with chilli and red onion; the marinade is called leche de tigre.",
+      "ingredients": [
+        "white fish",
+        "lime",
+        "ají limo",
+        "red onion",
+        "sweet potato",
+        "corn"
+      ],
+      "wiki": "Ceviche"
+    },
+    {
+      "name": "Lomo saltado",
+      "say": "LOH-mo sal-TAH-do",
+      "what": "Chinese-Peruvian stir-fry of beef, onions and tomatoes with soy, served with fries and rice.",
+      "ingredients": [
+        "beef sirloin",
+        "onion",
+        "tomato",
+        "soy sauce",
+        "fries",
+        "rice"
+      ],
+      "wiki": "Lomo saltado"
+    },
+    {
+      "name": "Ají de gallina",
+      "say": "ah-HEE deh ga-YEE-na",
+      "what": "Shredded chicken in a creamy yellow chilli and walnut sauce.",
+      "ingredients": [
+        "chicken",
+        "ají amarillo",
+        "bread",
+        "milk",
+        "walnuts",
+        "parmesan"
+      ],
+      "wiki": "Ají de gallina"
+    },
+    {
+      "name": "Anticuchos",
+      "say": "an-tee-KOO-chos",
+      "what": "Street skewers of marinated beef heart grilled over charcoal.",
+      "ingredients": [
+        "beef heart",
+        "ají panca",
+        "vinegar",
+        "cumin",
+        "garlic"
+      ],
+      "wiki": "Anticucho"
+    },
+    {
+      "name": "Causa limeña",
+      "say": "KOW-sa lee-MEN-ya",
+      "what": "Chilled layers of yellow-chilli mashed potato filled with chicken or tuna.",
+      "ingredients": [
+        "yellow potatoes",
+        "ají amarillo",
+        "lime",
+        "avocado",
+        "chicken or tuna"
+      ],
+      "wiki": "Causa limeña"
+    },
+    {
+      "name": "Pisco sour",
+      "say": "PEES-ko sour",
+      "what": "Peru's national cocktail of pisco brandy, lime, sugar and frothy egg white.",
+      "ingredients": [
+        "pisco",
+        "lime",
+        "sugar syrup",
+        "egg white",
+        "Angostura bitters"
+      ],
+      "wiki": "Pisco sour"
+    }
+  ]
+}

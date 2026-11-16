@@ -1,0 +1,145 @@
+{
+  "slug": "thai",
+  "cuisine": "Thai",
+  "flag": "🇹🇭",
+  "region": "Asia",
+  "order": 12,
+  "intro": "Every dish balances sweet, sour, salty and spicy, with fresh herbs, lime and fish sauce. Bangkok street food is a world benchmark.",
+  "flavours": "Fish sauce, lime, palm sugar, chilli, lemongrass, galangal, coconut milk, Thai basil",
+  "hk": "Kowloon City is Hong Kong's 'Little Thailand', packed with Thai grocers and restaurants.",
+  "dishes": [
+    {
+      "name": "Pad thai",
+      "local": "ผัดไทย",
+      "say": "pad TIE",
+      "what": "Stir-fried rice noodles with tamarind, egg, tofu, prawns and peanuts.",
+      "ingredients": [
+        "rice noodles",
+        "prawns",
+        "tamarind",
+        "fish sauce",
+        "egg",
+        "peanuts",
+        "bean sprouts"
+      ],
+      "wiki": "Pad thai"
+    },
+    {
+      "name": "Tom yum goong",
+      "local": "ต้มยำกุ้ง",
+      "say": "tom YUM goong",
+      "what": "Hot and sour prawn soup, fragrant with lemongrass and lime leaf.",
+      "ingredients": [
+        "prawns",
+        "lemongrass",
+        "galangal",
+        "kaffir lime leaf",
+        "chilli",
+        "lime"
+      ],
+      "wiki": "Tom yum"
+    },
+    {
+      "name": "Green curry",
+      "local": "แกงเขียวหวาน",
+      "say": "gaeng KEE-ow wahn",
+      "what": "Coconut curry coloured by green chillies, often with chicken and Thai aubergine.",
+      "ingredients": [
+        "green curry paste",
+        "coconut milk",
+        "chicken",
+        "Thai aubergine",
+        "Thai basil"
+      ],
+      "wiki": "Green curry"
+    },
+    {
+      "name": "Massaman curry",
+      "local": "แกงมัสมั่น",
+      "say": "MUSS-a-mun",
+      "what": "Mild, sweet curry with Persian-influenced spices, potatoes and peanuts.",
+      "ingredients": [
+        "beef or chicken",
+        "coconut milk",
+        "potato",
+        "peanuts",
+        "cinnamon",
+        "cardamom"
+      ],
+      "wiki": "Massaman curry"
+    },
+    {
+      "name": "Som tam",
+      "local": "ส้มตำ",
+      "say": "som TUM",
+      "what": "Pounded green papaya salad from Isan: crunchy, sour, fiery.",
+      "ingredients": [
+        "green papaya",
+        "chilli",
+        "lime",
+        "fish sauce",
+        "tomato",
+        "peanuts"
+      ],
+      "wiki": "Som tam"
+    },
+    {
+      "name": "Pad kra pao",
+      "local": "ผัดกะเพรา",
+      "say": "pad ga-PROW",
+      "what": "Minced pork or chicken stir-fried with holy basil and chilli, over rice with a fried egg.",
+      "ingredients": [
+        "minced pork",
+        "holy basil",
+        "chilli",
+        "garlic",
+        "fish sauce",
+        "fried egg"
+      ],
+      "wiki": "Phat kaphrao"
+    },
+    {
+      "name": "Khao soi",
+      "local": "ข้าวซอย",
+      "say": "cow SOY",
+      "what": "Northern Thai curry noodle soup topped with crispy fried noodles.",
+      "ingredients": [
+        "egg noodles",
+        "coconut curry",
+        "chicken",
+        "pickled mustard greens",
+        "shallots"
+      ],
+      "wiki": "Khao soi"
+    },
+    {
+      "name": "Tom kha gai",
+      "local": "ต้มข่าไก่",
+      "say": "tom KAH gai",
+      "what": "Creamy coconut chicken soup scented with galangal.",
+      "ingredients": [
+        "chicken",
+        "coconut milk",
+        "galangal",
+        "lemongrass",
+        "lime leaf",
+        "mushrooms"
+      ],
+      "wiki": "Tom kha kai"
+    },
+    {
+      "name": "Mango sticky rice",
+      "local": "ข้าวเหนียวมะม่วง",
+      "say": "cow NEE-ow ma-MUANG",
+      "what": "Sweet coconut sticky rice with ripe mango slices.",
+      "ingredients": [
+        "glutinous rice",
+        "coconut milk",
+        "ripe mango",
+        "sugar",
+        "mung beans"
+      ],
+      "wiki": "Mango sticky rice"
+    }
+  ]
+}

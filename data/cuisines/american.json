@@ -1,0 +1,160 @@
+{
+  "slug": "american",
+  "cuisine": "American",
+  "flag": "🇺🇸",
+  "region": "Americas",
+  "order": 22,
+  "intro": "Big portions and regional pride: burgers, barbecue that varies state by state, Southern comfort food and diner breakfasts.",
+  "flavours": "Beef, cheese, barbecue smoke, butter, corn, maple syrup",
+  "hk": "American burger chains like Shake Shack and Five Guys and Texas-style smokehouses are popular in Hong Kong.",
+  "dishes": [
+    {
+      "name": "Cheeseburger",
+      "what": "Grilled beef patty with melted cheese in a bun; smash burgers are the current craze.",
+      "ingredients": [
+        "beef patty",
+        "cheese",
+        "bun",
+        "lettuce",
+        "tomato",
+        "pickles"
+      ],
+      "wiki": "Hamburger"
+    },
+    {
+      "name": "Hot dog",
+      "what": "Frankfurter in a soft bun with mustard, onions and relish; New York and Chicago argue over toppings.",
+      "ingredients": [
+        "frankfurter",
+        "bun",
+        "mustard",
+        "onion",
+        "relish"
+      ],
+      "wiki": "Hot dog"
+    },
+    {
+      "name": "Texas BBQ brisket",
+      "local": "Brisket",
+      "what": "Beef brisket smoked low and slow for 12+ hours until it has a black bark and pink smoke ring.",
+      "ingredients": [
+        "beef brisket",
+        "salt",
+        "black pepper",
+        "oak smoke"
+      ],
+      "wiki": "Brisket"
+    },
+    {
+      "name": "Buffalo wings",
+      "what": "Fried chicken wings tossed in vinegary hot sauce and butter, with blue cheese dip and celery.",
+      "ingredients": [
+        "chicken wings",
+        "hot sauce",
+        "butter",
+        "blue cheese dressing",
+        "celery"
+      ],
+      "wiki": "Buffalo wing"
+    },
+    {
+      "name": "Southern fried chicken",
+      "local": "Fried chicken",
+      "what": "Buttermilk-soaked chicken in a crunchy seasoned crust.",
+      "ingredients": [
+        "chicken",
+        "buttermilk",
+        "flour",
+        "paprika",
+        "cayenne"
+      ],
+      "wiki": "Fried chicken"
+    },
+    {
+      "name": "Macaroni and cheese",
+      "local": "Mac and cheese",
+      "what": "Macaroni in a rich cheddar cheese sauce.",
+      "ingredients": [
+        "macaroni",
+        "cheddar",
+        "milk",
+        "butter",
+        "breadcrumbs"
+      ],
+      "wiki": "Macaroni and cheese"
+    },
+    {
+      "name": "New England clam chowder",
+      "local": "Clam chowder",
+      "what": "Creamy soup of clams and potatoes, served with oyster crackers or in a bread bowl.",
+      "ingredients": [
+        "clams",
+        "potatoes",
+        "cream",
+        "salt pork",
+        "onion"
+      ],
+      "wiki": "New England clam chowder"
+    },
+    {
+      "name": "Lobster roll",
+      "what": "Maine classic: chunks of lobster in a buttered, toasted hot-dog bun.",
+      "ingredients": [
+        "lobster",
+        "butter or mayonnaise",
+        "split-top bun",
+        "lemon"
+      ],
+      "wiki": "Lobster roll"
+    },
+    {
+      "name": "Philly cheesesteak",
+      "local": "Cheesesteak",
+      "what": "Philadelphia's sandwich of thinly sliced griddled beef and melted cheese in a long roll.",
+      "ingredients": [
+        "ribeye",
+        "provolone or Cheez Whiz",
+        "onion",
+        "hoagie roll"
+      ],
+      "wiki": "Cheesesteak"
+    },
+    {
+      "name": "Deep-dish pizza",
+      "local": "Chicago-style pizza",
+      "what": "Chicago's tall, pie-like pizza with cheese under a chunky tomato sauce.",
+      "ingredients": [
+        "thick crust",
+        "mozzarella",
+        "sausage",
+        "tomato sauce"
+      ],
+      "wiki": "Chicago-style pizza"
+    },
+    {
+      "name": "Pancakes",
+      "what": "Thick, fluffy breakfast pancakes stacked with butter and maple syrup.",
+      "ingredients": [
+        "flour",
+        "milk",
+        "eggs",
+        "baking powder",
+        "butter",
+        "maple syrup"
+      ],
+      "wiki": "Pancake"
+    },
+    {
+      "name": "Apple pie",
+      "what": "Double-crust pie of cinnamon-spiced apples, served with vanilla ice cream ('à la mode').",
+      "ingredients": [
+        "apples",
+        "pastry",
+        "sugar",
+        "cinnamon",
+        "butter"
+      ],
+      "wiki": "Apple pie"
+    }
+  ]
+}

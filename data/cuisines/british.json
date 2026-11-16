@@ -1,0 +1,134 @@
+{
+  "slug": "british",
+  "cuisine": "British",
+  "flag": "🇬🇧",
+  "region": "Europe",
+  "order": 7,
+  "intro": "Comfort food with better ingredients than its reputation: roasts, pies, puddings and a full breakfast, plus curry as a national dish.",
+  "flavours": "Beef, potatoes, gravy, butter, malt vinegar, tea",
+  "hk": "British pubs and Sunday roasts are an expat institution in Hong Kong, from Central to Sai Kung.",
+  "dishes": [
+    {
+      "name": "Fish and chips",
+      "what": "Battered cod or haddock with thick-cut chips, salt and malt vinegar, often with mushy peas.",
+      "ingredients": [
+        "cod or haddock",
+        "batter",
+        "potatoes",
+        "malt vinegar",
+        "mushy peas"
+      ],
+      "wiki": "Fish and chips"
+    },
+    {
+      "name": "Full English breakfast",
+      "local": "Full English",
+      "what": "The big fry-up: eggs, bacon, sausage, beans, tomato, mushrooms, toast, often black pudding.",
+      "ingredients": [
+        "eggs",
+        "bacon",
+        "sausages",
+        "baked beans",
+        "mushrooms",
+        "black pudding"
+      ],
+      "wiki": "Full breakfast"
+    },
+    {
+      "name": "Sunday roast",
+      "what": "Roast beef, lamb or chicken with roast potatoes, vegetables, Yorkshire pudding and gravy.",
+      "ingredients": [
+        "roast beef",
+        "potatoes",
+        "Yorkshire pudding",
+        "vegetables",
+        "gravy"
+      ],
+      "wiki": "Sunday roast"
+    },
+    {
+      "name": "Shepherd's pie",
+      "what": "Minced lamb in gravy under a crust of mashed potato (with beef it's cottage pie).",
+      "ingredients": [
+        "minced lamb",
+        "onion",
+        "carrots",
+        "gravy",
+        "mashed potato"
+      ],
+      "wiki": "Shepherd's pie"
+    },
+    {
+      "name": "Beef Wellington",
+      "what": "Fillet steak wrapped in mushroom duxelles and puff pastry, baked until golden.",
+      "ingredients": [
+        "beef fillet",
+        "mushrooms",
+        "prosciutto",
+        "puff pastry",
+        "mustard"
+      ],
+      "wiki": "Beef Wellington"
+    },
+    {
+      "name": "Bangers and mash",
+      "what": "Sausages on mashed potato with onion gravy.",
+      "ingredients": [
+        "pork sausages",
+        "potatoes",
+        "butter",
+        "onion gravy"
+      ],
+      "wiki": "Bangers and mash"
+    },
+    {
+      "name": "Cornish pasty",
+      "what": "Crimped pastry parcel of beef and vegetables from Cornwall, made to be eaten by hand.",
+      "ingredients": [
+        "beef skirt",
+        "potato",
+        "swede",
+        "onion",
+        "pastry"
+      ],
+      "wiki": "Pasty"
+    },
+    {
+      "name": "Chicken tikka masala",
+      "what": "Grilled chicken in a creamy spiced tomato sauce, invented in British curry houses.",
+      "ingredients": [
+        "chicken",
+        "yoghurt",
+        "tomato",
+        "cream",
+        "garam masala"
+      ],
+      "wiki": "Chicken tikka masala"
+    },
+    {
+      "name": "Scones with cream tea",
+      "local": "Cream tea",
+      "what": "Scones with clotted cream and jam, with a pot of tea. Jam or cream first is a Devon-versus-Cornwall war.",
+      "ingredients": [
+        "flour",
+        "butter",
+        "milk",
+        "clotted cream",
+        "strawberry jam"
+      ],
+      "wiki": "Cream tea"
+    },
+    {
+      "name": "Sticky toffee pudding",
+      "what": "Soft date sponge soaked in hot toffee sauce, served with custard or ice cream.",
+      "ingredients": [
+        "dates",
+        "flour",
+        "brown sugar",
+        "butter",
+        "cream"
+      ],
+      "wiki": "Sticky toffee pudding"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "slug": "italian",
+  "cuisine": "Italian",
+  "flag": "🇮🇹",
+  "region": "Europe",
+  "order": 2,
+  "intro": "Regional, simple and ingredient-first: a few great ingredients treated with respect. Every region swears its version is the real one.",
+  "flavours": "Olive oil, tomato, garlic, basil, Parmigiano, pasta",
+  "hk": "Italian is one of Hong Kong's most popular cuisines, from neighbourhood pizzerias to Michelin-starred Otto e Mezzo.",
+  "dishes": [
+    {
+      "name": "Pizza Margherita",
+      "say": "mar-geh-REE-ta",
+      "what": "Neapolitan pizza in the colours of the Italian flag, with a blistered, soft crust.",
+      "ingredients": [
+        "dough",
+        "San Marzano tomato",
+        "mozzarella",
+        "basil",
+        "olive oil"
+      ],
+      "wiki": "Pizza Margherita"
+    },
+    {
+      "name": "Spaghetti carbonara",
+      "local": "Spaghetti alla carbonara",
+      "say": "car-bo-NAR-a",
+      "what": "Roman pasta coated in a silky sauce of egg, cheese and crispy pork. No cream in the real thing.",
+      "ingredients": [
+        "spaghetti",
+        "guanciale",
+        "egg yolks",
+        "pecorino romano",
+        "black pepper"
+      ],
+      "wiki": "Carbonara"
+    },
+    {
+      "name": "Cacio e pepe",
+      "say": "KAH-cho eh PEH-peh",
+      "what": "Roman pasta with just cheese and pepper, emulsified with pasta water.",
+      "ingredients": [
+        "tonnarelli or spaghetti",
+        "pecorino romano",
+        "black pepper"
+      ],
+      "wiki": "Cacio e pepe"
+    },
+    {
+      "name": "Lasagne",
+      "local": "Lasagne alla bolognese",
+      "say": "la-ZAN-yeh",
+      "what": "Layers of flat pasta, meat ragù and béchamel.",
+      "ingredients": [
+        "pasta sheets",
+        "beef ragù",
+        "béchamel",
+        "Parmigiano"
+      ],
+      "wiki": "Lasagna"
+    },
+    {
+      "name": "Risotto alla milanese",
+      "say": "ree-ZOT-oh",
+      "what": "Golden, creamy rice coloured with saffron.",
+      "ingredients": [
+        "carnaroli rice",
+        "saffron",
+        "butter",
+        "Parmigiano",
+        "stock"
+      ],
+      "wiki": "Risotto alla milanese"
+    },
+    {
+      "name": "Ossobuco",
+      "say": "oss-oh-BOO-ko",
+      "what": "Cross-cut veal shank with the marrow bone in the middle, in a wine sauce topped with gremolata.",
+      "ingredients": [
+        "veal shank",
+        "white wine",
+        "onion",
+        "carrot",
+        "celery",
+        "gremolata"
+      ],
+      "wiki": "Ossobuco"
+    },
+    {
+      "name": "Bistecca alla fiorentina",
+      "say": "bee-STECK-a fyor-en-TEE-na",
+      "what": "Huge T-bone steak from Florence, always served rare.",
+      "ingredients": [
+        "T-bone steak",
+        "salt",
+        "olive oil",
+        "rosemary"
+      ],
+      "wiki": "Bistecca alla fiorentina"
+    },
+    {
+      "name": "Arancini",
+      "say": "a-ran-CHEE-nee",
+      "what": "Sicilian deep-fried rice balls stuffed with ragù or cheese.",
+      "ingredients": [
+        "rice",
+        "ragù",
+        "mozzarella",
+        "peas",
+        "breadcrumbs"
+      ],
+      "wiki": "Arancini"
+    },
+    {
+      "name": "Pesto alla genovese",
+      "say": "PESS-toh",
+      "what": "Ligurian basil sauce pounded with pine nuts, usually tossed with trofie pasta.",
+      "ingredients": [
+        "basil",
+        "pine nuts",
+        "garlic",
+        "Parmigiano",
+        "pecorino",
+        "olive oil"
+      ],
+      "wiki": "Pesto"
+    },
+    {
+      "name": "Burrata",
+      "say": "boo-RAH-ta",
+      "what": "Ball of fresh mozzarella with a soft, creamy heart of stracciatella.",
+      "ingredients": [
+        "mozzarella",
+        "cream",
+        "stracciatella"
+      ],
+      "wiki": "Burrata"
+    },
+    {
+      "name": "Tiramisu",
+      "local": "Tiramisù",
+      "say": "tee-ra-mee-SOO",
+      "what": "Layered dessert of coffee-soaked biscuits and mascarpone cream.",
+      "ingredients": [
+        "ladyfingers",
+        "espresso",
+        "mascarpone",
+        "eggs",
+        "cocoa"
+      ],
+      "wiki": "Tiramisu"
+    },
+    {
+      "name": "Gelato",
+      "say": "jeh-LAH-toh",
+      "what": "Italian ice cream: denser, silkier and less airy than American ice cream.",
+      "ingredients": [
+        "milk",
+        "sugar",
+        "cream",
+        "flavourings"
+      ],
+      "wiki": "Gelato"
+    }
+  ]
+}

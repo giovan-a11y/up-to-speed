@@ -1,0 +1,154 @@
+{
+  "slug": "chinese",
+  "cuisine": "Chinese (regional)",
+  "flag": "🇨🇳",
+  "region": "Asia",
+  "order": 17,
+  "intro": "China's eight great regional cuisines differ as much as European ones: numbing Sichuan heat, sweet Shanghainese braises, northern dumplings and wheat noodles, and Beijing's roast duck.",
+  "flavours": "Soy sauce, Shaoxing wine, ginger, spring onion, Sichuan peppercorn, black vinegar",
+  "hk": "Hong Kong has great regional Chinese restaurants: Sichuan and Shanghainese places are everywhere, and Peking duck is a banquet staple.",
+  "dishes": [
+    {
+      "name": "Peking duck",
+      "local": "北京烤鴨",
+      "say": "Beijing kao ya",
+      "what": "Lacquered roast duck carved tableside; wrap the crisp skin in thin pancakes with spring onion, cucumber and hoisin.",
+      "ingredients": [
+        "duck",
+        "maltose glaze",
+        "thin pancakes",
+        "spring onion",
+        "cucumber",
+        "sweet bean sauce"
+      ],
+      "wiki": "Peking duck"
+    },
+    {
+      "name": "Xiaolongbao",
+      "local": "小籠包",
+      "say": "shao-long-BOW",
+      "what": "Shanghai soup dumplings: thin pleated skins holding pork and hot broth. Bite, sip, then eat.",
+      "ingredients": [
+        "flour",
+        "minced pork",
+        "pork aspic",
+        "ginger",
+        "black vinegar"
+      ],
+      "wiki": "Xiaolongbao"
+    },
+    {
+      "name": "Mapo tofu",
+      "local": "麻婆豆腐",
+      "say": "MAH-po",
+      "what": "Sichuan silken tofu in a fiery, numbing sauce of chilli bean paste and minced beef.",
+      "ingredients": [
+        "tofu",
+        "doubanjiang",
+        "minced beef",
+        "Sichuan peppercorn",
+        "chilli oil"
+      ],
+      "wiki": "Mapo tofu"
+    },
+    {
+      "name": "Kung Pao chicken",
+      "local": "宮保雞丁",
+      "say": "gong-BAO",
+      "what": "Diced chicken stir-fried with dried chillies, Sichuan pepper and peanuts.",
+      "ingredients": [
+        "chicken",
+        "dried chillies",
+        "peanuts",
+        "Sichuan peppercorn",
+        "black vinegar"
+      ],
+      "wiki": "Kung Pao chicken"
+    },
+    {
+      "name": "Dan dan noodles",
+      "local": "擔擔麵",
+      "say": "DAN-dan",
+      "what": "Sichuan noodles with chilli oil, sesame paste and crispy minced pork.",
+      "ingredients": [
+        "wheat noodles",
+        "chilli oil",
+        "sesame paste",
+        "minced pork",
+        "preserved vegetables"
+      ],
+      "wiki": "Dandan noodles"
+    },
+    {
+      "name": "Hot pot",
+      "local": "火鍋",
+      "say": "huo guo",
+      "what": "Simmering pot of broth at the table where everyone cooks their own meat, seafood and vegetables. Chongqing's is ferociously spicy.",
+      "ingredients": [
+        "broth",
+        "sliced beef and lamb",
+        "seafood",
+        "tofu",
+        "vegetables",
+        "dipping sauces"
+      ],
+      "wiki": "Hot pot"
+    },
+    {
+      "name": "Jiaozi",
+      "local": "餃子",
+      "say": "JOW-dzuh",
+      "what": "Northern Chinese boiled or pan-fried dumplings, essential at Lunar New Year.",
+      "ingredients": [
+        "flour",
+        "minced pork",
+        "cabbage",
+        "chives",
+        "ginger"
+      ],
+      "wiki": "Jiaozi"
+    },
+    {
+      "name": "Sweet and sour pork",
+      "local": "咕嚕肉",
+      "what": "Crispy fried pork in a glossy sweet-sour sauce with pineapple and peppers.",
+      "ingredients": [
+        "pork",
+        "pineapple",
+        "peppers",
+        "vinegar",
+        "sugar",
+        "ketchup"
+      ],
+      "wiki": "Sweet and sour pork"
+    },
+    {
+      "name": "Lanzhou beef noodles",
+      "local": "蘭州牛肉麵",
+      "what": "Hand-pulled noodles in clear beef broth with radish, chilli oil and coriander.",
+      "ingredients": [
+        "hand-pulled noodles",
+        "beef broth",
+        "beef",
+        "daikon",
+        "chilli oil",
+        "coriander"
+      ],
+      "wiki": "Lanzhou beef noodle soup"
+    },
+    {
+      "name": "Dongpo pork",
+      "local": "東坡肉",
+      "say": "dong-po rou",
+      "what": "Hangzhou's glossy, melt-in-the-mouth cubes of soy-braised pork belly.",
+      "ingredients": [
+        "pork belly",
+        "Shaoxing wine",
+        "soy sauce",
+        "rock sugar",
+        "ginger"
+      ],
+      "wiki": "Dongpo pork"
+    }
+  ]
+}

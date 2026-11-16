@@ -1,0 +1,121 @@
+{
+  "slug": "filipino",
+  "cuisine": "Filipino",
+  "flag": "🇵🇭",
+  "region": "Asia",
+  "order": 16,
+  "intro": "Sour, salty and sweet home cooking shaped by Malay, Spanish, Chinese and American influences: vinegar braises, roast pork and big rice plates.",
+  "flavours": "Vinegar, soy sauce, garlic, calamansi, bay leaf, coconut",
+  "hk": "On Sundays, World-Wide House in Central is the hub of Hong Kong's Filipino community, with shops and Filipino food.",
+  "dishes": [
+    {
+      "name": "Chicken adobo",
+      "local": "Adobong manok",
+      "say": "a-DOH-bo",
+      "what": "The unofficial national dish: chicken or pork braised in vinegar, soy, garlic and bay leaves.",
+      "ingredients": [
+        "chicken or pork",
+        "vinegar",
+        "soy sauce",
+        "garlic",
+        "bay leaves",
+        "peppercorns"
+      ],
+      "wiki": "Philippine adobo"
+    },
+    {
+      "name": "Sinigang",
+      "say": "si-NEE-gang",
+      "what": "Sour tamarind soup with pork or prawns and vegetables.",
+      "ingredients": [
+        "pork or prawns",
+        "tamarind",
+        "tomato",
+        "kangkong",
+        "radish",
+        "long beans"
+      ],
+      "wiki": "Sinigang"
+    },
+    {
+      "name": "Lechon",
+      "say": "leh-CHON",
+      "what": "Whole roast pig with glassy crackling skin, the centrepiece of every fiesta.",
+      "ingredients": [
+        "whole pig",
+        "lemongrass",
+        "garlic",
+        "salt",
+        "liver sauce"
+      ],
+      "wiki": "Lechon"
+    },
+    {
+      "name": "Sisig",
+      "say": "SEE-sig",
+      "what": "Chopped pig's face and ears, crisped and served sizzling with chilli, onion and calamansi.",
+      "ingredients": [
+        "pork cheek and ears",
+        "onion",
+        "chilli",
+        "calamansi",
+        "egg"
+      ],
+      "wiki": "Sisig"
+    },
+    {
+      "name": "Pancit canton",
+      "say": "PAN-sit",
+      "what": "Stir-fried egg noodles with vegetables and meat; noodles mean long life at birthdays.",
+      "ingredients": [
+        "egg noodles",
+        "chicken or pork",
+        "cabbage",
+        "carrots",
+        "soy sauce"
+      ],
+      "wiki": "Pancit"
+    },
+    {
+      "name": "Lumpia",
+      "local": "Lumpiang Shanghai",
+      "say": "LOOM-pee-a",
+      "what": "Thin, crisp fried spring rolls filled with minced pork.",
+      "ingredients": [
+        "spring roll wrapper",
+        "minced pork",
+        "carrot",
+        "onion",
+        "sweet chilli sauce"
+      ],
+      "wiki": "Lumpia"
+    },
+    {
+      "name": "Kare-kare",
+      "say": "KAH-reh KAH-reh",
+      "what": "Oxtail stew in thick peanut sauce, served with salty shrimp paste.",
+      "ingredients": [
+        "oxtail",
+        "peanut sauce",
+        "aubergine",
+        "pak choi",
+        "bagoong (shrimp paste)"
+      ],
+      "wiki": "Kare-kare"
+    },
+    {
+      "name": "Halo-halo",
+      "say": "HA-lo HA-lo",
+      "what": "'Mix-mix': shaved ice layered with sweet beans, fruit, leche flan and purple ube ice cream.",
+      "ingredients": [
+        "shaved ice",
+        "evaporated milk",
+        "sweet beans",
+        "jackfruit",
+        "leche flan",
+        "ube"
+      ],
+      "wiki": "Halo-halo"
+    }
+  ]
+}

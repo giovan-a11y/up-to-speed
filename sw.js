@@ -1,7 +1,7 @@
 // Offline support: the app shell and all topic content are cached on install.
 // Pages and data are fetched fresh when online (so weekly updates arrive) and
 // served from the cache when offline.
-const VERSION = "5b3d1be3915d";
+const VERSION = "62c16bd2a023";
 const CACHE = "uts-" + VERSION;
 const SHELL = ["./", "index.html", "data/bundle.json", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "icons/maskable-512.png"];
 
@@ -33,7 +33,11 @@ self.addEventListener("fetch", (e) => {
     e.respondWith(caches.open("uts-img").then(async (c) => {
       const hit = await c.match(req, { ignoreVary: true }) || await c.match(req.url, { ignoreVary: true });
       if (hit) return hit;
-      try { const res = await fetch(req); if (res.ok || res.type === "opaque") c.put(req.url, res.clone()); return res; }
+      // Fetch with CORS (Wikimedia allows it) so the cache stores the real image size;
+      // opaque no-cors responses are counted as several MB each against storage quota.
+      try { const res = await fetch(req.url, { mode: "cors", credentials: "omit" }); if (res.ok) c.put(req.url, res.clone()); return res; }
+      catch {}
+      try { return await fetch(req); }
       catch { return new Response("", { status: 504 }); }
     }));
     return;

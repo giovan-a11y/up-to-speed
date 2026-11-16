@@ -1,0 +1,167 @@
+{
+  "slug": "cantonese",
+  "cuisine": "Cantonese & Hong Kong",
+  "flag": "🇭🇰",
+  "region": "Asia",
+  "order": 18,
+  "intro": "Hong Kong's home cuisine prizes freshness and 'wok hei': yum cha, roast meats, wonton noodles and the cha chaan teng's East-meets-West comfort food.",
+  "flavours": "Soy sauce, oyster sauce, ginger, spring onion, dried seafood, char siu glaze",
+  "hk": "You live with this one: the useful skill is explaining it to visitors and naming dishes in English at yum cha.",
+  "dishes": [
+    {
+      "name": "Har gow",
+      "local": "蝦餃",
+      "say": "ha GOW",
+      "what": "Translucent shrimp dumplings with at least seven pleats, the test of a dim sum chef.",
+      "ingredients": [
+        "prawns",
+        "wheat starch",
+        "tapioca starch",
+        "bamboo shoot"
+      ],
+      "wiki": "Har gow"
+    },
+    {
+      "name": "Siu mai",
+      "local": "燒賣",
+      "say": "siu MAI",
+      "what": "Open-topped pork and prawn dumplings, often topped with crab roe or carrot.",
+      "ingredients": [
+        "minced pork",
+        "prawns",
+        "mushroom",
+        "wonton wrapper"
+      ],
+      "wiki": "Shumai"
+    },
+    {
+      "name": "Char siu bao",
+      "local": "叉燒包",
+      "say": "cha siu BAO",
+      "what": "Fluffy steamed buns bursting open around sweet barbecued pork.",
+      "ingredients": [
+        "flour",
+        "yeast",
+        "char siu pork",
+        "oyster sauce"
+      ],
+      "wiki": "Char siu bao"
+    },
+    {
+      "name": "Cheung fun",
+      "local": "腸粉",
+      "say": "cheung FUN",
+      "what": "Silky steamed rice-sheet rolls with prawns, beef or char siu, in sweet soy.",
+      "ingredients": [
+        "rice flour",
+        "prawns or beef",
+        "sweet soy sauce"
+      ],
+      "wiki": "Rice noodle roll"
+    },
+    {
+      "name": "Char siu",
+      "local": "叉燒",
+      "say": "cha SIU",
+      "what": "Sticky-sweet barbecued pork with red edges, hung in roast-meat shop windows.",
+      "ingredients": [
+        "pork shoulder",
+        "honey or maltose",
+        "hoisin",
+        "five-spice",
+        "soy"
+      ],
+      "wiki": "Char siu"
+    },
+    {
+      "name": "Roast goose",
+      "local": "燒鵝",
+      "say": "siu NGO",
+      "what": "Crisp-skinned roast goose with plum sauce; Yat Lok and Kam's made it famous.",
+      "ingredients": [
+        "goose",
+        "five-spice",
+        "maltose",
+        "plum sauce"
+      ],
+      "wiki": "Roast goose"
+    },
+    {
+      "name": "Wonton noodles",
+      "local": "雲吞麵",
+      "say": "wan tan MIN",
+      "what": "Springy egg noodles and shrimp wontons in a shrimp-roe broth, served small.",
+      "ingredients": [
+        "egg noodles",
+        "shrimp wontons",
+        "broth",
+        "chives"
+      ],
+      "wiki": "Wonton noodles"
+    },
+    {
+      "name": "Claypot rice",
+      "local": "煲仔飯",
+      "say": "bo jai FAN",
+      "what": "Rice cooked in a clay pot over fire with Chinese sausage or chicken; scrape up the crispy bottom.",
+      "ingredients": [
+        "rice",
+        "lap cheong",
+        "chicken",
+        "soy sauce",
+        "spring onion"
+      ],
+      "wiki": "Claypot rice"
+    },
+    {
+      "name": "Egg tart",
+      "local": "蛋撻",
+      "say": "dan TART",
+      "what": "Cha chaan teng custard tart with shortcrust or flaky pastry; Tai Cheong's are famous.",
+      "ingredients": [
+        "pastry",
+        "eggs",
+        "sugar",
+        "evaporated milk"
+      ],
+      "wiki": "Egg tart"
+    },
+    {
+      "name": "Pineapple bun",
+      "local": "菠蘿包",
+      "say": "bo lo BAO",
+      "what": "Sweet bun with a crackly sugary top (no pineapple); with a slab of butter it's bo lo yau.",
+      "ingredients": [
+        "bun dough",
+        "sugar crust",
+        "butter"
+      ],
+      "wiki": "Pineapple bun"
+    },
+    {
+      "name": "Hong Kong milk tea",
+      "local": "港式奶茶",
+      "say": "nai CHA",
+      "what": "Strong black tea strained through a 'silk stocking' and mixed with evaporated milk.",
+      "ingredients": [
+        "black tea blend",
+        "evaporated milk",
+        "sugar"
+      ],
+      "wiki": "Hong Kong-style milk tea"
+    },
+    {
+      "name": "Egg waffle",
+      "local": "雞蛋仔",
+      "say": "gai daan JAI",
+      "what": "Bubble-shaped street waffle, crisp outside and chewy inside.",
+      "ingredients": [
+        "eggs",
+        "flour",
+        "sugar",
+        "evaporated milk"
+      ],
+      "wiki": "Egg waffle"
+    }
+  ]
+}
