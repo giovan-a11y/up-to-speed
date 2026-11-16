@@ -1,0 +1,121 @@
+{
+  "slug": "indonesian",
+  "cuisine": "Indonesian",
+  "flag": "🇮🇩",
+  "region": "Asia",
+  "order": 15,
+  "intro": "Thousands of islands of bold, spicy, sweet-soy cooking: rendang, satay, fried rice and sambal with everything.",
+  "flavours": "Sambal, kecap manis (sweet soy), coconut, shallots, galangal, turmeric",
+  "hk": "Causeway Bay's Indonesian shops and stalls near Victoria Park come alive on Sundays.",
+  "dishes": [
+    {
+      "name": "Nasi goreng",
+      "say": "NAH-see GOR-eng",
+      "what": "Fried rice seasoned with sweet soy and shrimp paste, topped with a fried egg and prawn crackers.",
+      "ingredients": [
+        "rice",
+        "kecap manis",
+        "shrimp paste",
+        "shallots",
+        "chilli",
+        "fried egg"
+      ],
+      "wiki": "Nasi goreng"
+    },
+    {
+      "name": "Rendang",
+      "say": "REN-dahng",
+      "what": "Dark, dry, intensely spiced beef in reduced coconut milk; from West Sumatra.",
+      "ingredients": [
+        "beef",
+        "coconut milk",
+        "chilli",
+        "lemongrass",
+        "galangal",
+        "turmeric leaf"
+      ],
+      "wiki": "Rendang"
+    },
+    {
+      "name": "Sate ayam",
+      "say": "SAH-tay AH-yam",
+      "what": "Chicken skewers grilled over charcoal with sweet peanut sauce and kecap manis.",
+      "ingredients": [
+        "chicken",
+        "kecap manis",
+        "peanut sauce",
+        "shallots",
+        "lime"
+      ],
+      "wiki": "Satay"
+    },
+    {
+      "name": "Gado-gado",
+      "say": "GAH-doh GAH-doh",
+      "what": "Salad of blanched vegetables, tofu, tempeh and egg under peanut sauce.",
+      "ingredients": [
+        "vegetables",
+        "tofu",
+        "tempeh",
+        "egg",
+        "peanut sauce",
+        "prawn crackers"
+      ],
+      "wiki": "Gado-gado"
+    },
+    {
+      "name": "Bakso",
+      "say": "BAHK-so",
+      "what": "Bouncy beef meatballs in a clear broth with noodles.",
+      "ingredients": [
+        "beef meatballs",
+        "broth",
+        "noodles",
+        "fried shallots",
+        "chilli"
+      ],
+      "wiki": "Bakso"
+    },
+    {
+      "name": "Soto ayam",
+      "say": "SO-to AH-yam",
+      "what": "Turmeric-yellow chicken soup with vermicelli, egg and lime.",
+      "ingredients": [
+        "chicken",
+        "turmeric",
+        "lemongrass",
+        "vermicelli",
+        "egg",
+        "lime"
+      ],
+      "wiki": "Soto ayam"
+    },
+    {
+      "name": "Babi guling",
+      "say": "BAH-bee GOO-ling",
+      "what": "Balinese spit-roasted suckling pig stuffed with spice paste.",
+      "ingredients": [
+        "suckling pig",
+        "turmeric",
+        "chilli",
+        "garlic",
+        "lemongrass"
+      ],
+      "wiki": "Babi guling"
+    },
+    {
+      "name": "Martabak manis",
+      "say": "mar-TAH-bak MAH-nis",
+      "what": "Thick, sweet folded pancake filled with chocolate, cheese and peanuts.",
+      "ingredients": [
+        "batter",
+        "butter",
+        "chocolate sprinkles",
+        "cheese",
+        "peanuts",
+        "condensed milk"
+      ],
+      "wiki": "Martabak"
+    }
+  ]
+}

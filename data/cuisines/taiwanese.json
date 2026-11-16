@@ -1,0 +1,116 @@
+{
+  "slug": "taiwanese",
+  "cuisine": "Taiwanese",
+  "flag": "🇹🇼",
+  "region": "Asia",
+  "order": 19,
+  "intro": "Night-market food culture: braised beef noodles, pork rice bowls, fried chicken and the drink that conquered the world, bubble tea.",
+  "flavours": "Soy sauce, rice wine, five-spice, basil, fried shallots, sesame oil",
+  "dishes": [
+    {
+      "name": "Beef noodle soup",
+      "local": "牛肉麵",
+      "say": "niu rou mian",
+      "what": "Taiwan's national dish: chewy noodles and beef shank in a rich, spiced red broth.",
+      "ingredients": [
+        "wheat noodles",
+        "beef shank",
+        "chilli bean paste",
+        "star anise",
+        "pickled mustard greens"
+      ],
+      "wiki": "Beef noodle soup"
+    },
+    {
+      "name": "Lu rou fan",
+      "local": "滷肉飯",
+      "say": "loo-roh FAN",
+      "what": "Soy and five-spice minced pork belly spooned over rice.",
+      "ingredients": [
+        "pork belly",
+        "soy sauce",
+        "fried shallots",
+        "five-spice",
+        "rice"
+      ],
+      "wiki": "Lu rou fan"
+    },
+    {
+      "name": "Bubble tea",
+      "local": "珍珠奶茶",
+      "say": "zhen zhu nai cha",
+      "what": "Milk tea with chewy tapioca pearls, invented in Taiwan in the 1980s.",
+      "ingredients": [
+        "black tea",
+        "milk",
+        "tapioca pearls",
+        "brown sugar"
+      ],
+      "wiki": "Bubble tea"
+    },
+    {
+      "name": "Gua bao",
+      "local": "割包",
+      "say": "gwa BOW",
+      "what": "Folded steamed bun stuffed with braised pork belly, pickled greens, peanut powder and coriander.",
+      "ingredients": [
+        "steamed bun",
+        "pork belly",
+        "pickled mustard greens",
+        "peanut powder",
+        "coriander"
+      ],
+      "wiki": "Gua bao"
+    },
+    {
+      "name": "Stinky tofu",
+      "local": "臭豆腐",
+      "what": "Fermented tofu, deep-fried or stewed: smells strong, tastes mild. Also a Hong Kong street snack.",
+      "ingredients": [
+        "fermented tofu",
+        "pickled cabbage",
+        "chilli sauce"
+      ],
+      "wiki": "Stinky tofu"
+    },
+    {
+      "name": "Oyster omelette",
+      "local": "蚵仔煎",
+      "say": "o-a-JIEN",
+      "what": "Night-market omelette of oysters and eggs set in chewy starch, with sweet red sauce.",
+      "ingredients": [
+        "oysters",
+        "eggs",
+        "sweet potato starch",
+        "greens",
+        "sweet chilli sauce"
+      ],
+      "wiki": "Oyster omelette"
+    },
+    {
+      "name": "Popcorn chicken",
+      "local": "鹹酥雞",
+      "what": "Bite-size fried chicken with basil, salt, pepper and five-spice; giant 'XXL' chicken cutlets are its cousin.",
+      "ingredients": [
+        "chicken",
+        "sweet potato starch",
+        "basil",
+        "white pepper",
+        "five-spice"
+      ],
+      "wiki": "Taiwanese fried chicken"
+    },
+    {
+      "name": "Pineapple cake",
+      "local": "鳳梨酥",
+      "what": "Buttery shortbread pastry filled with pineapple jam; the classic Taiwan souvenir.",
+      "ingredients": [
+        "butter",
+        "flour",
+        "eggs",
+        "pineapple jam"
+      ],
+      "wiki": "Pineapple cake"
+    }
+  ]
+}

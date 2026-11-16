@@ -1,0 +1,99 @@
+{
+  "slug": "brazilian",
+  "cuisine": "Brazilian",
+  "flag": "🇧🇷",
+  "region": "Americas",
+  "order": 25,
+  "intro": "A melting pot of Portuguese, African and Indigenous cooking, famous for its churrasco barbecue, black bean stews and snacks.",
+  "flavours": "Black beans, cassava (manioc), coconut, palm oil, lime, cachaça",
+  "hk": "Brazilian churrascarias in Hong Kong serve all-you-can-eat skewers carved at the table.",
+  "dishes": [
+    {
+      "name": "Feijoada",
+      "say": "fay-ZHWAH-da",
+      "what": "Black bean stew with assorted pork and sausage, served with rice, farofa, kale and orange.",
+      "ingredients": [
+        "black beans",
+        "pork",
+        "sausage",
+        "rice",
+        "farofa",
+        "collard greens"
+      ],
+      "wiki": "Feijoada"
+    },
+    {
+      "name": "Picanha",
+      "say": "pee-KAHN-ya",
+      "what": "The prized cap of the rump with its fat layer, grilled on skewers at a churrascaria.",
+      "ingredients": [
+        "beef rump cap",
+        "coarse salt"
+      ],
+      "wiki": "Picanha"
+    },
+    {
+      "name": "Pão de queijo",
+      "say": "pow deh KAY-zho",
+      "what": "Chewy, cheesy little bread rolls made with cassava flour; naturally gluten-free.",
+      "ingredients": [
+        "tapioca flour",
+        "cheese",
+        "eggs",
+        "milk"
+      ],
+      "wiki": "Pão de queijo"
+    },
+    {
+      "name": "Moqueca",
+      "say": "mo-KEH-ka",
+      "what": "Bahian fish stew in coconut milk and red palm oil.",
+      "ingredients": [
+        "fish",
+        "coconut milk",
+        "dendê palm oil",
+        "peppers",
+        "tomato",
+        "coriander"
+      ],
+      "wiki": "Moqueca"
+    },
+    {
+      "name": "Coxinha",
+      "say": "ko-SHEEN-ya",
+      "what": "Teardrop-shaped fried croquettes of shredded chicken and cream cheese.",
+      "ingredients": [
+        "chicken",
+        "dough",
+        "catupiry cheese",
+        "breadcrumbs"
+      ],
+      "wiki": "Coxinha"
+    },
+    {
+      "name": "Brigadeiro",
+      "say": "bree-ga-DAY-ro",
+      "what": "Fudgy chocolate truffles rolled in sprinkles, a must at every birthday.",
+      "ingredients": [
+        "condensed milk",
+        "cocoa",
+        "butter",
+        "chocolate sprinkles"
+      ],
+      "wiki": "Brigadeiro"
+    },
+    {
+      "name": "Açaí bowl",
+      "local": "Açaí na tigela",
+      "say": "ah-sah-EE",
+      "what": "Frozen açaí berry purée topped with granola and banana.",
+      "ingredients": [
+        "açaí",
+        "banana",
+        "granola",
+        "honey"
+      ],
+      "wiki": "Açaí na tigela"
+    }
+  ]
+}

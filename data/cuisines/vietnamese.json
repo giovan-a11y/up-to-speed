@@ -1,0 +1,133 @@
+{
+  "slug": "vietnamese",
+  "cuisine": "Vietnamese",
+  "flag": "🇻🇳",
+  "region": "Asia",
+  "order": 13,
+  "intro": "Fresh, light and herb-heavy: aromatic broths, rice noodles, plates of herbs and dipping sauce, with a French-bread legacy.",
+  "flavours": "Fish sauce (nước mắm), rice noodles, mint, coriander, lime, star anise",
+  "dishes": [
+    {
+      "name": "Phở",
+      "local": "Phở bò",
+      "say": "FUH (not 'foe')",
+      "what": "Rice noodle soup in a clear beef broth spiced with star anise and cinnamon, with herbs and lime on the side.",
+      "ingredients": [
+        "rice noodles",
+        "beef",
+        "beef bone broth",
+        "star anise",
+        "onion",
+        "herbs"
+      ],
+      "wiki": "Pho"
+    },
+    {
+      "name": "Bánh mì",
+      "say": "bun MEE",
+      "what": "Crackly baguette stuffed with pâté, cold cuts, pickled vegetables, chilli and coriander.",
+      "ingredients": [
+        "baguette",
+        "pork",
+        "pâté",
+        "pickled carrot and daikon",
+        "coriander",
+        "chilli"
+      ],
+      "wiki": "Bánh mì"
+    },
+    {
+      "name": "Bún chả",
+      "say": "boon CHAH",
+      "what": "Hanoi's grilled pork patties in a sweet-sour dipping broth with rice vermicelli and herbs.",
+      "ingredients": [
+        "grilled pork",
+        "rice vermicelli",
+        "fish sauce",
+        "herbs",
+        "pickled papaya"
+      ],
+      "wiki": "Bún chả"
+    },
+    {
+      "name": "Gỏi cuốn",
+      "say": "goy KOON",
+      "what": "Fresh summer rolls of rice paper wrapped around prawns, pork, noodles and herbs.",
+      "ingredients": [
+        "rice paper",
+        "prawns",
+        "pork",
+        "vermicelli",
+        "lettuce",
+        "peanut sauce"
+      ],
+      "wiki": "Gỏi cuốn"
+    },
+    {
+      "name": "Chả giò",
+      "local": "Chả giò / Nem rán",
+      "say": "cha YAW",
+      "what": "Crispy fried spring rolls filled with pork, mushroom and glass noodles.",
+      "ingredients": [
+        "rice paper",
+        "minced pork",
+        "wood-ear mushroom",
+        "glass noodles",
+        "carrot"
+      ],
+      "wiki": "Chả giò"
+    },
+    {
+      "name": "Bún bò Huế",
+      "say": "boon baw HWAY",
+      "what": "Spicy lemongrass beef noodle soup from the old imperial city of Huế.",
+      "ingredients": [
+        "thick rice noodles",
+        "beef shank",
+        "pork",
+        "lemongrass",
+        "shrimp paste",
+        "chilli"
+      ],
+      "wiki": "Bún bò Huế"
+    },
+    {
+      "name": "Cơm tấm",
+      "say": "gum TUM",
+      "what": "Saigon 'broken rice' with a grilled pork chop, egg meatloaf and fish sauce.",
+      "ingredients": [
+        "broken rice",
+        "grilled pork chop",
+        "egg",
+        "pickles",
+        "fish sauce"
+      ],
+      "wiki": "Cơm tấm"
+    },
+    {
+      "name": "Bánh xèo",
+      "say": "bun SAY-oh",
+      "what": "Crispy turmeric-coconut crêpe filled with prawns, pork and bean sprouts; wrap in lettuce to eat.",
+      "ingredients": [
+        "rice flour",
+        "turmeric",
+        "coconut milk",
+        "prawns",
+        "pork",
+        "bean sprouts"
+      ],
+      "wiki": "Bánh xèo"
+    },
+    {
+      "name": "Cà phê sữa đá",
+      "say": "ca FAY soo-a DAH",
+      "what": "Strong dripped coffee over condensed milk and ice.",
+      "ingredients": [
+        "dark-roast coffee",
+        "sweetened condensed milk",
+        "ice"
+      ],
+      "wiki": "Vietnamese iced coffee"
+    }
+  ]
+}

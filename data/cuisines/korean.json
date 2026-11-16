@@ -1,0 +1,185 @@
+{
+  "slug": "korean",
+  "cuisine": "Korean",
+  "flag": "🇰🇷",
+  "region": "Asia",
+  "order": 21,
+  "intro": "Bold, fermented and spicy, eaten with a table full of free banchan side dishes. K-dramas made Korean BBQ and fried chicken global.",
+  "flavours": "Gochujang, gochugaru (chilli flakes), doenjang, garlic, sesame oil, kimchi",
+  "hk": "Kimberley Street in Tsim Sha Tsui is Hong Kong's 'Koreatown', full of BBQ, fried chicken and Korean grocers.",
+  "dishes": [
+    {
+      "name": "Kimchi",
+      "local": "김치",
+      "say": "KIM-chee",
+      "what": "Fermented napa cabbage with chilli, garlic and fish sauce; served with every meal.",
+      "ingredients": [
+        "napa cabbage",
+        "gochugaru",
+        "garlic",
+        "ginger",
+        "fish sauce",
+        "spring onion"
+      ],
+      "wiki": "Kimchi"
+    },
+    {
+      "name": "Bibimbap",
+      "local": "비빔밥",
+      "say": "bee-bim-BAP",
+      "what": "Rice bowl with vegetables, beef and a fried egg; mix it all with gochujang. Dolsot version comes sizzling in a stone pot.",
+      "ingredients": [
+        "rice",
+        "seasoned vegetables",
+        "beef",
+        "egg",
+        "gochujang",
+        "sesame oil"
+      ],
+      "wiki": "Bibimbap"
+    },
+    {
+      "name": "Bulgogi",
+      "local": "불고기",
+      "say": "bul-GO-gee",
+      "what": "'Fire meat': thin slices of sweet soy-marinated beef, grilled or pan-fried.",
+      "ingredients": [
+        "beef",
+        "soy sauce",
+        "pear",
+        "garlic",
+        "sesame oil",
+        "sugar"
+      ],
+      "wiki": "Bulgogi"
+    },
+    {
+      "name": "Samgyeopsal",
+      "local": "삼겹살",
+      "say": "sam-gyup-SAL",
+      "what": "Thick pork belly strips grilled at the table, wrapped in lettuce with garlic and ssamjang.",
+      "ingredients": [
+        "pork belly",
+        "lettuce",
+        "garlic",
+        "ssamjang",
+        "kimchi"
+      ],
+      "wiki": "Samgyeopsal"
+    },
+    {
+      "name": "Tteokbokki",
+      "local": "떡볶이",
+      "say": "dduk-BOH-kee",
+      "what": "Chewy rice cakes in a sweet, spicy red gochujang sauce, with fish cakes.",
+      "ingredients": [
+        "rice cakes",
+        "gochujang",
+        "fish cakes",
+        "spring onion",
+        "boiled egg"
+      ],
+      "wiki": "Tteokbokki"
+    },
+    {
+      "name": "Japchae",
+      "local": "잡채",
+      "say": "JAP-cheh",
+      "what": "Glass noodles stir-fried with vegetables, beef and sesame oil.",
+      "ingredients": [
+        "sweet potato noodles",
+        "spinach",
+        "carrot",
+        "mushrooms",
+        "beef",
+        "sesame oil"
+      ],
+      "wiki": "Japchae"
+    },
+    {
+      "name": "Kimchi jjigae",
+      "local": "김치찌개",
+      "say": "KIM-chee JJEE-geh",
+      "what": "Spicy stew of aged kimchi, pork and tofu.",
+      "ingredients": [
+        "aged kimchi",
+        "pork",
+        "tofu",
+        "gochugaru",
+        "spring onion"
+      ],
+      "wiki": "Kimchi-jjigae"
+    },
+    {
+      "name": "Sundubu-jjigae",
+      "local": "순두부찌개",
+      "say": "soon-doo-boo JJEE-geh",
+      "what": "Spicy soft tofu stew served boiling, with a raw egg cracked in.",
+      "ingredients": [
+        "silken tofu",
+        "seafood or pork",
+        "gochugaru",
+        "egg"
+      ],
+      "wiki": "Sundubu-jjigae"
+    },
+    {
+      "name": "Korean fried chicken",
+      "local": "치킨 (chikin)",
+      "what": "Double-fried, ultra-crunchy chicken, plain or glazed in sweet-spicy yangnyeom sauce; best with beer ('chimaek').",
+      "ingredients": [
+        "chicken",
+        "potato starch",
+        "gochujang glaze",
+        "garlic",
+        "pickled radish"
+      ],
+      "wiki": "Korean fried chicken"
+    },
+    {
+      "name": "Naengmyeon",
+      "local": "냉면",
+      "say": "NENG-myun",
+      "what": "Chewy buckwheat noodles in an icy, tangy beef broth, a summer favourite.",
+      "ingredients": [
+        "buckwheat noodles",
+        "cold beef broth",
+        "pear",
+        "cucumber",
+        "egg",
+        "mustard"
+      ],
+      "wiki": "Naengmyeon"
+    },
+    {
+      "name": "Samgyetang",
+      "local": "삼계탕",
+      "say": "sam-gyeh-TANG",
+      "what": "Whole young chicken stuffed with sticky rice and ginseng, eaten on the hottest days.",
+      "ingredients": [
+        "spring chicken",
+        "ginseng",
+        "glutinous rice",
+        "jujubes",
+        "garlic"
+      ],
+      "wiki": "Samgye-tang"
+    },
+    {
+      "name": "Gimbap",
+      "local": "김밥",
+      "say": "GIM-bap",
+      "what": "Seaweed rice rolls with sesame oil and fillings like egg, pickled radish and spinach.",
+      "ingredients": [
+        "rice",
+        "gim (seaweed)",
+        "egg",
+        "danmuji",
+        "spinach",
+        "carrot",
+        "sesame oil"
+      ],
+      "wiki": "Gimbap"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "slug": "turkish",
+  "cuisine": "Turkish",
+  "flag": "🇹🇷",
+  "region": "Middle East & Africa",
+  "order": 8,
+  "intro": "The Ottoman kitchen bridging Europe and Asia: kebabs, flatbreads, yoghurt, spiced lamb and syrupy pastries.",
+  "flavours": "Lamb, yoghurt, sumac, pul biber (chilli flakes), mint, pistachio",
+  "dishes": [
+    {
+      "name": "Döner kebab",
+      "local": "Döner kebap",
+      "say": "DUR-ner",
+      "what": "Seasoned meat roasted on a vertical spit, shaved into bread or onto rice.",
+      "ingredients": [
+        "lamb or chicken",
+        "flatbread",
+        "onion",
+        "tomato",
+        "yoghurt sauce"
+      ],
+      "wiki": "Doner kebab"
+    },
+    {
+      "name": "İskender kebap",
+      "say": "iss-KEN-der",
+      "what": "Bursa speciality: döner slices over bread with tomato sauce, yoghurt and sizzling butter.",
+      "ingredients": [
+        "lamb döner",
+        "pide bread",
+        "tomato sauce",
+        "yoghurt",
+        "butter"
+      ],
+      "wiki": "İskender kebap"
+    },
+    {
+      "name": "Adana kebab",
+      "local": "Adana kebap",
+      "say": "ah-DAH-na",
+      "what": "Long hand-minced lamb kebab with chilli, grilled on a wide flat skewer.",
+      "ingredients": [
+        "minced lamb",
+        "tail fat",
+        "red pepper",
+        "onion",
+        "flatbread"
+      ],
+      "wiki": "Adana kebabı"
+    },
+    {
+      "name": "Lahmacun",
+      "say": "LAH-ma-joon",
+      "what": "Very thin, crisp flatbread topped with spiced minced meat; roll it up with parsley and lemon.",
+      "ingredients": [
+        "flatbread",
+        "minced lamb",
+        "tomato",
+        "pepper",
+        "parsley",
+        "lemon"
+      ],
+      "wiki": "Lahmacun"
+    },
+    {
+      "name": "Pide",
+      "say": "PEE-deh",
+      "what": "Boat-shaped flatbread with fillings like cheese, egg or meat.",
+      "ingredients": [
+        "dough",
+        "cheese",
+        "egg",
+        "minced meat",
+        "sucuk"
+      ],
+      "wiki": "Pide"
+    },
+    {
+      "name": "Mantı",
+      "say": "man-TUH",
+      "what": "Tiny meat dumplings under garlic yoghurt and chilli butter.",
+      "ingredients": [
+        "dough",
+        "minced beef",
+        "garlic yoghurt",
+        "chilli butter",
+        "mint"
+      ],
+      "wiki": "Manti (food)"
+    },
+    {
+      "name": "Menemen",
+      "say": "MEH-neh-men",
+      "what": "Breakfast of eggs scrambled softly into tomatoes and peppers.",
+      "ingredients": [
+        "eggs",
+        "tomatoes",
+        "green peppers",
+        "olive oil",
+        "chilli flakes"
+      ],
+      "wiki": "Menemen (food)"
+    },
+    {
+      "name": "Baklava",
+      "say": "BAH-kla-va",
+      "what": "Layers of filo with chopped nuts, soaked in syrup. Gaziantep pistachio is the gold standard.",
+      "ingredients": [
+        "filo",
+        "pistachios or walnuts",
+        "butter",
+        "sugar syrup"
+      ],
+      "wiki": "Baklava"
+    },
+    {
+      "name": "Turkish delight",
+      "local": "Lokum",
+      "say": "lo-KOOM",
+      "what": "Soft, chewy cubes of starch and sugar flavoured with rose or citrus, dusted with icing sugar.",
+      "ingredients": [
+        "sugar",
+        "starch",
+        "rosewater",
+        "pistachios"
+      ],
+      "wiki": "Turkish delight"
+    }
+  ]
+}

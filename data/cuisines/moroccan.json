@@ -1,0 +1,95 @@
+{
+  "slug": "moroccan",
+  "cuisine": "Moroccan",
+  "flag": "🇲🇦",
+  "region": "Middle East & Africa",
+  "order": 10,
+  "intro": "North African cooking of warm spices and sweet-savoury contrasts: slow tagines, fluffy couscous and endless glasses of mint tea.",
+  "flavours": "Cumin, cinnamon, saffron, preserved lemon, ras el hanout, dried fruit",
+  "dishes": [
+    {
+      "name": "Tagine",
+      "local": "طاجين",
+      "say": "ta-ZHEEN",
+      "what": "Stew named after the cone-lidded clay pot it comes in, like chicken with preserved lemon and olives.",
+      "ingredients": [
+        "chicken or lamb",
+        "preserved lemon",
+        "olives",
+        "onion",
+        "saffron",
+        "ginger"
+      ],
+      "wiki": "Tajine"
+    },
+    {
+      "name": "Couscous",
+      "local": "كسكس",
+      "say": "KOOS-koos",
+      "what": "Steamed semolina grains under a stew of meat and seven vegetables, traditionally on Fridays.",
+      "ingredients": [
+        "semolina",
+        "lamb or chicken",
+        "carrots",
+        "courgette",
+        "chickpeas"
+      ],
+      "wiki": "Couscous"
+    },
+    {
+      "name": "Pastilla",
+      "local": "بسطيلة",
+      "say": "pas-TEE-ya",
+      "what": "Flaky pie of pigeon or chicken with almonds, dusted with sugar and cinnamon.",
+      "ingredients": [
+        "warqa pastry",
+        "chicken or pigeon",
+        "almonds",
+        "eggs",
+        "cinnamon",
+        "sugar"
+      ],
+      "wiki": "Pastilla"
+    },
+    {
+      "name": "Harira",
+      "local": "حريرة",
+      "say": "ha-REE-ra",
+      "what": "Tomato, lentil and chickpea soup, the traditional way to break the Ramadan fast.",
+      "ingredients": [
+        "tomato",
+        "lentils",
+        "chickpeas",
+        "lamb",
+        "coriander",
+        "celery"
+      ],
+      "wiki": "Harira"
+    },
+    {
+      "name": "Msemen",
+      "local": "مسمن",
+      "say": "m'SEM-en",
+      "what": "Square, flaky griddled flatbread eaten with honey or butter.",
+      "ingredients": [
+        "flour",
+        "semolina",
+        "butter",
+        "oil"
+      ],
+      "wiki": "Msemen"
+    },
+    {
+      "name": "Mint tea",
+      "local": "أتاي",
+      "say": "at-TAI",
+      "what": "Green tea brewed with fresh mint and lots of sugar, poured from a height to froth it.",
+      "ingredients": [
+        "gunpowder green tea",
+        "fresh mint",
+        "sugar"
+      ],
+      "wiki": "Maghrebi mint tea"
+    }
+  ]
+}

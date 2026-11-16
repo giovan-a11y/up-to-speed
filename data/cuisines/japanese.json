@@ -1,0 +1,220 @@
+{
+  "slug": "japanese",
+  "cuisine": "Japanese",
+  "flag": "🇯🇵",
+  "region": "Asia",
+  "order": 20,
+  "intro": "Precision, seasonality and umami: pristine seafood, dashi broth, rice and pickles, from counter omakase to late-night ramen.",
+  "flavours": "Soy sauce, dashi, miso, mirin, rice, wasabi, nori",
+  "hk": "Hong Kong is one of the biggest markets outside Japan for Japanese food, from omakase counters to Ichiran and Genki Sushi.",
+  "dishes": [
+    {
+      "name": "Sushi (nigiri)",
+      "local": "握り寿司",
+      "say": "NEE-gi-ree",
+      "what": "Hand-pressed vinegared rice topped with raw fish or seafood.",
+      "ingredients": [
+        "sushi rice",
+        "rice vinegar",
+        "raw fish",
+        "wasabi",
+        "soy sauce"
+      ],
+      "wiki": "Sushi"
+    },
+    {
+      "name": "Sashimi",
+      "local": "刺身",
+      "what": "Thin slices of very fresh raw fish served without rice.",
+      "ingredients": [
+        "tuna",
+        "salmon",
+        "yellowtail",
+        "wasabi",
+        "daikon"
+      ],
+      "wiki": "Sashimi"
+    },
+    {
+      "name": "Ramen",
+      "local": "ラーメン",
+      "what": "Wheat noodles in rich broth: tonkotsu (pork), shoyu, shio or miso, with chashu pork and a soft egg.",
+      "ingredients": [
+        "wheat noodles",
+        "broth",
+        "chashu pork",
+        "ajitama egg",
+        "nori",
+        "spring onion"
+      ],
+      "wiki": "Ramen"
+    },
+    {
+      "name": "Tempura",
+      "local": "天ぷら",
+      "say": "TEM-pu-ra",
+      "what": "Seafood and vegetables in an ultra-light, crisp batter, dipped in tentsuyu.",
+      "ingredients": [
+        "prawns",
+        "vegetables",
+        "flour",
+        "egg",
+        "ice water",
+        "dipping sauce"
+      ],
+      "wiki": "Tempura"
+    },
+    {
+      "name": "Tonkatsu",
+      "local": "とんかつ",
+      "say": "ton-KAT-su",
+      "what": "Thick breaded pork cutlet fried golden, served with shredded cabbage and tonkatsu sauce.",
+      "ingredients": [
+        "pork loin",
+        "panko",
+        "egg",
+        "cabbage",
+        "tonkatsu sauce"
+      ],
+      "wiki": "Tonkatsu"
+    },
+    {
+      "name": "Udon",
+      "local": "うどん",
+      "say": "OO-don",
+      "what": "Thick, chewy wheat noodles in a light dashi broth or served cold.",
+      "ingredients": [
+        "wheat noodles",
+        "dashi",
+        "soy sauce",
+        "mirin",
+        "spring onion"
+      ],
+      "wiki": "Udon"
+    },
+    {
+      "name": "Soba",
+      "local": "蕎麦",
+      "say": "SO-ba",
+      "what": "Thin buckwheat noodles, often served cold on a bamboo tray with dipping sauce.",
+      "ingredients": [
+        "buckwheat flour",
+        "tsuyu dipping sauce",
+        "nori",
+        "wasabi"
+      ],
+      "wiki": "Soba"
+    },
+    {
+      "name": "Yakitori",
+      "local": "焼き鳥",
+      "say": "ya-ki-TOH-ree",
+      "what": "Chicken skewers grilled over charcoal, seasoned with salt or sweet tare.",
+      "ingredients": [
+        "chicken",
+        "spring onion",
+        "tare sauce or salt",
+        "binchotan charcoal"
+      ],
+      "wiki": "Yakitori"
+    },
+    {
+      "name": "Okonomiyaki",
+      "local": "お好み焼き",
+      "say": "oh-ko-no-mee-YAH-kee",
+      "what": "Savoury cabbage pancake topped with sauce, mayo, bonito flakes and seaweed; Osaka and Hiroshima styles.",
+      "ingredients": [
+        "cabbage",
+        "flour",
+        "egg",
+        "pork belly",
+        "okonomi sauce",
+        "bonito flakes"
+      ],
+      "wiki": "Okonomiyaki"
+    },
+    {
+      "name": "Takoyaki",
+      "local": "たこ焼き",
+      "say": "ta-ko-YAH-kee",
+      "what": "Osaka street snack: balls of batter with octopus inside, cooked in a special pan.",
+      "ingredients": [
+        "batter",
+        "octopus",
+        "tenkasu",
+        "pickled ginger",
+        "sauce",
+        "bonito flakes"
+      ],
+      "wiki": "Takoyaki"
+    },
+    {
+      "name": "Japanese curry",
+      "local": "カレーライス",
+      "what": "Thick, mild, slightly sweet curry over rice, often with a katsu cutlet on top.",
+      "ingredients": [
+        "curry roux",
+        "potatoes",
+        "carrots",
+        "onion",
+        "pork or chicken",
+        "rice"
+      ],
+      "wiki": "Japanese curry"
+    },
+    {
+      "name": "Gyūdon",
+      "local": "牛丼",
+      "say": "GYOO-don",
+      "what": "Rice bowl topped with thinly sliced beef and onions simmered in sweet soy. Yoshinoya made it famous.",
+      "ingredients": [
+        "beef",
+        "onion",
+        "soy sauce",
+        "mirin",
+        "dashi",
+        "rice"
+      ],
+      "wiki": "Gyūdon"
+    },
+    {
+      "name": "Unadon",
+      "local": "鰻丼",
+      "say": "oo-NA-don",
+      "what": "Grilled freshwater eel glazed with sweet soy, over rice.",
+      "ingredients": [
+        "eel",
+        "kabayaki sauce",
+        "rice",
+        "sansho pepper"
+      ],
+      "wiki": "Unagi"
+    },
+    {
+      "name": "Onigiri",
+      "local": "おにぎり",
+      "say": "oh-ni-GI-ree",
+      "what": "Rice balls wrapped in nori with fillings like salmon or tuna mayo; a convenience-store essential.",
+      "ingredients": [
+        "rice",
+        "nori",
+        "salted salmon",
+        "umeboshi",
+        "tuna mayo"
+      ],
+      "wiki": "Onigiri"
+    },
+    {
+      "name": "Mochi",
+      "local": "餅",
+      "say": "MOH-chee",
+      "what": "Soft, chewy rice cake made from pounded glutinous rice, often filled with red bean (daifuku).",
+      "ingredients": [
+        "glutinous rice",
+        "sugar",
+        "red bean paste"
+      ],
+      "wiki": "Mochi"
+    }
+  ]
+}

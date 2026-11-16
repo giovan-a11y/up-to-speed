@@ -1,6 +1,6 @@
 # Up to Speed
 
-Crash courses on 30+ small-talk topics (sports, luxury & style, money, food & drink, tech, culture, lifestyle), each with a course, flashcards, quiz, cheat sheet and a Hong Kong angle. It installs to your Home Screen and works offline.
+Crash courses on 30+ small-talk topics (sports, luxury & style, money, food & drink, tech, culture, lifestyle), each with a course, flashcards, quiz, cheat sheet and a Hong Kong angle. Plus **World cuisines**: 25 cuisines and 237 signature dishes with pictures and main ingredients, flashcards and a picture quiz, so you can recognise dishes by name and look. It installs to your Home Screen and works offline.
 
 **Open it:** https://giovan-a11y.github.io/up-to-speed/ (on iPhone: open in Safari → Share → Add to Home Screen; on Android or a computer: *Install app*).
 
@@ -18,8 +18,9 @@ The installed app downloads new content the next time it's opened online and say
 | File | What it is |
 |---|---|
 | `data/topics/<slug>.json` | One topic each. `refresh` is `weekly` or `monthly`. |
+| `data/cuisines/<slug>.json` | The World cuisines section: one cuisine each, with signature dishes (name, picture from Wikipedia, main ingredients). Evergreen; request more with an issue titled `Cuisine: X`. |
 | `data/weekly.json` | The latest refresh date and "Fresh this week" highlights. |
-| `build.py` | Checks every topic and combines them into `data/bundle.json`, which the app loads; also stamps `sw.js` so installed apps update. Run `python3 build.py` after any change. |
+| `build.py` | Checks every topic and cuisine and combines them into `data/bundle.json`, which the app loads; also stamps `sw.js` so installed apps update. Run `python3 build.py` after any change. |
 | `index.html` | The app. |
 | `sw.js`, `manifest.webmanifest`, `icons/` | Installing and working offline. |
 | `ROUTINE.md` | Instructions the daily routine follows. |

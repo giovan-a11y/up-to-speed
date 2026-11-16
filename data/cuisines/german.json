@@ -1,0 +1,117 @@
+{
+  "slug": "german",
+  "cuisine": "German",
+  "flag": "🇩🇪",
+  "region": "Europe",
+  "order": 6,
+  "intro": "Hearty food made for cold winters and beer halls: sausages, pork, potatoes, cabbage, dark bread and mustard.",
+  "flavours": "Pork, potatoes, cabbage, mustard, caraway, rye",
+  "hk": "Oktoberfest season fills Hong Kong's German bierhauses every autumn.",
+  "dishes": [
+    {
+      "name": "Bratwurst",
+      "say": "BRAHT-vurst",
+      "what": "Grilled pork sausage, eaten in a roll with mustard; Nuremberg's are finger-sized.",
+      "ingredients": [
+        "pork",
+        "marjoram",
+        "caraway",
+        "nutmeg",
+        "mustard"
+      ],
+      "wiki": "Bratwurst"
+    },
+    {
+      "name": "Currywurst",
+      "say": "CUR-ee-vurst",
+      "what": "Berlin street food: sliced sausage drowned in curry-spiced ketchup, with fries.",
+      "ingredients": [
+        "pork sausage",
+        "ketchup",
+        "curry powder",
+        "paprika",
+        "fries"
+      ],
+      "wiki": "Currywurst"
+    },
+    {
+      "name": "Schweinshaxe",
+      "say": "SHVINES-hax-eh",
+      "what": "Bavarian roasted pork knuckle with crackling skin, served with dumplings or sauerkraut.",
+      "ingredients": [
+        "pork knuckle",
+        "caraway",
+        "beer",
+        "garlic",
+        "sauerkraut"
+      ],
+      "wiki": "Schweinshaxe"
+    },
+    {
+      "name": "Schnitzel",
+      "say": "SHNIT-sel",
+      "what": "Meat pounded thin, breaded and fried golden. (Veal Wiener Schnitzel is the Austrian original.)",
+      "ingredients": [
+        "pork or veal",
+        "breadcrumbs",
+        "egg",
+        "flour",
+        "lemon"
+      ],
+      "wiki": "Schnitzel"
+    },
+    {
+      "name": "Sauerbraten",
+      "say": "ZOW-er-brah-ten",
+      "what": "Sliced pot roast in a tangy sweet-sour gravy (the beef is marinated in vinegar for days).",
+      "ingredients": [
+        "beef",
+        "vinegar",
+        "red wine",
+        "onion",
+        "juniper",
+        "gingerbread"
+      ],
+      "wiki": "Sauerbraten"
+    },
+    {
+      "name": "Pretzel",
+      "local": "Brezel",
+      "say": "BRETZ-el",
+      "what": "Knotted bread with a dark, glossy crust and coarse salt; a beer-hall essential.",
+      "ingredients": [
+        "flour",
+        "yeast",
+        "lye bath",
+        "coarse salt"
+      ],
+      "wiki": "Pretzel"
+    },
+    {
+      "name": "Spätzle",
+      "say": "SHPETZ-leh",
+      "what": "Soft little egg noodles from Swabia; with melted cheese and fried onions it's Käsespätzle.",
+      "ingredients": [
+        "flour",
+        "eggs",
+        "water",
+        "cheese",
+        "onion"
+      ],
+      "wiki": "Spätzle"
+    },
+    {
+      "name": "Black Forest cake",
+      "local": "Schwarzwälder Kirschtorte",
+      "say": "SHVARTS-vel-der KEERSH-tor-teh",
+      "what": "Chocolate sponge layered with whipped cream, cherries and cherry brandy.",
+      "ingredients": [
+        "chocolate sponge",
+        "cream",
+        "sour cherries",
+        "kirsch"
+      ],
+      "wiki": "Black Forest gâteau"
+    }
+  ]
+}

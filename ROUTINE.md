@@ -5,6 +5,7 @@ A Claude cloud routine runs this every morning at 06:30 Hong Kong time with this
 Today's date in Hong Kong (`TZ=Asia/Hong_Kong date`) decides what to do:
 
 1. **Every day: topic requests.** List the open issues whose title starts with `Topic:`, opened by `giovan-a11y` (ignore anyone else's). For each, write a new topic (see "Writing a new topic"), then close the issue with a one-line comment saying it's added. If a request is not a real topic or is harmful, close it with a short explanation instead.
+   Also handle open issues titled `Cuisine: X` by `giovan-a11y` the same way: add the cuisine (see "Adding a cuisine") and close the issue.
 2. **Mondays: weekly refresh.** Refresh every topic whose `refresh` is `"weekly"`, plus every `"monthly"` topic whose `updated` date is 27 or more days ago (see "Refreshing a topic").
 3. Any other day with no requests: do nothing and don't commit.
 
@@ -58,3 +59,14 @@ Copy the shape of an existing file such as `data/topics/wine.json` and research 
 - Any `names` entry whose plain name would find the wrong Wikipedia article can also get a `wiki` title.
 
 Also add a highlight for it to `data/weekly.json` (keep the existing entries) so it appears under "Fresh this week".
+
+## World cuisines
+
+`data/cuisines/<slug>.json` holds the World cuisines section: one file per cuisine with signature dishes the app shows with a picture, name and main ingredients. It is evergreen: **don't touch it in the weekly refresh**, only when a `Cuisine:` request comes in.
+
+### Adding a cuisine
+
+Copy the shape of `data/cuisines/thai.json`. Fields: `slug` (file name), `cuisine` (display name), `flag` (emoji), `region` (one of: Europe, Asia, Americas, Middle East & Africa), `order` (put it after the others in its region), `intro` (1–2 sentences on its character), `flavours` (the key ingredients and flavours, comma-separated), optional `hk` (one true sentence on where it shows up in Hong Kong; leave it out if unsure), and `dishes`: 6–12 signature dishes, each `{ "name", "local" (native name, optional), "say" (rough pronunciation, optional), "what", "ingredients": [4–6 main components], "wiki" }`.
+
+`what` is one line on what the dish is and looks like, not how to cook it; mention the cooking method only when it is the dish's signature (tandoor, spit-roasting, Peking duck). `wiki` must be the exact title of the English Wikipedia article whose lead picture shows the dish; the app loads and caches that picture. Commit with a message like `Add cuisine: Ethiopian`.
+

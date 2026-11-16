@@ -1,0 +1,131 @@
+{
+  "slug": "malaysian-singaporean",
+  "cuisine": "Malaysian & Singaporean",
+  "flag": "🇲🇾",
+  "region": "Asia",
+  "order": 14,
+  "intro": "Hawker-centre food blending Malay, Chinese and Indian cooking: coconut, sambal and wok smoke, with plenty of overlap between the two countries.",
+  "flavours": "Sambal, coconut milk, belacan (shrimp paste), pandan, lemongrass",
+  "hk": "Malaysian and Singaporean cafés across Hong Kong serve laksa, Hainanese chicken rice and kaya toast.",
+  "dishes": [
+    {
+      "name": "Nasi lemak",
+      "say": "NAH-see leh-MAHK",
+      "what": "Malaysia's national dish: coconut rice with sambal, fried anchovies, peanuts, egg and cucumber.",
+      "ingredients": [
+        "coconut rice",
+        "sambal",
+        "ikan bilis",
+        "peanuts",
+        "egg",
+        "cucumber"
+      ],
+      "wiki": "Nasi lemak"
+    },
+    {
+      "name": "Hainanese chicken rice",
+      "local": "海南雞飯",
+      "what": "Poached silky chicken with rice cooked in chicken fat and stock, plus chilli and ginger sauces.",
+      "ingredients": [
+        "chicken",
+        "rice",
+        "chicken stock",
+        "ginger",
+        "garlic",
+        "chilli sauce"
+      ],
+      "wiki": "Hainanese chicken rice"
+    },
+    {
+      "name": "Laksa",
+      "say": "LUCK-sa",
+      "what": "Spicy noodle soup; curry laksa has a coconut broth, Penang assam laksa a sour fish one.",
+      "ingredients": [
+        "rice noodles",
+        "coconut curry broth",
+        "prawns",
+        "tofu puffs",
+        "cockles"
+      ],
+      "wiki": "Laksa"
+    },
+    {
+      "name": "Char kway teow",
+      "local": "炒粿條",
+      "say": "char kway TEE-ow",
+      "what": "Flat rice noodles stir-fried in a smoking wok with prawns, cockles, Chinese sausage and egg.",
+      "ingredients": [
+        "flat rice noodles",
+        "prawns",
+        "cockles",
+        "lap cheong",
+        "egg",
+        "dark soy"
+      ],
+      "wiki": "Char kway teow"
+    },
+    {
+      "name": "Satay",
+      "local": "Sate",
+      "say": "SAH-tay",
+      "what": "Skewers of marinated grilled meat with peanut sauce.",
+      "ingredients": [
+        "chicken or beef",
+        "turmeric",
+        "lemongrass",
+        "peanut sauce",
+        "cucumber"
+      ],
+      "wiki": "Satay"
+    },
+    {
+      "name": "Roti canai",
+      "say": "RO-tee cha-NAI",
+      "what": "Flaky, stretched flatbread griddled until crisp, dipped in dhal or curry (roti prata in Singapore).",
+      "ingredients": [
+        "flour",
+        "ghee",
+        "egg",
+        "dhal"
+      ],
+      "wiki": "Roti canai"
+    },
+    {
+      "name": "Chilli crab",
+      "what": "Singapore's signature: mud crab in a sweet, spicy tomato-chilli sauce, mopped up with fried buns.",
+      "ingredients": [
+        "mud crab",
+        "chilli",
+        "tomato",
+        "egg",
+        "mantou buns"
+      ],
+      "wiki": "Chilli crab"
+    },
+    {
+      "name": "Bak kut teh",
+      "local": "肉骨茶",
+      "say": "bah-koot-TAY",
+      "what": "'Meat bone tea': pork ribs in a peppery or herbal broth.",
+      "ingredients": [
+        "pork ribs",
+        "garlic",
+        "white pepper or Chinese herbs",
+        "soy sauce"
+      ],
+      "wiki": "Bak kut teh"
+    },
+    {
+      "name": "Kaya toast",
+      "say": "KAI-ya",
+      "what": "Toast with coconut-egg jam and a slab of cold butter, with soft-boiled eggs and kopi.",
+      "ingredients": [
+        "bread",
+        "kaya (coconut jam)",
+        "butter",
+        "soft-boiled eggs"
+      ],
+      "wiki": "Kaya toast"
+    }
+  ]
+}
