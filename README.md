@@ -1,6 +1,6 @@
 # Up to Speed
 
-Crash courses on 30+ small-talk topics (sports, luxury & style, money, food & drink, tech, culture, lifestyle), each with a course, flashcards, quiz, cheat sheet and a Hong Kong angle. Plus 12 **picture guides** (571 entries): world cuisines, cocktails & spirits, cheese, bread & pastries, fruits & vegetables, landmarks, artworks, dog & cat breeds, flowers & plants, brand logos, etiquette by country and travel cities. Each entry has a picture, its name with a 🔊 pronunciation button, and the key facts, plus flashcards and a quiz. It installs to your Home Screen and works offline.
+Crash courses on 30+ small-talk topics (sports, luxury & style, money, food & drink, tech, culture, lifestyle), each with a course, flashcards, quiz, cheat sheet and a Hong Kong angle. Plus 12 **picture guides** (571 entries): world cuisines, cocktails & spirits, cheese, bread & pastries, fruits & vegetables, landmarks, artworks, dog & cat breeds, flowers & plants, brand logos, etiquette by country and travel cities. Each entry has a picture, its name with 🔊 buttons to hear it in English and in its own language, and the key facts, plus flashcards and a quiz. It installs to your Home Screen and works offline.
 
 **Open it:** https://giovan-a11y.github.io/up-to-speed/ (on iPhone: open in Safari → Share → Add to Home Screen; on Android or a computer: *Install app*).
 

@@ -282,7 +282,10 @@ a.btn { text-decoration: none; }
 .facts dt { font-family: var(--f-mono); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); padding-top: 2px; }
 .facts dd { margin: 0; }
 .fc-face .facts { text-align: left; max-width: 420px; }
-.say-btn { border: 1px solid var(--line); background: var(--bg); border-radius: 99px; width: 30px; height: 30px; font-size: 14px; line-height: 1; padding: 0; vertical-align: middle; margin-left: 2px; }
+.say-btns { display: inline-flex; gap: 4px; vertical-align: middle; margin-left: 4px; }
+.say-btn { display: inline-flex; align-items: center; gap: 3px; border: 1px solid var(--line); background: var(--bg); border-radius: 99px; height: 28px; padding: 0 8px; font-size: 13px; line-height: 1; font-family: var(--f-body); font-weight: 400; }
+.say-btn small { font-family: var(--f-mono); font-size: 10.5px; color: var(--muted); letter-spacing: .03em; }
+.say-btn.local { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
 .say-btn:hover { border-color: var(--accent); }
 .cz-card.nopic { padding-top: 16px; }
 @media (max-width: 520px) {
@@ -1124,13 +1127,20 @@ function speakTarget(grp, it) {
   const text = native || it.name, l = speakLang(text, lang);
   return l && !/^en/.test(l) ? { text, lang: l } : null;
 }
-const speakBtn = (grp, it) => { if (!canSpeak) return ""; const s = speakTarget(grp, it); return s ? `<button class="say-btn" type="button" data-say="${esc(s.text)}" data-lang="${esc(s.lang)}" aria-label="Say ${esc(it.name)} aloud" title="Hear it">🔊</button>` : ""; };
+// Two buttons: how English speakers say the name, and (for foreign names) how it's said in its own language.
+const enName = (it) => String(it.name).split(" / ")[0].replace(/\s*\(.*?\)\s*/g, " ").trim();
+const speakBtn = (grp, it) => {
+  if (!canSpeak) return "";
+  const s = speakTarget(grp, it), code = s ? s.lang.split("-")[0].toUpperCase() : "";
+  const lname = s ? (new Intl.DisplayNames(["en"], { type: "language" }).of(s.lang.split("-")[0]) || code) : "";
+  return `<span class="say-btns"><button class="say-btn" type="button" data-say="${esc(enName(it))}" data-lang="en-GB" aria-label="Say ${esc(it.name)} in English" title="Hear it in English">🔊<small>EN</small></button>${s ? `<button class="say-btn local" type="button" data-say="${esc(s.text)}" data-lang="${esc(s.lang)}" aria-label="Say ${esc(it.name)} in ${esc(lname)}" title="Hear it in ${esc(lname)}">🔊<small>${esc(code)}</small></button>` : ""}</span>`;
+};
 function speakNow(text, lang) {
   const synth = window.speechSynthesis; synth.cancel();
   const voices = synth.getVoices(), base = lang.split("-")[0];
   const v = voices.find((x) => x.lang.replace("_", "-") === lang) || voices.find((x) => x.lang.toLowerCase().startsWith(base));
   const u = new SpeechSynthesisUtterance(text); u.lang = lang; u.rate = 0.85; if (v) u.voice = v;
-  if (voices.length && !v) toast(`This device has no ${new Intl.DisplayNames(["en"], { type: "language" }).of(base) || base} voice installed, so it may sound off. You can add one in your phone's speech settings.`);
+  if (voices.length && !v && base !== "en") toast(`This device has no ${new Intl.DisplayNames(["en"], { type: "language" }).of(base) || base} voice installed, so it may sound off. You can add one in your phone's speech settings.`);
   synth.speak(u);
 }
 document.addEventListener("click", (ev) => { const b = ev.target.closest?.("[data-say]"); if (!b) return; ev.preventDefault(); ev.stopPropagation(); speakNow(b.dataset.say, b.dataset.lang); }, true);
